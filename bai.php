@@ -1874,7 +1874,7 @@ XJTV-9,http://dl.proton218.top/dl/xjtv.php?id=9
 广州课堂12,http://116.199.5.58:8114/index.m3u8?3Fsv_chan_hls_se_idx=58&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8
 
 
-港台频道,#genre#
+港台频道_6666,#genre#
 香港衛視HKS,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 香港衛視HKS,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 鳳凰衛視,http://112.50.243.8/PLTV/88888888/224/3221225901/1.m3u8
