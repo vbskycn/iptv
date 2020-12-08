@@ -122,7 +122,6 @@ CGTN国际,http://live.cgtn.com/1000/prog_index.m3u8
 CGTN纪录,http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
 CGTV,http://ivi.bupt.edu.cn/hls/cctv16.m3u8
 
-卫视频道,#genre#
 安多卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225897/index.m3u8
 安多卫视,http://223.110.247.161:6610/gitv/live1/G_ANDUO/G_ANDUO
 安徽卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225867/index.m3u8
@@ -350,3 +349,8 @@ UTV优视影院,http://39.134.198.8:6610/yst.live.scmobile.com/otvzte.scmcc.com.
 鳳凰衛視,rtmp://ivi.bupt.edu.cn:1935/livetv/fhzx
 鳳凰衛視,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
 鳳凰衛視,http://117.169.120.138:8080/live/fhzixun/.m3u8
+
+
+
+
+
