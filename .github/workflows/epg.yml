@@ -1,0 +1,20 @@
+name: EPG Update
+
+on:
+  push:
+  schedule:
+    - cron: 0 * 1 * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: EPG Update
+      run: |
+        rm -f e.xml && wget https://epg.112114.xyz/pp.xml -O e.xml
+        git config --global user.name vbskycn
+        git config --global user.email proton218@qq.com
+        git add e.xml
+        git commit -m "Update e.xml"
+        git push -f origin master
