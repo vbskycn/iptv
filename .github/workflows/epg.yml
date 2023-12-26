@@ -3,7 +3,7 @@ name: EPG Update
 on:
   push:
   schedule:
-    - cron: 0 * 3 * *
+    - cron: 0 */3 * * *
 
 jobs:
   build:
