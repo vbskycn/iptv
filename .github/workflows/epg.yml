@@ -1,9 +1,8 @@
 name: EPG Update
 
 on:
-  push:
-  schedule:
-    - cron: 0 8 * * 1
+  watch:
+    types: [started]
 
 jobs:
   build:
