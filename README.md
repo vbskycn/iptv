@@ -59,13 +59,7 @@
 
 只保留1080的，速度排序是以江西电信的网络测试为准，每天早上6点左右自动测试更新。
 
-```
-https://ghproxy.net/https://raw.githubusercontent.com/vbskycn/iptv/master/jdtv/itvlist.txt
-
-https://ghproxy.net/https://raw.githubusercontent.com/vbskycn/iptv/master/jdtv/itvlist.m3u
-```
-
-也可以使用cdn调用：
+使用cdn调用：
 
 ```
 https://live.proton218.top/jdtv/itvlist.txt
