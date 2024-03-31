@@ -1,6 +1,6 @@
 name: EPG Update
 
-on:
+off:
   push:
   schedule:
     - cron: 0 */3 * * *
