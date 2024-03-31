@@ -31,18 +31,18 @@
   </thead>
   <tbody>
     <tr>
-      <td>📺IPTV(江西电信专用)</td>
-      <td><a href="https://live.zhoujie218.top/dsyy/hd.m3u">https://live.zhoujie218.top/dsyy/hd.m3u</a></td>
-      <td><a href="https://github.com/vbskycn/iptv/edit/master/dsyy/hd.m3u">编辑该源</a></td>
-      <td>110个</td>
-      <td>2023.11.29</td>
+      <td>📺IPTV(江西电信测试)</td>
+      <td><a href="https://live.zhoujie218.top/dsyy/hd.txt">https://live.zhoujie218.top/dsyy/hd.txt</a></td>
+      <td><a href="https://github.com/vbskycn/iptv/edit/master/dsyy/hd.txt">编辑该源</a></td>
+      <td>约120个</td>
+      <td>每天6:00自动更新</td>
     </tr>
     <tr>
       <td>📺IPTV(IPV6专用)</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
       <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/ipv6.m3u">编辑该源</a></td>
       <td>120个</td>
-      <td>2023.7.29</td>
+      <td>2024.3.31</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
@@ -53,6 +53,7 @@
     </tr>
   </tbody>
 </table>
+
 
 
 ## 新增酒店直播源：
