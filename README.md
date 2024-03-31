@@ -55,6 +55,28 @@
 </table>
 
 
+## 新增酒店直播源：
+
+只保留1080的，速度排序是以江西电信的网络测试为准，每天早上6点左右自动测试更新。
+
+```
+https://ghproxy.net/https://raw.githubusercontent.com/vbskycn/iptv/master/jdtv/itvlist.txt
+
+https://ghproxy.net/https://raw.githubusercontent.com/vbskycn/iptv/master/jdtv/itvlist.m3u
+```
+
+也可以使用cdn调用：
+
+```
+https://live.proton218.top/jdtv/itvlist.txt
+
+https://live.proton218.top/jdtv/itvlist.m3u
+```
+
+
+
+
+
 ### 电视/广播图标库：
 
 | 📺电视台图标库   | [https://live.proton218.top/taibiao/{频道名称}.png](https://github.com/vbskycn/iptv/tree/master/taibiao) | 958个 | 2023.11.25 |
