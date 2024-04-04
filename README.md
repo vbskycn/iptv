@@ -66,6 +66,19 @@
 https://live.zhoujie218.top/jdtv/itvlist.txt
 
 https://live.zhoujie218.top/jdtv/itvlist.m3u
+
+```
+
+
+
+### 新增网络自动扫描更新源：
+
+部署在github上面的程序自动化扫描而来，每12小时更新一次。
+
+```
+https://live.zhoujie218.top/dsyy/mylist.txt
+
+https://live.zhoujie218.top/dsyy/mylist.m3u
 ```
 
 
