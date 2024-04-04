@@ -1,6 +1,6 @@
 name: EPG Update
 
-on:
+#on:
   watch:
     types: [started]
 
