@@ -1,7 +1,7 @@
 import os
 
 # 获取文件大小
-file_size = os.path.getsize('/root/iptv/dsyy/itvlist.txt')
+file_size = os.path.getsize('/root/iptv/dsyy/mylist.txt')
 
 # 如果文件大小小于 5KB，则退出脚本
 if file_size < 5 * 1024:
@@ -9,12 +9,12 @@ if file_size < 5 * 1024:
     exit()
 
 # 打开原始文件进行读取
-with open('/root/iptv/dsyy/itvlist.txt', 'r') as original_file:
+with open('/root/iptv/dsyy/mylist.txt', 'r') as original_file:
     original_content = original_file.read()
 
-# 检查是否存在JD,#genre#
-if 'HD,#genre#' in original_content:
-    print("HD,#genre# already exists before ,#genre#, no need to modify.")
+# 检查是否存在MY,#genre#
+if 'MY,#genre#' in original_content:
+    print("MY,#genre# already exists before ,#genre#, no need to modify.")
     exit()
 
 # 在原始内容中进行修改
@@ -22,7 +22,7 @@ lines = original_content.split('\n')
 modified_lines = []
 for line in lines:
     if ',#genre#' in line:
-        line = line.replace(',#genre#', 'JD,#genre#')
+        line = line.replace(',#genre#', 'MY,#genre#')
     modified_lines.append(line)
 
 # 将修改后的内容写入到新的文件中
