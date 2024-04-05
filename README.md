@@ -59,9 +59,9 @@ https://live.fanmingming.com/tv/m3u/ipv6.m3u
 使用cdn调用：
 
 ```
-https://live.zhoujie218.top/jdtv/itvlist.txt
+https://live.zhoujie218.top/dsyy/itvlist.txt
 
-https://live.zhoujie218.top/jdtv/itvlist.m3u
+https://live.zhoujie218.top/dsyy/itvlist.m3u
 
 ```
 
