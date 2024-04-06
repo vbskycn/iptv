@@ -21,50 +21,105 @@
 
 部署在GitHub上的程序自动化扫描而来，每12小时更新一次。
 
-| 名称          | 网址                                                         | 快速复制                          |
-| ------------- | ------------------------------------------------------------ | --------------------------------- |
-| TXT格式直播源 | [https://live.zhoujie218.top/dsyy/mylist.txt](https://live.zhoujie218.top/dsyy/mylist.txt) | [`快速复制`](javascript:void(0);) |
-| M3U格式直播源 | [https://live.zhoujie218.top/dsyy/mylist.m3u](https://live.zhoujie218.top/dsyy/mylist.m3u) | [`快速复制`](javascript:void(0);) |
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>TXT格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/mylist.txt">https://live.zhoujie218.top/dsyy/mylist.txt</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/mylist.txt')">快速复制</button></td>
+  </tr>
+  <tr>
+    <td>M3U格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/mylist.m3u">https://live.zhoujie218.top/dsyy/mylist.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/mylist.m3u')">快速复制</button></td>
+  </tr>
+</table>
+
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.innerHTML = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
 
 ### 📺IPTV直播源（江西电信专用）
 
-| 名称          | 网址                                                         | 快速复制                          |
-| ------------- | ------------------------------------------------------------ | --------------------------------- |
-| TXT格式直播源 | [https://live.zhoujie218.top/dsyy/hd.txt](https://live.zhoujie218.top/dsyy/hd.txt) | [`快速复制`](javascript:void(0);) |
-| M3U格式直播源 | [https://live.zhoujie218.top/dsyy/m3u.txt](https://live.zhoujie218.top/dsyy/m3u.txt) | [`快速复制`](javascript:void(0);) |
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>TXT格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/hd.txt">https://live.zhoujie218.top/dsyy/hd.txt</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/hd.txt')">快速复制</button></td>
+  </tr>
+  <tr>
+    <td>M3U格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/m3u.txt">https://live.zhoujie218.top/dsyy/m3u.txt</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/m3u.txt')">快速复制</button></td>
+  </tr>
+</table>
 
 ### 📺IPV6直播源：
 
-| 名称              | 网址                                                         | 快速复制                          |
-| ----------------- | ------------------------------------------------------------ | --------------------------------- |
-| M3U格式IPV6直播源 | [https://live.fanmingming.com/tv/m3u/ipv6.m3u](https://live.fanmingming.com/tv/m3u/ipv6.m3u) | [`快速复制`](javascript:void(0);) |
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>M3U格式IPV6直播源</td>
+    <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.fanmingming.com/tv/m3u/ipv6.m3u')">快速复制</button></td>
+  </tr>
+</table>
 
 ### 📺新增酒店直播源：
 
-只保留1080的，速度排序是以江西电信的网络测试为准，每天早上6点左右自动测试更新。
-
-使用CDN调用：
-
-| 名称          | 网址                                                         | 快速复制                          |
-| ------------- | ------------------------------------------------------------ | --------------------------------- |
-| TXT格式直播源 | [https://live.zhoujie218.top/dsyy/itvlist.txt](https://live.zhoujie218.top/dsyy/itvlist.txt) | [`快速复制`](javascript:void(0);) |
-| M3U格式直播源 | [https://live.zhoujie218.top/dsyy/itvlist.m3u](https://live.zhoujie218.top/dsyy/itvlist.m3u) | [`快速复制`](javascript:void(0);) |
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>TXT格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/itvlist.txt">https://live.zhoujie218.top/dsyy/itvlist.txt</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/itvlist.txt')">快速复制</button></td>
+  </tr>
+  <tr>
+    <td>M3U格式直播源</td>
+    <td><a href="https://live.zhoujie218.top/dsyy/itvlist.m3u">https://live.zhoujie218.top/dsyy/itvlist.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/dsyy/itvlist.m3u')">快速复制</button></td>
+  </tr>
+</table>
 
 ### 📻Radio广播源
 
-| 名称       | 网址                                                         | 快速复制                          |
-| ---------- | ------------------------------------------------------------ | --------------------------------- |
-| 广播电台源 | [https://live.fanmingming.com/radio/m3u/index.m3u](https://live.fanmingming.com/radio/m3u/index.m3u) | [`快速复制`](javascript:void(0);) |
-
-
-
-### 电视/广播图标库：
-
-| 电视台图标库   | [https://live.zhoujie218.top/taibiao/{频道名称}.png](https://github.com/vbskycn/iptv/tree/master/taibiao) | 958个 | 2023.11.25 |
-| -------------- | ------------------------------------------------------------ | ----- | ---------- |
-| 广播电台图标库 | [https://live.zhoujie218.top/taibiao/radio/{频道名称}.png](https://github.com/vbskycn/iptv/tree/master/taibiao/radio) | 465个 | 2023.8.27  |
-
-
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>广播电台源</td>
+    <td><a href="https://live.fanmingming.com/radio/m3u/index.m3u">https://live.fanmingming.com/radio/m3u/index.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.fanmingming.com/radio/m3u/index.m3u')">快速复制</button></td>
+  </tr>
+</table>
 
 
 
