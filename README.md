@@ -72,22 +72,6 @@ function copyToClipboard(text) {
 </table>
 
 
-### 📺IPV6直播源：
-
-<table style="width:100%">
-  <tr>
-    <th>名称</th>
-    <th>网址</th>
-    <th>快速复制</th>
-  </tr>
-  <tr>
-    <td>IPV6网络直播源</td>
-    <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.fanmingming.com/tv/m3u/ipv6.m3u')">快速复制</button></td>
-  </tr>
-</table>
-
-
 ### 📺新增酒店直播源：
 
 <table style="width:100%">
@@ -108,6 +92,26 @@ function copyToClipboard(text) {
   </tr>
 </table>
 
+
+### 📺IPV6直播源：
+
+<table style="width:100%">
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>IPV6网络直播源</td>
+    <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.fanmingming.com/tv/m3u/ipv6.m3u')">快速复制</button></td>
+  </tr>
+</table>
+
+
+
+
+
 ### 📻Radio广播源
 
 <table style="width:100%">
@@ -117,11 +121,12 @@ function copyToClipboard(text) {
     <th>快速复制</th>
   </tr>
   <tr>
-    <td>广播电台源</td>
+    <td>在线广播电台源</td>
     <td><a href="https://live.fanmingming.com/radio/m3u/index.m3u">https://live.fanmingming.com/radio/m3u/index.m3u</a></td>
     <td><button onclick="copyToClipboard('https://live.fanmingming.com/radio/m3u/index.m3u')">快速复制</button></td>
   </tr>
 </table>
+
 
 
 
