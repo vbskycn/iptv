@@ -66,10 +66,11 @@ function copyToClipboard(text) {
   </tr>
   <tr>
     <td>M3U格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/m3u.txt">https://live.proton218.top/dsyy/m3u.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/m3u.txt')">快速复制</button></td>
+    <td><a href="https://live.proton218.top/dsyy/hd.m3u">https://live.proton218.top/dsyy/hd.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/hd.m3u')">快速复制</button></td>
   </tr>
 </table>
+
 
 ### 📺IPV6直播源：
 
@@ -80,11 +81,12 @@ function copyToClipboard(text) {
     <th>快速复制</th>
   </tr>
   <tr>
-    <td>M3U格式IPV6直播源</td>
+    <td>IPV6网络直播源</td>
     <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
     <td><button onclick="copyToClipboard('https://live.fanmingming.com/tv/m3u/ipv6.m3u')">快速复制</button></td>
   </tr>
 </table>
+
 
 ### 📺新增酒店直播源：
 
