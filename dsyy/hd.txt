@@ -500,7 +500,6 @@ CHC动作电影,rtsp://115.153.254.81/PLTV/88888888/224/3221226992/86128817.smil
 武侠剧场,rtsp://115.153.254.81/PLTV/88888888/224/3221227003/88888888.smil
 
 央视频道MY,#genre#
-CCTV1,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-1-CQ/G_CCTV-1-CQ.m3u8
 CCTV2,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-2-CQ/G_CCTV-2-CQ.m3u8
 CCTV3,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-3-CQ/G_CCTV-3-CQ.m3u8
 CCTV4,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV20.m3u8
@@ -509,9 +508,7 @@ CCTV5+,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-5PLUS-CQ/G_CCTV-5PLUS-CQ.m
 CCTV6,http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel6/index.m3u8
 CCTV7,http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel7/index.m3u8
 CCTV8,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-8-CQ/G_CCTV-8-CQ.m3u8
-CCTV9,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CCTV-9-HD-265-5M/G_CCTV-9-HD-265-5M.m3u8
 CCTV10,http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel10/index.m3u8
-CCTV11,http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41/index.m3u8
 CCTV12,http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel11/index.m3u8
 CCTV13,http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel39/index.m3u8
 CCTV14,http://113.57.109.36:9901/tsfile/live/0014_1.m3u8?key=txiptv
@@ -567,107 +564,17 @@ CGTN阿语,http://livear.cgtn.com/1000a/prog_index.m3u8
 内蒙卫视,http://58.210.23.42:9901/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
 宁夏卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_NINGXIA/G_NINGXIA.m3u8
 农林卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_NONGLIN/G_NONGLIN.m3u8
-青海卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_QINGHAI/G_QINGHAI.m3u8
 三沙卫视,http://125.210.152.21:9121/live/hzgq-ssws-h264.m3u8
 厦门卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_XIAMEN/G_XIAMEN.m3u8
 山东卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_SHANDONG-HD-265-8M/G_SHANDONG-HD-265-8M.m3u8
-山西卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escapeS/G_SXWS/G_SXWS.m3u8
-陕西卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_SHANXI/G_SHANXI.m3u8
 上海卫视,http://222.92.7.170:3334/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_SHENZHEN-HD-265-8M/G_SHENZHEN-HD-265-8M.m3u8
-四川卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_SICHUAN-CQ/G_SICHUAN-CQ.m3u8
-天津卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_TIANJIN-HD-265-8M/G_TIANJIN-HD-265-8M.m3u8
-西藏卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_XIZANG/G_XIZANG.m3u8
-新疆卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_XINJIANG/G_XINJIANG.m3u8
-延边卫视,http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8
-云南卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_YUNNAN-HQ/G_YUNNAN-HQ.m3u8
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-重庆卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_CHONGQING-CQ/G_CHONGQING-CQ.m3u8
-南方卫视,http://219.135.208.218:8083/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-安多卫视,http://stream.qhbtv.com/adws/sd/live.m3u8
-山东教育,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_SDETV/G_SDETV.m3u8
-大湾区卫视,http://www.namewee.xyz/gudou.php?id=1456
-黑龙江卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_HEILONGJIANG-HD-265-8M/G_HEILONGJIANG-HD-265-8M.m3u8
-内蒙古卫视,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_NEIMENGGU/G_NEIMENGGU.m3u8
 
 儿童频道MY,#genre#
-优漫卡通,http://219.135.208.218:8083/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-卡酷少儿,http://gzcbn.ch-cdn.gitv.tv/gitv_escape/G_KAKU/G_KAKU.m3u8
-嘉佳卡通,http://222.71.189.186:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-炫动卡通,http://61.170.164.195:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-金鹰卡通,http://121.19.134.48:808/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
-广东少儿,http://219.135.208.218:8083/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-中国教育1,http://121.19.134.190:808/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
-中国教育2,http://121.19.134.190:808/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&authid=0
-中国教育3,http://121.19.134.190:808/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&authid=0
-中国教育4,http://121.19.134.190:808/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
-
-体育频道MY,#genre#
-CCTV5+,http://tc-tct.douyucdn2.cn/dyliveflv1a/488743rAHScWyyII_2000.flv
-CCTV5,http://tc-tct.douyucdn2.cn/dyliveflv1a/5040227raXQRnvWY_2000.flv
-哒啵赛事,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-风云足球,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-魅力足球,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-陕西休闲,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-武汉文体,https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
-Sky Sports,https://edge2.laotv.la/live/Bsport2/sc-gaFECQ/a0_index.m3u8
-beIN Sports,http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
-BT Sport,https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
-TSN,https://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
-RDS,https://yang-1989.eu.org/douyu/7692166
-Sportsnet,https://yang-1989.eu.org/douyu/488743
-ESPN Deportes,https://yang-1989.eu.org/douyu/522423
-Fox Deportes,https://yang-1989.eu.org/douyu/9223245
-Univision Deportes,https://yang-1989.eu.org/douyu/999
-Canal+ Sport,https://yang-1989.eu.org/douyu/738878
-Sport1,https://yang-1989.eu.org/douyu/1863767
-SuperSport,https://yang-1989.eu.org/douyu/667319
-Star Sports,https://yang-1989.eu.org/douyu/3226194
-Sony Ten,https://yang-1989.eu.org/douyu/288016
 
 港澳台MY,#genre#
-凤凰中文,http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
-凤凰资讯,http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-无线新闻,http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
 无线资讯,http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
-有线新闻,http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
 有线资讯,http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
-翡翠台,https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-明珠台,http://qwas.eatuo.com:9901/tsfile/live/1014_1.m3u8?zgangd
-J2,http://198.16.100.90:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
-RTHK32,http://198.16.100.90:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
-TVBS新闻,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
-TVBS欢乐,http://50.7.238.114:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-香港佛陀,http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
 MOMO1台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
-MOMO2台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
-大爱1台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-大爱2台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-台视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-三立台湾,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 公视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-三立新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-寰宇新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
 年代新闻,http://211.23.114.106:8501/http/60.251.39.91:8081/hls/67/809/ch27.m3u8
-民视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-非凡新闻,http://198.16.100.90:8278/feifannews_twn/playlist.m3u8?tid=ME3E6962233269622332&ct=19225&tsum=eea4d84db71e12ba91bfcf328f4dec9d
-中天新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
-亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-东森新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
-东森美洲,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-靖天国际,http://198.16.100.90:8278/jingtianintl_twn/playlist.m3u8?tid=ME4E7632479576324795&ct=19226&tsum=9922eeed6392b21e1710ba791cc599d6
-澳视卫星,http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
-澳视澳门,http://61.244.22.5/ch1/ch1.live/index.m3u8
-澳门信息,http://61.244.22.5/ch5/info_ch5.live/chunklist_w105010641.m3u8
-澳门卫视,http://61.244.22.5/ch3/ch3.live/chunklist_w1228316132.m3u8
-澳门莲花,http://anren.live/HK/BiIOU11uLA.m3u8
-澳门葡语,http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8
-澳门资讯,http://61.244.22.5/ch5/info_ch5.live/index.m3u8
-爱尔达体育,http://198.16.100.90:8278/eltasport2_twn/playlist.m3u8?tid=MCDC5093685750936857&ct=19225&tsum=592e009b281ea2abc43b21768cb1bec0
-ELEVEN体育,http://50.7.238.114:8278/golfchannel_twn/playlist.m3u8?tid=m43df9270caf7&ct=18335&tsum=3bcc02e810e7073b86bb40d392e95f23
-星河台,http://113.117.74.12:8081/hls/135/index.m3u8
 
