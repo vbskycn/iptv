@@ -922,17 +922,7 @@ rtsp://115.153.254.81/PLTV/88888888/224/3221227003/86441017.smil
 #EXTINF:-1 group-title="标清频道" tvg-name="武侠剧场" tvg-logo="https://live.proton218.top/taibiao/武侠剧场.png",武侠剧场
 rtsp://115.153.254.81/PLTV/88888888/224/3221227003/88888888.smil
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv11hd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-http://111.11.98.205:9900/hls/1/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-http://115.206.161.85:8888/rtp/233.50.201.118:5140
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-http://115.201.170.73:9999/rtp/233.50.201.246:5140
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
 http://125.125.198.173:8881/rtp/233.50.201.118:5140
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
@@ -940,7 +930,9 @@ http://119.166.7.60:6666/udp/239.253.254.77:8000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
 http://123.14.87.168:8888/hls/1/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv15hd8m/8000000/mnf.m3u8
+http://61.185.200.33:55555/rtp/239.112.205.59:5140
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV1" tvg-logo="https://live.proton218.top/taibiao/CCTV1.png",CCTV1
+http://36.49.52.39:8800/rtp/239.37.0.254:5540
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
 http://66.165.240.154:8080/live/jsydcctv2/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
@@ -956,9 +948,9 @@ http://125.125.198.173:8881/rtp/233.50.201.119:5140
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
 http://110.178.52.196:8083/udp/239.1.1.8:8008
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
-http://58.35.70.169:10055/live/cctv02/hls.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv2hd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
+http://58.35.70.169:10055/live/cctv02/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV2" tvg-logo="https://live.proton218.top/taibiao/CCTV2.png",CCTV2
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv2/1300000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
@@ -966,33 +958,33 @@ http://66.165.240.154:8080/live/jsydcctv3/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
 http://154.yfvodcdn.com:8080/live/jsydcctv3/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
-http://171.120.57.146:8082/rtp/226.0.2.208:9576
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
-http://110.178.52.196:8083/udp/239.1.1.9:8009
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
-http://110.179.80.144:8083/udp/239.1.1.9:8009
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv38m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
 http://36.49.52.39:8800/rtp/239.37.0.231:5540
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
-http://58.35.70.169:10055/live/cctv03/hls.m3u8
+http://110.179.80.144:8083/udp/239.1.1.9:8009
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
+http://183.191.151.4:5555/rtp/226.0.2.208:9576
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
+http://110.178.52.196:8083/udp/239.1.1.9:8009
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv38m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
-http://fxgm.fxjf.work:19901/tsfile/live/0003_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
 http://14.212.185.138:9901/tsfile/live/0003_1.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV3" tvg-logo="https://live.proton218.top/taibiao/CCTV3.png",CCTV3
+http://120.7.86.101:808/hls/3/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
-http://66.165.240.154:8080/live/jsydcctv4/hls.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 http://154.yfvodcdn.com:8080/live/jsydcctv4/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
-http://111.75.151.236:50085/newlive/live/hls/4/live.m3u8
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv4hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv4hd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
+http://111.75.151.236:50085/newlive/live/hls/4/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 http://58.35.70.169:10055/live/cctv04/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
@@ -1000,67 +992,69 @@ https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4" tvg-logo="https://live.proton218.top/taibiao/CCTV4.png",CCTV4
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv4/1300000/mnf.m3u8
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv4/1300000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
+http://66.165.240.154:8080/live/jsydcctv5/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
 http://66.165.240.154:8080/live/jsydcctv5p/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
 http://154.yfvodcdn.com:8080/live/jsydcctv5p/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
-https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
+http://154.yfvodcdn.com:8080/live/jsydcctv5/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
-http://111.75.151.236:50085/newlive/live/hls/5/live.m3u8
+https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv58m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
 http://113.110.72.82:8090/hls/58/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
-http://59.55.35.90:20000/hls/2/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41140/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
 http://110.179.80.144:8083/udp/239.1.1.12:8012
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5" tvg-logo="https://live.proton218.top/taibiao/CCTV5.png",CCTV5
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv58m/8000000/mnf.m3u8
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv5hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
-https://edge1.laotv.la/live/CCTV5+/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv5hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
+https://edge1.laotv.la/live/CCTV5+/index.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv5phd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv5phd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv5hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
 http://php.jdshipin.com:8880/bst.php?id=cctv5phd/4000000
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV5+" tvg-logo="https://live.proton218.top/taibiao/CCTV5+.png",CCTV5+
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv5phd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
+http://154.yfvodcdn.com:8080/live/jsydcctv6/hls.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
+http://66.165.240.154:8080/live/jsydcctv6/hls.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv6hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
 http://175.10.59.126:4022/udp/239.76.246.156:1234
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://171.120.57.146:8082/rtp/226.0.2.210:9592
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41141/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
 http://1.70.35.109:8083/udp/239.1.1.13:8013
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv6hd8m/8000000/mnf.m3u8
+http://171.117.41.102:9999/tsfile/live/0006_1.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
+http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41141/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
 http://58.35.70.169:10055/live/cctv06/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
 http://59.174.224.253:8880/rtp/239.69.1.124:10382
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://171.117.41.102:9999/tsfile/live/0006_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://123.235.8.37:9901/tsfile/live/0006_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV6" tvg-logo="https://live.proton218.top/taibiao/CCTV6.png",CCTV6
-http://120.7.86.107:808/hls/6/index.m3u8
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv6hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
 http://66.165.240.154:8080/live/jsydcctv7/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
 http://154.yfvodcdn.com:8080/live/jsydcctv7/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
 http://120.211.119.222:8899/hls/7/index.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv7hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv7hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
@@ -1073,8 +1067,6 @@ http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/pr
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv7/1300000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
 http://111.75.151.236:50085/newlive/live/hls/7/live.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV7" tvg-logo="https://live.proton218.top/taibiao/CCTV7.png",CCTV7
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv7hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
 http://66.165.240.154:8080/live/jsydcctv8/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
@@ -1082,9 +1074,9 @@ http://154.yfvodcdn.com:8080/live/jsydcctv8/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv8hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41142/index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv8hd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
+http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41142/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
 http://58.35.70.169:10055/live/cctv08/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
@@ -1092,9 +1084,9 @@ http://120.197.112.28:9901/tsfile/live/1009_1.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
 http://111.75.151.236:50085/newlive/live/hls/8/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
-http://218.13.170.98:9901/tsfile/live/0008_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8" tvg-logo="https://live.proton218.top/taibiao/CCTV8.png",CCTV8
-http://113.57.109.36:9901/tsfile/live/0008_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=cctv8hd/4000000
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
+http://66.165.240.154:8080/live/jsydcctv9/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
 https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
@@ -1102,39 +1094,33 @@ http://110.178.52.190:8085/udp/239.1.1.16:8016
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv9hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
-http://58.35.70.169:10055/live/cctv09/hls.m3u8
+http://154.yfvodcdn.com:8080/live/jsydcctv9/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv9hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
 http://111.75.151.236:50085/newlive/live/hls/9/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
-http://39.165.35.152:9901/tsfile/live/0009_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
-http://218.13.170.98:9901/tsfile/live/0009_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
-http://113.57.109.36:9901/tsfile/live/0009_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
 http://221.210.64.165:2233/hls/16/index.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV9" tvg-logo="https://live.proton218.top/taibiao/CCTV9.png",CCTV9
+http://php.jdshipin.com:8880/bst.php?id=cctv9hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
 http://66.165.240.154:8080/live/jsydcctv10/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
 http://154.yfvodcdn.com:8080/live/jsydcctv10/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
-http://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25137bd7c4494128bf0cba271974928f/1200.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv10hd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
-http://111.75.151.236:50085/newlive/live/hls/10/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv10hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
-http://218.13.170.98:9901/tsfile/live/0010_1.m3u8
+http://58.35.70.169:10055/live/cctv10/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
-http://113.57.109.36:9901/tsfile/live/0010_1.m3u8
+http://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25137bd7c4494128bf0cba271974928f/1200.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
+http://111.75.151.236:50085/newlive/live/hls/10/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
 http://221.210.64.165:2233/hls/17/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV10" tvg-logo="https://live.proton218.top/taibiao/CCTV10.png",CCTV10
-http://cfss.cc/api/ysp/cctv10.m3u8
+http://php.jdshipin.com:8880/bst.php?id=cctv10hd/4000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV11" tvg-logo="https://live.proton218.top/taibiao/CCTV11.png",CCTV11
 http://66.165.240.154:8080/live/jsydcctv11/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV11" tvg-logo="https://live.proton218.top/taibiao/CCTV11.png",CCTV11
@@ -1152,65 +1138,55 @@ http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv1
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV11" tvg-logo="https://live.proton218.top/taibiao/CCTV11.png",CCTV11
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv11/1300000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV11" tvg-logo="https://live.proton218.top/taibiao/CCTV11.png",CCTV11
-http://39.165.35.152:9901/tsfile/live/0011_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV11" tvg-logo="https://live.proton218.top/taibiao/CCTV11.png",CCTV11
-http://218.13.170.98:9901/tsfile/live/0011_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=cctv11hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://66.165.240.154:8080/live/jsydcctv12/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://154.yfvodcdn.com:8080/live/jsydcctv12/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv12hd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv12hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://php.jdshipin.com:8880/bst.php?id=cctv12hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv12hd8m/8000000/mnf.m3u8
+http://58.35.70.169:10055/live/cctv12/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://111.75.151.236:50085/newlive/live/hls/12/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv12/1300000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv12/1300000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
-http://39.165.35.152:9901/tsfile/live/0012_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV12" tvg-logo="https://live.proton218.top/taibiao/CCTV12.png",CCTV12
-http://218.13.170.98:9901/tsfile/live/0012_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
-http://66.165.240.154:8080/live/jsydcctv13/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 http://154.yfvodcdn.com:8080/live/jsydcctv13/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv13xwhd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 http://115.201.170.73:9999/rtp/233.50.201.246:5140
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
-http://171.117.41.102:9999/tsfile/live/0013_1.m3u8
+http://119.166.7.60:6666/udp/239.253.254.175:8000
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
+http://58.35.70.169:10055/live/cctv13/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 http://live.chunfei.top/live02/cctv.m3u8?channel=cctvnews
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
-http://58.35.70.169:10055/live/cctv13/hls.m3u8
+http://171.117.41.102:9999/tsfile/live/0013_1.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 http://111.75.151.236:50085/newlive/live/hls/13/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
 http://125.82.171.210:8888/rtp/235.254.198.9:1312
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV13" tvg-logo="https://live.proton218.top/taibiao/CCTV13.png",CCTV13
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv13xwhd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctvsehd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctvsehd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
 http://58.35.70.169:10055/live/cctv14/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
-http://39.165.35.152:9901/tsfile/live/0014_1.m3u8?key=txiptv
+http://154.yfvodcdn.com:8080/live/jsydcctv14/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
 http://111.75.151.236:50085/newlive/live/hls/14/live.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctvsehd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
-http://218.13.170.98:9901/tsfile/live/0014_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
-http://113.57.109.36:9901/tsfile/live/0014_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV14" tvg-logo="https://live.proton218.top/taibiao/CCTV14.png",CCTV14
-http://php.jdshipin.com:8880/bst.php?id=cctvsehd/4000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
 http://66.165.240.154:8080/live/jsydcctv15/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
@@ -1224,67 +1200,57 @@ http://58.35.70.169:10055/live/cctv15/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
 http://111.75.151.236:50085/newlive/live/hls/15/live.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
-http://39.165.35.152:9901/tsfile/live/0015_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
-http://218.13.170.98:9901/tsfile/live/0015_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
-http://113.57.109.36:9901/tsfile/live/0015_1.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV15" tvg-logo="https://live.proton218.top/taibiao/CCTV15.png",CCTV15
-http://cfss.cc/api/ysp/cctv15.m3u8
+http://php.jdshipin.com:8880/bst.php?id=cctv15hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
 https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv16hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel116/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
 http://58.35.70.169:10055/live/cctv16/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv16hd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv16hd4k/15000000/mnf.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv16hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv16hd4k/15000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
-http://cfss.cc/api/ysp/cctv16.m3u8
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv16hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
-http://api2.52tb.xyz/info?id=18&token=20230326xflvzc
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV16" tvg-logo="https://live.proton218.top/taibiao/CCTV16.png",CCTV16
-https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
-http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel90/index.m3u8
+http://php.jdshipin.com:8880/bst.php?id=cctv16hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv17hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
-http://159.75.85.63:5678/zb.php?id=douyin
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
-http://58.35.70.169:10055/live/cctv17/hls.m3u8
+http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel90/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv17hd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
-http://api2.52tb.xyz/info?id=19&token=20230326xflvzc
+http://159.75.85.63:5678/zb.php?id=douyin
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
 http://php.jdshipin.com:8880/bst.php?id=cctv17hd8m/8000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV17" tvg-logo="https://live.proton218.top/taibiao/CCTV17.png",CCTV17
-https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
+http://58.35.70.169:10055/live/cctv17/hls.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
 https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
+http://159.75.85.63:5679/cctv4k.php
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cctv4k/15000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cctv4k/15000000/mnf.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
-http://159.75.85.63:8280/cctv4k.php
+http://cfss.cc/api/ysp/cctv4k.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
-http://159.75.85.63:5681/sxg.php?id=ys4Kcq_2000
+https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
-http://159.75.85.63:5679/cctv4k.php
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8k" tvg-logo="https://live.proton218.top/taibiao/CCTV8k.png",CCTV8k
-http://159.75.85.63:8654/xx8k50fps.php
+http://open.live-web.timetv.cn/live03/cctv4k.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV4k" tvg-logo="https://live.proton218.top/taibiao/CCTV4k.png",CCTV4k
+http://r.jdshipin.com/krMB5
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8k" tvg-logo="https://live.proton218.top/taibiao/CCTV8k.png",CCTV8k
 http://159.75.85.63:8765/xxtv8k.php
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV8k" tvg-logo="https://live.proton218.top/taibiao/CCTV8k.png",CCTV8k
+http://159.75.85.63:8654/xx8k50fps.php
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV音乐" tvg-logo="https://live.proton218.top/taibiao/CCTV音乐.png",CCTV音乐
 http://111.74.155.231:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CCTV世界地理" tvg-logo="https://live.proton218.top/taibiao/CCTV世界地理.png",CCTV世界地理
@@ -1316,17 +1282,17 @@ https://yang-1989.eu.org/live/gefwq
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
+http://live.cgtn.com/1000/prog_index.m3u8
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
 http://live.cgtn.com/1000/prog_index.m3u8?zshijd
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
-http://live.cgtn.com/1000/prog_index.m3u8
+http://live.cgtn.com/500/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
 https://live.cgtn.com/1000/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
-http://livear.cgtn.com/1000a/prog_index.m3u8
-#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
 https://livedoc.cgtn.com/1000d/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN" tvg-logo="https://live.proton218.top/taibiao/CGTN.png",CGTN
-http://live.cgtn.com/500/prog_index.m3u8
+http://livear.cgtn.com/1000a/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN俄语" tvg-logo="https://live.proton218.top/taibiao/CGTN俄语.png",CGTN俄语
 http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN俄语" tvg-logo="https://live.proton218.top/taibiao/CGTN俄语.png",CGTN俄语
@@ -1335,6 +1301,8 @@ http://liveru.cgtn.com/1000r/prog_index.m3u8
 https://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN俄语" tvg-logo="https://live.proton218.top/taibiao/CGTN俄语.png",CGTN俄语
 https://liveru.cgtn.com/1000r/prog_index.m3u8?zshijd
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN俄语" tvg-logo="https://live.proton218.top/taibiao/CGTN俄语.png",CGTN俄语
+http://gmxw.7766.org:808/hls/85/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN法语" tvg-logo="https://live.proton218.top/taibiao/CGTN法语.png",CGTN法语
 https://livefr.cgtn.com/1000f/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN法语" tvg-logo="https://live.proton218.top/taibiao/CGTN法语.png",CGTN法语
@@ -1343,6 +1311,8 @@ https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 http://livefr.cgtn.com/1000f/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN法语" tvg-logo="https://live.proton218.top/taibiao/CGTN法语.png",CGTN法语
 https://livefr.cgtn.com/1000f/prog_index.m3u8?zshijd
+#EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN法语" tvg-logo="https://live.proton218.top/taibiao/CGTN法语.png",CGTN法语
+http://gmxw.7766.org:808/hls/82/index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN纪录" tvg-logo="https://live.proton218.top/taibiao/CGTN纪录.png",CGTN纪录
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN纪录" tvg-logo="https://live.proton218.top/taibiao/CGTN纪录.png",CGTN纪录
@@ -1360,21 +1330,17 @@ http://livear.cgtn.com/1000a/prog_index.m3u8
 #EXTINF:-1 group-title="﻿央视频道MY" tvg-name="CGTN阿语" tvg-logo="https://live.proton218.top/taibiao/CGTN阿语.png",CGTN阿语
 https://livear.cgtn.com/1000a/prog_index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
-http://58.35.70.169:10055/live/ahtv/hls.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/ahwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/ahwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
-http://61.182.33.218:8000/hls/27/index.m3u8
+http://58.35.70.169:10055/live/ahtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
 http://111.75.151.236:50085/newlive/live/hls/29/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
-http://113.57.109.36:9901/tsfile/live/0130_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=ahwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=45
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="安徽卫视" tvg-logo="https://live.proton218.top/taibiao/安徽卫视.png",安徽卫视
-http://php.jdshipin.com:8880/bst.php?id=ahwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
 http://66.165.240.154:8080/live/jsydws07/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
@@ -1382,9 +1348,9 @@ https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
 http://154.yfvodcdn.com:8080/live/jsydws07/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/bjwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
 http://120.224.178.16:9901/tsfile/live/0126_1.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/bjwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
 http://61.182.33.218:8000/hls/19/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
@@ -1392,21 +1358,19 @@ http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/pr
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
 http://58.35.70.169:10055/live/bjtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
-http://111.75.151.236:50085/newlive/live/hls/24/live.m3u8
+http://110.72.75.162:8181/tsfile/live/0122_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="北京卫视" tvg-logo="https://live.proton218.top/taibiao/北京卫视.png",北京卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=39
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
-http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
-http://111.75.151.236:50085/newlive/live/hls/50/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
-https://cntv.lat/tv/live.php?auth=231110&id=btws
+http://111.75.151.236:50085/newlive/live/hls/24/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
 http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel67/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/btws/1300000/mnf.m3u8
+http://pve.czjimi.com:8808/rtp/238.1.78.104:6704
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/btws/1300000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
+http://111.75.151.236:50085/newlive/live/hls/50/live.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/btws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="兵团卫视" tvg-logo="https://live.proton218.top/taibiao/兵团卫视.png",兵团卫视
 http://php.jdshipin.com:8880/bst.php?id=btws/1300000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
@@ -1415,6 +1379,8 @@ http://66.165.240.154:8080/live/jsydws03/hls.m3u8
 http://154.yfvodcdn.com:8080/live/jsydws03/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/dfwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/dfwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
 http://58.35.70.169:10055/live/dftv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
@@ -1427,46 +1393,30 @@ http://111.75.151.236:50085/newlive/live/hls/23/live.m3u8
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=40
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
 http://58.35.70.169:10055/live/
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="东方卫视" tvg-logo="https://live.proton218.top/taibiao/东方卫视.png",东方卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/dfwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/dnwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
-http://php.jdshipin.com:8880/bst.php?id=dnwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/dnwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
+http://php.jdshipin.com:8880/bst.php?id=dnwshd/4000000
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://58.35.70.169:10055/live/dntv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
-http://61.182.33.218:8000/hls/33/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://111.75.151.236:50085/newlive/live/hls/33/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
-http://113.57.109.36:9901/tsfile/live/0137_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=48
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="东南卫视" tvg-logo="https://live.proton218.top/taibiao/东南卫视.png",东南卫视
 http://iptv123.msns.cn:9901/tsfile/live/0137_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gswshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
 http://111.75.151.236:50085/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gswshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/gswshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-https://cntv.lat/tv/live.php?auth=231110&id=gsws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-http://61.182.33.218:8000/hls/39/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-http://api2.52tb.xyz/info?id=46&token=20230326xflvzc
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
-http://58.220.219.14:9901/tsfile/live/0141_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="甘肃卫视" tvg-logo="https://live.proton218.top/taibiao/甘肃卫视.png",甘肃卫视
 http://php.jdshipin.com:8880/bst.php?id=gswshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
@@ -1474,23 +1424,23 @@ http://66.165.240.154:8080/live/jsydws04/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
 http://154.yfvodcdn.com:8080/live/jsydws04/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gdwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
-http://113.75.115.235:8899/udp/239.77.1.19:5146
+http://113.93.49.90:2000/udp/239.77.1.19:5146
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
 http://219.137.29.213:4433/tsfile/live/0125_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
-http://113.93.49.90:2000/udp/239.77.1.19:5146
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
-http://183.7.13.129:4022/udp/239.77.0.84:5146
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gdwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
 http://119.98.248.194:4022/rtp/239.254.96.140:8914
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
-http://27.11.254.90:8005/udp/225.0.4.84:7980
+http://58.35.70.169:10055/live/gdtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
 http://111.75.151.236:50085/newlive/live/hls/25/live.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/gdwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东卫视" tvg-logo="https://live.proton218.top/taibiao/广东卫视.png",广东卫视
+http://xxw.me0.cn/api/migu.php?id=28
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
-http://113.86.204.95:9999/udp/239.77.0.114:5146
+http://183.11.239.36:808/hls/83/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
 http://218.13.170.98:9901/tsfile/live/1000_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
@@ -1500,69 +1450,45 @@ http://219.135.208.218:8083/tsfile/live/0017_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
 http://120.197.112.28:9901/tsfile/live/1019_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
-http://113.110.79.191:808/hls/105/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
 http://113.110.72.82:8090/hls/105/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
-http://113.65.9.177:4014/udp/239.77.0.1:5146
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广东珠江" tvg-logo="https://live.proton218.top/taibiao/广东珠江.png",广东珠江
-http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdzj&auth=rinimabi
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://113.12.72.152:9901/tsfile/live/1024_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gxwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://58.220.219.14:9901/tsfile/live/0113_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://61.182.33.218:8000/hls/34/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://111.75.151.236:50085/newlive/live/hls/37/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://120.7.86.41:808/hls/33/index.m3u8
+http://113.12.72.152:9901/tsfile/live/1024_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/gxwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
+http://120.7.86.41:808/hls/33/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
-http://php.jdshipin.com:8880/bst.php?id=gxwshd8m/8000000
+http://111.75.151.236:50085/newlive/live/hls/37/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=58
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="广西卫视" tvg-logo="https://live.proton218.top/taibiao/广西卫视.png",广西卫视
+http://php.jdshipin.com:8880/bst.php?id=gxwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/gzwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/gzwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
 http://111.75.151.236:50085/newlive/live/hls/45/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
-http://218.13.170.98:9901/tsfile/live/1014_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel30/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
-https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
-http://58.35.70.169:10055/live/gztv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=59
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
 http://php.jdshipin.com:8880/bst.php?id=gzwshd8m/8000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="贵州卫视" tvg-logo="https://live.proton218.top/taibiao/贵州卫视.png",贵州卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/gzwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/hainanwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel62/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
-http://218.13.170.98:9901/tsfile/live/1020_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://111.75.151.236:50085/newlive/live/hls/42/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
-http://59.44.192.22:65000/hls/99/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hainanwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
-https://cntv.lat/tv/live.php?auth=231110&id=hinws
+http://59.44.192.22:65000/hls/99/index.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
+http://58.35.70.169:10055/live/lytv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=60
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
-http://58.220.219.14:9901/tsfile/live/0120_2.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海南卫视" tvg-logo="https://live.proton218.top/taibiao/海南卫视.png",海南卫视
 http://php.jdshipin.com:8880/bst.php?id=hainanwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海峡卫视" tvg-logo="https://live.proton218.top/taibiao/海峡卫视.png",海峡卫视
@@ -1574,29 +1500,23 @@ https://cntv.lat/tv/live.php?auth=231110&id=hxws
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="海峡卫视" tvg-logo="https://live.proton218.top/taibiao/海峡卫视.png",海峡卫视
 http://php.jdshipin.com:8880/bst.php?id=hxws
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
+http://121.17.146.174:2022/rtp/239.253.92.154:6011
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
 http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226328/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
-http://113.57.109.36:9901/tsfile/live/0117_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
-http://61.182.33.218:8000/hls/16/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
-http://111.75.151.236:50085/newlive/live/hls/51/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=49
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
+http://111.75.151.236:50085/newlive/live/hls/51/live.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
 http://php.jdshipin.com:8880/bst.php?id=hbwshd8m/8000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
-http://120.197.112.28:9901/tsfile/live/1050_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河北卫视" tvg-logo="https://live.proton218.top/taibiao/河北卫视.png",河北卫视
-http://218.13.170.98:9901/tsfile/live/1016_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
 http://221.15.6.153:8888/rtp/225.1.4.254:1300
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
-http://58.35.70.169:10055/live/hntv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hnwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
 http://ik6.iptv8.net:8888/rtp/225.1.4.98:1127
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
+http://58.35.70.169:10055/live/hntv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
 http://221.210.64.165:2233/hls/48/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
@@ -1607,28 +1527,26 @@ http://111.75.151.236:50085/newlive/live/hls/39/live.m3u8
 http://58.35.70.169:10055/live/
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=50
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="河南卫视" tvg-logo="https://live.proton218.top/taibiao/河南卫视.png",河南卫视
-http://58.220.219.14:9901/tsfile/live/0139_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://66.165.240.154:8080/live/jsydws09/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://154.yfvodcdn.com:8080/live/jsydws09/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hubeiws8m/8000000/mnf.m3u8
+http://58.35.70.169:10055/live/hbtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://58.220.219.14:9901/tsfile/live/0132_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hubeiws8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://111.75.151.236:50085/newlive/live/hls/27/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/hubeiws8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=54
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
 http://xxw.me0.cn/api/migu.php?id=24
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
-http://218.13.170.98:9901/tsfile/live/1007_1.m3u8
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=54
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖北卫视" tvg-logo="https://live.proton218.top/taibiao/湖北卫视.png",湖北卫视
-http://113.57.109.36:9901/tsfile/live/1013_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=hbwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
 http://66.165.240.154:8080/live/jsydws06/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
@@ -1636,21 +1554,23 @@ http://154.yfvodcdn.com:8080/live/jsydws06/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/hunanwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
-http://125.92.102.23:8899/udp/239.77.0.127:5146
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
-http://221.217.53.241:8686/rtp/239.3.1.132:8012
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
 http://175.10.59.126:4022/udp/239.76.246.101:1234
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
-http://59.174.224.253:8880/rtp/239.254.96.139:8908
+http://60.164.229.241:4040/udp/239.255.30.136:8231
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
 http://124.230.56.124:55555/udp/239.76.246.100:1234
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
-http://27.11.40.250:8004/udp/225.0.4.75:7980
+http://221.217.53.241:8686/rtp/239.3.1.132:8012
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
-http://121.24.98.185:8090/hls/56/index.m3u8
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hunanwshd8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
+http://59.174.224.253:8880/rtp/239.254.96.139:8908
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="湖南卫视" tvg-logo="https://live.proton218.top/taibiao/湖南卫视.png",湖南卫视
+http://58.35.70.169:10055/live/huntv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 http://66.165.240.154:8080/live/jsydws05/hls.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jlwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225598/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
@@ -1660,15 +1580,13 @@ http://154.yfvodcdn.com:8080/live/jsydws05/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 http://111.75.151.236:50085/newlive/live/hls/35/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jlwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/jlwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 http://61.182.33.218:8000/hls/35/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel20/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="吉林卫视" tvg-logo="https://live.proton218.top/taibiao/吉林卫视.png",吉林卫视
+http://php.jdshipin.com:8880/bst.php?id=jlwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://66.165.240.154:8080/live/jsydws01/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
@@ -1676,47 +1594,45 @@ http://154.yfvodcdn.com:8080/live/jsydws01/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jswshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
+http://61.136.67.238:50085/tsfile/live/0127_1.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/jswshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://58.35.70.169:10055/live/jstv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
-http://61.136.67.238:50085/tsfile/live/0127_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://171.8.245.48:808/hls/30/index.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
+http://120.7.86.32:808/hls/19/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://xxw.me0.cn/api/migu.php?id=27
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=43
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江苏卫视" tvg-logo="https://live.proton218.top/taibiao/江苏卫视.png",江苏卫视
 http://111.75.151.236:50085/newlive/live/hls/22/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://xxw.me0.cn/api/migu.php?id=26
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://58.35.70.169:10055/live/jxtv/hls.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://113.57.109.36:9901/tsfile/live/1003_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://111.75.151.236:50085/newlive/live/hls/16/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://61.182.33.218:8000/hls/31/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jxws8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/jxws8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
-http://php.jdshipin.com:8880/bst.php?id=jxwshd/4000000
+http://xxw.me0.cn/api/migu.php?id=26
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
+http://58.35.70.169:10055/live/jxtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=55
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
+http://111.75.151.236:50085/newlive/live/hls/16/live.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="江西卫视" tvg-logo="https://live.proton218.top/taibiao/江西卫视.png",江西卫视
+http://php.jdshipin.com:8880/bst.php?id=jxwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
 https://cntv.lat/tv/live.php?auth=231110&id=kbws
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
-http://111.202.12.159:8080/3zvkK28/1000/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
 http://111.202.12.159:8080/kYGHWzA/1000/live.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
+http://111.202.12.159:8080/3zvkK28/1000/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/kbws/2500000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/kbws/2500000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="康巴卫视" tvg-logo="https://live.proton218.top/taibiao/康巴卫视.png",康巴卫视
+http://v2.91kds.cn/b9/sctv.m3u8?id=kbws&auth=rinimabi
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
 http://66.165.240.154:8080/live/jsydws02/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
@@ -1726,9 +1642,9 @@ http://221.220.135.32:9999/rtp/239.3.1.210:8056
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/lnwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
-http://58.35.70.169:10055/live/lntv/hls.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=51
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
+http://58.35.70.169:10055/live/lntv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
 http://111.75.151.236:50085/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
@@ -1736,25 +1652,15 @@ http://xxw.me0.cn/api/migu.php?id=21
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/lnwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="辽宁卫视" tvg-logo="https://live.proton218.top/taibiao/辽宁卫视.png",辽宁卫视
-http://cfss.cc/api/ysp/lnws.m3u8
+http://php.jdshipin.com:8880/bst.php?id=lnwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="旅游卫视" tvg-logo="https://live.proton218.top/taibiao/旅游卫视.png",旅游卫视
-http://61.170.164.195:9901/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
+http://219.151.249.238:8888/rtp/235.254.198.44:1452
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙卫视.png",内蒙卫视
 http://58.220.219.14:9901/tsfile/live/0114_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-http://58.220.219.14:9901/tsfile/live/0112_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-http://218.13.170.98:9901/tsfile/live/0112_1.m3u8
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/nxws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
 http://111.75.151.236:50085/newlive/live/hls/38/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-https://ktpremium.com:443/K3939/6757/718670
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel69/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-https://cntv.lat/tv/live.php?auth=231110&id=nxws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="宁夏卫视" tvg-logo="https://live.proton218.top/taibiao/宁夏卫视.png",宁夏卫视
-http://api2.52tb.xyz/info?id=49&token=20230326xflvzc
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="农林卫视" tvg-logo="https://live.proton218.top/taibiao/农林卫视.png",农林卫视
 http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226335/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
@@ -1764,19 +1670,13 @@ http://stream.qhbtv.com/qhws/playlist.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
 http://stream.qhbtv.com/qhws/sd/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/qhws/1300000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/qhws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
 http://111.75.151.236:50085/newlive/live/hls/46/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/qhws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
-http://218.13.170.98:9901/tsfile/live/0140_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel60/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
-https://cntv.lat/tv/live.php?auth=231110&id=qhws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="青海卫视" tvg-logo="https://live.proton218.top/taibiao/青海卫视.png",青海卫视
-http://api2.52tb.xyz/info?id=50&token=20230326xflvzc
+http://php.jdshipin.com:8880/bst.php?id=qhws/1300000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
 http://114.245.48.134:8688/rtp/239.3.1.155:4120
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
@@ -1786,8 +1686,6 @@ http://123.115.112.109:4000/rtp/239.3.1.155:4120
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
 http://61.138.128.226:19901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
-https://cntv.lat/tv/live.php?auth=231110&id=ssws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/sswshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="三沙卫视" tvg-logo="https://live.proton218.top/taibiao/三沙卫视.png",三沙卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/sswshd8m/8000000/mnf.m3u8
@@ -1796,11 +1694,13 @@ http://114.98.188.69:2000/rtp/238.1.78.246:7840
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
 http://111.197.130.58:1314/rtp/239.3.1.143:4120
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/xmws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/xmws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/xmws/1300000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
 https://cntv.lat/tv/live.php?auth=231110&id=xmws
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
+http://gmxw.7766.org:808/hls/17/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="厦门卫视" tvg-logo="https://live.proton218.top/taibiao/厦门卫视.png",厦门卫视
 http://php.jdshipin.com:8880/bst.php?id=xmws/1300000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
@@ -1814,31 +1714,17 @@ http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
 http://111.75.151.236:50085/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=44
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/sdws8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
-http://58.35.70.169:10055/live/
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
-http://xxw.me0.cn/api/migu.php?id=23
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山东卫视" tvg-logo="https://live.proton218.top/taibiao/山东卫视.png",山东卫视
-http://113.57.109.36:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
 http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
-http://61.182.33.218:8000/hls/37/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
-http://218.13.170.98:9901/tsfile/live/0118_1.m3u8
+http://live.cooltv.top/tv/tide.php?id=sxiws2
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
 http://111.75.151.236:50085/newlive/live/hls/44/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/shanxiws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
-http://58.220.219.14:9901/tsfile/live/0118_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/shanxiws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
-http://113.57.109.36:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
 http://58.35.70.169:10055/live/sxtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山西卫视" tvg-logo="https://live.proton218.top/taibiao/山西卫视.png",山西卫视
@@ -1854,15 +1740,7 @@ http://111.75.151.236:50085/newlive/live/hls/47/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
 http://xxw.me0.cn/api/migu.php?id=22
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
-https://cntv.lat/tv/live.php?auth=231110&id=sxws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
-http://58.220.219.14:9901/tsfile/live/0120_7.m3u8?key=txiptv
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
-http://218.13.170.98:9901/tsfile/live/0136_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
-http://61.182.33.218:8000/hls/36/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="陕西卫视" tvg-logo="https://live.proton218.top/taibiao/陕西卫视.png",陕西卫视
-http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225498/index.m3u8
+http://php.jdshipin.com:8880/bst.php?id=sxws/1300000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="上海卫视" tvg-logo="https://live.proton218.top/taibiao/上海卫视.png",上海卫视
 http://61.138.128.226:19901/tsfile/live/0107_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
@@ -1876,33 +1754,25 @@ http://58.220.219.14:9901/tsfile/live/0126_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
 http://111.75.151.236:50085/newlive/live/hls/26/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
-http://218.13.170.98:9901/tsfile/live/1005_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
-http://113.57.109.36:9901/tsfile/live/0126_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
-http://61.182.33.218:8000/hls/21/index.m3u8
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=53
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
 http://php.jdshipin.com:8880/bst.php?id=szwshd/4000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="深圳卫视" tvg-logo="https://live.proton218.top/taibiao/深圳卫视.png",深圳卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=53
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
 http://221.237.36.201:8888/udp/239.93.0.169:5140
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/scwshd/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/scwshd/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/scwshd/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
 http://58.35.70.169:10055/live/sctv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
 http://111.75.151.236:50085/newlive/live/hls/43/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
-http://61.182.33.218:8000/hls/29/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
-http://113.57.109.36:9901/tsfile/live/0123_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=scwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=57
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="四川卫视" tvg-logo="https://live.proton218.top/taibiao/四川卫视.png",四川卫视
-http://php.jdshipin.com:8880/bst.php?id=scwshd8m/8000000
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/tjwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/tjwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
@@ -1910,39 +1780,25 @@ http://58.35.70.169:10055/live/tjws/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
 http://120.7.86.107:808/hls/20/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/tjwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
 http://111.75.151.236:50085/newlive/live/hls/28/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=47
+http://php.jdshipin.com:8880/bst.php?id=tjwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
 http://58.35.70.169:10055/live/
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
-http://218.13.170.98:9901/tsfile/live/1008_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
-http://61.182.33.218:8000/hls/20/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="天津卫视" tvg-logo="https://live.proton218.top/taibiao/天津卫视.png",天津卫视
-http://113.57.109.36:9901/tsfile/live/0135_1.m3u8
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=47
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
 http://113.12.72.152:9901/tsfile/live/1035_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
 http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel66/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
-http://111.75.151.236:50085/newlive/live/hls/36/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/xzws/2500000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
+http://111.75.151.236:50085/newlive/live/hls/36/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/xzws/2500000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
-http://218.13.170.98:9901/tsfile/live/0111_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
-http://58.220.219.14:9901/tsfile/live/0120_5.m3u8?key=txiptv
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
-https://cntv.lat/tv/live.php?auth=231110&id=xzws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
 http://php.jdshipin.com:8880/bst.php?id=xzws/1300000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="西藏卫视" tvg-logo="https://live.proton218.top/taibiao/西藏卫视.png",西藏卫视
-http://api2.52tb.xyz/info?id=52&token=20230326xflvzc
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
 http://113.12.72.152:9901/tsfile/live/1036_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
@@ -1950,19 +1806,15 @@ http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/xjws/
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
 http://live.wjyanghu.com/live/CH1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=61
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
 http://111.75.151.236:50085/newlive/live/hls/49/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/xjws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
-http://218.13.170.98:9901/tsfile/live/0110_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
-https://cntv.lat/tv/live.php?auth=231110&id=xjws
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
 http://106.124.91.222:9901/tsfile/live/21212_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
-http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel64/index.m3u8
+http://php.jdshipin.com:8880/bst.php?id=xjws/1300000
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="新疆卫视" tvg-logo="https://live.proton218.top/taibiao/新疆卫视.png",新疆卫视
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=61
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
@@ -1970,9 +1822,9 @@ http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
 http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
-http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
 http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
+http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
 http://fxgm.fxjf.work:19901/tsfile/live/1011_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="延边卫视" tvg-logo="https://live.proton218.top/taibiao/延边卫视.png",延边卫视
@@ -1996,13 +1848,9 @@ http://111.75.151.236:50085/newlive/live/hls/34/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="云南卫视" tvg-logo="https://live.proton218.top/taibiao/云南卫视.png",云南卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/ynwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="云南卫视" tvg-logo="https://live.proton218.top/taibiao/云南卫视.png",云南卫视
-http://113.57.109.36:9901/tsfile/live/0119_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="云南卫视" tvg-logo="https://live.proton218.top/taibiao/云南卫视.png",云南卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel61/index.m3u8
+http://fxgm.fxjf.work:19901/tsfile/live/0119_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="云南卫视" tvg-logo="https://live.proton218.top/taibiao/云南卫视.png",云南卫视
 http://php.jdshipin.com:8880/bst.php?id=ynwshd8m/8000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="云南卫视" tvg-logo="https://live.proton218.top/taibiao/云南卫视.png",云南卫视
-http://58.220.219.14:9901/tsfile/live/0119_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
 http://111.75.151.236:50085/newlive/live/hls/21/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
@@ -2012,33 +1860,27 @@ http://58.35.70.169:10055/live/zjtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
 https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/zjwshd8m/8000000/mnf.m3u8
+http://14.29.76.30:9901/tsfile/live/0124_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=42
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/zjwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
 http://58.35.70.169:10055/live/
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
-http://58.220.219.14:9901/tsfile/live/0124_1.m3u8?key=txiptv
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=42
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
-http://113.57.109.36:9901/tsfile/live/0124_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="浙江卫视" tvg-logo="https://live.proton218.top/taibiao/浙江卫视.png",浙江卫视
-http://218.13.170.98:9901/tsfile/live/1002_1.m3u8
+http://php.jdshipin.com:8880/bst.php?id=zjwshd/4000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cqws8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://61.182.33.218:8000/hls/32/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://218.13.170.98:9901/tsfile/live/1012_1.m3u8
+http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225601/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
 http://111.75.151.236:50085/newlive/live/hls/40/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cqws8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://113.57.109.36:9901/tsfile/live/0142_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
-http://php.jdshipin.com:8880/bst.php?id=cqwshd8m/8000000
+http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/cqws8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
 http://8.134.82.80:32858/ysp0409/haiouysp.php?id=56
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/cqws8m/8000000/mnf.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="重庆卫视" tvg-logo="https://live.proton218.top/taibiao/重庆卫视.png",重庆卫视
+http://php.jdshipin.com:8880/bst.php?id=cqwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="南方卫视" tvg-logo="https://live.proton218.top/taibiao/南方卫视.png",南方卫视
 http://219.135.208.218:8083/tsfile/live/1003_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="安多卫视" tvg-logo="https://live.proton218.top/taibiao/安多卫视.png",安多卫视
@@ -2049,6 +1891,8 @@ http://stream.qhbtv.com/adws/playlist.m3u8
 http://stream.qhbtv.com/adws/playlist.m3u8?_upt=739abf201649062902
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="山东教育" tvg-logo="https://live.proton218.top/taibiao/山东教育.png",山东教育
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel37001/index.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="山东教育" tvg-logo="https://live.proton218.top/taibiao/山东教育.png",山东教育
+http://gmxw.7766.org:808/hls/72/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="大湾区卫视" tvg-logo="https://live.proton218.top/taibiao/大湾区卫视.png",大湾区卫视
 http://66.165.240.154:8080/live/tytvbs11/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="大湾区卫视" tvg-logo="https://live.proton218.top/taibiao/大湾区卫视.png",大湾区卫视
@@ -2056,41 +1900,33 @@ http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="大湾区卫视" tvg-logo="https://live.proton218.top/taibiao/大湾区卫视.png",大湾区卫视
 http://154.yfvodcdn.com:8080/live/tytvbs11/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://8.134.82.80:32858/ysp0409/haiouysp.php?id=52
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://61.138.54.155:2233/hls/1/index.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://111.75.151.236:50085/newlive/live/hls/32/live.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/hljwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/hljwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://61.182.33.218:8000/hls/25/index.m3u8
+http://8.134.82.80:32858/ysp0409/haiouysp.php?id=52
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
-http://113.57.109.36:9901/tsfile/live/0143_1.m3u8
+http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
+http://61.138.54.155:2233/hls/1/index.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
+http://111.75.151.236:50085/newlive/live/hls/32/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
 http://221.210.64.165:2233/hls/1/index.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
 http://php.jdshipin.com:8880/bst.php?id=hljwshd/4000000
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
-http://58.35.70.169:10055/live/nmgtv/hls.m3u8
+#EXTINF:-1 group-title="卫视频道MY" tvg-name="黑龙江卫视" tvg-logo="https://live.proton218.top/taibiao/黑龙江卫视.png",黑龙江卫视
+http://php.jdshipin.com:8880/bst.php?id=hljwshd8m/8000000
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/nmgws/1300000/mnf.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
-http://60.12.183.46:9901/tsfile/live/1003_1.m3u8
+http://58.35.70.169:10055/live/nmgtv/hls.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
 http://111.75.151.236:50085/newlive/live/hls/48/live.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
-http://218.13.170.98:9901/tsfile/live/0109_1.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel93/index.m3u8
+http://60.12.183.46:9901/tsfile/live/1003_1.m3u8
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
 http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/nmgws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
-https://cntv.lat/tv/live.php?auth=231110&id=nmws
 #EXTINF:-1 group-title="卫视频道MY" tvg-name="内蒙古卫视" tvg-logo="https://live.proton218.top/taibiao/内蒙古卫视.png",内蒙古卫视
 http://php.jdshipin.com:8880/bst.php?id=nmgws/1300000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="优漫卡通" tvg-logo="https://live.proton218.top/taibiao/优漫卡通.png",优漫卡通
@@ -2106,13 +1942,9 @@ http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/pr
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="卡酷少儿" tvg-logo="https://live.proton218.top/taibiao/卡酷少儿.png",卡酷少儿
 http://qnap.yjnhome.com:4000/udp/239.3.1.189:8000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="卡酷少儿" tvg-logo="https://live.proton218.top/taibiao/卡酷少儿.png",卡酷少儿
-http://php.jdshipin.com:8880/bst.php?id=kkse
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="卡酷少儿" tvg-logo="https://live.proton218.top/taibiao/卡酷少儿.png",卡酷少儿
-http://php.jdshipin.com:8880/bst.php?id=hainanwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="卡酷少儿" tvg-logo="https://live.proton218.top/taibiao/卡酷少儿.png",卡酷少儿
 https://live.v1.mk/api/bestv.php?id=kkse8m/8000000
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="卡酷少儿" tvg-logo="https://live.proton218.top/taibiao/卡酷少儿.png",卡酷少儿
-https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41133/index.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
@@ -2120,21 +1952,15 @@ http://111.75.151.236:50085/newlive/live/hls/55/live.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jjkt/1300000/mnf.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
-http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/jjkt/1300000/mnf.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
-https://cntv.lat/tv/live.php?auth=231110&id=jjkt
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
 http://php.jdshipin.com:8880/bst.php?id=jjkt/1300000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
-http://php.jdshipin.com:8880/bst.php?id=jjkt
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
-http://xjayrf.eatuo.com:9901/tsfile/live/1045_1.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="嘉佳卡通" tvg-logo="https://live.proton218.top/taibiao/嘉佳卡通.png",嘉佳卡通
-http://v2.91kds.cn/b9/itouchtv.m3u8?id=gdjjkt&auth=rinimabi
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/jjkt/1300000/mnf.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="炫动卡通" tvg-logo="https://live.proton218.top/taibiao/炫动卡通.png",炫动卡通
 https://live.goodiptv.club/api/bestv.php?id=hhxd8m/8000000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="炫动卡通" tvg-logo="https://live.proton218.top/taibiao/炫动卡通.png",炫动卡通
 https://live.v1.mk/api/bestv.php?id=hhxd8m/8000000
+#EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
+http://116.128.243.121:9901/tsfile/live/1007_1.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
 http://183.195.235.162/hljbuv52.live.bestvcdn.com.cn/001/live/program/live/jykt/1300000/mnf.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
@@ -2144,27 +1970,19 @@ http://123.115.112.109:4000/rtp/239.3.1.51:9252
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
 http://125.71.156.120:4000/udp/239.93.1.218:5140
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
-https://cntv.lat/tv/live.php?auth=231110&id=jykt
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
-http://113.57.109.36:9901/tsfile/live/1008_1.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
-http://218.13.170.98:9901/tsfile/live/1022_1.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
 http://111.75.151.236:50085/newlive/live/hls/53/live.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
-http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43025/index.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="金鹰卡通" tvg-logo="https://live.proton218.top/taibiao/金鹰卡通.png",金鹰卡通
 http://php.jdshipin.com:8880/bst.php?id=jykt/1300000
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="广东少儿" tvg-logo="https://live.proton218.top/taibiao/广东少儿.png",广东少儿
-http://219.135.208.218:8083/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+http://gmxw.7766.org:808/hls/175/index.m3u8
+#EXTINF:-1 group-title="儿童频道MY" tvg-name="云南少儿" tvg-logo="https://live.proton218.top/taibiao/云南少儿.png",云南少儿
+http://tvlive.ynradio.com/live/yunnanshaoer/playlist.m3u8
+#EXTINF:-1 group-title="儿童频道MY" tvg-name="云南少儿" tvg-logo="https://live.proton218.top/taibiao/云南少儿.png",云南少儿
+http://tvlive.ynradio.com/live/yunnanshaoer/chunks.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="浙江少儿" tvg-logo="https://live.proton218.top/taibiao/浙江少儿.png",浙江少儿
 http://125.125.198.173:8881/rtp/233.50.201.138:5140
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="浙江少儿" tvg-logo="https://live.proton218.top/taibiao/浙江少儿.png",浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="浙江少儿" tvg-logo="https://live.proton218.top/taibiao/浙江少儿.png",浙江少儿
-http://hbbz.chinashadt.com:2036/live/stream:bzse.stream/playlist.m3u8
-#EXTINF:-1 group-title="儿童频道MY" tvg-name="浙江少儿" tvg-logo="https://live.proton218.top/taibiao/浙江少儿.png",浙江少儿
-http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="中国教育1" tvg-logo="https://live.proton218.top/taibiao/中国教育1.png",中国教育1
 https://piccpndali.v.myalicdn.com/audio/cetv1_2.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="中国教育2" tvg-logo="https://live.proton218.top/taibiao/中国教育2.png",中国教育2
@@ -2174,59 +1992,47 @@ https://piccpndali.v.myalicdn.com/audio/cetv3_2.m3u8
 #EXTINF:-1 group-title="儿童频道MY" tvg-name="中国教育4" tvg-logo="https://live.proton218.top/taibiao/中国教育4.png",中国教育4
 https://piccpndali.v.myalicdn.com/audio/cetv4_2.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-http://182.136.215.165:4022/udp/239.93.0.162:2192
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
 http://118.254.158.105:8888/udp/239.76.246.134:1234
+#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
+http://182.136.215.165:4022/udp/239.93.1.9:2192
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
 https://edge2.laotv.la/live/PhxChinese/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
 http://183.204.13.237/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel52003/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226317/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-http://171.223.215.229:4000/udp/239.93.0.162:2192
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰中文" tvg-logo="https://live.proton218.top/taibiao/凤凰中文.png",凤凰中文
-http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226308/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
+http://110.72.75.162:8181/tsfile/live/1064_1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 http://183.204.13.237/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 https://edge2.laotv.la/live/PhoenixNews/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel52002/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 http://223.109.210.41/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226320/index.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
+http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel52002/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
-https://ktpremium.com:443/M919HR/5577/492399?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
-http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8?zgangd
+http://php.17186.eu.org/phtv/fhzx.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰资讯" tvg-logo="https://live.proton218.top/taibiao/凤凰资讯.png",凤凰资讯
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
-http://113.64.145.61:8081/hls/38/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
 http://113.64.145.91:8081/hls/38/index.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
+http://113.64.145.61:8081/hls/38/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
 http://60.164.229.241:4040/udp/239.255.30.123:8231
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
 http://183.204.13.13/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
 https://ktpremium.com:443/M919HR/5577/492400?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="凤凰香港" tvg-logo="https://live.proton218.top/taibiao/凤凰香港.png",凤凰香港
-https://ktpremium.com:443/K3939/6757/492400
-#EXTINF:-1 group-title="港澳台MY" tvg-name="香港卫视" tvg-logo="https://live.proton218.top/taibiao/香港卫视.png",香港卫视
-http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港卫视" tvg-logo="https://live.proton218.top/taibiao/香港卫视.png",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="香港卫视" tvg-logo="https://live.proton218.top/taibiao/香港卫视.png",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港卫视" tvg-logo="https://live.proton218.top/taibiao/香港卫视.png",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港卫视" tvg-logo="https://live.proton218.top/taibiao/香港卫视.png",香港卫视
@@ -2248,29 +2054,27 @@ http://live.cooltv.top/tv/tvb.php?id=0&hq
 #EXTINF:-1 group-title="港澳台MY" tvg-name="无线新闻" tvg-logo="https://live.proton218.top/taibiao/无线新闻.png",无线新闻
 http://live.cooltv.top/tv/tvb.php?id=0
 #EXTINF:-1 group-title="港澳台MY" tvg-name="无线新闻" tvg-logo="https://live.proton218.top/taibiao/无线新闻.png",无线新闻
-https://tv.iill.top/tvb/2
+http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwjpthljjsjsjjbvdljdmnbjhdhyjyjtvbwxxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="无线资讯" tvg-logo="https://live.proton218.top/taibiao/无线资讯.png",无线资讯
 http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
-http://61.10.2.141/live_freedirect/hd110_h.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
 http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
 http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
-http://hbbz.chinashadt.com:2036/live/stream:bzxw.stream/playlist.m3u8
+http://61.10.2.141/live_freedirect/hd110_h.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
-http://61.10.2.140/live_freedirect/freehd209_h.live/playlist.m3u8
+http://61.10.2.151:80/live_freedirect/freehd209_h.live/chunklist_w1201085709.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
-http://61.10.2.140:80/live_freedirect/freehd209_h.live/chunklist_w135209556.m3u8
+http://61.10.2.141:80/live_freedirect/freehd209_h.live/chunklist.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="有线新闻" tvg-logo="https://live.proton218.top/taibiao/有线新闻.png",有线新闻
+http://ali.hlspull.yximgs.com/live/huanqiuhkliveyvjojmfdyjjdjdjhdnowspjjlfjhjtycxjfjjojtspjjmehoytv.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="有线资讯" tvg-logo="https://live.proton218.top/taibiao/有线资讯.png",有线资讯
 http://61.10.2.140/live_freedirect/freehd208_h.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
 https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
 http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
-#EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
-http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
 http://162.244.81.145:3333/live/telebostonrtb/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
@@ -2280,11 +2084,11 @@ https://pi.0472.org/tv/fct.php?auth=230918
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
 https://pi.0472.org/tv/fct.php?auth=2309081833
 #EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
-http://listplay4k.live:8080/play/sEqGlXBK924GUbV9yuY_SF1Q-T0Nylbf5RLDqEokQF0/ts
+http://r.jdshipin.com/62WM7
+#EXTINF:-1 group-title="港澳台MY" tvg-name="翡翠台" tvg-logo="https://live.proton218.top/taibiao/翡翠台.png",翡翠台
+http://r.jdshipin.com/qClQf
 #EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
 http://xjayrf.eatuo.com:9901/tsfile/live/1005_1.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
-http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts
 #EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
 https://pi.0472.org/tv/mzt.php?auth=230918
 #EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
@@ -2292,25 +2096,21 @@ https://pi.0472.org/tv/mzt.php?auth=2309081833
 #EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
-http://ali.hlspull.yximgs.com/live/twlivetcfzhvdzzxcodwoetzmncthvbstyreyhbnnvbdzzwthzyztvbmz.flv
-#EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
 http://nz189l149.bb27109.ctm.net:8892/bysid/2
+#EXTINF:-1 group-title="港澳台MY" tvg-name="明珠台" tvg-logo="https://live.proton218.top/taibiao/明珠台.png",明珠台
+http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts
 #EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
 http://nz189l149.bb27109.ctm.net:8892/bysid/82
-#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
-https://vd4.bdstatic.com/mda-na5fafrtbvvf5wib/hd/cae_h264_delogo/1641996387070390433/mda-na5fafrtbvvf5wib.mp4
 #EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
 https://ktpremium.com:443/M919HR/5577/870527?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
 https://ktpremium.com:443/K3939/6757/870527
 #EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
-http://213.81.133.133:8080/jednotka/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
-https://live.astradamy.com/tvbj2/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
-http://listplay4k.live:8080/play/sEqGlXBK924GUbV9yuY_SF1Q-T0Nylbf5RLDqEokQF0/ts
-#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
 http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxHxPuwYBkq3c9qPtWNUkGtg/ts
+#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
+http://r.jdshipin.com/ndGgS
+#EXTINF:-1 group-title="港澳台MY" tvg-name="J2" tvg-logo="https://live.proton218.top/taibiao/J2.png",J2
+http://r.jdshipin.com/Nr5jq
 #EXTINF:-1 group-title="港澳台MY" tvg-name="RTHK32" tvg-logo="https://live.proton218.top/taibiao/RTHK32.png",RTHK32
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejpjjecxvjjusjfjjfdhnbthjjsjfwdtncyjthj32.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="RTHK32" tvg-logo="https://live.proton218.top/taibiao/RTHK32.png",RTHK32
@@ -2318,13 +2118,11 @@ http://ali.hlspull.yximgs.com/live/twlivezpzzecxvzzuszfzzfdhnbthzzszfwdtncyzthz3
 #EXTINF:-1 group-title="港澳台MY" tvg-name="RTHK32" tvg-logo="https://live.proton218.top/taibiao/RTHK32.png",RTHK32
 https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS新闻" tvg-logo="https://live.proton218.top/taibiao/TVBS新闻.png",TVBS新闻
-http://awei.beimua.com/iptv.php?id=54
-#EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS新闻" tvg-logo="https://live.proton218.top/taibiao/TVBS新闻.png",TVBS新闻
 https://fsv4.yj011.net/sat/tv551.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS新闻" tvg-logo="https://live.proton218.top/taibiao/TVBS新闻.png",TVBS新闻
-http://ali.hlspull.yximgs.com/live/twlivezozwhzxozhzzzlfhzlzszcnxzfvbhzdzwzfzzdsswvtvbsxw.flv
-#EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS新闻" tvg-logo="https://live.proton218.top/taibiao/TVBS新闻.png",TVBS新闻
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejojwhjxojhjjjlfhjljsjcnxjfvbhjdjwjfjjdsswvtvbsxw.flv
+#EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS新闻" tvg-logo="https://live.proton218.top/taibiao/TVBS新闻.png",TVBS新闻
+http://ali.hlspull.yximgs.com/live/twlivezozwhzxozhzzzlfhzlzszcnxzfvbhzdzwzfzzdsswvtvbsxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS欢乐" tvg-logo="https://live.proton218.top/taibiao/TVBS欢乐.png",TVBS欢乐
 https://fsv4.yj011.net/sat/tv421.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
@@ -2334,21 +2132,17 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
-https://ktpremium.com:443/M919HR/5577/25986?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
-https://ktpremium.com:443/K3939/6757/25986
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
-http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="TVBS亚洲" tvg-logo="https://live.proton218.top/taibiao/TVBS亚洲.png",TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
 https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
-http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
 http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8?$1280x720
+#EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
+http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
 http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8?$1M1280x720
 #EXTINF:-1 group-title="港澳台MY" tvg-name="香港佛陀" tvg-logo="https://live.proton218.top/taibiao/香港佛陀.png",香港佛陀
@@ -2366,15 +2160,17 @@ https://pulltv1.wanfudaluye.com/live/tv1.m3u8?$1280x720
 #EXTINF:-1 group-title="港澳台MY" tvg-name="大爱1台" tvg-logo="https://live.proton218.top/taibiao/大爱1台.png",大爱1台
 https://pulltv2.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="大爱2台" tvg-logo="https://live.proton218.top/taibiao/大爱2台.png",大爱2台
-https://pulltv1.wanfudaluye.com/live/tv2.m3u8?$1280x720
-#EXTINF:-1 group-title="港澳台MY" tvg-name="大爱2台" tvg-logo="https://live.proton218.top/taibiao/大爱2台.png",大爱2台
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="大爱2台" tvg-logo="https://live.proton218.top/taibiao/大爱2台.png",大爱2台
-https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8?$1280x720
 #EXTINF:-1 group-title="港澳台MY" tvg-name="大爱2台" tvg-logo="https://live.proton218.top/taibiao/大爱2台.png",大爱2台
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8?$1280x720
+#EXTINF:-1 group-title="港澳台MY" tvg-name="大爱2台" tvg-logo="https://live.proton218.top/taibiao/大爱2台.png",大爱2台
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
-http://66.165.240.154:8080/live/tyxltsxw3/hls.m3u8
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
@@ -2382,19 +2178,17 @@ http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
 http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
-http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
-http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+http://66.165.240.154:8080/live/tyxltsxw3/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
 http://154.yfvodcdn.com:8080/live/tyxltsxw3/hls.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="台视新闻" tvg-logo="https://live.proton218.top/taibiao/台视新闻.png",台视新闻
-https://ktpremium.com:443/K3939/6757/515200
-#EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
-https://ktpremium.com:443/M919HR/5577/515206?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
 https://ktpremium.com:443/K3939/6757/515206
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
+https://ktpremium.com:443/M919HR/5577/515206?c=
+#EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
+http://tv.redrainl.site:9500/live.m3u8?c=02
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中视新闻" tvg-logo="https://live.proton218.top/taibiao/中视新闻.png",中视新闻
 http://awei.beimua.com/iptv.php?id=46
 #EXTINF:-1 group-title="港澳台MY" tvg-name="三立台湾" tvg-logo="https://live.proton218.top/taibiao/三立台湾.png",三立台湾
@@ -2408,8 +2202,6 @@ http://66.165.240.154:8080/live/slxw01/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
 http://154.yfvodcdn.com:8080/live/slxw01/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
-https://ktpremium.com:443/M919HR/5577/515185?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
 https://ktpremium.com:443/K3939/6757/515185
 #EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
 http://awei.beimua.com/iptv.php?id=48
@@ -2417,6 +2209,8 @@ http://awei.beimua.com/iptv.php?id=48
 http://ali.hlspull.yximgs.com/live/huanqiuhklivehmcyoywjjubjdfjfvchtjujxcjxvcbsjfsdxcbmjsllivexw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
 http://ali.hlspull.yximgs.com/live/twlivehmcyoywzzubzdfzfvchtzuzxczxvcbszfsdxcbmzsllivexw.flv
+#EXTINF:-1 group-title="港澳台MY" tvg-name="三立新闻" tvg-logo="https://live.proton218.top/taibiao/三立新闻.png",三立新闻
+https://ktpremium.com:443/M919HR/5577/515185?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="寰宇新闻" tvg-logo="https://live.proton218.top/taibiao/寰宇新闻.png",寰宇新闻
 https://ktpremium.com:443/M919HR/5577/857803?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="寰宇新闻" tvg-logo="https://live.proton218.top/taibiao/寰宇新闻.png",寰宇新闻
@@ -2430,33 +2224,29 @@ http://ali.hlspull.yximgs.com/live/twlivephxehmffzuxcxzvezezyhmnzzxzzhzdhnzbnxfd
 #EXTINF:-1 group-title="港澳台MY" tvg-name="寰宇新闻" tvg-logo="https://live.proton218.top/taibiao/寰宇新闻.png",寰宇新闻
 http://ali.hlspull.yximgs.com/live/huanqiuhklivephxehmffjuxcxjvejejyhmnjjxjjhjdhnjbnxfdjfhyxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="年代新闻" tvg-logo="https://live.proton218.top/taibiao/年代新闻.png",年代新闻
-https://ktpremium.com:443/M919HR/5577/877060?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="年代新闻" tvg-logo="https://live.proton218.top/taibiao/年代新闻.png",年代新闻
 http://ali.hlspull.yximgs.com/live/twliveozevdyscvbudlozlnsfzewtzudvbbzxfznzlvczdzdnzxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="年代新闻" tvg-logo="https://live.proton218.top/taibiao/年代新闻.png",年代新闻
 http://ali.hlspull.yximgs.com/live/huanqiuhkliveojevdyscvbudlojlnsfjewtjudvbbjxfjnjlvcjdjdnjxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
 http://66.165.240.154:8080/live/slxw02/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
-http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
-http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+http://154.yfvodcdn.com:8080/live/slxw02/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
-http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
-http://154.yfvodcdn.com:8080/live/slxw02/hls.m3u8
+http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
 http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="非凡新闻" tvg-logo="https://live.proton218.top/taibiao/非凡新闻.png",非凡新闻
-https://ktpremium.com:443/K3939/6757/515205
+#EXTINF:-1 group-title="港澳台MY" tvg-name="民视新闻" tvg-logo="https://live.proton218.top/taibiao/民视新闻.png",民视新闻
+http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="非凡新闻" tvg-logo="https://live.proton218.top/taibiao/非凡新闻.png",非凡新闻
 https://ktpremium.com:443/M919HR/5577/515205?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="非凡新闻" tvg-logo="https://live.proton218.top/taibiao/非凡新闻.png",非凡新闻
-http://ali.hlspull.yximgs.com/live/huanqiuhklivesjtnfjjojdcbfcxvjfuujjwejjjsjyuhhdjsjhjynffxw.flv
+https://ktpremium.com:443/K3939/6757/515205
 #EXTINF:-1 group-title="港澳台MY" tvg-name="非凡新闻" tvg-logo="https://live.proton218.top/taibiao/非凡新闻.png",非凡新闻
 http://ali.hlspull.yximgs.com/live/twlivesztnfzzozdcbfcxvzfuuzzwezzzszyuhhdzszhzynffxw.flv
+#EXTINF:-1 group-title="港澳台MY" tvg-name="非凡新闻" tvg-logo="https://live.proton218.top/taibiao/非凡新闻.png",非凡新闻
+http://ali.hlspull.yximgs.com/live/huanqiuhklivesjtnfjjojdcbfcxvjfuujjwejjjsjyuhhdjsjhjynffxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
 http://66.165.240.154:8080/live/ztylt01/hls.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
@@ -2466,55 +2256,41 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
-https://ktpremium.com:443/K3939/6757/870539
-#EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
-https://ktpremium.com:443/M919HR/5577/870539?c=
+http://tv.redrainl.site:9500/live.m3u8?c=3
 #EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
 http://tv.redrainl.site:9500/live.m3u8?c=03
-#EXTINF:-1 group-title="港澳台MY" tvg-name="中天新闻" tvg-logo="https://live.proton218.top/taibiao/中天新闻.png",中天新闻
-http://awei.beimua.com/iptv.php?id=43
 #EXTINF:-1 group-title="港澳台MY" tvg-name="亚洲新闻" tvg-logo="https://live.proton218.top/taibiao/亚洲新闻.png",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="亚洲新闻" tvg-logo="https://live.proton218.top/taibiao/亚洲新闻.png",亚洲新闻
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="亚洲新闻" tvg-logo="https://live.proton218.top/taibiao/亚洲新闻.png",亚洲新闻
-http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
-#EXTINF:-1 group-title="港澳台MY" tvg-name="亚洲新闻" tvg-logo="https://live.proton218.top/taibiao/亚洲新闻.png",亚洲新闻
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="亚洲新闻" tvg-logo="https://live.proton218.top/taibiao/亚洲新闻.png",亚洲新闻
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
 http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
 https://edge1.laotv.la/live/DongsenMovie/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
-http://221.5.12.130:2223/hls/13/index.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
-https://ktpremium.com:443/M919HR/5577/870544?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
-https://ktpremium.com:443/K3939/6757/870544
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
-http://awei.beimua.com/iptv.php?id=44
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森新闻" tvg-logo="https://live.proton218.top/taibiao/东森新闻.png",东森新闻
-http://ali.hlspull.yximgs.com/live/twlivemhzttuzzcvbyzuozdzzezywefzzfbxfbxxvbzzzlzzhzsxw.flv
+http://ali.hlspull.yximgs.com/live/huanqiuhklivemhjttujjcvbyjuojdjjejywefjjfbxfbxxvbjjjljjhjsxw.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
 http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
+http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
 http://38.64.72.148/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台MY" tvg-name="东森美洲" tvg-logo="https://live.proton218.top/taibiao/东森美洲.png",东森美洲
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8?$720x480
-#EXTINF:-1 group-title="港澳台MY" tvg-name="靖天国际" tvg-logo="https://live.proton218.top/taibiao/靖天国际.png",靖天国际
-https://ktpremium.com:443/K3939/6757/515025
 #EXTINF:-1 group-title="港澳台MY" tvg-name="靖天国际" tvg-logo="https://live.proton218.top/taibiao/靖天国际.png",靖天国际
 https://ktpremium.com:443/M919HR/5577/515025?c=
+#EXTINF:-1 group-title="港澳台MY" tvg-name="靖天国际" tvg-logo="https://live.proton218.top/taibiao/靖天国际.png",靖天国际
+https://ktpremium.com:443/K3939/6757/515025
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳视卫星" tvg-logo="https://live.proton218.top/taibiao/澳视卫星.png",澳视卫星
 http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳视澳门" tvg-logo="https://live.proton218.top/taibiao/澳视澳门.png",澳视澳门
-https://pi.0472.org/tv/asam.php?auth=230918
-#EXTINF:-1 group-title="港澳台MY" tvg-name="澳视澳门" tvg-logo="https://live.proton218.top/taibiao/澳视澳门.png",澳视澳门
 https://pi.0472.org/tv/asam.php?auth=2309081833
+#EXTINF:-1 group-title="港澳台MY" tvg-name="澳视澳门" tvg-logo="https://live.proton218.top/taibiao/澳视澳门.png",澳视澳门
+https://pi.0472.org/tv/asam.php?auth=230918
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门信息" tvg-logo="https://live.proton218.top/taibiao/澳门信息.png",澳门信息
 http://61.244.22.5/ch5/info_ch5.live/chunklist_w105010641.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门卫视" tvg-logo="https://live.proton218.top/taibiao/澳门卫视.png",澳门卫视
@@ -2522,17 +2298,17 @@ https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
 http://moss.hk3.345888.xyz.cdn.cloudflare.net/11/lotus.php
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
-https://p.ggiptv.com/v/macaulotustv.php
-#EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejejcxlvofbncvshhjsjcvndcbvdbneyjhxchjjhbnjjhjejjmlh.flv
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
-http://epg.112114.xyz/lotus
-#EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
-http://anren.live/HK/BiIOU11uLA.m3u8
+https://p.ggiptv.com/v/macaulotustv.php
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
 http://anren.live/HK/BiIOU11uLA.m3u8?zgangd
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
+http://anren.live/HK/BiIOU11uLA.m3u8
+#EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
 http://anren.live/HK/BiIOU11uLA.m3u8?zgangd&&&$1920x1080
+#EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
+http://nettvpro.live/hls/lotustv.php
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门莲花" tvg-logo="https://live.proton218.top/taibiao/澳门莲花.png",澳门莲花
 http://nettvpro.live/hls/lotustv.php?zgangd
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门葡语" tvg-logo="https://live.proton218.top/taibiao/澳门葡语.png",澳门葡语
@@ -2540,25 +2316,15 @@ http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="澳门资讯" tvg-logo="https://live.proton218.top/taibiao/澳门资讯.png",澳门资讯
 http://61.244.22.5/ch5/info_ch5.live/index.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="纬来体育" tvg-logo="https://live.proton218.top/taibiao/纬来体育.png",纬来体育
-https://ktpremium.com:443/M919HR/5577/877061?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="纬来体育" tvg-logo="https://live.proton218.top/taibiao/纬来体育.png",纬来体育
 https://ktpremium.com:443/K3939/6757/877061
 #EXTINF:-1 group-title="港澳台MY" tvg-name="爱尔达体育" tvg-logo="https://live.proton218.top/taibiao/爱尔达体育.png",爱尔达体育
-https://ktpremium.com:443/K3939/6757/879252
-#EXTINF:-1 group-title="港澳台MY" tvg-name="爱尔达体育" tvg-logo="https://live.proton218.top/taibiao/爱尔达体育.png",爱尔达体育
 https://ktpremium.com:443/K3939/6757/879251
-#EXTINF:-1 group-title="港澳台MY" tvg-name="爱尔达体育" tvg-logo="https://live.proton218.top/taibiao/爱尔达体育.png",爱尔达体育
-https://ktpremium.com:443/K3939/6757/879250
-#EXTINF:-1 group-title="港澳台MY" tvg-name="爱尔达体育" tvg-logo="https://live.proton218.top/taibiao/爱尔达体育.png",爱尔达体育
-https://ktpremium.com:443/M919HR/5577/879251?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="爱尔达体育" tvg-logo="https://live.proton218.top/taibiao/爱尔达体育.png",爱尔达体育
-https://ktpremium.com:443/M919HR/5577/879250?c=
+#EXTINF:-1 group-title="港澳台MY" tvg-name="ELEVEN体育" tvg-logo="https://live.proton218.top/taibiao/ELEVEN体育.png",ELEVEN体育
+https://ktpremium.com:443/M919HR/5577/910890?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="ELEVEN体育" tvg-logo="https://live.proton218.top/taibiao/ELEVEN体育.png",ELEVEN体育
 https://ktpremium.com:443/K3939/6757/910890
 #EXTINF:-1 group-title="港澳台MY" tvg-name="ELEVEN体育" tvg-logo="https://live.proton218.top/taibiao/ELEVEN体育.png",ELEVEN体育
 https://ktpremium.com:443/M919HR/5577/910889?c=
-#EXTINF:-1 group-title="港澳台MY" tvg-name="ELEVEN体育" tvg-logo="https://live.proton218.top/taibiao/ELEVEN体育.png",ELEVEN体育
-https://ktpremium.com:443/M919HR/5577/910890?c=
 #EXTINF:-1 group-title="港澳台MY" tvg-name="星河台" tvg-logo="https://live.proton218.top/taibiao/星河台.png",星河台
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 group-title="港澳台MY" tvg-name="星河台" tvg-logo="https://live.proton218.top/taibiao/星河台.png",星河台
