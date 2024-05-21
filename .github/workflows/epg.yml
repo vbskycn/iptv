@@ -1,8 +1,9 @@
 name: EPG Update
 
 on:
-  watch:
-    types: [started]
+  schedule:
+    - cron: '0 */3 * * *'  # 每3个小时执行一次
+  workflow_dispatch:  # 手动触发
 
 jobs:
   build:
