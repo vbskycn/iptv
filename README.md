@@ -68,13 +68,13 @@ function copyToClipboard(text) {
   </tr>
   <tr>
     <td>TXT格式直播源</td>
-    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt</a></td>
-    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U格式直播源</td>
-    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 
