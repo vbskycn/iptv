@@ -17,9 +17,11 @@
 
 ---
 
-### 📺网络自动扫描IPTV直播源：
+### 📺网络自动扫描直播源IPTV6：
 
-部署在GitHub上的程序自动化扫描而来，每12小时更新一次。
+部署在GitHub上的程序自动化扫描而来，每天早上8:30自动更新
+
+
 
 <table style="width:100%">
   <tr>
@@ -29,15 +31,16 @@
   </tr>
   <tr>
     <td>TXT格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/mylist.txt">https://live.proton218.top/dsyy/mylist.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/mylist.txt')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/mylist.m3u">https://live.proton218.top/dsyy/mylist.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/mylist.m3u')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
+
 
 <script>
 function copyToClipboard(text) {
@@ -51,7 +54,11 @@ function copyToClipboard(text) {
 }
 </script>
 
-### 📺IPTV直播源（江西电信专用）
+### 
+
+### 📺网络自动扫描直播源IPTV4：
+
+部署在GitHub上的程序自动化扫描而来，每天早上8:30自动更新
 
 <table style="width:100%">
   <tr>
@@ -61,55 +68,31 @@ function copyToClipboard(text) {
   </tr>
   <tr>
     <td>TXT格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/hd.txt">https://live.proton218.top/dsyy/hd.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/hd.txt')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/hd.m3u">https://live.proton218.top/dsyy/hd.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/hd.m3u')">快速复制</button></td>
+    <td><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u">https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u</a></td>
+    <td><button onclick="copyToClipboard('https://mirror.ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 
 
-### 📺新增酒店直播源：
-
-<table style="width:100%">
-  <tr>
-    <th>名称</th>
-    <th>网址</th>
-    <th>快速复制</th>
-  </tr>
-  <tr>
-    <td>TXT格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/itvlist.txt">https://live.proton218.top/dsyy/itvlist.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/itvlist.txt')">快速复制</button></td>
-  </tr>
-  <tr>
-    <td>M3U格式直播源</td>
-    <td><a href="https://live.proton218.top/dsyy/itvlist.m3u">https://live.proton218.top/dsyy/itvlist.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.proton218.top/dsyy/itvlist.m3u')">快速复制</button></td>
-  </tr>
-</table>
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.innerHTML = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
 
 
-### 📺IPV6直播源：
-
-<table style="width:100%">
-  <tr>
-    <th>名称</th>
-    <th>网址</th>
-    <th>快速复制</th>
-  </tr>
-  <tr>
-    <td>IPV6网络直播源</td>
-    <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.fanmingming.com/tv/m3u/ipv6.m3u')">快速复制</button></td>
-  </tr>
-</table>
-
-
-
+### 
 
 
 ### 📻Radio广播源
