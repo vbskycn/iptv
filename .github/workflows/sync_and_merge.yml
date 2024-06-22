@@ -1,9 +1,9 @@
 name: Sync and Merge Files
 
-# 触发条件：每小时运行一次，并允许手动触发
+# 触发条件：每小时的58分钟运行一次，并允许手动触发
 on:
   schedule:
-    - cron: '58 * * * *' # 每小时58分触发一次
+    - cron: '58 * * * *' # 每小时的58分钟触发一次
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -61,8 +61,12 @@ jobs:
     # 步骤6：提交并推送更改
     - name: Commit and push changes
       run: |
-        git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u dsyy/hd.txt # 添加所有更改的文件
-        git commit -m "Sync and merge files" # 提交更改
-        git push # 推送到远程仓库
+        if [ -n "$(git status --porcelain)" ]; then
+          git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u dsyy/hd.txt # 添加所有更改的文件
+          git commit -m "Sync and merge files" # 提交更改
+          git push # 推送到远程仓库
+        else
+          echo "No changes to commit"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的令牌进行认证
