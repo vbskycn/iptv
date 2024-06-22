@@ -55,14 +55,14 @@ jobs:
         cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv4_modified.txt /tmp/tv/iptv6_modified.txt > /tmp/tv/hd.txt
         if ! cmp -s /tmp/tv/hd.txt dsyy/hd.txt; then # 比较合并后的文件是否不同
           cp /tmp/tv/hd.txt dsyy/hd.txt # 文件不同则覆盖
-          cp /tmp/tv/hd.txt tv/hd.txt # 文件不同则覆盖
         fi
+        cp /tmp/tv/hd.txt tv/hd.txt # 将合并后的 hd.txt 文件复制到 /tv 目录下
 
     # 步骤6：提交并推送更改
     - name: Commit and push changes
       run: |
         if [ -n "$(git status --porcelain)" ]; then
-          git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u dsyy/hd.txt # 添加所有更改的文件
+          git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u tv/hd.txt dsyy/hd.txt # 添加所有更改的文件
           git commit -m "Sync and merge files" # 提交更改
           git push # 推送到远程仓库
         else
