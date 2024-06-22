@@ -28,9 +28,9 @@ jobs:
         curl -o /tmp/tv/jxdx_hd.txt https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.txt
         curl -o /tmp/tv/iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt
         curl -o /tmp/tv/iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt
-        curl -o /tmp/tv/jxdx_hd.txt https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u
-        curl -o /tmp/tv/iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u
-        curl -o /tmp/tv/iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u
+        curl -o /tmp/tv/jxdx_hd.m3u https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u
+        curl -o /tmp/tv/iptv4.m3u https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u
+        curl -o /tmp/tv/iptv6.m3u https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u
 
     # 步骤4：同步文件到 /tv 目录
     - name: Sync files to /tv
@@ -60,7 +60,7 @@ jobs:
     # 步骤6：提交并推送更改
     - name: Commit and push changes
       run: |
-        git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt dsyy/hd.txt # 添加所有更改的文件
+        git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u dsyy/hd.txt # 添加所有更改的文件
         git commit -m "Sync and merge files" # 提交更改
         git push # 推送到远程仓库
       env:
