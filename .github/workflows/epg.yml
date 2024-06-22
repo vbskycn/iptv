@@ -19,12 +19,4 @@ jobs:
         git add e.xml
         git commit -m "Update e.xml"
         git push -f origin master
-
-    - name: Ping test - 8.8.8.8
-      run: ping -c 5 8.8.8.8 || true  # 忽略 ping 失败，继续执行下面的步骤
-
-    - name: Ping test - 2409:8087:1a01:df::7005
-      run: ping -c 5 2409:8087:1a01:df::7005 || true  # 忽略 ping 失败，继续执行下面的步骤
-
-    - name: Curl test - 6.ipw.cn
-      run: curl 6.ipw.cn || true  # 添加 || true 以忽略 Curl 失败，与注释一致
+        
