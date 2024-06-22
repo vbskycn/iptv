@@ -3,7 +3,7 @@ name: Sync and Merge Files
 # 触发条件：每小时的58分钟运行一次，并允许手动触发
 on:
   schedule:
-    - cron: '58 * * * *' # 每小时的58分钟触发一次
+    - cron: '0 */3 * * *' # 每小时的58分钟触发一次
   workflow_dispatch: # 允许手动触发
 
 jobs:
