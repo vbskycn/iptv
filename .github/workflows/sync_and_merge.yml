@@ -3,7 +3,7 @@ name: Sync and Merge Files
 # 触发条件：每小时运行一次，并允许手动触发
 on:
   schedule:
-    - cron: '0 * * * *' # 每小时触发一次
+    - cron: '58 * * * *' # 每小时58分触发一次
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -55,6 +55,7 @@ jobs:
         cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv4_modified.txt /tmp/tv/iptv6_modified.txt > /tmp/tv/hd.txt
         if ! cmp -s /tmp/tv/hd.txt dsyy/hd.txt; then # 比较合并后的文件是否不同
           cp /tmp/tv/hd.txt dsyy/hd.txt # 文件不同则覆盖
+          cp /tmp/tv/hd.txt tv/hd.txt # 文件不同则覆盖
         fi
 
     # 步骤6：提交并推送更改
