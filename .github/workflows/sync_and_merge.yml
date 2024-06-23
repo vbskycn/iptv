@@ -49,10 +49,11 @@ jobs:
         mkdir -p dsyy # 确保目标目录存在
         # 修改 .txt 文件内容，在 ,#genre# 前添加前缀
         sed 's/,#genre#/jxH&/' /tmp/tv/jxdx_hd.txt > /tmp/tv/jxdx_hd_modified.txt
-        sed 's/,#genre#/ip4&/' /tmp/tv/iptv4.txt > /tmp/tv/iptv4_modified.txt
         sed 's/,#genre#/ip6&/' /tmp/tv/iptv6.txt > /tmp/tv/iptv6_modified.txt
+        sed 's/,#genre#/ip4&/' /tmp/tv/iptv4.txt > /tmp/tv/iptv4_modified.txt
+        
         # 合并修改后的文件
-        cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv4_modified.txt /tmp/tv/iptv6_modified.txt > /tmp/tv/hd.txt
+        cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv6_modified.txt /tmp/tv/iptv4_modified.txt > /tmp/tv/hd.txt
         if ! cmp -s /tmp/tv/hd.txt dsyy/hd.txt; then # 比较合并后的文件是否不同
           cp /tmp/tv/hd.txt dsyy/hd.txt # 文件不同则覆盖
         fi
