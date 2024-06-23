@@ -19,7 +19,7 @@ permalink: /
 
 ---
 
-## 📺 网络自动扫描直播源 IPTV6：
+## 📺 自动扫描直播源 IPTV6：
 
 部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新
 
@@ -53,7 +53,7 @@ function copyToClipboard(text) {
 }
 </script>
 
-## 📺 网络自动扫描直播源 IPTV4：
+## 📺 自动扫描直播源 IPTV4：
 
 部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新
 
