@@ -1,0 +1,31 @@
+name: Copy Files from Remote Repository
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时执行一次
+  workflow_dispatch:    # 手动触发
+
+jobs:
+  copy_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v2
+
+      - name: Fetch remote repository
+        run: |
+          git clone --depth=1 --branch=master https://github.com/vbskycn/iptv temp_repo
+          rsync -av --exclude '_config.yml' --exclude '.github' --exclude 'taibiao' --exclude '.git' --ignore-existing temp_repo/ ./
+        shell: bash
+
+      - name: Clean up temp repository
+        run: rm -rf temp_repo
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update files from remote repository"
+          git push
