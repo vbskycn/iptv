@@ -21,7 +21,7 @@ permalink: /
 
 ## 📺 自动扫描直播源 IPTV6：
 
-部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新
+部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新。*有ipv6环境的强烈推荐这个列表，高速稳定*
 
 <table style="width:100%; border-collapse: collapse; text-align: center;">
   <tr>
@@ -55,7 +55,7 @@ function copyToClipboard(text) {
 
 ## 📺 自动扫描直播源 IPTV4：
 
-部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新
+部署在 GitHub 上的程序自动化扫描而来，每天早上 9:00 自动更新。
 
 <table style="width:100%; border-collapse: collapse; text-align: center;">
   <tr>
