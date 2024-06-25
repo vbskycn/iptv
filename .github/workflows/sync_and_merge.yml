@@ -23,14 +23,16 @@ jobs:
 
     # 步骤3：下载指定文件
     - name: Download files
+      env:
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         mkdir -p /tmp/tv # 创建临时目录存放下载的文件
-        curl -o /tmp/tv/jxdx_hd.txt https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.txt
-        curl -o /tmp/tv/iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt
-        curl -o /tmp/tv/iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt
-        curl -o /tmp/tv/jxdx_hd.m3u https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u
-        curl -o /tmp/tv/iptv4.m3u https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u
-        curl -o /tmp/tv/iptv6.m3u https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/jxdx_hd.txt https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/jxdx_hd.m3u https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv4.m3u https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv6.m3u https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u
 
     # 步骤4：同步文件到 /tv 目录
     - name: Sync files to /tv
@@ -68,6 +70,5 @@ jobs:
           git push # 推送到远程仓库
         else
           echo "No changes to commit"
-        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的令牌进行认证
