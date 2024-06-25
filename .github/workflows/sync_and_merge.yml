@@ -70,5 +70,6 @@ jobs:
           git push # 推送到远程仓库
         else
           echo "No changes to commit"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的令牌进行认证
