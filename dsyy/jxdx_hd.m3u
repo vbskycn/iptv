@@ -70,11 +70,7 @@ rtsp://115.153.254.81/PLTV/88888888/224/3221225623/iptv8002.smil
 #EXTINF:-1 group-title="﻿央视频道" tvg-name="中国天气" tvg-logo="https://live.zhoujie218.top/taibiao/中国天气.png",中国天气
 rtsp://115.153.254.81/PLTV/88888888/224/3221227056/89471929.smil
 #EXTINF:-1 group-title="﻿央视频道" tvg-name="支持作者" tvg-logo="https://live.zhoujie218.top/taibiao/支持作者.png",支持作者
-https://vd2.bdstatic.com/mda-phje20fz4z8h126t/720p/h264/1692525385713349507/mda-phje20fz4z8h126t.mp4
-#EXTINF:-1 group-title="﻿央视频道" tvg-name="支持作者" tvg-logo="https://live.zhoujie218.top/taibiao/支持作者.png",支持作者
-https://web.my.zhoujie218.top:8443/web/zbds/jieshao2.mp4
-#EXTINF:-1 group-title="﻿央视频道" tvg-name="支持作者" tvg-logo="https://live.zhoujie218.top/taibiao/支持作者.png",支持作者
-https://pan.zhoujie218.top/d/%E5%A4%A9%E7%BF%BC%E5%88%86%E4%BA%AB/video-web/jieshao2.mp4?sign=Jntg4fP3M6qGmRwUZFuxPB4Dt7pejvXL7s5FHYCSMf8=:0
+https://vd2.bdstatic.com/mda-phje20fz4z8h126t/720p/h264/1692525385713349507/mda-phje20fz4z8h126t.mp4?v_from_s=hkapp-haokan-hnb&auth_key=1692536679-0-0-384af0ac122eee8fab76c327a47308c4&bcevod_channel=searchbox_feed&cr=2&cd=0&pd=1&pt=3&logid=0279906713&vid=4268605015135290173&klogid=0279906713&abtest=111803_1-112162_2-112345_1
 #EXTINF:-1 group-title="江西本地" tvg-name="江西卫视" tvg-logo="https://live.zhoujie218.top/taibiao/江西卫视.png",江西卫视
 rtsp://115.153.254.81/PLTV/88888888/224/3221226656/46275837.smil
 #EXTINF:-1 group-title="江西本地" tvg-name="江西都市频道" tvg-logo="https://live.zhoujie218.top/taibiao/江西都市频道.png",江西都市频道
@@ -163,6 +159,24 @@ rtsp://115.153.254.81/PLTV/88888888/224/3221226980/85722602.smil
 rtsp://115.153.254.81/PLTV/88888888/224/3221226982/85722609.smil
 #EXTINF:-1 group-title="卫视频道" tvg-name="三沙卫视" tvg-logo="https://live.zhoujie218.top/taibiao/三沙卫视.png",三沙卫视
 rtsp://115.153.254.81/PLTV/88888888/224/3221226984/85722645.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="CCTV5" tvg-logo="https://live.zhoujie218.top/taibiao/CCTV5.png",CCTV5
+rtsp://115.153.254.81/PLTV/88888888/224/3221226852/63329574.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="CCTV5+" tvg-logo="https://live.zhoujie218.top/taibiao/CCTV5+.png",CCTV5+
+rtsp://115.153.254.81/PLTV/88888888/224/3221226976/85722488.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="央视台球" tvg-logo="https://live.zhoujie218.top/taibiao/央视台球.png",央视台球
+rtsp://115.153.254.81/PLTV/88888888/224/3221226955/86106661.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="高网" tvg-logo="https://live.zhoujie218.top/taibiao/高网.png",高网
+rtsp://115.153.254.81/PLTV/88888888/224/3221227036/86502103.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="足球" tvg-logo="https://live.zhoujie218.top/taibiao/足球.png",足球
+rtsp://115.153.254.81/PLTV/88888888/224/3221227019/86502107.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="高尔夫网球" tvg-logo="https://live.zhoujie218.top/taibiao/高尔夫网球.png",高尔夫网球
+rtsp://115.153.254.81/PLTV/88888888/224/3221226967/86128985.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="爱体育高清" tvg-logo="https://live.zhoujie218.top/taibiao/爱体育高清.png",爱体育高清
+rtsp://115.153.254.81/PLTV/88888888/224/3221227044/86502115.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="爱体育" tvg-logo="https://live.zhoujie218.top/taibiao/爱体育.png",爱体育
+rtsp://115.153.254.81/PLTV/88888888/224/3221227012/86440946.smil
+#EXTINF:-1 group-title="体育频道" tvg-name="先锋乒羽" tvg-logo="https://live.zhoujie218.top/taibiao/先锋乒羽.png",先锋乒羽
+rtsp://115.153.254.81/PLTV/88888888/224/3221226935/72307307.smil
 #EXTINF:-1 group-title="儿童频道" tvg-name="中国教育1" tvg-logo="https://live.zhoujie218.top/taibiao/中国教育1.png",中国教育1
 rtsp://115.153.254.81/PLTV/88888888/224/3221226858/63768493.smil
 #EXTINF:-1 group-title="儿童频道" tvg-name="中国教育2" tvg-logo="https://live.zhoujie218.top/taibiao/中国教育2.png",中国教育2
@@ -189,24 +203,6 @@ rtsp://115.153.254.81/PLTV/88888888/224/3221225566/iptv101695.smil
 rtsp://115.153.254.81/PLTV/88888888/224/3221225588/10000100000000060000000000140157_0.smil
 #EXTINF:-1 group-title="儿童频道" tvg-name="好学生" tvg-logo="https://live.zhoujie218.top/taibiao/好学生.png",好学生
 rtsp://115.153.254.81/PLTV/88888888/224/3221227026/86441141.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="CCTV5" tvg-logo="https://live.zhoujie218.top/taibiao/CCTV5.png",CCTV5
-rtsp://115.153.254.81/PLTV/88888888/224/3221226852/63329574.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="CCTV5+" tvg-logo="https://live.zhoujie218.top/taibiao/CCTV5+.png",CCTV5+
-rtsp://115.153.254.81/PLTV/88888888/224/3221226976/85722488.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="央视台球" tvg-logo="https://live.zhoujie218.top/taibiao/央视台球.png",央视台球
-rtsp://115.153.254.81/PLTV/88888888/224/3221226955/86106661.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="高网" tvg-logo="https://live.zhoujie218.top/taibiao/高网.png",高网
-rtsp://115.153.254.81/PLTV/88888888/224/3221227036/86502103.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="足球" tvg-logo="https://live.zhoujie218.top/taibiao/足球.png",足球
-rtsp://115.153.254.81/PLTV/88888888/224/3221227019/86502107.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="高尔夫网球" tvg-logo="https://live.zhoujie218.top/taibiao/高尔夫网球.png",高尔夫网球
-rtsp://115.153.254.81/PLTV/88888888/224/3221226967/86128985.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="爱体育高清" tvg-logo="https://live.zhoujie218.top/taibiao/爱体育高清.png",爱体育高清
-rtsp://115.153.254.81/PLTV/88888888/224/3221227044/86502115.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="爱体育" tvg-logo="https://live.zhoujie218.top/taibiao/爱体育.png",爱体育
-rtsp://115.153.254.81/PLTV/88888888/224/3221227012/86440946.smil
-#EXTINF:-1 group-title="体育频道" tvg-name="先锋乒羽" tvg-logo="https://live.zhoujie218.top/taibiao/先锋乒羽.png",先锋乒羽
-rtsp://115.153.254.81/PLTV/88888888/224/3221226935/72307307.smil
 #EXTINF:-1 group-title="特色频道" tvg-name="世界地理" tvg-logo="https://live.zhoujie218.top/taibiao/世界地理.png",世界地理
 rtsp://115.153.254.81/PLTV/88888888/224/3221226965/86128966.smil
 #EXTINF:-1 group-title="特色频道" tvg-name="女性时尚" tvg-logo="https://live.zhoujie218.top/taibiao/女性时尚.png",女性时尚
