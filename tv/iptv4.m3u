@@ -53,6 +53,8 @@ http://110.178.52.143:8082/udp/239.1.1.49:8049
 http://118.112.148.228:58888/udp/239.93.42.46:5140
 #EXTINF:-1 tvg-name="贵州卫视" tvg-id="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="卫视频道", 贵州卫视
 http://42.91.62.178:10000/udp/239.255.30.98:8231
+#EXTINF:-1 tvg-name="海南卫视" tvg-id="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" group-title="卫视频道", 海南卫视
+http://42.91.62.178:10000/udp/239.255.30.99:8231
 #EXTINF:-1 tvg-name="河北卫视" tvg-id="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png" group-title="卫视频道", 河北卫视
 http://110.178.52.143:8082/udp/239.1.1.48:8048
 #EXTINF:-1 tvg-name="河南卫视" tvg-id="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道", 河南卫视
@@ -75,8 +77,6 @@ http://42.91.62.178:10000/udp/239.255.30.69:8231
 http://1.70.34.241:8083/udp/239.1.1.47:8047
 #EXTINF:-1 tvg-name="山西卫视" tvg-id="山西卫视" tvg-logo="https://live.fanmingming.com/tv/山西卫视.png" group-title="卫视频道", 山西卫视
 http://223.10.39.92:8083/udp/239.1.1.1:8001
-#EXTINF:-1 tvg-name="深圳卫视" tvg-id="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="卫视频道", 深圳卫视
-http://42.91.62.178:10000/udp/239.255.30.135:8231
 #EXTINF:-1 tvg-name="四川卫视" tvg-id="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="卫视频道", 四川卫视
 http://110.178.52.143:8082/udp/239.1.1.29:8029
 #EXTINF:-1 tvg-name="天津卫视" tvg-id="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png" group-title="卫视频道", 天津卫视
