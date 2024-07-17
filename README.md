@@ -104,7 +104,7 @@ function copyToClipboard(text) {
 ## 🛠️ 工具
 
 - 🆕 EPG 接口地址：
-  - [http://epg.51zmt.top:8000/](http://epg.51zmt.top:8000/)
+  - [https://epg.zhoujie218.top](https://epg.zhoujie218.top)
 - 📄 M3U To TXT：
   - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u)
 - 📄 TXT To M3U：
@@ -112,9 +112,17 @@ function copyToClipboard(text) {
 - 🌐 直播源转换工具：
   - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/)
 
+
+
 ## EPG 接口地址：
 
-- [https://live.zhoujie218.top/e.xml](https://live.zhoujie218.top/e.xml)
+**支持diyp、百川、Xml、直接写下面的url即可**
+
+- [https://epg.zhoujie218.top](https://epg.zhoujie218.top)
+
+  （如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
+
+
 
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
@@ -132,6 +140,7 @@ function copyToClipboard(text) {
 
 ## 📔 更新
 
+- 2024.7.17 新增epg镜像地址
 - 2024.5.2 新增一些源
 - 2024.6.22 新增 IPTV4/IPTV6 自动更新源
 
