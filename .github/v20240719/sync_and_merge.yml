@@ -3,7 +3,7 @@ name: Sync and Merge Files
 # 触发条件：每小时的58分钟运行一次，并允许手动触发
 on:
   schedule:
-    - cron: '56 * * * *' # 每小时的59分钟触发一次
+    - cron: '58 * * * *' # 每小时的58分钟触发一次
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -34,6 +34,15 @@ jobs:
         curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv4.m3u https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u
         curl -H "Authorization: token $TOKEN" -o /tmp/tv/iptv6.m3u https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u
 
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/tptv.txt https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/tptv.m3u https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/4gtv.txt https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/4gtv.m3u https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/sxg.txt https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/sxg.m3u https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.m3u
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/beesport.txt https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt
+        curl -H "Authorization: token $TOKEN" -o /tmp/tv/beesport.m3u https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u
+
     # 步骤4：同步文件到 /tv 目录
     - name: Sync files to /tv
       run: |
@@ -45,6 +54,15 @@ jobs:
         cp /tmp/tv/iptv4.m3u tv/iptv4.m3u
         cp /tmp/tv/iptv6.m3u tv/iptv6.m3u
 
+        cp /tmp/tv/tptv.txt tv/tptv.txt
+        cp /tmp/tv/tptv.m3u tv/tptv.m3u
+        cp /tmp/tv/4gtv.txt tv/4gtv.txt
+        cp /tmp/tv/4gtv.m3u tv/4gtv.m3u
+        cp /tmp/tv/sxg.txt tv/sxg.txt
+        cp /tmp/tv/sxg.m3u tv/sxg.m3u
+        cp /tmp/tv/beesport.txt tv/beesport.txt
+        cp /tmp/tv/beesport.m3u tv/beesport.m3u
+
     # 步骤5：修改并合并 .txt 文件
     - name: Modify and merge .txt files
       run: |
@@ -53,9 +71,13 @@ jobs:
         sed 's/,#genre#/jxH&/' /tmp/tv/jxdx_hd.txt > /tmp/tv/jxdx_hd_modified.txt
         sed 's/,#genre#/ip6&/' /tmp/tv/iptv6.txt > /tmp/tv/iptv6_modified.txt
         sed 's/,#genre#/ip4&/' /tmp/tv/iptv4.txt > /tmp/tv/iptv4_modified.txt
+        sed 's/,#genre#/tptv&/' /tmp/tv/tptv.txt > /tmp/tv/tptv_modified.txt
+        sed 's/,#genre#/4gtv&/' /tmp/tv/4gtv.txt > /tmp/tv/4gtv_modified.txt
+        sed 's/,#genre#/sxg&/' /tmp/tv/sxg.txt > /tmp/tv/sxg_modified.txt
+        sed 's/,#genre#/bee&/' /tmp/tv/beesport.txt > /tmp/tv/beesport_modified.txt
         
         # 合并修改后的文件
-        cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv6_modified.txt /tmp/tv/iptv4_modified.txt > /tmp/tv/hd.txt
+        cat /tmp/tv/jxdx_hd_modified.txt /tmp/tv/iptv6_modified.txt /tmp/tv/iptv4_modified.txt /tmp/tv/tptv_modified.txt /tmp/tv/4gtv_modified.txt /tmp/tv/sxg_modified.txt /tmp/tv/beesport_modified.txt > /tmp/tv/hd.txt
         if ! cmp -s /tmp/tv/hd.txt dsyy/hd.txt; then # 比较合并后的文件是否不同
           cp /tmp/tv/hd.txt dsyy/hd.txt # 文件不同则覆盖
         fi
@@ -66,6 +88,7 @@ jobs:
       run: |
         if [ -n "$(git status --porcelain)" ]; then
           git add tv/jxdx_hd.txt tv/iptv4.txt tv/iptv6.txt tv/jxdx_hd.m3u tv/iptv4.m3u tv/iptv6.m3u tv/hd.txt dsyy/hd.txt # 添加所有更改的文件
+          git add tv/tptv.txt tv/tptv.m3u tv/4gtv.txt tv/4gtv.m3u tv/sxg.txt tv/sxg.m3u tv/beesport.txt tv/beesport.m3u # 添加新下载的文件
           git commit -m "Sync and merge files" # 提交更改
           git push # 推送到远程仓库
         else
