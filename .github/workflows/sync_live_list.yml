@@ -1,6 +1,6 @@
 name: sync_live_list
 
-# 定义工作流的触发器，每小时的第5分钟触发一次，并支持手动触发
+# 使用cron表达式配置每天0点运行该工作流，并添加手动触发选项
 on:
   schedule:
     - cron: '5 * * * *'
@@ -8,78 +8,67 @@ on:
 
 # 定义工作流的环境变量
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}    
 
 jobs:
-  sync_live_list_job:
+  run-script:
+    # 运行在最新的Ubuntu环境上
     runs-on: ubuntu-latest
 
     steps:
-      # 检出仓库代码
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    # 第一步：检出（checkout）代码仓库
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      # 设置Python环境
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+    # 第二步：设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # 使用Python 3.x版本
 
-      # 安装依赖
-      - name: Install dependencies
-        run: |
-          pip install requests
+    # 第三步：安装Python依赖项
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
 
-      # 确保 syn_live_list.sh 文件存在
-      - name: Verify syn_live_list.sh exists
-        run: |
-          if [ ! -f tools/syn_live_list.sh ]; then
-            echo "Error: tools/syn_live_list.sh does not exist."
-            exit 1
-          fi
+    # 第四步：切换到脚本目录并运行down_m3u_pixman.py脚本
+    - name: sync_live_list
+      run: |
+        cd tools
+        python syn_live_list.sh
 
-      # 运行 syn_live_list.sh 脚本
-      - name: Run syn_live_list.sh
-        run: |
-          chmod +x tools/syn_live_list.sh
-          ./tools/syn_live_list.sh
-        env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+    # 第五步：配置Git用户信息
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      # 复制生成的 .txt 和 .m3u 文件到 /tv 目录
-      - name: Copy generated files to /tv directory
-        run: |
-          # 定义源目录和目标目录
-          source_dir="./tools"
-          target_dir="./tv"
+    # 第六步：切换到脚本目录并添加所有更改
+    - name: Add changes
+      run: |
+        cd tools
+        git add .
 
-          # 确保目标目录存在
-          mkdir -p "$target_dir"
+    # 第七步：提交更改
+    - name: Commit changes
+      run: |
+        cd down_m3u_pixman
+        if ! git diff-index --quiet HEAD; then
+          TZ='Asia/Shanghai' date_str=$(date +'%Y-%m-%d %H:%M:%S')
+          git commit -m "Auto-update M3U and TXT files - $date_str"
+        else
+          echo "No changes to commit."
+        fi
 
-          # 获取源目录中的 .txt 和 .m3u 文件列表并复制文件到目标目录
-          for file in "$source_dir"/*.txt "$source_dir"/*.m3u; do
-            if [ -e "$file" ]; then
-              target_file="$target_dir/$(basename "$file")"
-              if [ ! -e "$target_file" ] || ! cmp -s "$file" "$target_file"; then
-                cp "$file" "$target_dir"
-              fi
-            fi
-          done
+    # 第八步：推送更改到仓库
+    - name: Push changes
+      run: |
+        cd tv
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用GitHub提供的token进行身份验证
 
-      # 提交 /tv 目录的更改到仓库
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 添加更改
-          git add tv
-
-          # 提交更改
-          timestamp=$(date -u)
-          git commit -m "Auto-sync: Update tv files at $timestamp" || echo "No changes to commit"
-
-          # 推送更改
-          git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # 第九步：确保工作流完成
+    - name: Complete workflow
+      run: echo "Workflow completed successfully"
