@@ -1,22 +1,20 @@
 import os
 
 def is_ascii(s):
-    try:
-        s.encode('ascii')
-    except UnicodeEncodeError:
-        return False
-    else:
-        return True
+    return all(ord(c) < 128 for c in s)
 
 def replace_non_ascii(filename):
-    with open(filename, 'r', encoding='utf-8', errors='ignore') as file:
-        content = file.read()
-    
-    new_content = ''.join(char if is_ascii(char) else '?' for char in content)
-    
-    with open(filename, 'w', encoding='utf-8') as file:
-        file.write(new_content)
-    print(f"Processed file: {filename}")
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:
+            content = file.read()
+        
+        new_content = ''.join(char if is_ascii(char) else '?' for char in content)
+        
+        with open(filename, 'w', encoding='utf-8') as file:
+            file.write(new_content)
+        print(f"Processed file: {filename}")
+    except Exception as e:
+        print(f"Error processing file {filename}: {e}")
 
 def process_directory(directory):
     for root, dirs, files in os.walk(directory):
