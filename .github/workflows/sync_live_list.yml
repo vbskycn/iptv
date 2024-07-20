@@ -1,58 +1,77 @@
 name: sync_live_list
 
+# 定义工作流何时触发
 on:
+  # 每小时的第5分钟触发
   schedule:
     - cron: '5 * * * *'
+  # 允许手动运行工作流
   workflow_dispatch:
 
+# 定义工作流运行的任务
 jobs:
   sync_live_list:
+    # 在最新的 Ubuntu 操作系统上运行
     runs-on: ubuntu-latest
 
+    # 设置环境变量
     env:
       MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
     steps:
+    # 第一步：检出仓库代码
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    # 第二步：设置 Python 环境
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
+    # 第三步：安装依赖
     - name: Install dependencies
       run: |
         pip install requests
 
+    # 第四步：列出 tools 目录中的文件，调试路径问题
     - name: List files in tools directory
       run: |
         ls -la tools
 
-    # 运行 syn_live_list.sh.py 脚本
+    # 第五步：运行 syn_live_list.sh.py 脚本
     - name: Run syn_live_list.py
       run: |
         python tools/syn_live_list.py
 
+    # 第六步：列出运行脚本后生成的文件，确认文件生成情况
+    - name: List generated files
+      run: |
+        ls -la tools
+
+    # 第七步：复制生成的 .txt 和 .m3u 文件到 /tv 目录
     - name: Copy files to /tv directory
       run: |
         for file in tools/*.txt tools/*.m3u; do
-          if [ ! -e "tv/$(basename $file)" ]; then
-            cp $file tv/
+          if [ -e "$file" ]; then  # 检查文件是否存在
+            if [ ! -e "tv/$(basename $file)" ]; then  # 如果 /tv 目录中没有相同文件，则进行复制
+              cp $file tv/
+            fi
           fi
         done
 
+    # 第八步：提交 /tv 目录的更改到仓库
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         cd tv
-        if [ -n "$(git status --porcelain)" ]; then
+        if [ -n "$(git status --porcelain)" ]; then  # 检查是否有更改
           git add .
           git commit -m "Sync live list"
           git push
         else
-          echo "No changes to commit"
+          echo "No changes to commit"  # 如果没有更改，输出提示信息
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
