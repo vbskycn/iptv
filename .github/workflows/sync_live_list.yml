@@ -30,13 +30,19 @@ jobs:
         run: |
           pip install requests
 
+      # 确保 syn_live_list.sh 文件存在
+      - name: Verify syn_live_list.sh exists
+        run: |
+          if [ ! -f tools/syn_live_list.sh ]; then
+            echo "Error: tools/syn_live_list.sh does not exist."
+            exit 1
+          fi
+
       # 运行 syn_live_list.sh 脚本
       - name: Run syn_live_list.sh
         run: |
-
-          cd tools
-          chmod +x syn_live_list.sh
-          python syn_live_list.sh
+          chmod +x tools/syn_live_list.sh
+          ./tools/syn_live_list.sh
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
