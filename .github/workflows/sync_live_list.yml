@@ -1,14 +1,10 @@
 name: sync_live_list
 
-# 定义工作流何时触发
 on:
-  # 每小时的第5分钟触发
   schedule:
     - cron: '5 * * * *'
-  # 允许手动运行工作流
   workflow_dispatch:
 
-# 定义工作流运行的任务
 jobs:
   sync_live_list:
     runs-on: ubuntu-latest
@@ -17,20 +13,22 @@ jobs:
       MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
     steps:
-    # 检出仓库代码
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    # 设置 Python 环境
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
-    # 安装依赖
     - name: Install dependencies
       run: |
         pip install requests
+
+    # 列出 tools 目录中的文件，调试路径问题
+    - name: List files in tools directory
+      run: |
+        ls -la tools
 
     # 运行 syn_live_list.sh 脚本
     - name: Run syn_live_list.sh
@@ -38,7 +36,6 @@ jobs:
         chmod +x tools/syn_live_list.sh
         ./tools/syn_live_list.sh
 
-    # 复制生成的 .txt 和 .m3u 文件到 /tv 目录
     - name: Copy files to /tv directory
       run: |
         for file in tools/*.txt tools/*.m3u; do
@@ -47,7 +44,6 @@ jobs:
           fi
         done
 
-    # 提交 /tv 目录的更改到仓库
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
