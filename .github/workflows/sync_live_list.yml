@@ -1,0 +1,47 @@
+name: sync_live_list
+
+# 设置触发条件：每小时的第5分钟触发，同时可以手动触发
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-tv:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 第一步：检查出仓库代码
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # 第二步：安装依赖
+    - name: Set up Python environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    # 第三步：运行 sync_live_list.py 脚本
+    - name: Run sync_live_list.py
+      run: |
+        cd /tv
+        python sync_live_list.py
+      env:
+        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+    # 第四步：将 /tv 目录下的文件提交到仓库中
+    - name: Commit and push changes
+      run: |
+        cd /tv
+        git config --global user.name "your-username"
+        git config --global user.email "your-email@example.com"
+        git add .
+        git commit -m "Sync TV files on $(date +'%Y-%m-%d %H:%M:%S')"
+        git push
+      env:
+        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
