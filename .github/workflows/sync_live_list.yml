@@ -40,8 +40,9 @@ jobs:
 
     - name: Run sync_live_list.sh
       run: |
-        chmod +x ./tools/syn_live_list.sh
-        ./tools/syn_live_list.sh
+        cd tools
+        chmod +x syn_live_list.sh
+        python syn_live_list.sh
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
       # 赋予脚本执行权限并运行
@@ -49,7 +50,7 @@ jobs:
 
     - name: Copy .txt and .m3u files to /tv directory
       run: |
-        mkdir -p ./tv
+        cd tools
         for file in $(find . -name '*.txt' -o -name '*.m3u'); do
           filename=$(basename $file)
           if [ ! -f "./tv/$filename" ]; then
