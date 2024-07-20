@@ -1,74 +1,64 @@
 name: sync_live_list
 
-# 使用cron表达式配置每天0点运行该工作流，并添加手动触发选项
+# 定义工作流何时触发
 on:
+  # 每小时的第5分钟触发
   schedule:
     - cron: '5 * * * *'
+  # 允许手动运行工作流
   workflow_dispatch:
 
-# 定义工作流的环境变量
-env:
-  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}    
-
+# 定义工作流运行的任务
 jobs:
-  run-script:
-    # 运行在最新的Ubuntu环境上
+  sync_live_list:
     runs-on: ubuntu-latest
 
+    env:
+      MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
     steps:
-    # 第一步：检出（checkout）代码仓库
+    # 检出仓库代码
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    # 第二步：设置Python环境
+    # 设置 Python 环境
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # 使用Python 3.x版本
+        python-version: '3.x'
 
-    # 第三步：安装Python依赖项
+    # 安装依赖
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install requests
 
-    # 第四步：切换到脚本目录并运行down_m3u_pixman.py脚本
-    - name: sync_live_list
+    # 运行 syn_live_list.sh 脚本
+    - name: Run syn_live_list.sh
       run: |
-        cd tools
-        python syn_live_list.sh
+        chmod +x tools/syn_live_list.sh
+        ./tools/syn_live_list.sh
 
-    # 第五步：配置Git用户信息
-    - name: Configure Git
+    # 复制生成的 .txt 和 .m3u 文件到 /tv 目录
+    - name: Copy files to /tv directory
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        for file in tools/*.txt tools/*.m3u; do
+          if [ ! -e "tv/$(basename $file)" ]; then
+            cp $file tv/
+          fi
+        done
 
-    # 第六步：切换到脚本目录并添加所有更改
-    - name: Add changes
+    # 提交 /tv 目录的更改到仓库
+    - name: Commit and push changes
       run: |
-        cd tools
-        git add .
-
-    # 第七步：提交更改
-    - name: Commit changes
-      run: |
-        cd down_m3u_pixman
-        if ! git diff-index --quiet HEAD; then
-          TZ='Asia/Shanghai' date_str=$(date +'%Y-%m-%d %H:%M:%S')
-          git commit -m "Auto-update M3U and TXT files - $date_str"
-        else
-          echo "No changes to commit."
-        fi
-
-    # 第八步：推送更改到仓库
-    - name: Push changes
-      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         cd tv
-        git push
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "Sync live list"
+          git push
+        else
+          echo "No changes to commit"
+        fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用GitHub提供的token进行身份验证
-
-    # 第九步：确保工作流完成
-    - name: Complete workflow
-      run: echo "Workflow completed successfully"
+        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
