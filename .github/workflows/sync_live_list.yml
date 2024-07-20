@@ -25,16 +25,14 @@ jobs:
       run: |
         pip install requests
 
-    # 列出 tools 目录中的文件，调试路径问题
     - name: List files in tools directory
       run: |
         ls -la tools
 
-    # 运行 syn_live_list.sh 脚本
-    - name: Run syn_live_list.sh
+    # 运行 syn_live_list.sh.py 脚本
+    - name: Run syn_live_list.py
       run: |
-        chmod +x tools/syn_live_list.sh
-        ./tools/syn_live_list.sh
+        python tools/syn_live_list.py
 
     - name: Copy files to /tv directory
       run: |
