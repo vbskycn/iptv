@@ -30,7 +30,7 @@ jobs:
     - name: Run sync_live_list.py
       run: |
         cd tv
-        python ./sync_live_list.py 
+        python ./sync_live_list.py
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
