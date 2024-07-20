@@ -1,77 +1,83 @@
 name: sync_live_list
 
+# 定义工作流的触发器，每小时的第5分钟触发一次，并支持手动触发
 on:
   schedule:
-    # 每小时的第5分钟触发一次
     - cron: '5 * * * *'
   workflow_dispatch:
-    # 支持手动触发工作流
-    inputs:
-      reason:
-        description: '手动触发原因'
-        required: false
-        default: '触发工作流'
+
+# 定义工作流的环境变量
+env:
+  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
 jobs:
-  sync_live_list:
+  sync_live_list_job:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      # 检出代码仓库中的内容
-      # 此步骤将下载代码到工作目录
-      with:
-        fetch-depth: 0
+      # 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-      # 设置Python环境，指定Python版本
-      # 使得接下来的步骤可以使用Python
+      # 设置Python环境
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-      # 安装Python依赖包
-      # 更新pip工具并安装requests库
+      # 安装依赖
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install filecmp
 
-    - name: Run sync_live_list.sh
-      run: |
-        cd tools
-        chmod +x syn_live_list.sh
-        python syn_live_list.sh
-      env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-      # 赋予脚本执行权限并运行
-      # 环境变量MY_GITHUB_TOKEN用于访问GitHub API
+      # 运行 syn_live_list.sh 脚本
+      - name: Run syn_live_list.sh
+        run: |
+          chmod +x ./tools/syn_live_list.sh
+          ./tools/syn_live_list.sh
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
-    - name: Copy .txt and .m3u files to /tv directory
-      run: |
-        cd tools
-        for file in $(find . -name '*.txt' -o -name '*.m3u'); do
-          filename=$(basename $file)
-          if [ ! -f "./tv/$filename" ]; then
-            cp $file ./tv/
-          else
-            echo "Skipping $filename as it already exists in /tv"
-          fi
-        done
-      # 将生成的.txt和.m3u文件复制到/tv目录
-      # 如果文件已存在，则跳过
+      # 复制生成的 .txt 和 .m3u 文件到 /tv 目录
+      - name: Copy generated files to /tv directory
+        run: |
+          import os
+          import shutil
+          import filecmp
 
-    - name: Commit changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add ./tv
-        git commit -m 'Sync .txt and .m3u files to /tv directory' || echo "No changes to commit"
-        git push
-      env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-      # 配置Git用户信息
-      # 将/tv目录中的更改提交到仓库
-      # 如果没有更改，则不会报错
-      # 使用MY_GITHUB_TOKEN进行身份验证
+          # 定义源目录和目标目录
+          source_dir = os.path.join(os.getcwd(), 'tools')
+          target_dir = os.path.join(os.getcwd(), 'tv')
+
+          # 确保目标目录存在
+          if not os.path.exists(target_dir):
+              os.makedirs(target_dir)
+
+          # 获取源目录中的 .txt 和 .m3u 文件列表
+          files_to_copy = [f for f in os.listdir(source_dir) if f.endswith('.txt') or f.endswith('.m3u')]
+
+          # 复制文件到目标目录，如果目标目录中不存在相同文件
+          for file_name in files_to_copy:
+              source_file = os.path.join(source_dir, file_name)
+              target_file = os.path.join(target_dir, file_name)
+              if not os.path.exists(target_file) or not filecmp.cmp(source_file, target_file, shallow=False):
+                  shutil.copy2(source_file, target_file)
+
+      # 提交 /tv 目录的更改到仓库
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 添加更改
+          git add tv
+
+          # 提交更改
+          timestamp=$(date -u)
+          git commit -m "Auto-sync: Update tv files at $timestamp" || echo "No changes to commit"
+
+          # 推送更改
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
