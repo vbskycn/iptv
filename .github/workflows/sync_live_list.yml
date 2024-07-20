@@ -58,6 +58,10 @@ jobs:
           if [ -e "$file" ]; then  # 检查文件是否存在
             if [ ! -e "tv/$(basename $file)" ]; then  # 如果 /tv 目录中没有相同文件，则进行复制
               cp $file tv/
+            else
+              if ! diff -q "$file" "tv/$(basename $file)"; then  # 如果文件不同则进行复制
+                cp $file tv/
+              fi
             fi
           fi
         done
