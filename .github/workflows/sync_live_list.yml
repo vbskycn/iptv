@@ -6,7 +6,6 @@ on:
     - cron: '5 * * * *'
   workflow_dispatch:
     # 支持手动触发工作流
-    # 可以在GitHub的Actions页面手动触发
     inputs:
       reason:
         description: '手动触发原因'
@@ -41,8 +40,8 @@ jobs:
 
     - name: Run sync_live_list.sh
       run: |
-        chmod +x /tools/syn_live_list.sh
-        /tools/syn_live_list.sh
+        chmod +x ./tools/syn_live_list.sh
+        ./tools/syn_live_list.sh
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
       # 赋予脚本执行权限并运行
@@ -50,11 +49,11 @@ jobs:
 
     - name: Copy .txt and .m3u files to /tv directory
       run: |
-        mkdir -p /tv
+        mkdir -p ./tv
         for file in $(find . -name '*.txt' -o -name '*.m3u'); do
           filename=$(basename $file)
-          if [ ! -f "/tv/$filename" ]; then
-            cp $file /tv/
+          if [ ! -f "./tv/$filename" ]; then
+            cp $file ./tv/
           else
             echo "Skipping $filename as it already exists in /tv"
           fi
@@ -66,7 +65,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add /tv
+        git add ./tv
         git commit -m 'Sync .txt and .m3u files to /tv directory' || echo "No changes to commit"
         git push
       env:
@@ -75,4 +74,3 @@ jobs:
       # 将/tv目录中的更改提交到仓库
       # 如果没有更改，则不会报错
       # 使用MY_GITHUB_TOKEN进行身份验证
-
