@@ -50,7 +50,7 @@ replacements = {
 }
 
 # 保存合并结果的文件名
-output_file = 'newhd.txt'
+output_file = 'hd.txt'
 
 # 用于存储合并后的内容
 merged_content = []
