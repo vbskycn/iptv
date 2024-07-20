@@ -53,6 +53,7 @@ jobs:
     # 第七步：复制生成的 .txt 和 .m3u 文件到 /tv 目录
     - name: Copy files to /tv directory
       run: |
+        mkdir -p tv  # 确保 tv 目录存在
         for file in tools/*.txt tools/*.m3u; do
           if [ -e "$file" ]; then  # 检查文件是否存在
             if [ ! -e "tv/$(basename $file)" ]; then  # 如果 /tv 目录中没有相同文件，则进行复制
