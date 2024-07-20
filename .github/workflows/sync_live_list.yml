@@ -1,47 +1,78 @@
 name: sync_live_list
 
-# 设置触发条件：每小时的第5分钟触发，同时可以手动触发
 on:
   schedule:
+    # 每小时的第5分钟触发一次
     - cron: '5 * * * *'
   workflow_dispatch:
+    # 支持手动触发工作流
+    # 可以在GitHub的Actions页面手动触发
+    inputs:
+      reason:
+        description: '手动触发原因'
+        required: false
+        default: '触发工作流'
 
 jobs:
-  sync-tv:
+  sync_live_list:
     runs-on: ubuntu-latest
 
     steps:
-    # 第一步：检查出仓库代码
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+      # 检出代码仓库中的内容
+      # 此步骤将下载代码到工作目录
+      with:
+        fetch-depth: 0
 
-    # 第二步：安装依赖
-    - name: Set up Python environment
-      uses: actions/setup-python@v2
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+      # 设置Python环境，指定Python版本
+      # 使得接下来的步骤可以使用Python
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
+      # 安装Python依赖包
+      # 更新pip工具并安装requests库
 
-    # 第三步：运行 sync_live_list.py 脚本
-    - name: Run sync_live_list.py
+    - name: Run sync_live_list.sh
       run: |
-        cd tv
-        python sync_live_list.py
+        chmod +x /tools/syn_live_list.sh
+        /tools/syn_live_list.sh
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      # 赋予脚本执行权限并运行
+      # 环境变量MY_GITHUB_TOKEN用于访问GitHub API
 
-    # 第四步：将 /tv 目录下的文件提交到仓库中
-    - name: Commit and push changes
+    - name: Copy .txt and .m3u files to /tv directory
       run: |
-        cd tv
-        git config --global user.name "your-username"
-        git config --global user.email "your-email@example.com"
-        git add .
-        git commit -m "Sync TV files on $(date +'%Y-%m-%d %H:%M:%S')"
+        mkdir -p /tv
+        for file in $(find . -name '*.txt' -o -name '*.m3u'); do
+          filename=$(basename $file)
+          if [ ! -f "/tv/$filename" ]; then
+            cp $file /tv/
+          else
+            echo "Skipping $filename as it already exists in /tv"
+          fi
+        done
+      # 将生成的.txt和.m3u文件复制到/tv目录
+      # 如果文件已存在，则跳过
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add /tv
+        git commit -m 'Sync .txt and .m3u files to /tv directory' || echo "No changes to commit"
         git push
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      # 配置Git用户信息
+      # 将/tv目录中的更改提交到仓库
+      # 如果没有更改，则不会报错
+      # 使用MY_GITHUB_TOKEN进行身份验证
+
