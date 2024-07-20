@@ -33,34 +33,32 @@ jobs:
       # 运行 syn_live_list.sh 脚本
       - name: Run syn_live_list.sh
         run: |
-          chmod +x ./tools/syn_live_list.sh
-          ./tools/syn_live_list.sh
+
+          cd tools
+          chmod +x syn_live_list.sh
+          python syn_live_list.sh
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       # 复制生成的 .txt 和 .m3u 文件到 /tv 目录
       - name: Copy generated files to /tv directory
         run: |
-          import os
-          import shutil
-
           # 定义源目录和目标目录
-          source_dir = os.path.join(os.getcwd(), 'tools')
-          target_dir = os.path.join(os.getcwd(), 'tv')
+          source_dir="./tools"
+          target_dir="./tv"
 
           # 确保目标目录存在
-          if not os.path.exists(target_dir):
-              os.makedirs(target_dir)
+          mkdir -p "$target_dir"
 
-          # 获取源目录中的 .txt 和 .m3u 文件列表
-          files_to_copy = [f for f in os.listdir(source_dir) if f.endswith('.txt') or f.endswith('.m3u')]
-
-          # 复制文件到目标目录，如果目标目录中不存在相同文件
-          for file_name in files_to_copy:
-              source_file = os.path.join(source_dir, file_name)
-              target_file = os.path.join(target_dir, file_name)
-              if not os.path.exists(target_file) or not filecmp.cmp(source_file, target_file, shallow=False):
-                  shutil.copy2(source_file, target_file)
+          # 获取源目录中的 .txt 和 .m3u 文件列表并复制文件到目标目录
+          for file in "$source_dir"/*.txt "$source_dir"/*.m3u; do
+            if [ -e "$file" ]; then
+              target_file="$target_dir/$(basename "$file")"
+              if [ ! -e "$target_file" ] || ! cmp -s "$file" "$target_file"; then
+                cp "$file" "$target_dir"
+              fi
+            fi
+          done
 
       # 提交 /tv 目录的更改到仓库
       - name: Commit and push changes
