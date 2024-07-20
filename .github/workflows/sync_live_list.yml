@@ -29,7 +29,7 @@ jobs:
     # 第三步：运行 sync_live_list.py 脚本
     - name: Run sync_live_list.py
       run: |
-        cd /tv
+        cd tv
         python ./sync_live_list.py 
       env:
         MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
     # 第四步：将 /tv 目录下的文件提交到仓库中
     - name: Commit and push changes
       run: |
-        cd /tv
+        cd tv
         git config --global user.name "your-username"
         git config --global user.email "your-email@example.com"
         git add .
