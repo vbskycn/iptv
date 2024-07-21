@@ -1,6 +1,5 @@
 name: sync_live_list
 
-# 定义工作流何时触发
 on:
   # 每小时的第5分钟触发
   schedule:
@@ -8,7 +7,6 @@ on:
   # 允许手动运行工作流
   workflow_dispatch:
 
-# 定义工作流运行的任务
 jobs:
   sync_live_list:
     # 在最新的 Ubuntu 操作系统上运行
@@ -22,71 +20,52 @@ jobs:
       changes_detected: ${{ steps.detect_changes.outputs.changes_detected }}
 
     steps:
-    # 第一步：检出仓库代码
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      # 第一步：检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    # 第二步：设置 Python 环境
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      # 第二步：设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    # 第三步：安装依赖
-    - name: Install dependencies
-      run: |
-        pip install requests
+      # 第三步：安装依赖
+      - name: Install dependencies
+        run: |
+          pip install requests
 
-    # 第四步：列出 tools 目录中的文件，调试路径问题
-    - name: List files in tools directory
-      run: |
-        ls -la tools
+      # 第四步：列出 tv 目录中的文件，调试路径问题
+      - name: List files in tv directory
+        run: |
+          ls -la tv
 
-    # 第五步：运行 syn_live_list.py 脚本
-    - name: Run syn_live_list.py
-      run: |
-        cd tools 
-        python syn_live_list.py
+      # 第五步：运行 syn_live_list.py 脚本
+      - name: Run syn_live_list.py
+        run: |
+          cd tv
+          python syn_live_list.py
 
-    # 第六步：列出运行脚本后生成的文件，确认文件生成情况
-    - name: List generated files
-      run: |
-        ls -la tools
+      # 第六步：列出运行脚本后生成的文件，确认文件生成情况
+      - name: List generated files
+        run: |
+          ls -la tv
 
-    # 第七步：检测文件变更并复制文件到 /tv 目录
-    - name: Detect and copy changes to /tv directory
-      id: detect_changes
-      run: |
-        mkdir -p tv  # 确保 tv 目录存在
-        changes_detected=false
-        for file in tools/*.txt tools/*.m3u; do
-          if [ -e "$file" ]; then  # 检查文件是否存在
-            if [ ! -e "tv/$(basename $file)" ]; then  # 如果 /tv 目录中没有相同文件，则进行复制
-              cp $file tv/
-              changes_detected=true
-            else
-              if ! diff -q "$file" "tv/$(basename $file)"; then  # 如果文件不同则进行复制
-                cp $file tv/
-                changes_detected=true
-              fi
-            fi
-          fi
-        done
-        echo "changes_detected=$changes_detected" >> $GITHUB_ENV
+      # 第七步：检查是否有更改
+      - name: Check for changes
+        run: |
+          git diff --exit-code || echo "changes detected"
+        id: detect_changes
 
-    # 第八步：提交 /tv 目录的更改到仓库（仅当有更改时）
-    - name: Commit and push changes
-      if: steps.detect_changes.outputs.changes_detected == 'true'
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add tv/
-        git commit -m "Sync live list"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-
-    # 结束工作流
-    - name: Finish if no changes
-      if: steps.detect_changes.outputs.changes_detected == 'false'
-      run: echo "No changes to commit, ending workflow."
+      # 第八步：提交并推送更改（仅当有更改时）
+      - name: Commit and push changes
+        if: steps.detect_changes.outputs.changes_detected == 'changes detected'
+        run: |
+          cd tv
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Sync live list"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
