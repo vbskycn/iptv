@@ -35,6 +35,8 @@ http://183.5.96.82:8888/udp/239.77.1.239:5146
 http://183.5.96.82:8888/udp/239.77.0.165:5146
 #EXTINF:-1 tvg-name="CCTV17" tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道", CCTV17
 http://125.113.160.250:8888/udp/233.50.200.113:5140
+#EXTINF:-1 tvg-name="CCTV4k" tvg-id="CCTV4k" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4k-light.png" group-title="央视频道", CCTV4k
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道", CGTN阿语
 http://livear.cgtn.com/1000a/prog_index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="卫视频道", 安徽卫视
@@ -87,7 +89,7 @@ http://27.10.76.217:8010/udp/225.0.4.187:7980
 http://27.10.76.217:8010/udp/225.0.4.201:7980
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-id="嘉佳卡通" tvg-logo="https://live.fanmingming.com/tv/嘉佳卡通.png" group-title="数字频道", 嘉佳卡通
 http://183.5.96.82:8888/udp/239.77.0.179:5146
-#EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang6.png" group-title="少儿频道", 浙江少儿
+#EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="地方频道", 浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 tvg-name="世界地理" tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道", 世界地理
 http://223.10.36.100:8082/udp/239.1.1.99:8099
@@ -103,19 +105,25 @@ http://110.178.52.143:8082/udp/239.1.1.45:8045
 http://110.178.52.143:8082/udp/239.1.1.97:8097
 #EXTINF:-1 tvg-name="第一剧场" tvg-id="第一剧场" tvg-logo="https://live.fanmingming.com/tv/第一剧场.png" group-title="央视频道", 第一剧场
 http://110.178.52.143:8082/udp/239.1.1.94:8094
-#EXTINF:-1 tvg-name="浙江国际" tvg-id="浙江国际" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang7.png" group-title="地方频道", 浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江教科影视" tvg-id="浙江教科" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang3.png" group-title="地方频道", 浙江教科影视
+#EXTINF:-1 tvg-name="浙江公共新闻" tvg-id="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png" group-title="地方频道", 浙江公共新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-name="浙江教科影视" tvg-id="浙江教科影视" tvg-logo="https://live.fanmingming.com/tv/浙江教科影视.png" group-title="地方频道", 浙江教科影视
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-name="之江纪录" tvg-id="之江纪录" tvg-logo="https://live.fanmingming.com/tv/之江记录.png" group-title="地方频道", 之江纪录
+#EXTINF:-1 tvg-name="之江纪录" tvg-id="之江纪录" tvg-logo="https://live.fanmingming.com/tv/之江纪录.png" group-title="地方频道", 之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江民生休闲" tvg-id="浙江民生" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang4.png" group-title="地方频道", 浙江民生休闲
+#EXTINF:-1 tvg-name="浙江民生休闲" tvg-id="浙江民生休闲" tvg-logo="https://live.fanmingming.com/tv/浙江民生休闲.png" group-title="地方频道", 浙江民生休闲
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" tvg-id="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="港·澳·台", 凤凰中文
-http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="港·澳·台", 凤凰资讯
-http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视香港台.png" group-title="港·澳·台", 凤凰香港
+#EXTINF:-1 tvg-name="浙江经视" tvg-id="浙江经视" tvg-logo="https://live.fanmingming.com/tv/浙江经济生活.png" group-title="地方频道", 浙江经视
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-name="浙江钱江都市" tvg-id="浙江钱江都市" tvg-logo="https://live.fanmingming.com/tv/钱江都市.png" group-title="地方频道", 浙江钱江都市
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-name="内蒙古少儿" tvg-id="内蒙古少儿" tvg-logo="https://live.fanmingming.com/tv/内蒙古少儿.png" group-title="地方频道", 内蒙古少儿
+https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
+#EXTINF:-1 tvg-name="凤凰中文" tvg-id="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港澳频道", 凤凰中文
+http://125.113.160.250:8888/udp/233.50.200.42:5140
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳频道", 凤凰资讯
+http://125.113.160.250:8888/udp/233.50.200.192:5140
+#EXTINF:-1 tvg-name="凤凰香港" tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视香港台.png" group-title="卫视频道", 凤凰香港
 http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 #EXTINF:-1 tvg-name="香港卫视" tvg-id="香港卫视" tvg-logo="https://live.fanmingming.com/tv/香港卫视.png" group-title="卫视频道", 香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
@@ -125,5 +133,3 @@ https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-name="民视新闻" tvg-id="民视新闻" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港·澳·台", 民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 tvg-name="澳视澳门" tvg-id="澳视澳门" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港·澳·台", 澳视澳门
-http://183.237.246.14:9931/tsfile/live/1039_1.m3u8
