@@ -27,6 +27,8 @@ urls_to_process = [
     'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u',
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.txt',
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.m3u',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u'
 ]
@@ -40,12 +42,14 @@ urls_to_download_only = [
 
 # 对应txt文件的分组标记替换规则
 replacements = {
-    'jxdx_hd.txt': 'jxHD,#genre#',
-    'tptv.txt': 'tptv,#genre#',    
+    'jxdx_hd.txt': 'jxH,#genre#',
+    'tptv.txt': 'tptv,#genre#',
+    'itv_proxy.txt': 'itv,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#',
     'beesport.txt': 'sport,#genre#',
     'sxg.txt': 'sxg,#genre#'
+    
 }
 
 # 保存合并结果的文件名
