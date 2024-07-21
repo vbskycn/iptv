@@ -1,5 +1,6 @@
 name: sync_live_list
 
+# 定义工作流何时触发
 on:
   # 每小时的第5分钟触发
   schedule:
@@ -16,50 +17,51 @@ jobs:
     env:
       MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
-    outputs:
-      changes_detected: ${{ steps.detect_changes.outputs.changes_detected }}
-
     steps:
       # 第一步：检出仓库代码
-      - name: Checkout repository
+      - name: 检出仓库代码
         uses: actions/checkout@v2
 
       # 第二步：设置 Python 环境
-      - name: Set up Python
+      - name: 设置 Python 环境
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
       # 第三步：安装依赖
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           pip install requests
 
       # 第四步：列出 tv 目录中的文件，调试路径问题
-      - name: List files in tv directory
+      - name: 列出 tv 目录中的文件
         run: |
           ls -la tv
 
       # 第五步：运行 syn_live_list.py 脚本
-      - name: Run syn_live_list.py
+      - name: 运行 syn_live_list.py
         run: |
           cd tv
           python syn_live_list.py
 
       # 第六步：列出运行脚本后生成的文件，确认文件生成情况
-      - name: List generated files
+      - name: 列出生成的文件
         run: |
           ls -la tv
 
       # 第七步：检查是否有更改
-      - name: Check for changes
-        run: |
-          git diff --exit-code || echo "changes detected"
+      - name: 检查是否有更改
         id: detect_changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git status
+          git diff --exit-code
+        continue-on-error: true
 
       # 第八步：提交并推送更改（仅当有更改时）
-      - name: Commit and push changes
-        if: steps.detect_changes.outputs.changes_detected == 'changes detected'
+      - name: 提交并推送更改
+        if: steps.detect_changes.outcome != 'success'
         run: |
           cd tv
           git config user.name "github-actions[bot]"
