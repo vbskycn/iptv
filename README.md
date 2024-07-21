@@ -98,13 +98,16 @@ function copyToClipboard(text) {
 
 ## 🛠️ 工具
 
-- 🆕 EPG 接口镜像地址：（支持diyp、百川、XML）
-  - [https://epg.zhoujie218.top](https://epg.zhoujie218.top)
 - 📄 M3U To TXT：
-  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u)
+  
+  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.m3u](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.m3u)
 - 📄 TXT To M3U：
-  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.txt](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.txt)
+  
+  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt)
+  
+    
 - 🌐 直播源转换工具：
+  
   - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/)
 
 
@@ -123,6 +126,8 @@ function copyToClipboard(text) {
 
 - [https://zbds.lanzoui.com/b0b36hyqd](https://zbds.lanzoui.com/b0b36hyqd)
 
+
+
 ## 📖 说明
 
 - 所有播放源均收集于互联网，仅供测试研究使用，不得商用。
@@ -133,11 +138,15 @@ function copyToClipboard(text) {
 - 本项目不保证直播频道的有效性，直播内容可能受直播服务提供商因素影响而失效。
 - 所有文件均托管在 [GitHub](https://github.com/vbskycn/iptv) 且自动构建，由项目发起人公益维护，欢迎 Star 本项目或点击 [Issues](https://github.com/vbskycn/iptv/issues/new/choose) 反馈您的问题。
 
+
+
 ## 📔 更新
 
 - 2024.7.21 新增epg镜像地址
 - 2024.5.2 新增一些源
 - 2024.6.22 新增 IPTV4/IPTV6 自动更新源
+
+
 
 ## 欢迎请我喝杯饮料
 
