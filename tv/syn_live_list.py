@@ -29,7 +29,7 @@ urls_to_process = [
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.txt',
+    'https://guovin100.my.proton218.top:8443/result_new.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.m3u'
 ]
 
