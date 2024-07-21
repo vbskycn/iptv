@@ -54,31 +54,36 @@ jobs:
     - name: Copy files to /tv directory
       run: |
         mkdir -p tv  # 确保 tv 目录存在
+        changes_detected=false
         for file in tools/*.txt tools/*.m3u; do
           if [ -e "$file" ]; then  # 检查文件是否存在
             if [ ! -e "tv/$(basename $file)" ]; then  # 如果 /tv 目录中没有相同文件，则进行复制
               cp $file tv/
+              changes_detected=true
             else
               if ! diff -q "$file" "tv/$(basename $file)"; then  # 如果文件不同则进行复制
                 cp $file tv/
+                changes_detected=true
               fi
             fi
           fi
         done
 
-    # 第八步：提交 /tv 目录的更改到仓库
+    # 第八步：提交 /tv 目录的更改到仓库（仅当有更改时）
     - name: Commit and push changes
+      if: steps.sync_live_list.outputs.changes_detected == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         cd tv
-        git status
-        if [ -n "$(git status --porcelain)" ]; then  # 检查是否有更改
-          git add .
-          git commit -m "Sync live list"
-          git push
-        else
-          echo "No changes to commit"  # 如果没有更改，输出提示信息
-        fi
+        git add .
+        git commit -m "Sync live list"
+        git push
       env:
         GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      id: commit_push
+
+    # 结束工作流
+    - name: Finish if no changes
+      if: steps.sync_live_list.outputs.changes_detected == 'false'
+      run: echo "No changes to commit, ending workflow."
