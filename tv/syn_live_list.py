@@ -36,6 +36,8 @@ urls_to_process = [
 # 仅需下载的文件URL
 urls_to_download_only = [
     'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/bg.txt',
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.txt',
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.m3u',
     'https://guovin100.my.proton218.top:8443/result_new.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/bg.m3u'
 ]
