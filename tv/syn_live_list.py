@@ -43,7 +43,7 @@ replacements = {
     'jxdx_hd.txt': 'jxHD,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#',
-    'tptv.txt': 'jsyd,#genre#',
+    'tptv.txt': 'tptv,#genre#',
     'beesport.txt': 'sport,#genre#',
     'sxg.txt': 'sxg,#genre#'
 }
