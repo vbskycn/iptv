@@ -92,20 +92,13 @@ function copyToClipboard(text) {
 </table>
 
 
-## 📻 图标
-
-| 类别   | 调用路径                                                     | 最后更新  |
-| ------ | ------------------------------------------------------------ | --------- |
-| 📺 电视 | [https://live.fanmingming.com/tv/{name}.png](https://github.com/fanmingming/live/tree/main/tv) | 2024.3.15 |
-| 📻 广播 | [https://live.fanmingming.com/radio/{name}.png](https://github.com/fanmingming/live/tree/main/radio) | 2023.8.27 |
-
 
 
 
 
 ## 🛠️ 工具
 
-- 🆕 EPG 接口地址：
+- 🆕 EPG 接口镜像地址：（支持diyp、百川、XML）
   - [https://epg.zhoujie218.top](https://epg.zhoujie218.top)
 - 📄 M3U To TXT：
   - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/dsyy/iptv6.m3u)
@@ -142,7 +135,7 @@ function copyToClipboard(text) {
 
 ## 📔 更新
 
-- 2024.7.17 新增epg镜像地址
+- 2024.7.21 新增epg镜像地址
 - 2024.5.2 新增一些源
 - 2024.6.22 新增 IPTV4/IPTV6 自动更新源
 
