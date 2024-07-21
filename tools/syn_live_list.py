@@ -18,33 +18,32 @@ if not GITHUB_TOKEN:
 # 需要下载并处理的文件URL
 urls_to_process = [
     'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.txt',
-    'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u',
+    'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/jxdx_hd.m3u',    
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.txt',
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.m3u',    
     'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u',
     'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.m3u',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/sxg.m3u'
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u'
 ]
 
 # 仅需下载的文件URL
 urls_to_download_only = [
     'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/bg.txt',
+    'https://guovin100.my.zhoujie218.top:8443/result_new.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv/master/dsyy/bg.m3u'
 ]
 
 # 对应txt文件的分组标记替换规则
 replacements = {
     'jxdx_hd.txt': 'jxHD,#genre#',
+    'tptv.txt': 'tptv,#genre#',    
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#',
-    'tptv.txt': 'jsyd,#genre#',
     'beesport.txt': 'sport,#genre#',
     'sxg.txt': 'sxg,#genre#'
 }
