@@ -52,7 +52,7 @@ replacements = {
     'itv.txt': 'itv,#genre#',
     'beesport.txt': 'sport,#genre#',
     'iptv4.txt': 'ip4,#genre#',
-    '4gtv.txt': '4g,#genre#',
+    '4gtv.txt': '4gtv,#genre#',
     'sxg.txt': 'sxg,#genre#'
     
 }
