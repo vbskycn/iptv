@@ -50,8 +50,8 @@ replacements = {
     'tptv.txt': 'tptv,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'itv.txt': 'itv,#genre#',
-    'iptv4.txt': 'ip4,#genre#',
     'beesport.txt': 'sport,#genre#',
+    'iptv4.txt': 'ip4,#genre#',
     '4gtv.txt': '4g,#genre#',
     'sxg.txt': 'sxg,#genre#'
     
