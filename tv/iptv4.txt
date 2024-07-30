@@ -5,13 +5,13 @@ CCTV2,http://182.149.107.50:8888/udp/239.93.1.23:6000
 CCTV2,http://223.10.33.238:8082/udp/239.1.1.8:8008
 CCTV3,http://223.10.33.238:8082/udp/239.1.1.9:8009
 CCTV3,http://182.149.107.50:8888/udp/239.93.1.11:2223
-CCTV4,http://182.149.107.50:8888/udp/239.93.1.105:5140
 CCTV4,http://122.235.139.29:8888/udp/233.50.200.101:5140
-CCTV5,http://122.235.139.29:8888/udp/233.50.200.108:5140
+CCTV4,http://182.149.107.50:8888/udp/239.93.1.105:5140
 CCTV5,http://182.149.107.50:8888/udp/239.93.42.37:5140
+CCTV5,http://122.235.139.29:8888/udp/233.50.200.108:5140
 CCTV5+,http://223.10.33.238:8082/udp/239.1.1.12:8012
-CCTV6,http://182.149.107.50:8888/udp/239.93.1.13:2226
 CCTV6,http://223.10.33.238:8082/udp/239.1.1.13:8013
+CCTV6,http://182.149.107.50:8888/udp/239.93.1.13:2226
 CCTV7,http://182.149.107.50:8888/udp/239.93.1.67:5140
 CCTV8,http://182.149.107.50:8888/udp/239.93.42.39:5140
 CCTV9,http://182.149.107.50:8888/udp/239.93.1.24:5140
@@ -23,8 +23,8 @@ CCTV13,http://182.149.107.50:8888/udp/239.93.0.66:5140
 CCTV13,http://122.235.139.29:8888/udp/233.50.200.111:5140
 CCTV15,http://182.149.107.50:8888/udp/239.93.0.103:5140
 CCTV16,http://223.10.33.238:8082/udp/239.1.1.122:8122
-CCTV17,http://182.149.107.50:8888/udp/239.93.0.92:5140
 CCTV17,http://223.10.33.238:8082/udp/239.1.1.23:8023
+CCTV17,http://182.149.107.50:8888/udp/239.93.0.92:5140
 CGTN,https://0472.org/hls/cgtn.m3u8
 CGTN俄语,https://0472.org/hls/cgtne.m3u8
 CGTN法语,https://0472.org/hls/cgtnf.m3u8
@@ -39,25 +39,25 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 卫视频道,#genre#
-安徽卫视,http://182.149.107.50:8888/udp/239.93.1.106:5140
 安徽卫视,http://223.10.33.238:8082/udp/239.1.1.44:8044
+安徽卫视,http://182.149.107.50:8888/udp/239.93.1.106:5140
 北京卫视,http://182.149.107.50:8888/udp/239.93.0.180:5140
 兵团卫视,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
 东方卫视,http://182.149.107.50:8888/udp/239.93.0.123:5140
-东南卫视,http://182.149.107.50:8888/udp/239.93.0.42:5140
 东南卫视,http://223.10.33.238:8082/udp/239.1.1.33:8033
+东南卫视,http://182.149.107.50:8888/udp/239.93.0.42:5140
 甘肃卫视,http://182.149.107.50:8888/udp/239.93.0.81:5140
 广东卫视,http://182.149.107.50:8888/udp/239.93.0.181:5140
 广西卫视,http://182.149.107.50:8888/udp/239.93.42.46:5140
 贵州卫视,http://182.149.107.50:8888/udp/239.93.0.131:5140
 河北卫视,http://223.10.33.238:8082/udp/239.1.1.48:8048
 河北卫视,http://182.149.107.50:8888/udp/239.93.0.132:5140
-河南卫视,http://223.10.33.238:8082/udp/239.1.1.34:8034
 河南卫视,http://182.149.107.50:8888/udp/239.93.42.45:5140
-湖北卫视,http://182.149.107.50:8888/udp/239.93.0.250:5140
+河南卫视,http://223.10.33.238:8082/udp/239.1.1.34:8034
 湖北卫视,http://122.235.139.29:8888/udp/233.50.200.147:5140
-湖南卫视,http://182.149.107.50:8888/udp/239.93.0.88:5140
+湖北卫视,http://182.149.107.50:8888/udp/239.93.0.250:5140
 湖南卫视,http://223.10.33.238:8082/udp/239.1.1.28:8028
+湖南卫视,http://182.149.107.50:8888/udp/239.93.0.88:5140
 吉林卫视,http://182.149.107.50:8888/udp/239.93.0.248:5140
 江苏卫视,http://182.149.107.50:8888/udp/239.93.0.89:5140
 江西卫视,http://223.10.33.238:8082/udp/239.1.1.52:8052
@@ -65,21 +65,21 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 康巴卫视,http://182.149.107.50:8888/udp/239.93.0.41:5140
 辽宁卫视,http://182.149.107.50:8888/udp/239.93.1.108:5140
 辽宁卫视,http://223.10.33.238:8082/udp/239.1.1.42:8042
-宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8
 山东卫视,http://182.149.107.50:8888/udp/239.93.0.168:5140
-山西卫视,http://110.178.52.143:8082/udp/239.1.1.1:8001
 山西卫视,http://223.10.33.238:8082/udp/239.1.1.1:8001
+山西卫视,http://110.178.52.143:8082/udp/239.1.1.1:8001
 深圳卫视,http://182.149.107.50:8888/udp/239.93.0.182:5140
-四川卫视,http://182.149.107.50:8888/udp/239.93.0.169:5140
 四川卫视,http://223.10.33.238:8082/udp/239.1.1.29:8029
+四川卫视,http://182.149.107.50:8888/udp/239.93.0.169:5140
 天津卫视,http://182.149.107.50:8888/udp/239.93.0.167:5140
-延边卫视,http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 云南卫视,http://182.149.107.50:8888/udp/239.93.1.174:5140
 云南卫视,http://183.141.217.186:9999/udp/233.50.200.115:5140
-云南卫视,http://60.189.35.225:9999/udp/233.50.200.115:5140
 浙江卫视,http://182.149.107.50:8888/udp/239.93.0.124:5140
 重庆卫视,http://182.149.107.50:8888/udp/239.93.1.107:5140
 黑龙江卫视,http://182.149.107.50:8888/udp/239.93.0.183:5140
+凤凰中文,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+凤凰资讯,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+凤凰香港,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
 
@@ -89,21 +89,19 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 纪实人文,http://110.178.52.143:8082/udp/239.1.1.45:8045
 
 
-少儿频道,#genre#
-浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-
-
 地方频道,#genre#
+浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+浙江公共新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 浙江国际,https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 之江纪录,https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 浙江民生休闲,https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+浙江经视,https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+浙江钱江都市,https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+内蒙古少儿,https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
 
 
 港·澳·台,#genre#
-凤凰中文,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
-凤凰资讯,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
-凤凰香港,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 明珠台,http://bziyunshao.synology.me:8890/bysid/2
 大爱1台,https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 大爱2台,https://pulltv2.wanfudaluye.com/live/tv2.m3u8
@@ -113,5 +111,5 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 更新时间,#genre#
-2024-07-30 08:51:23,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
+2024-07-30 16:14:32,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
 vip:88164962,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
