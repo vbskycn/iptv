@@ -10,7 +10,7 @@ http://1.70.34.66:8084/udp/239.1.1.10:8010
 #EXTINF:-1 tvg-name="CCTV5" tvg-id="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道", CCTV5
 http://1.70.34.66:8084/udp/239.1.1.11:8011
 #EXTINF:-1 tvg-name="CCTV5+" tvg-id="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道", CCTV5+
-http://113.89.244.85:4200/udp/239.77.0.87:5146
+http://1.70.34.66:8084/udp/239.1.1.12:8012
 #EXTINF:-1 tvg-name="CCTV6" tvg-id="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道", CCTV6
 http://1.70.34.66:8084/udp/239.1.1.13:8013
 #EXTINF:-1 tvg-name="CCTV7" tvg-id="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道", CCTV7
@@ -20,7 +20,7 @@ http://1.70.34.66:8084/udp/239.1.1.15:8015
 #EXTINF:-1 tvg-name="CCTV9" tvg-id="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道", CCTV9
 http://1.70.34.66:8084/udp/239.1.1.16:8016
 #EXTINF:-1 tvg-name="CCTV10" tvg-id="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道", CCTV10
-http://113.89.244.85:4200/udp/239.77.1.113:5146
+http://1.70.34.66:8084/udp/239.1.1.17:8017
 #EXTINF:-1 tvg-name="CCTV11" tvg-id="CCTV11" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道", CCTV11
 http://175.11.169.166:4022/udp/239.76.245.251:1234
 #EXTINF:-1 tvg-name="CCTV12" tvg-id="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道", CCTV12
@@ -28,7 +28,7 @@ http://1.70.34.66:8084/udp/239.1.1.19:8019
 #EXTINF:-1 tvg-name="CCTV13" tvg-id="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道", CCTV13
 http://1.70.34.66:8084/udp/239.1.1.20:8020
 #EXTINF:-1 tvg-name="CCTV14" tvg-id="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道", CCTV14
-http://113.89.244.85:4200/udp/239.77.1.161:5146
+http://1.70.34.66:8084/udp/239.1.1.21:8021
 #EXTINF:-1 tvg-name="CCTV15" tvg-id="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道", CCTV15
 http://113.89.244.85:4200/udp/239.77.1.239:5146
 #EXTINF:-1 tvg-name="CCTV16" tvg-id="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道", CCTV16
@@ -60,7 +60,7 @@ http://1.70.34.66:8084/udp/239.1.1.41:8041
 #EXTINF:-1 tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视频道", 兵团卫视
 http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
 #EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视频道", 东方卫视
-http://183.134.172.210:8888/udp/233.50.200.146:5140
+http://122.247.120.120:9999/udp/233.50.200.146:5140
 #EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视频道", 东南卫视
 http://1.70.34.66:8084/udp/239.1.1.33:8033
 #EXTINF:-1 tvg-name="广东卫视" tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="卫视频道", 广东卫视
@@ -117,6 +117,8 @@ http://113.89.244.85:4200/udp/239.77.0.179:5146
 http://175.8.213.198:8081/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="地方频道", 浙江少儿
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-name="全纪实" tvg-id="全纪实" tvg-logo="https://live.fanmingming.com/tv/全纪实.png" group-title="数字频道", 全纪实
+http://222.68.44.13:9988/udp/239.45.3.135:5140
 #EXTINF:-1 tvg-name="世界地理" tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道", 世界地理
 http://1.70.34.66:8084/udp/239.1.1.99:8099
 #EXTINF:-1 tvg-name="央视台球" tvg-id="央视台球" tvg-logo="https://live.fanmingming.com/tv/央视台球.png" group-title="央视频道", 央视台球
@@ -125,6 +127,8 @@ http://1.70.34.66:8084/udp/239.1.1.100:8100
 http://1.70.34.66:8084/udp/239.1.1.83:8083
 #EXTINF:-1 tvg-name="风云足球" tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视频道", 风云足球
 http://1.70.34.66:8084/udp/239.1.1.101:8101
+#EXTINF:-1 tvg-name="五星体育" tvg-id="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="数字频道", 五星体育
+http://222.68.44.13:9988/udp/239.45.3.210:5140
 #EXTINF:-1 tvg-name="纪实人文" tvg-id="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道", 纪实人文
 http://110.178.52.143:8082/udp/239.1.1.45:8045
 #EXTINF:-1 tvg-name="兵器科技" tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="央视频道", 兵器科技
