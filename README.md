@@ -105,7 +105,6 @@ function copyToClipboard(text) {
   
   - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt)
   
-    
 - 🌐 直播源转换工具：
   
   - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/)
@@ -150,4 +149,5 @@ function copyToClipboard(text) {
 
 ## 欢迎请我喝杯饮料
 
-![请我喝杯饮料](https://cdn.jsdelivr.net/gh/vbskycn/tu@main/img/ds.jpg)
+![请我喝杯饮料](https://live.zhoujie218.top/img/wxds.jpg)
+
