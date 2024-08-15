@@ -31,12 +31,8 @@ http://113.206.114.32:4000/udp/225.0.4.219:7980
 http://220.192.1.236:8008/udp/225.0.4.128:7980
 #EXTINF:-1 tvg-name="CCTV15" tvg-id="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道", CCTV15
 http://123.144.190.247:8001/udp/225.0.4.220:7980
-#EXTINF:-1 tvg-name="CCTV16" tvg-id="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道", CCTV16
-http://115.221.81.72:8888/udp/233.50.200.112:5140
 #EXTINF:-1 tvg-name="CCTV17" tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道", CCTV17
 http://123.144.190.247:8001/udp/225.0.4.179:7980
-#EXTINF:-1 tvg-name="CCTV4k" tvg-id="CCTV4k" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4k-light.png" group-title="央视频道", CCTV4k
-http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视频道", CGTN
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="央视频道", CGTN俄语
@@ -59,8 +55,6 @@ https://pi.0472.org/chc/ym.m3u8
 http://220.192.1.236:8008/udp/225.0.4.133:7980
 #EXTINF:-1 tvg-name="北京卫视" tvg-id="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视频道", 北京卫视
 http://220.192.1.236:8008/udp/225.0.4.78:7980
-#EXTINF:-1 tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视频道", 兵团卫视
-http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
 #EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视频道", 东方卫视
 http://220.192.1.236:8008/udp/225.0.4.80:7980
 #EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视频道", 东南卫视
@@ -88,7 +82,7 @@ http://123.144.190.247:8001/udp/225.0.4.82:7980
 #EXTINF:-1 tvg-name="延边卫视" tvg-id="延边卫视" tvg-logo="https://live.fanmingming.com/tv/延边卫视.png" group-title="卫视频道", 延边卫视
 http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-id="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png" group-title="卫视频道", 云南卫视
-http://115.221.81.72:8888/udp/233.50.200.115:5140
+http://115.222.143.106:8808/udp/233.50.200.115:5140
 #EXTINF:-1 tvg-name="浙江卫视" tvg-id="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视频道", 浙江卫视
 http://220.192.1.236:8008/udp/225.0.4.81:7980
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="卫视频道", 重庆卫视
@@ -149,5 +143,3 @@ https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-name="民视新闻" tvg-id="民视新闻" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港·澳·台", 民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 tvg-name="澳视澳门" tvg-id="澳视澳门" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港·澳·台", 澳视澳门
-http://183.237.246.14:9931/tsfile/live/1039_1.m3u8
