@@ -2,8 +2,10 @@
 CCTV1,http://171.109.52.2:4022/udp/239.81.0.102:4056
 CCTV2,http://171.109.52.2:4022/udp/239.81.0.115:4056
 CCTV3,http://171.109.52.2:4022/udp/239.81.0.231:4056
-CCTV11,http://118.113.53.194:8848/udp/239.93.0.102:5140
-CCTV13,http://118.113.53.194:8848/udp/239.93.0.66:5140
+CCTV5,http://171.109.52.2:4022/udp/239.81.0.232:4056
+CCTV8,http://171.109.52.2:4022/udp/239.81.0.234:4056
+CCTV14,http://171.109.52.2:4022/udp/239.81.0.120:4056
+CCTV17,http://171.109.52.2:4022/udp/239.81.0.228:4056
 CCTV4k,http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 CGTN,https://0472.org/hls/cgtn.m3u8
 CGTN俄语,https://0472.org/hls/cgtne.m3u8
@@ -14,15 +16,16 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 卫视频道,#genre#
+安徽卫视,http://171.109.52.2:4022/udp/239.81.0.211:4056
 安徽卫视,http://27.11.255.247:8004/udp/225.0.4.133:7980
 兵团卫视,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
-广西卫视,http://118.113.53.194:8848/udp/239.93.42.46:5140
+东方卫视,http://171.109.52.2:4022/udp/239.81.0.111:4056
+广西卫视,http://171.109.52.2:4022/udp/239.81.0.107:4056
+江苏卫视,http://171.109.52.2:4022/udp/239.81.0.106:4056
 江西卫视,http://118.113.53.194:8848/udp/239.93.0.134:5140
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
-四川卫视,http://171.109.52.2:4022/udp/239.81.0.130:4056
 延边卫视,http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 云南卫视,http://115.210.75.231:58888/udp/233.50.200.115:5140
-浙江卫视,http://171.109.52.2:4022/udp/239.81.0.108:4056
 重庆卫视,http://27.11.255.247:8004/udp/225.0.4.187:7980
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
@@ -55,5 +58,5 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 更新时间,#genre#
-2024-08-21 16:14:56,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
+2024-08-22 00:24:16,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
 vip:88164962,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
