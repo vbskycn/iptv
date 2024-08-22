@@ -415,14 +415,49 @@ SITV金色学堂,http://[2409:8087:5e08:24::12]:6610/000000001000/20000000020000
 vip:proton218,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
 
 央视频道ip4,#genre#
-CCTV1,http://171.109.52.2:4022/udp/239.81.0.102:4056
-CCTV2,http://171.109.52.2:4022/udp/239.81.0.115:4056
-CCTV3,http://171.109.52.2:4022/udp/239.81.0.231:4056
-CCTV5,http://171.109.52.2:4022/udp/239.81.0.232:4056
-CCTV8,http://171.109.52.2:4022/udp/239.81.0.234:4056
-CCTV14,http://171.109.52.2:4022/udp/239.81.0.120:4056
+CCTV1,http://27.9.91.108:8003/udp/225.0.4.74:7980
+CCTV1,http://122.237.243.207:6868/udp/233.50.200.99:5140
+CCTV1,http://183.48.34.9:16888/udp/239.77.1.17:5146
+CCTV2,http://27.9.91.108:8003/udp/225.0.4.132:7980
+CCTV2,http://183.48.34.9:16888/udp/239.77.1.158:5146
+CCTV2,http://122.237.243.207:6868/udp/233.50.200.25:5140
+CCTV3,http://27.9.91.108:8003/udp/225.0.4.142:7980
+CCTV3,http://122.237.243.207:6868/udp/233.50.200.107:5140
+CCTV3,http://183.48.34.9:16888/udp/239.77.0.169:5146
+CCTV4,http://27.9.91.108:8003/udp/225.0.4.176:7980
+CCTV4,http://122.237.243.207:6868/udp/233.50.200.101:5140
+CCTV4,http://183.48.34.9:16888/udp/239.77.1.163:5146
+CCTV5,http://27.9.91.108:8003/udp/225.0.4.143:7980
+CCTV5,http://183.48.34.9:16888/udp/239.77.0.170:5146
+CCTV5,http://122.237.243.207:6868/udp/233.50.200.108:5140
+CCTV5+,http://27.9.91.108:8003/udp/225.0.4.73:7980
+CCTV5+,http://122.237.243.207:6868/udp/233.50.201.220:5140
+CCTV6,http://27.9.91.108:8003/udp/225.0.4.144:7980
+CCTV6,http://122.237.243.207:6868/udp/233.50.200.109:5140
+CCTV6,http://183.48.34.9:16888/udp/239.77.0.171:5146
+CCTV7,http://27.9.91.108:8003/udp/225.0.4.127:7980
+CCTV7,http://122.237.243.207:6868/udp/233.50.200.24:5140
+CCTV8,http://27.9.91.108:8003/udp/225.0.4.137:7980
+CCTV8,http://122.237.243.207:6868/udp/233.50.200.110:5140
+CCTV8,http://183.48.34.9:16888/udp/239.77.0.172:5146
+CCTV9,http://27.9.91.108:8003/udp/225.0.4.131:7980
+CCTV9,http://122.237.243.207:6868/udp/233.50.200.23:5140
+CCTV10,http://27.9.91.108:8003/udp/225.0.4.130:7980
+CCTV10,http://122.237.243.207:6868/udp/233.50.200.22:5140
+CCTV10,http://171.109.52.2:4022/udp/239.81.0.118:4056
+CCTV12,http://27.9.91.108:8003/udp/225.0.4.129:7980
+CCTV12,http://122.237.243.207:6868/udp/233.50.200.21:5140
+CCTV13,http://122.237.243.207:6868/udp/233.50.200.111:5140
+CCTV13,http://183.48.34.9:16888/udp/239.77.0.188:5146
+CCTV14,http://27.9.91.108:8003/udp/225.0.4.128:7980
+CCTV14,http://122.237.243.207:6868/udp/233.50.200.103:5140
+CCTV15,http://183.48.34.9:16888/udp/239.77.1.239:5146
+CCTV16,http://122.237.243.207:6868/udp/233.50.200.112:5140
+CCTV16,http://183.48.34.9:16888/udp/239.77.0.165:5146
 CCTV17,http://171.109.52.2:4022/udp/239.81.0.228:4056
-CCTV4k,http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+CCTV17,http://27.9.91.108:8003/udp/225.0.4.179:7980
+CCTV17,http://183.48.34.9:16888/udp/239.77.1.121:5146
+CCTV17,http://122.237.243.207:6868/udp/233.50.200.113:5140
 CGTN,https://0472.org/hls/cgtn.m3u8
 CGTN俄语,https://0472.org/hls/cgtne.m3u8
 CGTN法语,https://0472.org/hls/cgtnf.m3u8
@@ -432,35 +467,69 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 卫视频道ip4,#genre#
-安徽卫视,http://171.109.52.2:4022/udp/239.81.0.211:4056
 安徽卫视,http://27.11.255.247:8004/udp/225.0.4.133:7980
-兵团卫视,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
-东方卫视,http://171.109.52.2:4022/udp/239.81.0.111:4056
+安徽卫视,http://27.9.91.108:8003/udp/225.0.4.133:7980
+安徽卫视,http://122.237.243.207:6868/udp/233.50.200.106:5140
+北京卫视,http://122.237.243.207:6868/udp/233.50.200.179:5140
+北京卫视,http://27.9.91.108:8003/udp/225.0.4.78:7980
+东方卫视,http://27.9.91.108:8003/udp/225.0.4.80:7980
+东方卫视,http://122.237.243.207:6868/udp/233.50.200.146:5140
+东南卫视,http://122.237.243.207:6868/udp/233.50.201.146:5140
+广东卫视,http://27.9.91.108:8003/udp/225.0.4.84:7980
+广东卫视,http://122.237.243.207:6868/udp/233.50.200.149:5140
+广东卫视,http://183.48.34.9:16888/udp/239.77.1.19:5146
 广西卫视,http://171.109.52.2:4022/udp/239.81.0.107:4056
+贵州卫视,http://122.237.243.207:6868/udp/233.50.201.142:5140
+河北卫视,http://27.9.91.108:8003/udp/225.0.4.174:7980
+河北卫视,http://122.237.243.207:6868/udp/233.50.200.105:5140
+河南卫视,http://122.237.243.207:6868/udp/233.50.201.144:5140
+湖北卫视,http://122.237.243.207:6868/udp/233.50.200.147:5140
+湖南卫视,http://27.9.91.108:8003/udp/225.0.4.75:7980
+湖南卫视,http://122.237.243.207:6868/udp/233.50.200.190:5140
+江苏卫视,http://27.9.91.108:8003/udp/225.0.4.79:7980
 江苏卫视,http://171.109.52.2:4022/udp/239.81.0.106:4056
-江西卫视,http://118.113.53.194:8848/udp/239.93.0.134:5140
+江苏卫视,http://122.237.243.207:6868/udp/233.50.200.144:5140
+江西卫视,http://122.237.243.207:6868/udp/233.50.200.119:5140
+辽宁卫视,http://27.9.91.108:8003/udp/225.0.4.98:7980
+辽宁卫视,http://171.109.52.2:4022/udp/239.81.0.210:4056
+辽宁卫视,http://122.237.243.207:6868/udp/233.50.201.141:5140
+山东卫视,http://27.9.91.108:8003/udp/225.0.4.199:7980
+山东卫视,http://122.237.243.207:6868/udp/233.50.201.105:5140
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
+深圳卫视,http://122.237.243.207:6868/udp/233.50.200.188:5140
+四川卫视,http://122.237.243.207:6868/udp/233.50.200.118:5140
+天津卫视,http://122.237.243.207:6868/udp/233.50.200.104:5140
 延边卫视,http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 云南卫视,http://115.210.75.231:58888/udp/233.50.200.115:5140
-重庆卫视,http://27.11.255.247:8004/udp/225.0.4.187:7980
+云南卫视,http://122.237.243.207:6868/udp/233.50.200.115:5140
+浙江卫视,http://27.9.91.108:8003/udp/225.0.4.81:7980
+浙江卫视,http://122.237.243.207:6868/udp/233.50.201.100:5140
+重庆卫视,http://27.9.91.108:8003/udp/225.0.4.187:7980
+重庆卫视,http://122.237.243.207:6868/udp/233.50.200.114:5140
+大湾区卫视,http://183.48.34.9:16888/udp/239.77.0.215:5146
+黑龙江卫视,http://171.109.52.2:4022/udp/239.81.0.105:4056
+黑龙江卫视,http://122.237.243.207:6868/udp/233.50.200.189:5140
 内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
 
-地方频道ip4,#genre#
+数字频道ip4,#genre#
+嘉佳卡通,http://183.48.34.9:16888/udp/239.77.0.179:5146
+游戏风云,http://122.237.243.207:6868/udp/233.50.200.14:5140
+
+
+少儿频道ip4,#genre#
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-浙江公共新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+内蒙古少儿,https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
+
+
+地方频道ip4,#genre#
 浙江国际,https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 之江纪录,https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 浙江民生休闲,https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-浙江经视,https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-浙江钱江都市,https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-内蒙古综合,https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=173f71025a2de64458989cfb281a0a37&txTime=771E8800
 内蒙古经济生活,https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=8e4b7cf6a2c8a75f74aef1a8a07cef43&txTime=771E8800
-内蒙古少儿,https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
 内蒙古文体娱乐,https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=82ed51a2a4cbf85b62fec8ef2bfe4529&txTime=771E8800
-内蒙古农牧,https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=b5e44fcd9473993661f17746112ad1b7&txTime=771E8800
 内蒙古蒙语文化,https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=2250268a1d326dbbc4cbf0ba32649ca5&txTime=771E8800
 内蒙古蒙语卫视,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
 
@@ -474,7 +543,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 
 
 更新时间ip4,#genre#
-2024-08-22 00:24:16,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
+2024-08-22 08:53:13,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
 vip:proton218,https://vd2.bdstatic.com/mda-qg7aaxanpg2jwq4m/720p/h264/1720423041491052621/mda-qg7aaxanpg2jwq4m.mp4?v_from_s=bdapp-resbox-hnb
 
 央视-itv,#genre#
