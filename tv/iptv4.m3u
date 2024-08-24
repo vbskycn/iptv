@@ -35,6 +35,8 @@ http://218.18.4.146:8888/udp/239.77.1.239:5146
 http://223.10.28.220:8084/udp/239.1.1.122:8122
 #EXTINF:-1 tvg-name="CCTV17" tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道", CCTV17
 http://223.10.28.220:8084/udp/239.1.1.23:8023
+#EXTINF:-1 tvg-name="CCTV4k" tvg-id="CCTV4k" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4k-light.png" group-title="央视频道", CCTV4k
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视频道", CGTN
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="央视频道", CGTN俄语
@@ -57,6 +59,8 @@ https://pi.0472.org/chc/ym.m3u8
 http://27.11.250.56:8008/udp/225.0.4.133:7980
 #EXTINF:-1 tvg-name="北京卫视" tvg-id="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视频道", 北京卫视
 http://27.11.250.56:8008/udp/225.0.4.78:7980
+#EXTINF:-1 tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视频道", 兵团卫视
+http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
 #EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视频道", 东方卫视
 http://218.21.121.28:8888/udp/239.81.0.111:4056
 #EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视频道", 东南卫视
@@ -107,8 +111,6 @@ http://221.7.122.120:8002/udp/225.0.4.187:7980
 http://218.18.4.146:8888/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-id="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视频道", 黑龙江卫视
 http://223.10.28.220:8084/udp/239.1.1.37:8037
-#EXTINF:-1 tvg-name="内蒙古卫视" tvg-id="内蒙古卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古卫视.png" group-title="卫视频道", 内蒙古卫视
-https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-id="嘉佳卡通" tvg-logo="https://live.fanmingming.com/tv/嘉佳卡通.png" group-title="数字频道", 嘉佳卡通
 http://218.18.4.146:8888/udp/239.77.0.179:5146
 #EXTINF:-1 tvg-name="浙江少儿" tvg-id="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="地方频道", 浙江少儿
@@ -141,20 +143,6 @@ https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市" tvg-id="浙江钱江都市" tvg-logo="https://live.fanmingming.com/tv/钱江都市.png" group-title="地方频道", 浙江钱江都市
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-name="内蒙古综合" tvg-id="内蒙古综合" tvg-logo="https://live.fanmingming.com/tv/内蒙古新闻综合.png" group-title="地方频道", 内蒙古综合
-https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=173f71025a2de64458989cfb281a0a37&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古经济生活" tvg-id="内蒙古经济生活" tvg-logo="https://live.fanmingming.com/tv/内蒙古经济生活.png" group-title="地方频道", 内蒙古经济生活
-https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=8e4b7cf6a2c8a75f74aef1a8a07cef43&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古少儿" tvg-id="内蒙古少儿" tvg-logo="https://live.fanmingming.com/tv/内蒙古少儿.png" group-title="地方频道", 内蒙古少儿
-https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古文体娱乐" tvg-id="内蒙古文体娱乐" tvg-logo="https://live.fanmingming.com/tv/内蒙古文体娱乐.png" group-title="地方频道", 内蒙古文体娱乐
-https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=82ed51a2a4cbf85b62fec8ef2bfe4529&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古农牧" tvg-id="内蒙古农牧" tvg-logo="https://live.fanmingming.com/tv/内蒙古农牧.png" group-title="地方频道", 内蒙古农牧
-https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=b5e44fcd9473993661f17746112ad1b7&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古蒙语文化" tvg-id="内蒙古蒙语文化" tvg-logo="https://live.fanmingming.com/tv/内蒙古蒙语文化.png" group-title="地方频道", 内蒙古蒙语文化
-https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=2250268a1d326dbbc4cbf0ba32649ca5&txTime=771E8800
-#EXTINF:-1 tvg-name="内蒙古蒙语卫视" tvg-id="内蒙古蒙语卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古蒙语卫视.png" group-title="地方频道", 内蒙古蒙语卫视
-https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
 #EXTINF:-1 tvg-name="凤凰中文" tvg-id="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港澳频道", 凤凰中文
 http://115.210.75.231:58888/udp/233.50.200.42:5140
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳频道", 凤凰资讯
@@ -167,3 +155,5 @@ https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-name="民视新闻" tvg-id="民视新闻" tvg-logo="https://live.fanmingming.com/tv/民视新闻台.png" group-title="港·澳·台", 民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 tvg-name="澳视澳门" tvg-id="澳视澳门" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="港·澳·台", 澳视澳门
+http://183.237.246.14:9931/tsfile/live/1039_1.m3u8
