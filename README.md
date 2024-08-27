@@ -129,9 +129,8 @@ function copyToClipboard(text) {
 
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
+- [https://zbds.proton218.top/](https://zbds.proton218.top/)
 - [https://zbds.lanzoui.com/b0b36hyqd](https://zbds.lanzoui.com/b0b36hyqd)
-
-
 
 ## 📖 说明
 
@@ -147,6 +146,7 @@ function copyToClipboard(text) {
 
 ## 📔 更新
 
+- 2024.8.27 新增一些频道
 - 2024.7.21 新增epg镜像地址
 - 2024.5.2 新增一些源
 - 2024.6.22 新增 IPTV4/IPTV6 自动更新源
