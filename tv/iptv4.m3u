@@ -35,8 +35,6 @@ http://59.52.102.115:8888/udp/239.252.219.79:5140
 http://223.10.28.220:8084/udp/239.1.1.122:8122
 #EXTINF:-1 tvg-name="CCTV17" tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道", CCTV17
 http://59.52.102.115:8888/udp/239.252.220.192:5140
-#EXTINF:-1 tvg-name="CCTV4k" tvg-id="CCTV4k" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4k-light.png" group-title="央视频道", CCTV4k
-http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-id="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视频道", CGTN
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="央视频道", CGTN俄语
@@ -49,12 +47,12 @@ https://0472.org/hls/cgtnd.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道", CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="央视频道", CHC动作电影
-http://59.52.102.115:8888/udp/239.252.219.85:5140
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-id="CHC3" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/shuzi/CHC3.png" group-title="数字频道", CHC动作电影
+http://218.76.32.193:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 tvg-name="CHC高清电影" tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="央视频道", CHC高清电影
 http://59.52.102.115:8888/udp/239.252.219.83:5140
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="央视频道", CHC家庭影院
-http://59.52.102.115:8888/udp/239.252.219.84:5140
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-id="CHC2" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/shuzi/CHC2.png" group-title="数字频道", CHC家庭影院
+http://218.76.32.193:9901/tsfile/live/1018_1.m3u8
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-id="CHC1" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/shuzi/CHC4.png" group-title="数字频道", CHC影迷电影
 http://218.76.32.193:9901/tsfile/live/1019_1.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="卫视频道", 安徽卫视
@@ -96,7 +94,7 @@ http://59.52.102.115:8888/udp/239.252.220.62:5140
 #EXTINF:-1 tvg-name="山东卫视" tvg-id="山东卫视" tvg-logo="https://live.fanmingming.com/tv/山东卫视.png" group-title="卫视频道", 山东卫视
 http://1.203.184.49:8888/udp/225.1.8.50:8052
 #EXTINF:-1 tvg-name="山西卫视" tvg-id="山西卫视" tvg-logo="https://live.fanmingming.com/tv/山西卫视.png" group-title="卫视频道", 山西卫视
-http://110.178.52.75:8084/udp/239.1.1.1:8001
+http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
 #EXTINF:-1 tvg-name="深圳卫视" tvg-id="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="卫视频道", 深圳卫视
 http://59.52.102.115:8888/udp/239.252.219.212:5140
 #EXTINF:-1 tvg-name="四川卫视" tvg-id="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="卫视频道", 四川卫视
@@ -120,19 +118,19 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 tvg-name="全纪实" tvg-id="全纪实" tvg-logo="https://live.fanmingming.com/tv/全纪实.png" group-title="数字频道", 全纪实
 http://116.226.14.61:4022/udp/239.45.3.135:5140
 #EXTINF:-1 tvg-name="世界地理" tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道", 世界地理
-http://223.10.28.220:8084/udp/239.1.1.99:8099
+http://111.61.236.247:9081/hls/62/index.m3u8
 #EXTINF:-1 tvg-name="央视台球" tvg-id="央视台球" tvg-logo="https://live.fanmingming.com/tv/央视台球.png" group-title="央视频道", 央视台球
 http://59.52.102.115:8888/udp/239.252.219.80:5140
 #EXTINF:-1 tvg-name="游戏风云" tvg-id="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png" group-title="数字频道", 游戏风云
 http://183.141.187.225:9999/udp/233.50.200.14:5140
 #EXTINF:-1 tvg-name="风云足球" tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视频道", 风云足球
-http://59.52.102.115:8888/udp/239.252.219.96:5140
+http://111.61.236.247:9081/hls/58/index.m3u8
 #EXTINF:-1 tvg-name="五星体育" tvg-id="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="数字频道", 五星体育
 http://116.226.14.61:4022/udp/239.45.3.210:5140
 #EXTINF:-1 tvg-name="纪实人文" tvg-id="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道", 纪实人文
 http://110.178.52.75:8084/udp/239.1.1.45:8045
-#EXTINF:-1 tvg-name="兵器科技" tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="央视频道", 兵器科技
-http://59.52.102.115:8888/udp/239.252.219.98:5140
+#EXTINF:-1 tvg-name="兵器科技" tvg-id="兵器科技" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/cctv/CCTVbqkj.png" group-title="央视频道", 兵器科技
+http://111.61.236.247:9081/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="第一剧场" tvg-id="第一剧场" tvg-logo="https://live.fanmingming.com/tv/第一剧场.png" group-title="央视频道", 第一剧场
 http://59.52.102.115:8888/udp/239.252.219.86:5140
 #EXTINF:-1 tvg-name="浙江公共新闻" tvg-id="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png" group-title="地方频道", 浙江公共新闻
