@@ -95,7 +95,7 @@ function copyToClipboard(text) {
   
 - 🌐 直播源转换工具：
   
-  - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/)
+  - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/aztv)
 
 
 
