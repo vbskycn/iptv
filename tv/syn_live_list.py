@@ -19,42 +19,40 @@ if not GITHUB_TOKEN:
 urls_to_process = [
     'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.txt',
     'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.m3u',    
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.m3u',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.m3u',
     'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u',
-    'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u'
+    'https://raw.githubusercontent.com/vbskycn/iptv6/master/iptv6.m3u'
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv.m3u',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/beesport.m3u',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/4gtv.m3u'
 
     
 ]
 
 # 仅需下载的文件URL
 urls_to_download_only = [
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/me/bg.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.m3u',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.m3u',    
-    'https://guovin100.my.zhoujie218.top:8443/result_new.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/me/bg.m3u'
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/me/bg.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/itv_proxy.m3u',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/tptv.m3u',    
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/me/bg.m3u'
 ]
 
 # 对应txt文件的分组标记替换规则
 replacements = {
     'jxdx_hd.txt': 'jxH,#genre#',
-    'ysp.txt': 'ysp,#genre#',
+    #'ysp.txt': 'ysp,#genre#',
     'iptv6.txt': 'ip6,#genre#',
-    'itv.txt': '-itv,#genre#',
-    'beesport.txt': 'sport,#genre#',
-    'iptv4.txt': 'ip4,#genre#',
-    '4gtv.txt': '4gtv,#genre#'
+    #'itv.txt': '-itv,#genre#',
+   # 'beesport.txt': 'sport,#genre#',
+    'iptv4.txt': 'ip4,#genre#'
     
 }
 
