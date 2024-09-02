@@ -1,72 +1,56 @@
 name: sync_live_list
 
-# 定义工作流何时触发
 on:
-  # 每小时的第5分钟触发
   schedule:
-    - cron: '5 * * * *'
-  # 允许手动运行工作流
+    - cron: '5 */3 * * *'
   workflow_dispatch:
 
 jobs:
   sync_live_list:
-    # 在最新的 Ubuntu 操作系统上运行
     runs-on: ubuntu-latest
 
-    # 设置环境变量
     env:
       MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
     steps:
-      # 第一步：检出仓库代码
       - name: 检出仓库代码
         uses: actions/checkout@v2
 
-      # 第二步：设置 Python 环境
       - name: 设置 Python 环境
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      # 第三步：安装依赖
       - name: 安装依赖
         run: |
           pip install requests
 
-      # 第四步：列出 tv 目录中的文件，调试路径问题
       - name: 列出 tv 目录中的文件
         run: |
           ls -la tv
 
-      # 第五步：运行 syn_live_list.py 脚本
       - name: 运行 syn_live_list.py
         run: |
           cd tv
           python syn_live_list.py
 
-      # 第六步：列出运行脚本后生成的文件，确认文件生成情况
       - name: 列出生成的文件
         run: |
           ls -la tv
 
-      # 第七步：检查是否有更改
       - name: 检查是否有更改
         id: detect_changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
           git status
-          git diff --exit-code
+          git diff --cached --exit-code
         continue-on-error: true
 
-      # 第八步：提交并推送更改（仅当有更改时）
       - name: 提交并推送更改
         if: steps.detect_changes.outcome != 'success'
         run: |
-          cd tv
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
           git commit -m "Sync live list $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
           git push
         env:
