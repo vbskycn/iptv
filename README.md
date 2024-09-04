@@ -111,7 +111,7 @@ function copyToClipboard(text) {
 
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
-- [https://zbds.proton218.top/](https://zbds.proton218.top/aztv)
+- [https://zbds.top/](https://zbds.top/aztv)
 - [https://zbds.lanzoui.com/b0b2kul6b](https://zbds.lanzoui.com/b0b2kul6b)
 
 ## 📖 说明
