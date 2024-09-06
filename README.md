@@ -86,16 +86,10 @@ function copyToClipboard(text) {
 
 ## 🛠️ 工具
 
-- 📄 M3U To TXT：
+- 🌐纯前端直播源格式转换器
   
-  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.m3u](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.m3u)
-- 📄 TXT To M3U：
-  
-  - Demo🔗 [https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt](https://zhuan.zhoujie218.top/z.php?url=https://live.zhoujie218.top/tv/iptv6.txt)
-  
-- 🌐 直播源转换工具：
-  
-  - [https://zhuan.zhoujie218.top](https://zhuan.zhoujie218.top/)
+  - [https://zhuan.zhoujie218.top/index.html](https://zhuan.zhoujie218.top/index.html)
+  - [https://tv.zhoujie218.top/tools/index.html](https://tv.zhoujie218.top/tools/index.html)
 
 
 
@@ -111,7 +105,7 @@ function copyToClipboard(text) {
 
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
-- [https://zbds.zhoujie218.top/](https://zbds.zhoujie218.top/)
+- [https://www.zbds.top](https://zbds.top/aztv)
 - [https://zbds.lanzoui.com/b0b36hyqd](https://zbds.lanzoui.com/b0b36hyqd)
 
 ## 📖 说明
