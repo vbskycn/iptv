@@ -88,7 +88,7 @@ function copyToClipboard(text) {
 
 - 🌐纯前端直播源格式转换器
   
-  - [https://zbds.top/tools/index.html](https://zbds.top/tools/index.html)
+  - [https://zbds.top/tools.html](https://zbds.top/tools.html)
   
     
 
