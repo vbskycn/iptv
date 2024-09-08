@@ -2,7 +2,8 @@ name: sync_live_list
 
 on:
   schedule:
-    - cron: '5 */3 * * *'
+    #- cron: '5 */3 * * *'
+    - cron: '0 17,1,9 * * *'
   workflow_dispatch:
 
 jobs:
