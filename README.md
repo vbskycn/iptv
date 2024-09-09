@@ -27,7 +27,7 @@ permalink: /
 
 ## 📺 自动扫描直播源 IPTV6：
 
-部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2024-09-09 15:05:41<!-- END_UPDATE_TIME_IPTV6 -->
+部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2024-09-09 16:54:52<!-- END_UPDATE_TIME_IPTV6 -->
 
 *有ipv6环境的强烈推荐这个列表，高速稳定*
 
@@ -63,7 +63,7 @@ function copyToClipboard(text) {
 
 ## 📺 自动扫描直播源 IPTV4：
 
-部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2024-09-09 15:05:41<!-- END_UPDATE_TIME_IPTV4 -->
+部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2024-09-09 16:54:52<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table style="width:100%; border-collapse: collapse; text-align: center;">
   <tr>
