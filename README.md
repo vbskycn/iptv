@@ -11,8 +11,19 @@ body {
   margin: 0 !important;
 }
 .main-content {
-  max-width: 100% !important;
-  padding: 2rem 1rem !important;
+  max-width: 64rem !important;
+  padding: 2rem 6rem !important;
+  margin: 0 auto !important;
+}
+@media screen and (max-width: 64em) {
+  .main-content {
+    padding: 2rem 4rem !important;
+  }
+}
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 2rem 1rem !important;
+  }
 }
 table {
   width: 100% !important;
