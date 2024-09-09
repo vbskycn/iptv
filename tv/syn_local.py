@@ -111,29 +111,51 @@ print("正在更新 README.md 文件...")
 readme_path = os.path.join(repo_root, 'README.md')
 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-with open(readme_path, 'r', encoding='utf-8') as file:
-    content = file.read()
+try:
+    with open(readme_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    print(f"README.md 文件内容长度: {len(content)} 字符")
 
-# 更新 IPTV6 时间
-content = content.replace('<!-- UPDATE_TIME_IPTV6 --><!-- END_UPDATE_TIME_IPTV6 -->',
-                          f'<!-- UPDATE_TIME_IPTV6 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV6 -->')
+    # 更新 IPTV6 时间
+    old_iptv6 = '<!-- UPDATE_TIME_IPTV6 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV6 -->'
+    new_iptv6 = f'<!-- UPDATE_TIME_IPTV6 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV6 -->'
+    content = content.replace(old_iptv6, new_iptv6)
 
-# 更新 IPTV4 时间
-content = content.replace('<!-- UPDATE_TIME_IPTV4 --><!-- END_UPDATE_TIME_IPTV4 -->',
-                          f'<!-- UPDATE_TIME_IPTV4 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV4 -->')
+    # 更新 IPTV4 时间
+    old_iptv4 = '<!-- UPDATE_TIME_IPTV4 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV4 -->'
+    new_iptv4 = f'<!-- UPDATE_TIME_IPTV4 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV4 -->'
+    content = content.replace(old_iptv4, new_iptv4)
 
-with open(readme_path, 'w', encoding='utf-8') as file:
-    file.write(content)
+    print(f"IPTV6 更新: {'成功' if old_iptv6 in content else '失败'}")
+    print(f"IPTV4 更新: {'成功' if old_iptv4 in content else '失败'}")
 
-print("README.md 文件已更新")
+    with open(readme_path, 'w', encoding='utf-8') as file:
+        file.write(content)
+
+    print(f"README.md 文件更新后内容长度: {len(content)} 字符")
+    print("README.md 文件已更新")
+
+except Exception as e:
+    print(f"更新 README.md 文件时出错: {str(e)}")
+    exit(1)
 
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
 try:
-    run_command('git add .', cwd=repo_root)
+    output = run_command('git status', cwd=repo_root)
+    print(f"Git 状态:\n{output}")
+
+    output = run_command('git add .', cwd=repo_root)
+    print(f"Git add 输出:\n{output}")
+
     commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
-    run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
-    run_command('git push', cwd=repo_root)
+    output = run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
+    print(f"Git commit 输出:\n{output}")
+
+    output = run_command('git push', cwd=repo_root)
+    print(f"Git push 输出:\n{output}")
+
     print("更改已成功提交并推送到 GitHub")
 except Exception as e:
     print(f"Git 操作失败: {str(e)}")
