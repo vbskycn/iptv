@@ -4,8 +4,58 @@ title: Home
 permalink: /
 ---
 
-
-
+<style>
+body {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.main-content {
+  max-width: 64rem !important;
+  padding: 2rem 6rem !important;
+  margin: 0 auto !important;
+}
+@media screen and (max-width: 64em) {
+  .main-content {
+    padding: 2rem 4rem !important;
+  }
+}
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 2rem 1rem !important;
+  }
+}
+table {
+  width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+th, td {
+  padding: 8px !important;
+  text-align: left !important;
+  border-bottom: 1px solid #ddd !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+th {
+  background-color: #f2f2f2 !important;
+}
+.button {
+  background-color: #4CAF50 !important;
+  border: none !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+</style>
 
 <h1 align="center">✯ 这是一个国内可直连的直播源分享项目 ✯</h1>
 
@@ -57,7 +107,17 @@ permalink: /
   </tr>
 </table>
 
-
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
 
 ## 📺 自动扫描直播源 IPTV4：
 
