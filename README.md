@@ -24,7 +24,7 @@ permalink: /
 
 如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
 
-直播电视app 下载地址：https://zbds.lanzoui.com/b0b2kul6b
+直播电视app 下载地址：[https://zbds.lanzoui.com/b0b2kul6b](https://zbds.lanzoui.com/b0b2kul6b)
 
 
 
@@ -57,7 +57,17 @@ permalink: /
   </tr>
 </table>
 
-
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
 
 ## 📺 自动扫描直播源 IPTV4：
 
