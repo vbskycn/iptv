@@ -153,7 +153,7 @@ try:
         output = run_command('git add .', cwd=repo_root)
         print(f"Git add 输出:\n{output}")
 
-        commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
+        commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件"
         output = run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
         print(f"Git commit 输出:\n{output}")
 
