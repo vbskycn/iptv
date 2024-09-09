@@ -2,6 +2,7 @@ import os
 import subprocess
 import requests
 import datetime
+import re
 
 # 获取脚本所在目录
 script_path = os.path.dirname(os.path.abspath(__file__))
@@ -118,17 +119,17 @@ try:
     print(f"README.md 文件内容长度: {len(content)} 字符")
 
     # 更新 IPTV6 时间
-    old_iptv6 = '<!-- UPDATE_TIME_IPTV6 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV6 -->'
+    iptv6_pattern = r'<!-- UPDATE_TIME_IPTV6 -->本次更新时间:.*?<!-- END_UPDATE_TIME_IPTV6 -->'
     new_iptv6 = f'<!-- UPDATE_TIME_IPTV6 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV6 -->'
-    content = content.replace(old_iptv6, new_iptv6)
+    content = re.sub(iptv6_pattern, new_iptv6, content)
 
     # 更新 IPTV4 时间
-    old_iptv4 = '<!-- UPDATE_TIME_IPTV4 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV4 -->'
+    iptv4_pattern = r'<!-- UPDATE_TIME_IPTV4 -->本次更新时间:.*?<!-- END_UPDATE_TIME_IPTV4 -->'
     new_iptv4 = f'<!-- UPDATE_TIME_IPTV4 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV4 -->'
-    content = content.replace(old_iptv4, new_iptv4)
+    content = re.sub(iptv4_pattern, new_iptv4, content)
 
-    print(f"IPTV6 更新: {'成功' if old_iptv6 in content else '失败'}")
-    print(f"IPTV4 更新: {'成功' if old_iptv4 in content else '失败'}")
+    print(f"IPTV6 更新: {'成功' if '<!-- UPDATE_TIME_IPTV6 -->' in content else '失败'}")
+    print(f"IPTV4 更新: {'成功' if '<!-- UPDATE_TIME_IPTV4 -->' in content else '失败'}")
 
     with open(readme_path, 'w', encoding='utf-8') as file:
         file.write(content)
