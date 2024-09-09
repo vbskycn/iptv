@@ -3,11 +3,13 @@ import subprocess
 import requests
 import datetime
 
-# 获取脚本所在目录的上一级目录（假设这是 Git 仓库的根目录）
-repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 获取脚本所在目录
+script_path = os.path.dirname(os.path.abspath(__file__))
+# 获取仓库根目录（脚本所在目录的上一级）
+repo_root = os.path.dirname(script_path)
 
-def run_command(command):
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=repo_root)
+def run_command(command, cwd=None):
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=cwd)
     output, error = process.communicate()
     if process.returncode != 0:
         print(f"错误: {error.decode('utf-8')}")
@@ -19,7 +21,6 @@ def print_current_time(message):
     print(f"{message} {current_time}")
 
 # 1. 获取脚本所在路径和系统时间日期
-script_path = os.path.dirname(os.path.abspath(__file__))
 print(f"脚本所在路径：{script_path}")
 print_current_time("系统时间：")
 
@@ -28,15 +29,15 @@ os.chdir(script_path)
 print("切换到程序所在目录...")
 
 # 3. 设置 Git 用户名和邮箱
-run_command('git config user.name "vbskycn"')
-run_command('git config user.email "zhoujie218@gmail.com"')
+run_command('git config user.name "vbskycn"', cwd=repo_root)
+run_command('git config user.email "zhoujie218@gmail.com"', cwd=repo_root)
 
 # 4. 执行 Git 操作，放弃本地更改并拉取最新代码
 print("正在执行 Git 操作...")
-run_command('git fetch origin')
-run_command('git reset --hard origin/master')
-run_command('git clean -fd')
-run_command('git pull')
+run_command('git fetch origin', cwd=repo_root)
+run_command('git reset --hard origin/master', cwd=repo_root)
+run_command('git clean -fd', cwd=repo_root)
+run_command('git pull', cwd=repo_root)
 
 # 5. 下载文件列表
 print("正在下载文件...")
@@ -107,7 +108,7 @@ print(f'文件已合并到 {output_file}')
 
 # 8. 更新 README.md 文件
 print("正在更新 README.md 文件...")
-readme_path = os.path.join(os.path.dirname(script_path), 'README.md')
+readme_path = os.path.join(repo_root, 'README.md')
 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 with open(readme_path, 'r', encoding='utf-8') as file:
@@ -129,11 +130,10 @@ print("README.md 文件已更新")
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
 try:
-    run_command('git add .')
-    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    run_command('git add .', cwd=repo_root)
     commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
-    run_command(f'git commit -m "{commit_message}"')
-    run_command('git push')
+    run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
+    run_command('git push', cwd=repo_root)
     print("更改已成功提交并推送到 GitHub")
 except Exception as e:
     print(f"Git 操作失败: {str(e)}")
