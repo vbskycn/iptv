@@ -121,21 +121,23 @@ try:
     # 更新 IPTV6 时间
     iptv6_pattern = r'<!-- UPDATE_TIME_IPTV6 -->本次更新时间:.*?<!-- END_UPDATE_TIME_IPTV6 -->'
     new_iptv6 = f'<!-- UPDATE_TIME_IPTV6 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV6 -->'
-    content = re.sub(iptv6_pattern, new_iptv6, content)
+    content, iptv6_count = re.subn(iptv6_pattern, new_iptv6, content)
 
     # 更新 IPTV4 时间
     iptv4_pattern = r'<!-- UPDATE_TIME_IPTV4 -->本次更新时间:.*?<!-- END_UPDATE_TIME_IPTV4 -->'
     new_iptv4 = f'<!-- UPDATE_TIME_IPTV4 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV4 -->'
-    content = re.sub(iptv4_pattern, new_iptv4, content)
+    content, iptv4_count = re.subn(iptv4_pattern, new_iptv4, content)
 
-    print(f"IPTV6 更新: {'成功' if '<!-- UPDATE_TIME_IPTV6 -->' in content else '失败'}")
-    print(f"IPTV4 更新: {'成功' if '<!-- UPDATE_TIME_IPTV4 -->' in content else '失败'}")
+    print(f"IPTV6 更新: {'成功' if iptv6_count > 0 else '失败'}")
+    print(f"IPTV4 更新: {'成功' if iptv4_count > 0 else '失败'}")
 
-    with open(readme_path, 'w', encoding='utf-8') as file:
-        file.write(content)
-
-    print(f"README.md 文件更新后内容长度: {len(content)} 字符")
-    print("README.md 文件已更新")
+    if iptv6_count > 0 or iptv4_count > 0:
+        with open(readme_path, 'w', encoding='utf-8') as file:
+            file.write(content)
+        print(f"README.md 文件更新后内容长度: {len(content)} 字符")
+        print("README.md 文件已更新")
+    else:
+        print("没有找到需要更新的时间标记，README.md 文件未修改")
 
 except Exception as e:
     print(f"更新 README.md 文件时出错: {str(e)}")
@@ -147,17 +149,21 @@ try:
     output = run_command('git status', cwd=repo_root)
     print(f"Git 状态:\n{output}")
 
-    output = run_command('git add .', cwd=repo_root)
-    print(f"Git add 输出:\n{output}")
+    if "nothing to commit" not in output:
+        output = run_command('git add .', cwd=repo_root)
+        print(f"Git add 输出:\n{output}")
 
-    commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
-    output = run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
-    print(f"Git commit 输出:\n{output}")
+        commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
+        output = run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
+        print(f"Git commit 输出:\n{output}")
 
-    output = run_command('git push', cwd=repo_root)
-    print(f"Git push 输出:\n{output}")
+        output = run_command('git push', cwd=repo_root)
+        print(f"Git push 输出:\n{output}")
 
-    print("更改已成功提交并推送到 GitHub")
+        print("更改已成功提交并推送到 GitHub")
+    else:
+        print("没有需要提交的更改")
+
 except Exception as e:
     print(f"Git 操作失败: {str(e)}")
     exit(1)
