@@ -6,28 +6,32 @@ permalink: /
 
 <style>
 table {
-  width: 100%;
-  border-collapse: collapse;
+  width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
 }
 th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+  padding: 8px !important;
+  text-align: left !important;
+  border-bottom: 1px solid #ddd !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 th {
-  background-color: #f2f2f2;
+  background-color: #f2f2f2 !important;
 }
 .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  background-color: #4CAF50 !important;
+  border: none !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
 }
 </style>
 
@@ -59,6 +63,11 @@ th {
 *有ipv6环境的强烈推荐这个列表，高速稳定*
 
 <table>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 60%;">
+    <col style="width: 20%;">
+  </colgroup>
   <tr>
     <th>名称</th>
     <th>网址</th>
@@ -93,6 +102,11 @@ function copyToClipboard(text) {
 部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2024-09-09 16:54:52<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 60%;">
+    <col style="width: 20%;">
+  </colgroup>
   <tr>
     <th>名称</th>
     <th>网址</th>
