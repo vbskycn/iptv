@@ -85,7 +85,10 @@ for file in files_to_sync:
 # 7. 合并文件
 print("正在合并文件...")
 output_file = os.path.join(script_path, 'hd.txt')
-files_to_merge = ['jxdx_hd.txt', 'iptv6.txt', 'iptv4.txt']  # 调整顺序
+
+# 定义文件合并顺序
+merge_order = ['jxdx_hd.txt', 'iptv6.txt', 'iptv4.txt']
+
 replacements = {
     'jxdx_hd.txt': 'jxH,#genre#',
     'iptv6.txt': 'ip6,#genre#',
@@ -93,7 +96,7 @@ replacements = {
 }
 
 with open(output_file, 'w', encoding='utf-8') as outfile:
-    for filename in files_to_merge:
+    for filename in merge_order:
         filepath = os.path.join(script_path, filename)
         if os.path.exists(filepath):
             with open(filepath, 'r', encoding='utf-8') as infile:
