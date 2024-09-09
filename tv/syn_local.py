@@ -37,10 +37,8 @@ run_command('git pull')
 
 # 5. 下载 jxdx_hd.txt 文件
 print("正在下载 jxdx_hd.txt 文件...")
-tv_dir = os.path.join(script_path, "tv")
-os.makedirs(tv_dir, exist_ok=True)
 jxdx_hd_url = "https://tv.proton218.top/tv/liebiao/jxdx_hd.txt"
-jxdx_hd_path = os.path.join(tv_dir, "jxdx_hd.txt")
+jxdx_hd_path = os.path.join(script_path, "jxdx_hd.txt")
 
 response = requests.get(jxdx_hd_url)
 if response.status_code == 200:
@@ -56,12 +54,12 @@ print("正在同步文件...")
 files_to_sync = ['iptv4.txt', 'iptv4.m3u', 'iptv6.txt', 'iptv6.m3u']
 for file in files_to_sync:
     source = f"/docker/iptv4/{file}"
-    destination = os.path.join(tv_dir, file)
+    destination = os.path.join(script_path, file)
     run_command(f'cp {source} {destination}')
 
 # 7. 合并文件
 print("正在合并文件...")
-output_file = os.path.join(tv_dir, 'hd.txt')
+output_file = os.path.join(script_path, 'hd.txt')
 files_to_merge = ['jxdx_hd.txt', 'iptv4.txt', 'iptv6.txt']
 replacements = {
     'jxdx_hd.txt': 'jxH,#genre#',
@@ -71,7 +69,7 @@ replacements = {
 
 with open(output_file, 'w', encoding='utf-8') as outfile:
     for filename in files_to_merge:
-        filepath = os.path.join(tv_dir, filename)
+        filepath = os.path.join(script_path, filename)
         if os.path.exists(filepath):
             with open(filepath, 'r', encoding='utf-8') as infile:
                 content = infile.read()
