@@ -35,19 +35,39 @@ run_command('git reset --hard origin/master')
 run_command('git clean -fd')
 run_command('git pull')
 
-# 5. 下载 jxdx_hd.txt 文件
-print("正在下载 jxdx_hd.txt 文件...")
-jxdx_hd_url = "https://tv.zhoujie218.top/tv/liebiao/jxdx_hd.txt"
-jxdx_hd_path = os.path.join(script_path, "jxdx_hd.txt")
+# 5. 下载文件列表
+print("正在下载文件...")
+files_to_download = [
+    {
+        "url": "https://tv.zhoujie218.top/tv/liebiao/jxdx_hd.txt",
+        "filename": "jxdx_hd.txt"
+    },
+    {
+        "url": "https://tv.zhoujie218.top/tv/liebiao/jxdx_hd.m3u",
+        "filename": "jxdx_hd.m3u"
+    },
+    # 在这里添加更多的文件下载信息
+    # 例如：
+    # {
+    #     "url": "https://example.com/another_file.txt",
+    #     "filename": "another_file.txt"
+    # },
+]
 
-response = requests.get(jxdx_hd_url)
-if response.status_code == 200:
-    with open(jxdx_hd_path, 'w', encoding='utf-8') as f:
-        f.write(response.text)
-    print(f"成功下载并保存 jxdx_hd.txt 到 {jxdx_hd_path}")
-else:
-    print(f"下载失败 jxdx_hd.txt, 状态码: {response.status_code}")
-    exit(1)
+for file_info in files_to_download:
+    url = file_info["url"]
+    filename = file_info["filename"]
+    file_path = os.path.join(script_path, filename)
+
+    print(f"正在下载 {filename} 文件...")
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(response.text)
+        print(f"成功下载并保存 {filename} 到 {file_path}")
+    else:
+        print(f"下载失败 {filename}, 状态码: {response.status_code}")
+        exit(1)
 
 # 6. 同步文件
 print("正在同步文件...")
