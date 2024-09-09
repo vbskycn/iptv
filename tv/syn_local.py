@@ -102,10 +102,25 @@ with open(output_file, 'w', encoding='utf-8') as outfile:
 
 print(f'文件已合并到 {output_file}')
 
-# 8. 提交更改并推送到 GitHub
+# 8. 更新 README.md 文件
+print("正在更新 README.md 文件...")
+readme_path = os.path.join(os.path.dirname(script_path), 'README.md')
+current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+with open(readme_path, 'r', encoding='utf-8') as file:
+    content = file.read()
+
+content = content.replace('本次更新时间:', f'本次更新时间: {current_time}')
+
+with open(readme_path, 'w', encoding='utf-8') as file:
+    file.write(content)
+
+print("README.md 文件已更新")
+
+# 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
 run_command('git add .')
-commit_message = f"debian100 {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - 同步IPTV4仓库文件和处理新文件"
+commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件"
 run_command(f'git commit -m "{commit_message}"')
 run_command('git push')
 
