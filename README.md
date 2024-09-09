@@ -4,6 +4,33 @@ title: Home
 permalink: /
 ---
 
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
 <h1 align="center">✯ 这是一个国内可直连的直播源分享项目 ✯</h1>
 
 <h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 完善的台标 直播源支持IPv4/IPv6双栈访问 🔕</h3>
@@ -31,7 +58,7 @@ permalink: /
 
 *有ipv6环境的强烈推荐这个列表，高速稳定*
 
-<table style="width:100%; border-collapse: collapse; text-align: center;">
+<table>
   <tr>
     <th>名称</th>
     <th>网址</th>
@@ -40,12 +67,12 @@ permalink: /
   <tr>
     <td>TXT 格式直播源</td>
     <td><a href="https://live.zhoujie218.top/tv/iptv6.txt">https://live.zhoujie218.top/tv/iptv6.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv6.txt')">快速复制</button></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源</td>
     <td><a href="https://live.zhoujie218.top/tv/iptv6.m3u">https://live.zhoujie218.top/tv/iptv6.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv6.m3u')">快速复制</button></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
@@ -65,7 +92,7 @@ function copyToClipboard(text) {
 
 部署在 GitHub 上的程序自动化扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2024-09-09 16:54:52<!-- END_UPDATE_TIME_IPTV4 -->
 
-<table style="width:100%; border-collapse: collapse; text-align: center;">
+<table>
   <tr>
     <th>名称</th>
     <th>网址</th>
@@ -74,12 +101,12 @@ function copyToClipboard(text) {
   <tr>
     <td>TXT 格式直播源</td>
     <td><a href="https://live.zhoujie218.top/tv/iptv4.txt">https://live.zhoujie218.top/tv/iptv4.txt</a></td>
-    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv4.txt')">快速复制</button></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源</td>
     <td><a href="https://live.zhoujie218.top/tv/iptv4.m3u">https://live.zhoujie218.top/tv/iptv4.m3u</a></td>
-    <td><button onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv4.m3u')">快速复制</button></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zhoujie218.top/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 
