@@ -115,11 +115,11 @@ with open(readme_path, 'r', encoding='utf-8') as file:
     content = file.read()
 
 # 更新 IPTV6 时间
-content = content.replace('<!-- UPDATE_TIME_IPTV6 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV6 -->',
+content = content.replace('<!-- UPDATE_TIME_IPTV6 --><!-- END_UPDATE_TIME_IPTV6 -->',
                           f'<!-- UPDATE_TIME_IPTV6 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV6 -->')
 
 # 更新 IPTV4 时间
-content = content.replace('<!-- UPDATE_TIME_IPTV4 -->本次更新时间:<!-- END_UPDATE_TIME_IPTV4 -->',
+content = content.replace('<!-- UPDATE_TIME_IPTV4 --><!-- END_UPDATE_TIME_IPTV4 -->',
                           f'<!-- UPDATE_TIME_IPTV4 -->本次更新时间: {current_time}<!-- END_UPDATE_TIME_IPTV4 -->')
 
 with open(readme_path, 'w', encoding='utf-8') as file:
