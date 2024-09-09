@@ -3,8 +3,11 @@ import subprocess
 import requests
 import datetime
 
+# 获取脚本所在目录的上一级目录（假设这是 Git 仓库的根目录）
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 def run_command(command):
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=repo_root)
     output, error = process.communicate()
     if process.returncode != 0:
         print(f"错误: {error.decode('utf-8')}")
@@ -125,9 +128,15 @@ print("README.md 文件已更新")
 
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
-run_command('git add .')
-commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件"
-run_command(f'git commit -m "{commit_message}"')
-run_command('git push')
+try:
+    run_command('git add .')
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    commit_message = f"debian100 {current_time} - 同步IPTV4仓库文件和处理新文件，更新README.md"
+    run_command(f'git commit -m "{commit_message}"')
+    run_command('git push')
+    print("更改已成功提交并推送到 GitHub")
+except Exception as e:
+    print(f"Git 操作失败: {str(e)}")
+    exit(1)
 
 print("脚本执行完成")
