@@ -5,10 +5,21 @@ permalink: /
 ---
 
 <style>
+body {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.main-content {
+  max-width: 100% !important;
+  padding: 2rem 1rem !important;
+}
 table {
   width: 100% !important;
   table-layout: fixed !important;
   border-collapse: collapse !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 th, td {
   padding: 8px !important;
