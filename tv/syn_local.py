@@ -44,11 +44,11 @@ run_command('git pull', cwd=repo_root)
 print("正在下载文件...")
 files_to_download = [
     {
-        "url": "https://tv.proton218.top/tv/liebiao/jxdx_hd.txt",
+        "url": "https://mycode.proton218.top/me/jxdx_hd.txt",
         "filename": "jxdx_hd.txt"
     },
     {
-        "url": "https://tv.proton218.top/tv/liebiao/jxdx_hd.m3u",
+        "url": "https://mycode.proton218.top/me/jxdx_hd.m3u",
         "filename": "jxdx_hd.m3u"
     },
     # 在这里添加更多的文件下载信息
