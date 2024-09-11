@@ -18,7 +18,7 @@ if not GITHUB_TOKEN:
 # 需要下载并处理的文件URL
 urls_to_process = [
     'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.txt',
-    #'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.m3u',    
+    'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.m3u',    
     #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.txt',
     #'https://raw.githubusercontent.com/vbskycn/my_code/master/down_m3u_pixman/ysp.m3u',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv6.txt',
