@@ -47,13 +47,13 @@ permalink: /
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.proton218.top/tv/iptv6.txt">https://live.proton218.top/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.proton218.top/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://live.zbds.top/tv/iptv6.txt">https://live.zbds.top/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源</td>
-    <td><a href="https://live.proton218.top/tv/iptv6.m3u">https://live.proton218.top/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.proton218.top/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://live.zbds.top/tv/iptv6.m3u">https://live.zbds.top/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
@@ -76,13 +76,13 @@ permalink: /
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.proton218.top/tv/iptv4.txt">https://live.proton218.top/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.proton218.top/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://live.zbds.top/tv/iptv4.txt">https://live.zbds.top/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源</td>
-    <td><a href="https://live.proton218.top/tv/iptv4.m3u">https://live.proton218.top/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.proton218.top/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://live.zbds.top/tv/iptv4.m3u">https://live.zbds.top/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 
@@ -101,7 +101,7 @@ permalink: /
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
-- [https://epg.proton218.top](https://epg.proton218.top)
+- [https://epg.zbds.top](https://epg.zbds.top)
 
   （如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
 
@@ -137,7 +137,7 @@ permalink: /
 
 ## 欢迎请我喝杯饮料
 
-![请我喝杯饮料](https://live.proton218.top/img/wxds.jpg)
+![请我喝杯饮料](https://live.zbds.top/img/wxds.jpg)
 
 <script>
 function copyToClipboard(text) {
