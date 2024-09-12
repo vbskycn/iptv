@@ -1,0 +1,185 @@
+<html>
+<script src="jquery-1.8.3.min.js"></script>
+<script src="md5.min.js"></script>
+<script language="javascript">
+var vid = location.href.split('html?id=')[1];
+var n = [];
+   n['cctv1'] = 'cctv1HD'; //CCTV1
+   n['cctv2'] = 'cctv2HD'; //CCTV2
+   n['cctv3'] = 'cctv3HD'; //CCTV3
+   n['cctv4'] = 'cctv4HD'; //CCTV4
+   n['cctv5'] = 'cctv5HD'; //CCTV5
+   n['cctv5p'] = 'cctv5SportHD'; //CCTV5+
+   n['cctv6'] = 'cctv6HD'; //CCTV6
+   n['cctv7'] = 'cctv7HD'; //CCTV7
+   n['cctv8'] = 'cctv8HD'; //CCTV8
+   n['cctv9'] = 'cctv9HD'; //CCTV9
+   n['cctv10'] = 'cctv10HD'; //CCTV10
+   n['cctv11'] = 'cctv11HD'; //CCTV11
+   n['cctv12'] = 'cctv12HD'; //CCTV12
+   n['cctv13'] = 'CCTVNewsHD'; //CCTV13
+   n['cctv14'] = 'cctvseHD'; //CCTV14
+   n['cctv15'] = 'cctv15HD'; //CCTV15
+   n['cctv16'] = 'cctv16HD'; //CCTV16
+   n['cctv164k'] = 'CCTV16_4K'; //CCTV16-4K
+   n['cctv17'] = 'cctv17HD'; //CCTV17
+   n['cctv4k'] = 'CCTV4K'; //CCTV4K
+   n['bqkj'] = 'bqkjHD'; //CCTV兵器科技
+   n['dyjc'] = 'diyijuchangHD'; //CCTV第一剧场
+   n['hjjc'] = 'hjjcHD'; //CCTV怀旧剧场
+   n['fyjc'] = 'fyjcHD'; //CCTV风云剧场
+   n['fyjc2'] = 'shandongHD'; //CCTV风云剧场2
+   n['fyyy'] = 'fyyyHD'; //CCTV风云音乐
+   n['fyzq'] = 'fyzqHD'; //CCTV风云足球
+   n['whjp'] = 'yswhHD'; //CCTV央视文化精品
+   n['gefwq'] = 'golfHD'; //CCTV高尔夫网球
+   n['nxss'] = 'nvxing'; //CCTV女性时尚
+   n['ystq'] = 'ystqHD'; //CCTV央视台球
+   n['yggw'] = 'yggw'; //央广购物
+   n['zsgw'] = 'ysgw'; //中视购物*
+
+   n['zxs'] = 'qicai'; //中央新影-中学生
+   n['fxzl'] = 'faxian'; //中央新影-发现之旅
+   n['lgs'] = 'gushi'; //中央新影-老故事
+   n['sh'] = 'shuhua'; //书画
+   n['zgtq'] = 'tianqiSD'; //中国气象
+
+   n['cgtn'] = 'cgtnSD'; //CGTN
+
+   n['cetv1'] = 'cetv-1SD'; //CETV1中教1台
+   n['cetv4'] = 'cetv-4SD'; //CETV4中教4台
+   n['zqjy'] = 'zaojiaoHD'; //CETV早期教育
+
+   n['chcgq'] = 'chcgqdyHD'; //CHC高清电影
+   n['chcdz'] = 'chcdzdyHD'; //CHC动作电影
+   n['chcjt'] = 'chcjtyyHD'; //CHC家庭影院
+
+   n['bjws'] = 'beijingHD'; //北京卫视
+   n['dfws'] = 'shanghaiHD'; //东方卫视
+   n['tjws'] = 'tianjinHD'; //天津卫视
+   n['cqws'] = 'chongqingHD'; //重庆卫视
+   n['hljws'] = 'heilongjiangHD'; //黑龙江卫视
+   n['jlws'] = 'jilinHD'; //吉林卫视
+   n['lnws'] = 'liaoningHD'; //辽宁卫视
+   n['nmws'] = 'neimengkuSD'; //内蒙古卫视
+   n['nxws'] = 'ningxia'; //宁夏卫视
+   n['qhws'] = 'qinghaiSD'; //青海卫视
+   n['hbws'] = 'hebeiSD'; //河北卫视
+   n['sxiws'] = 'shanxiSD'; //山西卫视
+   n['ahws'] = 'anhuiSD'; //安徽卫视
+   n['hnws'] = 'henanHD'; //河南卫视
+   n['hubws'] = 'hubeiSD'; //湖北卫视
+   n['hunws'] = 'hunanHD'; //湖南卫视
+   n['jxws'] = 'jiangxiHD'; //江西卫视
+   n['jsws'] = 'jiangsuHD'; //江苏卫视
+   n['zjws'] = 'zhejiangHD'; //浙江卫视
+   n['dnws'] = 'dongnanHD'; //东南卫视
+   n['gdws'] = 'guangdongHD'; //广东卫视
+   n['szws'] = 'shenzhenHD'; //深圳卫视
+   n['gxws'] = 'guangxiHD'; //广西卫视
+   n['ynws'] = 'yunnanSD'; //云南卫视
+   n['gzws'] = 'guizhouHD'; //贵州卫视
+   n['scws'] = 'sichuanHD'; //四川卫视
+   n['xjws'] = 'xinjiangSD'; //新疆卫视
+   n['btws'] = 'bingtuanSD'; //兵团卫视
+   n['xzws'] = 'xizangSD'; //西藏卫视
+   n['hinws'] = 'hainanSD'; //海南卫视
+   n['ssws'] = 'sanshaSD'; //三沙卫视
+
+   n['bjjskj'] = 'bjayjsSD'; //北京纪实科教
+   n['bjkk'] = 'bjkakuSD'; //卡酷少儿
+   n['zhtc'] = 'techan'; //中华特产
+   n['sthj'] = 'shengtai'; //生态环境
+   n['shdy'] = 'diaoyu'; //四海钓鱼
+   n['cmpd'] = 'doxtv'; //车迷频道
+   n['bxjk'] = 'jiankangSD'; //百姓健康
+   n['hqqg'] = 'car'; //环球奇观
+   n['hqly'] = 'huanqiulvyou'; //环球旅游
+   n['yybb'] = 'youxi'; //优优宝贝
+   n['jshqjx'] = 'jusha'; //聚鲨环球精选*
+
+   n['dfcj'] = 'dfcj'; //东方财经
+   n['hxjc4k'] = 'hxjc_4K'; //欢笑剧场4K
+   n['dsjc'] = 'dsjcHD'; //都市剧场
+   n['mlzq'] = 'mlzqHD'; //魅力足球
+   n['dmxc'] = 'dmxcHD'; //动漫秀场
+   n['yxfy'] = 'yxfyHD'; //游戏风云
+   n['shss'] = 'shenghuo'; //生活时尚
+   n['fztd'] = 'fazhi'; //法治天地
+   n['jsxt'] = 'jinse'; //金色学堂
+
+   n['cqxw'] = 'CQTVNewsHD'; //重庆新闻
+   n['cqkj'] = 'CQTVkejiaoHD'; //重庆科教
+   n['cqys'] = 'cqyingshiHD'; //重庆影视
+   n['cqwtyl'] = 'cqwtylHD'; //重庆文体娱乐
+   n['cqse'] = 'cqseHD'; //重庆少儿
+   n['cqsssh'] = 'cqssgwHD'; //重庆时尚生活
+   n['cqxnc'] = 'cqggncHD'; //重庆新农村
+   n['cqqm'] = 'cqcarSD'; //重庆汽摩
+   n['cqsf'] = 'CQTVTrendyHD'; //重庆社会与法
+   n['cqyd'] = 'mryyHD'; //重庆移动
+   n['cgrm'] = 'cqrongmei'; //重广融媒
+   n['akds'] = 'aikanHD'; //爱看导视
+
+   n['hczh'] = 'hechuan'; //合川综合
+   n['cszh'] = 'changshou'; //长寿综合
+   n['yyxwzh'] = 'youyang'; //酉阳综合*
+   n['xszh'] = 'xiushan'; //秀山综合
+   n['qjzh'] = 'qianjiang'; //黔江综合
+   n['wszh'] = 'wushanzhSD'; //巫山综合x
+   n['flzh'] = 'fulingzh'; //涪陵综合x
+   n['yyzh'] = 'jiangjinHD'; //云阳综合*
+   n['tlzh'] = 'tongliangzongheHD'; //铜梁综合
+   n['rczh'] = 'rongchangHD'; //荣昌综合
+   n['wxzh'] = 'wlzh'; //巫溪综合
+
+   n['jygw'] = 'jygw'; //家有购物
+
+   n['wlqp'] = 'qipai'; //网络棋牌
+   n['xdm'] = 'dongman'; //新动漫
+
+   n['zqfw'] = 'jiazheng'; //证券服务
+
+   n['ygw'] = 'jyougouwu'; //优购物*
+
+   n['sdjy'] = 'sdjiaoyuSD'; //山东教育
+   n['sctx'] = 'soucang'; //收藏天下
+
+   n['jjgw'] = 'jjgw'; //家家购物
+
+   n['gxpd'] = 'guoxue'; //国学频道
+
+   n['klcd'] = 'klcdHD'; //快乐垂钓
+   n['jykt'] = 'jinyingSD'; //金鹰卡通
+   n['xfpy'] = 'xianfeng'; //先锋乒羽
+
+   n['fsgw'] = 'fsgw'; //风尚购物
+
+   n['jslz'] = 'liang'; //江苏靓妆
+   n['cftx'] = 'caifu'; //财富天下
+
+   n['tywq'] = 'weiqi'; //天元围棋
+   n['sy'] = 'sheying'; //摄影频道
+
+   n['fhzw'] = 'xfjcHD'; //凤凰中文
+   n['fhzx'] = 'xfylHD'; //凤凰资讯
+   n['qsjl'] = 'qsjlHD'; //求索纪录
+
+timestamps = new Date().getTime();
+sign = md5('aIErXY1rYjSpjQs7pq2Gp5P8k2W7P^Y@appIdkdds-chongqingdemocityId5AplayId' + n[vid] + 'relativeId' + n[vid] + 'timestamps' + timestamps + 'type1');
+url = 'http://portal.centre.bo.cbnbn.cn/others/common/playUrlNoAuth?cityId=5A&playId='+n[vid]+'&relativeId='+n[vid]+'&type=1';
+$.ajax({
+  type:'get',
+  url:url,
+  headers:{"appId": "kdds-chongqingdemo","sign": sign,"timestamps":timestamps},
+  success:function(res){
+       m3u8 = res.data.result.protocol[0].transcode[0].url;
+if(vid == 'cctv4k'||vid == 'cctv16_4k'||vid == 'hxjc4k'){
+   location.href = '/player/hls.html?vurl=' +m3u8;
+   } else {
+      location.href = '/player/?vurl=' +m3u8;
+   }
+  }
+})
+</script>
+</html>
