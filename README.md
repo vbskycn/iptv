@@ -9,7 +9,7 @@ permalink: /
 
 <h1 align="center">✯ 这是一个国内可直连的直播源分享项目 ✯</h1>
 
-<h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 完善的台标 直播源支持IPv4/IPv6双栈访问 🔕</h3>
+<h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问 🔕</h3>
 
 <p align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/vbskycn/iptv">
@@ -57,17 +57,7 @@ permalink: /
   </tr>
 </table>
 
-<script>
-function copyToClipboard(text) {
-  const input = document.createElement('textarea');
-  input.value = text;
-  document.body.appendChild(input);
-  input.select();
-  document.execCommand('copy');
-  document.body.removeChild(input);
-  alert('已复制到剪贴板');
-}
-</script>
+
 
 ## 📺 自动扫描直播源 IPTV4：
 
@@ -101,13 +91,11 @@ function copyToClipboard(text) {
 
 ## 🛠️ 工具
 
-- 🌐纯前端直播源格式转换器
+- 🌐纯前端直播源格式转换器（开源在本仓库tools目录）
   
   - [https://zbds.top/tools.html](https://zbds.top/tools.html)
   
     
-
-
 
 ## EPG 接口地址：
 
@@ -123,6 +111,8 @@ function copyToClipboard(text) {
 
 - [https://www.zbds.top](https://zbds.top/aztv)
 - [https://zbds.lanzoui.com/b0b36hyqd](https://zbds.lanzoui.com/b0b36hyqd)
+
+
 
 ## 📖 说明
 
@@ -149,3 +139,14 @@ function copyToClipboard(text) {
 
 ![请我喝杯饮料](https://live.zhoujie218.top/img/wxds.jpg)
 
+<script>
+function copyToClipboard(text) {
+  const input = document.createElement('textarea');
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+  alert('已复制到剪贴板');
+}
+</script>
