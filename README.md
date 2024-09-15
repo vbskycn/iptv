@@ -93,7 +93,7 @@ permalink: /
 
 - 🌐纯前端直播源格式转换器（开源在本仓库tools目录）
   
-  - [https://zbds.top/tools.html](https://zbds.top/tools.html)
+  - [https://zbds.top/tools/index.html](https://zbds.top/tools/index.html)
   
     
 
