@@ -116,7 +116,7 @@ permalink: /
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
 下载链接：1. [https://www.zbds.top/aztv](https://zbds.top/aztv)
-                   2.[https://zbds.lanzoui.com/b0b36hyqd](https://zbds.lanzoui.com/b0b36hyqd) （备用）
+                   2.[https://zbds.lanzoui.com/b0b2kul6b](https://zbds.lanzoui.com/b0b2kul6b) （备用）
 
 
 ## 📖 说明
