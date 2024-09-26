@@ -152,6 +152,10 @@ permalink: /
 
 ![请我喝杯饮料](https://live.zbds.top/img/wxds.jpg)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vbskycn/iptv&type=Date)](https://star-history.com/#vbskycn/iptv&Date)
+
 <script>
 function copyToClipboard(text) {
   const input = document.createElement('textarea');
