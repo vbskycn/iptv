@@ -10,14 +10,15 @@ permalink: /
 
 <h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问 🔕</h3>
 
-<p align="center">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/vbskycn/iptv">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/vbskycn/iptv">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/vbskycn/iptv">
-  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/vbskycn/iptv">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vbskycn/iptv">
-  <img alt="GitHub" src="https://img.shields.io/github/license/vbskycn/iptv">
-</p>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://img.shields.io/github/stars/vbskycn/iptv" alt="GitHub Repo stars" />
+    <img src="https://img.shields.io/github/forks/vbskycn/iptv" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/vbskycn/iptv" alt="GitHub issues" />
+    <img src="https://img.shields.io/github/watchers/vbskycn/iptv" alt="GitHub watchers" />
+    <img src="https://img.shields.io/github/contributors/vbskycn/iptv" alt="GitHub contributors" />
+    <img src="https://img.shields.io/github/license/vbskycn/iptv" alt="GitHub" />
+    <img src="https://views.whatilearened.today/views/github/vbskycn/iptv.svg" alt="hello" />
+</div>
 
 ---
 
@@ -131,7 +132,7 @@ permalink: /
 
 - 2024.10.18 优化测试有效源代码
 - 2024.9.9 直播源失效速度太快，新添加deibian服务器，每日三次更新
-- 2024.8.27 新增一些频道
+- 2024.8.27 新增一些道
 - 2024.7.21 新增epg镜像地址
 - 2024.6.22 新增 IPTV4/IPTV6 自动更新源
 
