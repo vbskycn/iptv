@@ -24,7 +24,9 @@ permalink: /
 
 如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
 
-直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台）
+直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台频道）
+
+如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27）
 
 
 
@@ -113,6 +115,8 @@ permalink: /
 ## 如果你不愿意折腾，这里有折腾好的直播点播软件
 
 下载链接： [https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台）
+
+如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27）
 
 
 
