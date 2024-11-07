@@ -152,7 +152,7 @@ permalink: /
 
 ## 欢迎请我喝杯饮料
 
-![请我喝杯饮料](https://live.zbds.top/img/wxds.jpg)
+![请我喝杯饮料](img/wxds.png)
 
 ## Star History
 
