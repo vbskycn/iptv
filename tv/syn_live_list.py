@@ -17,8 +17,8 @@ if not GITHUB_TOKEN:
 
 # 需要下载并处理的文件URL
 urls_to_process = [
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.txt',
-    'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.m3u',    
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.txt',
+    #'https://raw.githubusercontent.com/vbskycn/my_code/master/me/jxdx_hd.m3u',    
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv6.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.txt',
     'https://raw.githubusercontent.com/vbskycn/iptv4/master/iptv4.m3u',
@@ -35,7 +35,6 @@ urls_to_download_only = [
 
 # 对应txt文件的分组标记替换规则
 replacements = {
-    'jxdx_hd.txt': 'jxH,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#'
     
