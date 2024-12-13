@@ -60,11 +60,13 @@ permalink: /
     <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
-**有的地方已经屏蔽本站域名了，如果打开失败，请使用加速度地址访问**
+**有地方的宽带运营商已经污染本站域名了，免费使用的都封... 如果你打开失败，请使用加速地址访问**
 
 ```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt
+```
 
+```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
 ```
 
@@ -96,15 +98,15 @@ https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6
     <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
-**有的地方已经屏蔽本站域名了，如果打开失败，请使用加速度地址访问**
+**有地方的宽带运营商已经污染本站域名了，免费使用的都封... 如果你打开失败，请使用加速地址访问**
 
 ```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
-
-https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 ```
 
-
+```
+https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
+```
 
 
 
