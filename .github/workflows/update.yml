@@ -3,7 +3,7 @@ name: update schedule 2:00    .github/workflows/update.yml
 on:
   schedule:
     - cron: "0 2 * * *"  # 每天 0 点（UTC 时间）同步一次
-    workflow_dispatch:
+   
 
 jobs:
   sync:
