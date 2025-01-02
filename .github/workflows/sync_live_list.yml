@@ -1,0 +1,58 @@
+name: sync_live_list
+
+on:
+  schedule:
+    #- cron: '5 */3 * * *'
+    - cron: '0 17,1,9 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync_live_list:
+    runs-on: ubuntu-latest
+
+    env:
+      MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v2
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: 安装依赖
+        run: |
+          pip install requests
+
+      - name: 列出 tv 目录中的文件
+        run: |
+          ls -la tv
+
+      - name: 运行 syn_live_list.py
+        run: |
+          cd tv
+          python syn_live_list.py
+
+      - name: 列出生成的文件
+        run: |
+          ls -la tv
+
+      - name: 检查是否有更改
+        id: detect_changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status
+          git diff --cached --exit-code
+        continue-on-error: true
+
+      - name: 提交并推送更改
+        if: steps.detect_changes.outcome != 'success'
+        run: |
+          git commit -m "Sync live list $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
