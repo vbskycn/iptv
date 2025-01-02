@@ -6,7 +6,7 @@ on:
 
 jobs:
   sync:
-    runs-on: ubuntu-20.04  # 使用 Ubuntu 最新版本的运行环境
+    runs-on: ubuntu-latest  # 使用 Ubuntu 最新版本的运行环境
 
     steps:
       # Step 1: 检出当前仓库代码
