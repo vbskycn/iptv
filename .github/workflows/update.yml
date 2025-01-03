@@ -1,0 +1,37 @@
+name: update schedule 2:00 
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # 每天 0 点（UTC 时间）同步一次
+  workflow_dispatch: 
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest  # 使用 Ubuntu 最新版本的运行环境
+
+    steps:
+      # Step 1: 检出当前仓库代码
+      - name: Checkout current repository
+        uses: actions/checkout@v3
+
+      # Step 2: 配置 Git 用户信息（防止推送时出现错误）
+      - name: Set up Git config
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 3: 添加远程仓库 
+      - name: Add remote repository
+        run: |
+          git remote add upstream https://github.com/vbskycn/iptv.git  # 添加远程仓库 URL
+
+      # Step 4: 拉取 fanmingming/live 仓库的最新代码
+      - name: Pull latest changes from vbskycn/iptv repository
+        run: |
+          git fetch upstream
+          git merge upstream/master --allow-unrelated-histories  # 将 仓库的 main 分支合并到当前仓库
+
+      # Step 5: 推送同步后的代码到当前仓库
+      - name: Push changes to current repository
+        run: |
+          git push origin master  # 推送到当前仓库的 main 分支 
