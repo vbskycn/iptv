@@ -26,7 +26,7 @@ jobs:
           git remote add upstream https://github.com/vbskycn/iptv.git  # 添加远程仓库 URL
 
       # Step 4: 拉取 fanmingming/live 仓库的最新代码
-      - name: Pull latest changes from repository
+      - name: Pull latest changes from vbskycn/iptv repository
         run: |
           git fetch upstream
           git merge upstream/master --allow-unrelated-histories  # 将 仓库的 main 分支合并到当前仓库
