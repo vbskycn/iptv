@@ -29,9 +29,9 @@ jobs:
       - name: Pull latest changes from repository
         run: |
           git fetch upstream
-          git merge upstream/main --allow-unrelated-histories  # 将 仓库的 main 分支合并到当前仓库
+          git merge upstream/master --allow-unrelated-histories  # 将 仓库的 main 分支合并到当前仓库
 
       # Step 5: 推送同步后的代码到当前仓库
       - name: Push changes to current repository
         run: |
-          git push origin main  # 推送到当前仓库的 main 分支 
+          git push origin master  # 推送到当前仓库的 main 分支 
