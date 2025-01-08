@@ -63,11 +63,11 @@ permalink: /
 *有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
 
 ```
-https://ghgo.xyz/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt
 ```
 
 ```
-https://ghgo.xyz/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
 ```
 
 
@@ -101,11 +101,11 @@ https://ghgo.xyz/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/ipt
 *有地方的宽带运营商已经污染本站域名了，免费使用的都封... 如果你打开失败，请使用加速地址访问*
 
 ```
-https://ghgo.xyz/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
 ```
 
 ```
-https://ghgo.xyz/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 ```
 
 
