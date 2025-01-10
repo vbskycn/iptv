@@ -26,7 +26,7 @@ permalink: /
 
 直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台频道）
 
-如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27）
+如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2025.1.10）直播源每6小时更新一次
 
 
 
