@@ -197,7 +197,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 🎁 欢迎请我喝杯饮料
 
-![请我喝杯饮料](img/wxds.png)
+![请我喝杯饮料](assets/wxds.png)
 
 ### 📊 Star History
 
