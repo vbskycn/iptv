@@ -139,4 +139,55 @@ pre {
 /* 确保代码块有足够的右边距 */
 .highlight pre {
   padding-right: 40px;
+}
+
+/* 页脚样式 */
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid #eaecef;
+}
+
+.site-footer-owner, 
+.site-footer-credits {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.site-footer-owner::before {
+  content: "👨‍💻";
+  margin-right: 0.5rem;
+}
+
+.site-footer-credits::before {
+  content: "⚡";
+  margin-right: 0.5rem;
+}
+
+/* 页脚链接样式 */
+.site-footer a {
+  color: #0366d6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.site-footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* 暗色模式下的页脚样式 */
+@media (prefers-color-scheme: dark) {
+  .site-footer {
+    border-top-color: #30363d;
+  }
+  
+  .site-footer a {
+    color: #58a6ff;
+  }
+  
+  .site-footer a:hover {
+    color: #79c0ff;
+  }
 } 
