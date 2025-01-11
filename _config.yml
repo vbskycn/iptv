@@ -15,3 +15,16 @@ collections:
     output: true
     permalink: /:path/
 
+# 修改网站图标配置，使用现有的图标
+favicon: favicon.ico
+apple_touch_icon: favicon.ico
+
+# 添加社交媒体图标
+social:
+  github: vbskycn/iptv
+  telegram: starkluistn98
+
+# 添加自定义样式
+sass:
+  style: compressed
+

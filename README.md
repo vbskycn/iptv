@@ -8,16 +8,16 @@ permalink: /
 
 <h1 align="center">✯ 这是一个国内可直连的直播电视源分享项目 ✯</h1>
 
-<h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问 🔕</h3>
+### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://img.shields.io/github/stars/vbskycn/iptv" alt="GitHub Repo stars" />
-    <img src="https://img.shields.io/github/forks/vbskycn/iptv" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/vbskycn/iptv" alt="GitHub issues" />
-    <img src="https://img.shields.io/github/watchers/vbskycn/iptv" alt="GitHub watchers" />
-    <img src="https://img.shields.io/github/contributors/vbskycn/iptv" alt="GitHub contributors" />
-    <img src="https://img.shields.io/github/license/vbskycn/iptv" alt="GitHub" />
-    <img src="https://views.whatilearened.today/views/github/vbskycn/iptv.svg" alt="hello" />
+<div class="badges-container">
+    <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/forks/vbskycn/iptv?style=flat-square" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/vbskycn/iptv?style=flat-square" alt="GitHub issues" />
+    <img src="https://img.shields.io/github/watchers/vbskycn/iptv?style=flat-square" alt="GitHub watchers" />
+    <img src="https://img.shields.io/github/contributors/vbskycn/iptv?style=flat-square" alt="GitHub contributors" />
+    <img src="https://img.shields.io/github/license/vbskycn/iptv?style=flat-square" alt="GitHub license" />
+    <img src="https://views.whatilearened.today/views/github/vbskycn/iptv.svg" alt="访问统计" />
 </div>
 
 ---
@@ -30,7 +30,7 @@ permalink: /
 
 
 
-## 📺 自动扫描直播源 IPTV6：
+### 📡 自动扫描直播源 IPTV6：
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-01-11 12:38:15<!-- END_UPDATE_TIME_IPTV6 -->
 
@@ -72,7 +72,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 📺 自动扫描直播源 IPTV4：
+### 📡 自动扫描直播源 IPTV4：
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-01-11 12:38:15<!-- END_UPDATE_TIME_IPTV4 -->
 
@@ -110,7 +110,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 🛠️ 工具
+### 🛠️ 工具
 
 - 🌐纯前端直播源格式转换器（开源在本仓库tools目录）
   
@@ -118,7 +118,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   
     
 
-## EPG 接口地址：
+### 🛠️ EPG 接口地址：
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
@@ -128,7 +128,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
   
 
-## 增加台标：
+### 🎨 增加台标：
 
 - https://live.zbds.top/logo/频道名.png
 
@@ -136,7 +136,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 如果你不愿意折腾，这里有折腾好的直播点播软件
+### 📱 如果你不愿意折腾，这里有折腾好的直播点播软件
 
 下载链接： [https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台）
 
@@ -144,7 +144,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 📖 说明
+### 📝 说明
 
 - 所有播放源均收集于互联网，仅供测试研究使用，不得商用。
 - 部分广播节目播出具有一定的时效性，需要在指定时段进行收听。
@@ -156,7 +156,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 📔 更新
+### 📅 更新
 
 - 2025.1.7 增加台标
 - 2024.12.13 跟着节奏继续优化
@@ -168,19 +168,19 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-## 📱联系
+### 💬 联系
 
-- Telegram: [@starkluistn98](https://t.me/starkluistn98)
+<div class="contact-info">
+    <a href="https://t.me/starkluistn98" target="_blank">
+        <img src="https://img.shields.io/badge/Telegram-@starkluistn98-blue?style=flat-square&logo=telegram" alt="Telegram" />
+    </a>
+</div>
 
-  - 如遇问题请通过Telegram反馈。
-
-    
-
-## 欢迎请我喝杯饮料
+### 🎁 欢迎请我喝杯饮料
 
 ![请我喝杯饮料](img/wxds.png)
 
-## Star History
+### 📊 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=vbskycn/iptv&type=Date)](https://star-history.com/#vbskycn/iptv&Date)
 

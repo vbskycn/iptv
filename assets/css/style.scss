@@ -1,0 +1,95 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 响应式布局样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 表格响应式 */
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  table td, 
+  table th {
+    min-width: 100px;
+    font-size: 14px;
+  }
+  
+  .button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+/* 美化按钮样式 */
+.button {
+  background: #0366d6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+/* 徽章样式优化 */
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.badges-container img {
+  height: 20px;
+}
+
+/* 响应式图片 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 优化标题样式 */
+h1, h2, h3 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* 优化代码块样式 */
+pre {
+  padding: 16px;
+  overflow-x: auto;
+  background: #f6f8fa;
+  border-radius: 6px;
+}
+
+/* 添加暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  pre {
+    background: #161b22;
+  }
+  
+  a {
+    color: #58a6ff;
+  }
+} 
