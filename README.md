@@ -26,7 +26,7 @@ permalink: /
 
 直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台频道）
 
-如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2025.1.10）直播源每6小时更新一次
+如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27更新）直播源每6小时更新一次
 
 
 
@@ -114,9 +114,9 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 - 🌐纯前端直播源格式转换器（开源在本仓库tools目录）
   
-  - [https://zbds.top/tools/index.html](https://zbds.top/tools/index.html)
+  [https://zbds.top/tools/index.html](https://zbds.top/tools/index.html)
   
-    
+  
 
 ### 🛠️ EPG 接口地址：
 
@@ -130,15 +130,21 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 🎨 增加台标：
 
-- https://live.zbds.top/logo/频道名.png
+使用路径 https://live.zbds.top/logo/频道名.png
 
-  示例： [https://live.zbds.top/logo/CCTV1.png](https://live.zbds.top/logo/CCTV1.png)
+- 示例： [https://live.zbds.top/logo/CCTV1.png](https://live.zbds.top/logo/CCTV1.png)
+
+
 
 
 
 ### 📱 如果你不愿意折腾，这里有折腾好的直播点播软件
 
+- 稳定版
+
 下载链接： [https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台）
+
+- 特别版
 
 如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27）
 
