@@ -70,10 +70,15 @@ h1, h2 {
   margin: 2rem 0;
 }
 
-/* 从徽章容器后的所有三级标题左对齐 */
-.badges-container ~ h3 {
+/* 所有三级标题默认左对齐 */
+h3 {
   text-align: left;
   margin: 2rem 0;
+}
+
+/* 第一个三级标题居中 */
+h3:first-of-type {
+  text-align: center;
 }
 
 /* 优化代码块样式 */
