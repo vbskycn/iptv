@@ -104,3 +104,32 @@ pre {
     color: #58a6ff;
   }
 } 
+
+/* 复制按钮样式 */
+.copy-icon {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23586069' d='M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.copy-icon:hover {
+  opacity: 1;
+}
+
+/* 代码块容器样式 */
+.code-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.code-text {
+  margin-right: 8px;
+} 
