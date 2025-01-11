@@ -30,7 +30,7 @@ permalink: /
 
 
 
-### 📡 自动扫描直播源 IPTV6：
+### 📡 自动扫描直播源 IPTV6
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-01-11 12:38:15<!-- END_UPDATE_TIME_IPTV6 -->
 
@@ -72,7 +72,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 📡 自动扫描直播源 IPTV4：
+### 📡 自动扫描直播源 IPTV4
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-01-11 12:38:15<!-- END_UPDATE_TIME_IPTV4 -->
 
@@ -118,7 +118,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   
   
 
-### 🛠️ EPG 接口地址：
+### 🛠️ EPG 接口地址
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
@@ -128,7 +128,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
   
 
-### 🎨 增加台标：
+### 🎨 增加台标
 
 使用路径 https://live.zbds.top/logo/频道名.png
 
@@ -138,7 +138,9 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 📱 如果你不愿意折腾，这里有折腾好的直播点播软件
+### 📱 直播电视
+
+如果你不愿意折腾，这里有折腾好的直接观看的直播电视软件
 
 - 稳定版
 
