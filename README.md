@@ -152,7 +152,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 - 您可以 Fork 本项目，但引用本项目内容到其他仓库的情况，务必要遵守开源协议。
 - 本项目不保证直播频道的有效性，直播内容可能受直播服务提供商因素影响而失效。
 - 所有文件均托管在 [GitHub](https://github.com/vbskycn/iptv) 且自动构建，由项目发起人公益维护，欢迎 Star 本项目或点击 [Issues](https://github.com/vbskycn/iptv/issues/new/choose) 反馈您的问题。
-- 本项目关于台标的文件基于[fanmingming](https://github.com/fanmingming/live)大佬的项目和网络收集而来。
+- 本项目部分内容基于[fanmingming](https://github.com/fanmingming/live)大佬的项目和网络收集而来。
 
 
 
