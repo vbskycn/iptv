@@ -153,16 +153,7 @@ pre {
 .site-footer-credits {
   display: block;
   margin-bottom: 0.5rem;
-}
-
-.site-footer-owner::before {
-  content: "👨‍💻";
-  margin-right: 0.5rem;
-}
-
-.site-footer-credits::before {
-  content: "⚡";
-  margin-right: 0.5rem;
+  color: #586069;
 }
 
 /* 页脚链接样式 */
@@ -181,6 +172,11 @@ pre {
 @media (prefers-color-scheme: dark) {
   .site-footer {
     border-top-color: #30363d;
+  }
+  
+  .site-footer-owner, 
+  .site-footer-credits {
+    color: #8b949e;
   }
   
   .site-footer a {
