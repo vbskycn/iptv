@@ -65,8 +65,14 @@ img {
 }
 
 /* 优化标题样式 */
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
+  margin: 2rem 0;
+}
+
+/* 从徽章容器后的所有三级标题左对齐 */
+.badges-container ~ h3 {
+  text-align: left;
   margin: 2rem 0;
 }
 
