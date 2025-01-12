@@ -33,9 +33,7 @@ permalink: /
 ### 📡 自动扫描直播源 IPTV6
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-01-12 12:39:24<!-- END_UPDATE_TIME_IPTV6 -->
-
 *有ipv6环境的强烈推荐这个列表，高速稳定*
-
 目前运营商大力推广ipv6，没有的朋友可以拨打你的运营商免费开通（注意，有的地方开通了就没有公网ipv4，只能二选一，真坑）
 
 <table>
@@ -147,7 +145,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 ### 📱 直播电视
-
 如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件
 
 - 稳定版
@@ -163,7 +160,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 ### 📝 说明
 
 - 所有播放源均收集于互联网，仅供测试研究使用，不得商用。
-- 部分广播节目播出具有一定的时效性，需要在指定时段进行收听。
 - 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担。
 - 您可以 Fork 本项目，但引用本项目内容到其他仓库的情况，务必要遵守开源协议。
 - 本项目不保证直播频道的有效性，直播内容可能受直播服务提供商因素影响而失效。
