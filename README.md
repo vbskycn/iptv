@@ -6,8 +6,6 @@ keywords: IPTV,直播源,直播电视,电视直播,CCTV,卫视,IPv6直播源,免
 permalink: /
 ---
 
-
-
 <h1 align="center">✯ 这是一个国内可直连的直播电视源分享项目 ✯</h1>
 
 ### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
@@ -24,11 +22,13 @@ permalink: /
 
 ---
 
-如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
+> 如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
 
-直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台频道）
+> 直播电视app 下载地址：[https://www.zbds.top](https://zbds.top/aztv)  （包含港澳台频道）
 
-如果显示链接失败，请下载[特别版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27更新）直播源每6小时更新一次
+> 软件内包含本仓库所有直播源，还有很多其他直播源，并且每日更新。
+
+------
 
 
 
@@ -150,7 +150,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📱 直播电视
 
-如果你不愿意折腾，这里有折腾好的直接观看的直播电视软件
+如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件
 
 - 稳定版
 
