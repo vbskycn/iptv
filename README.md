@@ -6,7 +6,7 @@ keywords: IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央�
 permalink: /
 ---
 
-<h1 align="center">✯ 这是一个国内可直连的直播电视源分享项目 ✯</h1>
+<h1 align="center">✯ 这是一个国内可直连的iptv直播电视源分享项目 ✯</h1>
 
 ### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
 
