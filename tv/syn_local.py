@@ -51,12 +51,14 @@ files_to_download = [
         "url": "https://mycode.proton218.top/me/jxdx_hd.m3u",
         "filename": "jxdx_hd.m3u"
     },
-    # 在这里添加更多的文件下载信息
-    # 例如：
-    # {
-    #     "url": "https://example.com/another_file.txt",
-    #     "filename": "another_file.txt"
-    # },
+    {
+        "url": "https://mycode.proton218.top/me/jxyd.txt",
+        "filename": "jxyd.txt"
+    },
+    {
+        "url": "https://mycode.proton218.top/me/jxyd.m3u",
+        "filename": "jxyd.m3u"
+    }
 ]
 
 for file_info in files_to_download:
@@ -87,9 +89,10 @@ print("正在合并文件...")
 output_file = os.path.join(script_path, 'hd.txt')
 
 # 定义文件合并顺序
-merge_order = ['iptv6.txt', 'iptv4.txt']
+merge_order = ['jxyd.txt', 'iptv6.txt', 'iptv4.txt']
 
 replacements = {
+    'jxyd.txt': 'jxyd,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#'
 }
@@ -143,6 +146,19 @@ try:
 
 except Exception as e:
     print(f"更新 README.md 文件时出错: {str(e)}")
+    exit(1)
+
+# 8.5 执行 update_index.py
+print("正在执行 update_index.py...")
+try:
+    update_index_path = os.path.join(script_path, 'update_index.py')
+    if os.path.exists(update_index_path):
+        run_command(f'python3 {update_index_path}')
+        print("update_index.py 执行完成")
+    else:
+        print("警告：update_index.py 文件不存在")
+except Exception as e:
+    print(f"执行 update_index.py 时出错: {str(e)}")
     exit(1)
 
 # 9. 提交更改并推送到 GitHub
