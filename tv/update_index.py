@@ -2,10 +2,15 @@ import requests
 from datetime import datetime
 import xml.etree.ElementTree as ET
 import pytz
+import os
 
 def update_sitemap():
+    # 获取项目根目录的 sitemap.xml 路径
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    sitemap_path = os.path.join(root_dir, 'sitemap.xml')
+    
     # 读取现有的 sitemap.xml
-    tree = ET.parse('sitemap.xml')
+    tree = ET.parse(sitemap_path)
     root = tree.getroot()
     
     # 获取中国时区的当前日期
@@ -19,7 +24,7 @@ def update_sitemap():
             lastmod.text = current_date
     
     # 保存更新后的 sitemap
-    tree.write('sitemap.xml', encoding='UTF-8', xml_declaration=True)
+    tree.write(sitemap_path, encoding='UTF-8', xml_declaration=True)
     print(f"Sitemap updated with date: {current_date}")
 
 def notify_index_now():
