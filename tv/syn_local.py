@@ -89,10 +89,11 @@ print("正在合并文件...")
 output_file = os.path.join(script_path, 'hd.txt')
 
 # 定义文件合并顺序
-merge_order = ['jxyd.txt', 'iptv6.txt', 'iptv4.txt']
+merge_order = ['jxyd.txt', 'jxdx_hd.txt', 'iptv6.txt', 'iptv4.txt']
 
 replacements = {
-    'jxyd.txt': 'jxyd,#genre#',
+    'jxdx_hd.txt': 'jdx,#genre#',
+    'jxyd.txt': 'jyd,#genre#',
     'iptv6.txt': 'ip6,#genre#',
     'iptv4.txt': 'ip4,#genre#'
 }
