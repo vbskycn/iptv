@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 import pytz
 import os
 
@@ -23,8 +24,14 @@ def update_sitemap():
         if lastmod is not None:
             lastmod.text = current_date
     
+    # 转换为格式化的 XML 字符串
+    xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent='    ')
+    # 移除空行
+    xmlstr = '\n'.join([s for s in xmlstr.splitlines() if s.strip()])
+    
     # 保存更新后的 sitemap
-    tree.write(sitemap_path, encoding='UTF-8', xml_declaration=True)
+    with open(sitemap_path, 'w', encoding='UTF-8') as f:
+        f.write(xmlstr)
     print(f"Sitemap updated with date: {current_date}")
 
 def notify_index_now():
