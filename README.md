@@ -157,7 +157,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 优化版
 
-- 如果显示链接失败，请下载[优化版](https://zbds.lanzoui.com/b0b2kul6b)试试（2024.10.27）
+- 如果显示链接失败，请下载[优化版](https://zbds.top/soft/zbds_yhb.apk)试试（2025.2.5）
 
 
 
