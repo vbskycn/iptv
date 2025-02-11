@@ -131,7 +131,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
-- [https://epg.zbds.top](https://epg.zbds.top)
+- 服务器抗不住了，计划关闭！之前用了的请改别的epg吧！
 
   （如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
 
