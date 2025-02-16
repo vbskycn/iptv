@@ -22,7 +22,7 @@
             <h2 class="text-xl font-semibold mb-4">TXT 转 M3U（保留分组信息）</h2>
             <form id="txt-to-m3u-form" class="space-y-4">
                 <input type="file" id="txt-file" accept=".txt" required class="w-full p-2 border rounded">
-                <input type="text" id="epg-url" placeholder="EPG URL (可选,默认为 https://epg.zbds.top)" class="w-full p-2 border rounded">
+                <input type="text" id="epg-url" placeholder="EPG URL (可选,默认为 http://epg.51zmt.top:8000/e.xml)" class="w-full p-2 border rounded">
                 <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition duration-200">转换</button>
             </form>
         </div>
@@ -61,7 +61,7 @@
         }
 
         function convertTXTToM3U(txtContent, epgUrl) {
-            const defaultEpgUrl = "https://epg.zbds.top";
+            const defaultEpgUrl = "http://epg.51zmt.top:8000/e.xml";
             const lines = txtContent.split('\n');
             let m3uContent = `#EXTM3U x-tvg-url="${epgUrl || defaultEpgUrl}"\n`;
             let currentGenre = '未分类';
@@ -124,7 +124,7 @@
         document.getElementById('txt-to-m3u-form').addEventListener('submit', function(e) {
             e.preventDefault();
             const file = document.getElementById('txt-file').files[0];
-            const epgUrl = document.getElementById('epg-url').value.trim() || "https://epg.zbds.top";
+            const epgUrl = document.getElementById('epg-url').value.trim() || "http://epg.51zmt.top:8000/e.xml";
             const reader = new FileReader();
             reader.onload = function(e) {
                 const txtContent = e.target.result;

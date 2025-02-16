@@ -51,7 +51,7 @@ def convert_txt_to_m3u(epg_url):
             print(f'处理文件 {file_name} 时发生错误：{str(e)}')
 
 # 指定EPG URL
-epg_url = 'https://epg.zbds.top'
+epg_url = 'http://epg.51zmt.top:8000/e.xml'
 
 # 调用函数进行转换
 convert_txt_to_m3u(epg_url)
