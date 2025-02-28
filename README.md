@@ -161,7 +161,8 @@ https://epg.zbds.top/t.xml.gz
 
 稳定版
 
-- 下载链接： [https://zbds.top](https://zbds.top/aztv)  （包含港澳台），推荐[野草助手](https://www.yecao.net/download/)安装，安装码：0024
+- 下载链接： [https://zbds.top](https://zbds.top/aztv)  （包含港澳台）
+
 
 
 优化版
