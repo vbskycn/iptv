@@ -131,11 +131,20 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
-- 服务器抗不住了，计划关闭！之前用了的请改别的epg吧！
+```
+xmltv 接口： https://epg.zbds.top/index.php
+DIYP&百川 接口： https://epg.zbds.top/index.php?ch=CCTV1
+超级直播 接口： https://epg.zbds.top/index.php?channel=CCTV1
 
-  （如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
 
-  
+https://epg.zbds.top/
+https://epg.zbds.top/t.xml
+https://epg.zbds.top/t.xml.gz
+```
+
+（如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
+
+
 
 ### 🎨 增加台标
 
@@ -175,6 +184,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📅 更新
 
+- 2025.2.28 重新部署epg服务
 - 2025.1.11 优化页面
 - 2025.1.7 增加台标接口
 - 2024.12.13 跟着节奏继续优化
