@@ -167,7 +167,7 @@ https://epg.zbds.top/t.xml.gz
 
 优化版
 
-- 如果显示链接失败，请下载[优化版](https://zbds.top/soft/zbds_yhb.apk)试试（2025.2.5）
+- 如果显示链接失败，请下载[优化版](https://img-cloud.zbds.top/zbds/zbds-yhb-ali20250303.apk)试试（2025.2.5）
 
 
 
