@@ -143,27 +143,17 @@ pre {
   padding: 2rem 0;
   margin-top: 2rem;
   border-top: 1px solid #eff0f1;
-  background: #f8f9fa;
+  text-align: center;
   
   .footer-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
   }
   
-  .footer-section {
-    flex: 1;
-    min-width: 250px;
-    
-    h3 {
-      color: #24292e;
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-    }
+  .copyright {
+    color: #586069;
+    font-size: 0.9rem;
     
     a {
       color: #0366d6;
@@ -174,48 +164,19 @@ pre {
       }
     }
   }
-  
-  .copyright {
-    text-align: center;
-    color: #586069;
-    font-size: 0.9rem;
-    
-    small {
-      display: block;
-      margin-top: 0.5rem;
-    }
-  }
 }
 
-@media (max-width: 768px) {
-  .site-footer {
-    .footer-content {
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    .footer-section {
-      margin-bottom: 1.5rem;
-    }
-  }
-}
-
-/* 暗色模式下的页脚样式 */
+/* 暗色模式适配 */
 @media (prefers-color-scheme: dark) {
   .site-footer {
     border-top-color: #30363d;
-  }
-  
-  .site-footer-owner, 
-  .site-footer-credits {
-    color: #8b949e;
-  }
-  
-  .site-footer a {
-    color: #58a6ff;
-  }
-  
-  .site-footer a:hover {
-    color: #79c0ff;
+    
+    .copyright {
+      color: #8b949e;
+      
+      a {
+        color: #58a6ff;
+      }
+    }
   }
 } 
