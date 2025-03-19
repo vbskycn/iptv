@@ -36,12 +36,12 @@ def update_sitemap():
 
 def notify_index_now():
     urls = [
-        "https://live.zbds.top",
-        "https://live.zbds.top/tv/iptv6.txt",
-        "https://live.zbds.top/tv/iptv6.m3u",
-        "https://live.zbds.top/tv/iptv4.txt",
-        "https://live.zbds.top/tv/iptv4.m3u",
-        "https://live.zbds.top/tools/"
+        "https://live.izbds.com",
+        "https://live.izbds.com/tv/iptv6.txt",
+        "https://live.izbds.com/tv/iptv6.m3u",
+        "https://live.izbds.com/tv/iptv4.txt",
+        "https://live.izbds.com/tv/iptv4.m3u",
+        "https://live.izbds.com/tools/"
     ]
     
     for site_url in urls:
