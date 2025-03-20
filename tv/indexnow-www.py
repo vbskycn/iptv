@@ -60,10 +60,6 @@ class SitemapIndexNowSubmitter:
         except:
             return False
 
-    def is_success_status(self, status_code):
-        """判断状态码是否表示成功"""
-        return status_code in [200, 202]  # 添加 202 作为成功状态码
-
     def submit_urls(self):
         # 获取 URL 列表
         url_list = self.get_urls_from_sitemap()
@@ -86,6 +82,7 @@ class SitemapIndexNowSubmitter:
             "key": self.key,
             "keyLocation": self.key_location,
             "urlList": url_list,
+            "batchId": datetime.now(UTC).strftime("%Y%m%d%H%M%S"),
             "lastModified": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
         }
 
@@ -102,11 +99,9 @@ class SitemapIndexNowSubmitter:
                 logging.info(f"状态码: {response.status_code}")
                 logging.info(f"响应内容: {response.text}")
                 
-                if self.is_success_status(response.status_code):
-                    status_text = "接受" if response.status_code == 202 else "成功"
-                    message = f"{status_text}提交 {len(url_list)} 个 URL 到 IndexNow!"
-                    print(message)
-                    logging.info(message)
+                if response.status_code == 200:
+                    print(f"成功提交 {len(url_list)} 个 URL 到 IndexNow!")
+                    logging.info(f"成功提交 {len(url_list)} 个 URL 到 IndexNow")
                     return True
                 else:
                     print(f"提交失败，状态码: {response.status_code}")
