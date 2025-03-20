@@ -21,3 +21,16 @@
 2025-03-20 19:04:14,189 - INFO - 状态码: 422
 2025-03-20 19:04:14,189 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
 2025-03-20 19:04:14,189 - ERROR - 提交失败，状态码: 422
+2025-03-21 00:45:56,079 - INFO - 从 sitemap 中获取到 6 个 URL
+2025-03-21 00:45:56,866 - INFO - 提交尝试 1/3
+2025-03-21 00:45:56,867 - INFO - 状态码: 422
+2025-03-21 00:45:56,867 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-21 00:45:56,867 - ERROR - 提交失败，状态码: 422
+2025-03-21 00:46:02,410 - INFO - 提交尝试 2/3
+2025-03-21 00:46:02,410 - INFO - 状态码: 422
+2025-03-21 00:46:02,411 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-21 00:46:02,411 - ERROR - 提交失败，状态码: 422
+2025-03-21 00:46:08,025 - INFO - 提交尝试 3/3
+2025-03-21 00:46:08,026 - INFO - 状态码: 422
+2025-03-21 00:46:08,026 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-21 00:46:08,026 - ERROR - 提交失败，状态码: 422
