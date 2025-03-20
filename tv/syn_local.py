@@ -129,11 +129,26 @@ for file_info in files_to_download:
 # 6. 同步文件
 print("正在同步文件...")
 files_to_sync = ['iptv4.txt', 'iptv4.m3u', 'iptv6.txt', 'iptv6.m3u']
-docker_iptv_path = "/docker/iptv4"
 
-# 检查源目录是否存在
-if not os.path.exists(docker_iptv_path):
-    print(f"警告：源目录 {docker_iptv_path} 不存在")
+# 根据操作系统判断源目录路径和命令
+if os.name == 'nt':  # Windows系统
+    docker_iptv_paths = [
+        os.path.join("D:", "docker", "iptv4"),
+        os.path.join("C:", "docker", "iptv4")
+    ]
+else:  # Linux系统
+    docker_iptv_paths = ["/docker/iptv4"]
+
+# 尝试所有可能的路径
+docker_iptv_path = None
+for path in docker_iptv_paths:
+    if os.path.exists(path):
+        docker_iptv_path = path
+        print(f"找到源目录: {docker_iptv_path}")
+        break
+
+if docker_iptv_path is None:
+    print("警告：未找到源目录，跳过文件同步")
 else:
     for file in files_to_sync:
         source = os.path.join(docker_iptv_path, file)
@@ -215,44 +230,46 @@ except Exception as e:
     print(f"更新 README.md 文件时出错: {str(e)}")
     exit(1)
 
-# 8.5 执行 update_index.py
-print("正在执行 update_index.py...")
-try:
-    update_index_path = os.path.join(script_path, 'update_index.py')
-    if os.path.exists(update_index_path):
-        run_command(f'python3 {update_index_path}')
-        print("update_index.py 执行完成")
-    else:
-        print("警告：update_index.py 文件不存在")
-except Exception as e:
-    print(f"执行 update_index.py 时出错: {str(e)}")
-    exit(1)
+# 8.5 执行 Python 脚本
+def execute_python_script(script_name):
+    print(f"正在执行 {script_name}...")
+    try:
+        script_path_full = os.path.join(script_path, script_name)
+        if os.path.exists(script_path_full):
+            # 根据操作系统选择 Python 命令
+            if os.name == 'nt':  # Windows
+                python_cmd = 'python'
+                command = f'{python_cmd} "{script_path_full}"'
+            else:  # Linux
+                python_cmd = 'python3'
+                command = f'{python_cmd} "{script_path_full}"'
+            
+            try:
+                run_command(command)
+                print(f"{script_name} 执行完成")
+            except Exception as e:
+                print(f"{script_name} 执行出错: {str(e)}")
+                # 如果第一个命令失败，尝试另一个 Python 命令
+                alt_python_cmd = 'python3' if python_cmd == 'python' else 'python'
+                alt_command = f'{alt_python_cmd} "{script_path_full}"'
+                try:
+                    run_command(alt_command)
+                    print(f"{script_name} 使用备选命令执行完成")
+                except Exception as e2:
+                    print(f"{script_name} 备选命令执行也失败: {str(e2)}")
+                    raise e2
+        else:
+            print(f"警告：{script_name} 文件不存在")
+    except Exception as e:
+        print(f"执行 {script_name} 时出错: {str(e)}")
+        # 不退出程序，继续执行下一个脚本
+        return False
+    return True
 
-# 8.6 执行 indexnow-live.py
-print("正在执行 indexnow-live.py...")
-try:
-    indexnow_live_path = os.path.join(script_path, 'indexnow-live.py')
-    if os.path.exists(indexnow_live_path):
-        run_command(f'python3 {indexnow_live_path}')
-        print("indexnow-live.py 执行完成")
-    else:
-        print("警告：indexnow-live.py 文件不存在")
-except Exception as e:
-    print(f"执行 indexnow-live.py 时出错: {str(e)}")
-    exit(1)
-
-# 8.7 执行 indexnow-www.py
-print("正在执行 indexnow-www.py...")
-try:
-    indexnow_www_path = os.path.join(script_path, 'indexnow-www.py')
-    if os.path.exists(indexnow_www_path):
-        run_command(f'python3 {indexnow_www_path}')
-        print("indexnow-www.py 执行完成")
-    else:
-        print("警告：indexnow-www.py 文件不存在")
-except Exception as e:
-    print(f"执行 indexnow-www.py 时出错: {str(e)}")
-    exit(1)
+# 依次执行三个Python脚本
+scripts_to_execute = ['update_index.py', 'indexnow-live.py', 'indexnow-www.py']
+for script in scripts_to_execute:
+    execute_python_script(script)
 
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
