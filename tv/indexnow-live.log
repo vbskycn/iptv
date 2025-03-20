@@ -8,3 +8,16 @@
 2025-03-20 14:45:39,454 - INFO - ״̬��: 200
 2025-03-20 14:45:39,456 - INFO - ��Ӧ����: 
 2025-03-20 14:45:39,456 - INFO - �ɹ��ύ URL �� IndexNow
+2025-03-20 19:04:02,451 - INFO - 从 sitemap 中获取到 6 个 URL
+2025-03-20 19:04:02,998 - INFO - 提交尝试 1/3
+2025-03-20 19:04:02,999 - INFO - 状态码: 422
+2025-03-20 19:04:02,999 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-20 19:04:02,999 - ERROR - 提交失败，状态码: 422
+2025-03-20 19:04:08,480 - INFO - 提交尝试 2/3
+2025-03-20 19:04:08,480 - INFO - 状态码: 422
+2025-03-20 19:04:08,480 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-20 19:04:08,480 - ERROR - 提交失败，状态码: 422
+2025-03-20 19:04:14,188 - INFO - 提交尝试 3/3
+2025-03-20 19:04:14,189 - INFO - 状态码: 422
+2025-03-20 19:04:14,189 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-03-20 19:04:14,189 - ERROR - 提交失败，状态码: 422
