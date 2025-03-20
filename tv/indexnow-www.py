@@ -7,30 +7,50 @@ import logging
 from datetime import datetime, UTC
 import time
 from urllib.parse import urlparse
+import xml.etree.ElementTree as ET
 
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='indexnow-live.log'
+    filename='indexnow_www.log'
 )
 
-class IndexNowSubmitter:
+class SitemapIndexNowSubmitter:
     def __init__(self):
         self.api_endpoint = "https://api.indexnow.org/IndexNow"
         self.host = "izbds.com"
-        self.key = "10494a0749004fd3b5260106760f3d2b"
+        self.key = "59dd59ef507a4957b9c57668e01016ee"
         self.key_location = f"https://{self.host}/{self.key}.txt"
-        
-        self.url_list = [
-            "https://live.izbds.com",
-            "https://live.izbds.com/tv/iptv6.txt",
-            "https://live.izbds.com/tv/iptv6.m3u",
-            "https://live.izbds.com/tv/iptv4.txt",
-            "https://live.izbds.com/tv/iptv4.m3u"
-        ]
+        self.sitemap_url = "https://izbds.com/sitemap.xml"
         self.max_retries = 3
-        self.retry_delay = 5  # 重试间隔秒数
+        self.retry_delay = 5
+
+    def get_urls_from_sitemap(self):
+        """从 sitemap.xml 获取所有 URL"""
+        try:
+            response = requests.get(self.sitemap_url, timeout=30)
+            if response.status_code != 200:
+                logging.error(f"获取 sitemap 失败: {response.status_code}")
+                return []
+
+            # 解析 XML
+            root = ET.fromstring(response.content)
+            
+            # 定义命名空间
+            ns = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+            
+            # 提取所有 URL
+            urls = []
+            for url in root.findall('.//ns:url/ns:loc', ns):
+                urls.append(url.text)
+            
+            logging.info(f"从 sitemap 中获取到 {len(urls)} 个 URL")
+            return urls
+
+        except Exception as e:
+            logging.error(f"解析 sitemap 时发生错误: {str(e)}")
+            return []
 
     def validate_url(self, url):
         """验证 URL 的有效性"""
@@ -40,10 +60,21 @@ class IndexNowSubmitter:
         except:
             return False
 
+    def is_success_status(self, status_code):
+        """判断状态码是否表示成功"""
+        return status_code in [200, 202]  # 添加 202 作为成功状态码
+
     def submit_urls(self):
+        # 获取 URL 列表
+        url_list = self.get_urls_from_sitemap()
+        if not url_list:
+            logging.error("未能获取到有效的 URL 列表")
+            return False
+
         # 验证所有 URL
-        if not all(self.validate_url(url) for url in self.url_list):
-            logging.error("URL 列表包含无效的 URL")
+        url_list = [url for url in url_list if self.validate_url(url)]
+        if not url_list:
+            logging.error("没有有效的 URL 可提交")
             return False
 
         headers = {
@@ -54,7 +85,7 @@ class IndexNowSubmitter:
             "host": self.host,
             "key": self.key,
             "keyLocation": self.key_location,
-            "urlList": self.url_list,
+            "urlList": url_list,
             "lastModified": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
         }
 
@@ -64,16 +95,18 @@ class IndexNowSubmitter:
                     self.api_endpoint,
                     headers=headers,
                     json=payload,
-                    timeout=30  # 添加超时设置
+                    timeout=30
                 )
                 
                 logging.info(f"提交尝试 {attempt + 1}/{self.max_retries}")
                 logging.info(f"状态码: {response.status_code}")
                 logging.info(f"响应内容: {response.text}")
                 
-                if response.status_code == 200:
-                    print("成功提交 URL 到 IndexNow!")
-                    logging.info("成功提交 URL 到 IndexNow")
+                if self.is_success_status(response.status_code):
+                    status_text = "接受" if response.status_code == 202 else "成功"
+                    message = f"{status_text}提交 {len(url_list)} 个 URL 到 IndexNow!"
+                    print(message)
+                    logging.info(message)
                     return True
                 else:
                     print(f"提交失败，状态码: {response.status_code}")
@@ -94,7 +127,7 @@ class IndexNowSubmitter:
                 return False
 
 def main():
-    submitter = IndexNowSubmitter()
+    submitter = SitemapIndexNowSubmitter()
     submitter.submit_urls()
 
 if __name__ == "__main__":
