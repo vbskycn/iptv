@@ -7,6 +7,7 @@ import logging
 from datetime import datetime, UTC
 import time
 from urllib.parse import urlparse
+import xml.etree.ElementTree as ET
 
 # 配置日志
 logging.basicConfig(
@@ -21,16 +22,35 @@ class IndexNowSubmitter:
         self.host = "izbds.com"
         self.key = "10494a0749004fd3b5260106760f3d2b"
         self.key_location = f"https://{self.host}/{self.key}.txt"
-        
-        self.url_list = [
-            "https://live.izbds.com",
-            "https://live.izbds.com/tv/iptv6.txt",
-            "https://live.izbds.com/tv/iptv6.m3u",
-            "https://live.izbds.com/tv/iptv4.txt",
-            "https://live.izbds.com/tv/iptv4.m3u"
-        ]
+        self.sitemap_url = "https://live.izbds.com/sitemap.xml"
         self.max_retries = 3
         self.retry_delay = 5  # 重试间隔秒数
+
+    def get_urls_from_sitemap(self):
+        """从 sitemap.xml 获取所有 URL"""
+        try:
+            response = requests.get(self.sitemap_url, timeout=30)
+            if response.status_code != 200:
+                logging.error(f"获取 sitemap 失败: {response.status_code}")
+                return []
+
+            # 解析 XML
+            root = ET.fromstring(response.content)
+            
+            # 定义命名空间
+            ns = {'ns0': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+            
+            # 提取所有 URL
+            urls = []
+            for url in root.findall('.//ns0:url/ns0:loc', ns):
+                urls.append(url.text)
+            
+            logging.info(f"从 sitemap 中获取到 {len(urls)} 个 URL")
+            return urls
+
+        except Exception as e:
+            logging.error(f"解析 sitemap 时发生错误: {str(e)}")
+            return []
 
     def validate_url(self, url):
         """验证 URL 的有效性"""
@@ -41,9 +61,16 @@ class IndexNowSubmitter:
             return False
 
     def submit_urls(self):
+        # 获取 URL 列表
+        url_list = self.get_urls_from_sitemap()
+        if not url_list:
+            logging.error("未能获取到有效的 URL 列表")
+            return False
+
         # 验证所有 URL
-        if not all(self.validate_url(url) for url in self.url_list):
-            logging.error("URL 列表包含无效的 URL")
+        url_list = [url for url in url_list if self.validate_url(url)]
+        if not url_list:
+            logging.error("没有有效的 URL 可提交")
             return False
 
         headers = {
@@ -54,7 +81,7 @@ class IndexNowSubmitter:
             "host": self.host,
             "key": self.key,
             "keyLocation": self.key_location,
-            "urlList": self.url_list,
+            "urlList": url_list,
             "lastModified": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
         }
 
