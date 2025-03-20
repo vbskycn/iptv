@@ -211,6 +211,32 @@ except Exception as e:
     print(f"执行 update_index.py 时出错: {str(e)}")
     exit(1)
 
+# 8.6 执行 indexnow-live.py
+print("正在执行 indexnow-live.py...")
+try:
+    indexnow_live_path = os.path.join(script_path, 'indexnow-live.py')
+    if os.path.exists(indexnow_live_path):
+        run_command(f'python3 {indexnow_live_path}')
+        print("indexnow-live.py 执行完成")
+    else:
+        print("警告：indexnow-live.py 文件不存在")
+except Exception as e:
+    print(f"执行 indexnow-live.py 时出错: {str(e)}")
+    exit(1)
+
+# 8.7 执行 indexnow-www.py
+print("正在执行 indexnow-www.py...")
+try:
+    indexnow_www_path = os.path.join(script_path, 'indexnow-www.py')
+    if os.path.exists(indexnow_www_path):
+        run_command(f'python3 {indexnow_www_path}')
+        print("indexnow-www.py 执行完成")
+    else:
+        print("警告：indexnow-www.py 文件不存在")
+except Exception as e:
+    print(f"执行 indexnow-www.py 时出错: {str(e)}")
+    exit(1)
+
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
 try:
