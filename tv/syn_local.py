@@ -239,37 +239,40 @@ def execute_python_script(script_name):
             # 根据操作系统选择 Python 命令
             if os.name == 'nt':  # Windows
                 python_cmd = 'python'
-                command = f'{python_cmd} "{script_path_full}"'
             else:  # Linux
                 python_cmd = 'python3'
-                command = f'{python_cmd} "{script_path_full}"'
             
+            command = f'{python_cmd} "{script_path_full}"'
             try:
-                run_command(command)
+                run_command(command, cwd=script_path)  # 添加 cwd 参数
                 print(f"{script_name} 执行完成")
             except Exception as e:
                 print(f"{script_name} 执行出错: {str(e)}")
-                # 如果第一个命令失败，尝试另一个 Python 命令
-                alt_python_cmd = 'python3' if python_cmd == 'python' else 'python'
-                alt_command = f'{alt_python_cmd} "{script_path_full}"'
-                try:
-                    run_command(alt_command)
-                    print(f"{script_name} 使用备选命令执行完成")
-                except Exception as e2:
-                    print(f"{script_name} 备选命令执行也失败: {str(e2)}")
-                    raise e2
+                if os.name == 'nt':  # 只在 Windows 上尝试备选命令
+                    alt_python_cmd = 'python3'
+                    alt_command = f'{alt_python_cmd} "{script_path_full}"'
+                    try:
+                        run_command(alt_command, cwd=script_path)
+                        print(f"{script_name} 使用备选命令执行完成")
+                    except Exception as e2:
+                        print(f"{script_name} 备选命令执行也失败: {str(e2)}")
+                        return False
+                else:
+                    return False
         else:
             print(f"警告：{script_name} 文件不存在")
+            return False
     except Exception as e:
         print(f"执行 {script_name} 时出错: {str(e)}")
-        # 不退出程序，继续执行下一个脚本
         return False
     return True
 
 # 依次执行三个Python脚本
 scripts_to_execute = ['update_index.py', 'indexnow-live.py', 'indexnow-www.py']
 for script in scripts_to_execute:
-    execute_python_script(script)
+    success = execute_python_script(script)
+    if not success:
+        print(f"警告：{script} 执行失败，继续执行下一个脚本")
 
 # 9. 提交更改并推送到 GitHub
 print("正在提交更改并推送...")
