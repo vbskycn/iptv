@@ -4,6 +4,7 @@ import requests
 import datetime
 import re
 import time
+import shutil
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -128,10 +129,26 @@ for file_info in files_to_download:
 # 6. 同步文件
 print("正在同步文件...")
 files_to_sync = ['iptv4.txt', 'iptv4.m3u', 'iptv6.txt', 'iptv6.m3u']
-for file in files_to_sync:
-    source = f"/docker/iptv4/{file}"
-    destination = os.path.join(script_path, file)
-    run_command(f'cp {source} {destination}')
+docker_iptv_path = "/docker/iptv4"
+
+# 检查源目录是否存在
+if not os.path.exists(docker_iptv_path):
+    print(f"警告：源目录 {docker_iptv_path} 不存在")
+else:
+    for file in files_to_sync:
+        source = os.path.join(docker_iptv_path, file)
+        destination = os.path.join(script_path, file)
+        try:
+            if os.path.exists(source):
+                shutil.copy2(source, destination)
+                print(f"成功复制文件: {file}")
+            else:
+                print(f"源文件不存在: {source}")
+        except Exception as e:
+            print(f"复制文件 {file} 时出错: {str(e)}")
+            if not os.path.exists(destination):
+                print(f"目标文件 {file} 不存在，继续执行")
+                continue
 
 # 7. 合并文件
 print("正在合并文件...")
