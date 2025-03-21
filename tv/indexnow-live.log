@@ -1,2 +1,0 @@
-2025-03-21 10:41:59,033 - INFO - 从 sitemap 中获取到 6 个 URL
-2025-03-21 10:42:04,041 - ERROR - 发生错误: HTTPSConnectionPool(host='api.indexnow.org', port=443): Max retries exceeded with url: /IndexNow (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
