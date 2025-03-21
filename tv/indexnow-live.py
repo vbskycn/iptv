@@ -22,7 +22,7 @@ class IndexNowSubmitter:
         self.host = "izbds.com"
         self.key = "10494a0749004fd3b5260106760f3d2b"
         self.key_location = f"https://{self.host}/{self.key}.txt"
-        self.sitemap_url = "https://live.zbds.top/sitemap.xml"
+        self.sitemap_url = "https://live.izbds.com/sitemap.xml"
         self.max_retries = 3
         self.retry_delay = 5  # 重试间隔秒数
 

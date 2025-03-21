@@ -2,7 +2,7 @@
 layout: default
 title: 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
 description: 最新免费开源的IPTV电视直播源，支持IPv4/IPv6双栈访问，每6小时自动更新，永久免费。收录国内、海外、港澳台等上千个iptv电视直播源频道。
-keywords: IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.zbds.top,live.zbds.top
+keywords: IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.izbds.top
 permalink: /
 ---
 
@@ -53,13 +53,13 @@ permalink: /
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.txt">https://live.zbds.top/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://live.izbds.com/tv/iptv6.txt">https://live.izbds.com/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.m3u">https://live.zbds.top/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://live.izbds.com/tv/iptv6.m3u">https://live.izbds.com/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
@@ -92,13 +92,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.txt">https://live.zbds.top/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://live.izbds.com/tv/iptv4.txt">https://live.izbds.com/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.m3u">https://live.zbds.top/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://live.izbds.com/tv/iptv4.m3u">https://live.izbds.com/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 *有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
@@ -148,9 +148,9 @@ https://epg.zbds.top/t.xml.gz
 
 ### 🎨 增加台标
 
-使用路径 https://live.zbds.top/logo/频道名.png
+使用路径 https://live.izbds.com/logo/频道名.png
 
-- 示例： [https://live.zbds.top/logo/CCTV1.png](https://live.zbds.top/logo/CCTV1.png)
+- 示例： [https://live.izbds.com/logo/CCTV1.png](https://live.izbds.com/logo/CCTV1.png)
 
 
 
