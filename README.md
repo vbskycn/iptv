@@ -31,6 +31,44 @@ permalink: /
 ------
 
 
+### 📡 自动扫描直播源 IPTV4
+
+部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-03-23 12:48:04<!-- END_UPDATE_TIME_IPTV4 -->
+
+<table>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 60%;">
+    <col style="width: 20%;">
+  </colgroup>
+  <tr>
+    <th>名称</th>
+    <th>网址</th>
+    <th>快速复制</th>
+  </tr>
+  <tr>
+    <td>TXT 格式直播源</td>
+    <td><a href="https://live.izbds.com/tv/iptv4.txt">https://live.izbds.com/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.txt')">快速复制</button></td>
+  </tr>
+  <tr>
+    <td>M3U 格式直播源（已带台标和EPG）</td>
+    <td><a href="https://live.izbds.com/tv/iptv4.m3u">https://live.izbds.com/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.m3u')">快速复制</button></td>
+  </tr>
+</table>
+*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
+
+```
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
+```
+
+```
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
+```
+
+
+
 
 ### 📡 自动扫描直播源 IPTV6
 
@@ -74,42 +112,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 ```
 
 
-
-### 📡 自动扫描直播源 IPTV4
-
-部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-03-23 12:48:04<!-- END_UPDATE_TIME_IPTV4 -->
-
-<table>
-  <colgroup>
-    <col style="width: 20%;">
-    <col style="width: 60%;">
-    <col style="width: 20%;">
-  </colgroup>
-  <tr>
-    <th>名称</th>
-    <th>网址</th>
-    <th>快速复制</th>
-  </tr>
-  <tr>
-    <td>TXT 格式直播源</td>
-    <td><a href="https://live.izbds.com/tv/iptv4.txt">https://live.izbds.com/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.txt')">快速复制</button></td>
-  </tr>
-  <tr>
-    <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.izbds.com/tv/iptv4.m3u">https://live.izbds.com/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.izbds.com/tv/iptv4.m3u')">快速复制</button></td>
-  </tr>
-</table>
-*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
-
-```
-https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
-```
-
-```
-https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
-```
 
 
 
