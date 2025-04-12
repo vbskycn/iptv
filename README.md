@@ -165,11 +165,9 @@ https://epg.zbds.top/t.xml.gz
 
 - 下载链接： [https://izbds.com](https://izbds.com/aztv)  （包含港澳台）
 
-
-
 优化版
 
-- 如果显示链接失败，请下载[优化版](https://img-cloud.zbds.top/zbds/zbds-yhb-ali20250303.apk)试试（2025.2.5）
+- 如果显示链接失败，请下载[最新版](https://izbds.com/aztv)试试（2025.2.5）
 
 
 
