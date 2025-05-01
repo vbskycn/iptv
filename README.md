@@ -24,7 +24,7 @@ permalink: /
 
 > 如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
 >
-> 直播电视app 下载地址：[https://izbds.com](https://izbds.com/aztv)  （包含港澳台频道），推荐[野草助手](https://www.yecao.net/download/)安装码：0024
+> 直播电视app 下载地址：[https://izbds.com](https://izbds.com/aztv/)  （包含港澳台频道），推荐[野草助手](https://www.yecao.net/download/)安装码：0024
 >
 > 软件内包含本仓库所有直播源，还有很多其他直播源，并且每日更新。
 
@@ -163,11 +163,11 @@ https://epg.zbds.top/t.xml.gz
 
 稳定版
 
-- 下载链接： [https://izbds.com](https://izbds.com/aztv)  （包含港澳台）
+- 下载链接： [https://izbds.com](https://izbds.com/aztv/)  （包含港澳台）
 
 优化版
 
-- 如果显示链接失败，请下载[最新版](https://izbds.com/aztv)试试（2025.2.5）
+- 如果显示链接失败，请下载[最新版](https://izbds.com/aztv)试试（2025.4.26）
 
 
 
