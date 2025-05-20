@@ -22,9 +22,9 @@ permalink: /
 
 ---
 
-> 如不愿折腾开源项目，推荐直接下载第三方开发的软件 **直播电视** 使用，手机电视盒子都兼容，没有广告，完全免费。
+> 如不愿折腾开源项目，推荐直接下载第三方开发的软件 **直播电视**APP 使用，手机电视盒子都兼容，没有广告，完全免费。
 >
-> 直播电视 下载地址：[https://izbds.com](https://izbds.com/aztv/)   推荐[野草助手](https://www.yecao.net/download/)安装码：**0024**
+> 直播电视APP 下载地址：[https://izbds.com](https://izbds.com/aztv/)   推荐[野草助手](https://www.yecao.net/download/)安装码：**0024**
 >
 > 软件内包含大量直播源，包含港澳台频道，速度流畅，并且每日多次更新。
 
