@@ -48,16 +48,16 @@ permalink: /
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.txt">https://live.zbds.top/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt">https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.m3u">https://live.zbds.top/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u">https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
-*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
+*如果你打不开github域名，请使用加速地址访问，加速地址也失效了？那就在找一个*
 
 ```
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
@@ -91,13 +91,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.txt">https://live.zbds.top/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt">https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.m3u">https://live.zbds.top/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u">https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
@@ -158,47 +158,29 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 </div>
 
 
+### 📝 免责声明
+
+- 本项目仅作为技术研究用途，所有内容均收集自互联网公开链接，严禁用于任何商业用途，包括但不限于商业直播、商业推广等。
+
+- 本项目不存储任何的流媒体内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性，所有的法律责任与后果应由使用者自行承担。
+
+- 本项目采用开源协议发布，您可以 Fork 本项目，但引用本项目内容到其他仓库的情况，务必要遵守开源协议，必须注明来源。
+
+- 本项目不保证直播频道的有效性，直播内容可能受直播服务提供商因素影响而失效。
+
+- 本项目由社区维护，所有文件均托管在 [GitHub仓库](https://github.com/vbskycn/iptv) 且自动构建，由项目发起人公益维护，欢迎 Star 本项目或点击 [Issues](https://github.com/vbskycn/iptv/issues/new/choose) 反馈您的问题。
+
+- 本项目部分内容基于[fanmingming](https://github.com/fanmingming/live)大佬的项目和网络收集而来。
+
+- 本项目维护者保留随时修改或终止项目的权利，且最终解释权归项目维护者所有。
+
+- 使用本项目即表示您已阅读并同意本免责声明，如不同意本声明，请立即停止使用本项目，本项目保留随时更新免责声明的权利
+
+  
+
 ### 🎁 欢迎请我喝杯饮料
 
 ![请我喝杯饮料](assets/wxds.png)
-
-### 📝 免责声明
-
-1. 项目性质与使用限制
-   - 本项目仅作为技术研究用途，所有内容均收集自互联网公开链接
-   - 严禁用于任何商业用途，包括但不限于商业直播、广告投放等
-   - 严禁用于传播未经授权的内容或侵犯他人知识产权
-   - 使用者必须遵守当地法律法规，自行承担所有法律责任
-
-2. 内容免责
-   - 本项目不存储任何流媒体内容，仅提供链接索引
-   - 所有直播源均由第三方提供，本项目不对其内容负责
-   - 不保证直播源的可用性、稳定性和合法性
-   - 直播内容可能因服务提供商因素随时失效或变更
-
-3. 技术免责
-   - 本项目提供的技术方案仅供学习参考
-   - 不保证技术方案的完整性和可用性
-   - 使用者需自行承担使用风险
-   - 因使用本项目造成的任何损失，本项目不承担责任
-
-4. 知识产权声明
-   - 本项目采用开源协议发布
-   - 您可以 Fork 本项目，但必须遵守开源协议
-   - 引用本项目内容到其他仓库时，必须注明来源
-   - 本项目部分内容基于[fanmingming](https://github.com/fanmingming/live)的项目和网络收集
-
-5. 维护说明
-   - 本项目由社区维护，不提供任何形式的商业支持
-   - 所有文件托管在 [GitHub](https://github.com/vbskycn/iptv)
-   - 欢迎通过 [Issues](https://github.com/vbskycn/iptv/issues/new/choose) 反馈问题
-   - 项目维护者保留随时修改或终止项目的权利
-
-6. 特别提醒
-   - 使用本项目即表示您已阅读并同意本免责声明
-   - 如不同意本声明，请立即停止使用本项目
-   - 本项目保留随时更新免责声明的权利
-   - 最终解释权归项目维护者所有
 
 
 
