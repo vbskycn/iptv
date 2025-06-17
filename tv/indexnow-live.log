@@ -1736,3 +1736,8 @@
 2025-06-17 18:34:12,729 - ERROR - 未能获取到有效的 URL 列表
 2025-06-18 00:30:04,300 - ERROR - 解析 sitemap 时发生错误: HTTPSConnectionPool(host='live.izbds.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))
 2025-06-18 00:30:04,302 - ERROR - 未能获取到有效的 URL 列表
+2025-06-18 06:35:52,069 - INFO - 从 sitemap 中获取到 6 个 URL
+2025-06-18 06:35:53,586 - INFO - 提交尝试 1/3
+2025-06-18 06:35:53,587 - INFO - 状态码: 200
+2025-06-18 06:35:53,587 - INFO - 响应内容: 
+2025-06-18 06:35:53,588 - INFO - 成功提交 URL 到 IndexNow
