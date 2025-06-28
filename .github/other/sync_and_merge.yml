@@ -19,7 +19,7 @@ jobs:
     - name: Set up Git
       run: |
         git config --global user.name "vbskycn"
-        git config --global user.email "proton218@qq.com"
+        git config --global user.email "88164962@qq.com"
 
     # 步骤3：下载指定文件
     - name: Download files

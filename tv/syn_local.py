@@ -67,7 +67,7 @@ print("切换到程序所在目录...")
 
 # 3. 设置 Git 用户名和邮箱
 run_command('git config user.name "vbskycn"', cwd=repo_root)
-run_command('git config user.email "proton218@gmail.com"', cwd=repo_root)
+run_command('git config user.email "zhoujie218@gmail.com"', cwd=repo_root)
 
 # 4. 执行 Git 操作，放弃本地更改并拉取最新代码
 print("正在执行 Git 操作...")

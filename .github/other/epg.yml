@@ -15,7 +15,7 @@ jobs:
       run: |
         rm -f e.xml && wget https://epg.112114.xyz/pp.xml -O e.xml
         git config --global user.name vbskycn
-        git config --global user.email proton218@qq.com
+        git config --global user.email 88164962@qq.com
         git add e.xml
         git commit -m "Update e.xml"
         git push -f origin master
