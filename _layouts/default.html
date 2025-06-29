@@ -40,7 +40,12 @@
     </div>
 
     <div class="main-content">
-      {{ content }}
+      {% if page.hide_edgeone %}
+        {% assign content_without_edgeone = content | split: '[本项目的CDN加速和安全防护由腾讯EdgeOne赞助]' | first %}
+        {{ content_without_edgeone }}
+      {% else %}
+        {{ content }}
+      {% endif %}
 
       <footer class="site-footer">
         <div class="footer-content">
