@@ -41,8 +41,19 @@
 
     <div class="main-content">
       {% if page.hide_edgeone %}
-        {% assign content_without_edgeone = content | split: '[本项目的CDN加速和安全防护由腾讯EdgeOne赞助]' | first %}
-        {{ content_without_edgeone }}
+        {% assign content_parts = content | split: '<!-- edgeone_start -->' %}
+        {% if content_parts.size > 1 %}
+          {% assign before_edgeone = content_parts[0] %}
+          {% assign after_edgeone_parts = content_parts[1] | split: '<!-- edgeone_end -->' %}
+          {% if after_edgeone_parts.size > 1 %}
+            {% assign after_edgeone = after_edgeone_parts[1] %}
+            {{ before_edgeone }}{{ after_edgeone }}
+          {% else %}
+            {{ before_edgeone }}
+          {% endif %}
+        {% else %}
+          {{ content }}
+        {% endif %}
       {% else %}
         {{ content }}
       {% endif %}
