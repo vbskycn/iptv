@@ -2185,3 +2185,5 @@
 2025-07-11 06:36:01,102 - ERROR - 未能获取到有效的 URL 列表
 2025-07-11 12:37:16,978 - ERROR - 解析 sitemap 时发生错误: HTTPSConnectionPool(host='live.izbds.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb387080090>, 'Connection to live.izbds.com timed out. (connect timeout=30)'))
 2025-07-11 12:37:16,978 - ERROR - 未能获取到有效的 URL 列表
+2025-07-11 18:36:43,069 - ERROR - 解析 sitemap 时发生错误: HTTPSConnectionPool(host='live.izbds.com', port=443): Read timed out. (read timeout=30)
+2025-07-11 18:36:43,069 - ERROR - 未能获取到有效的 URL 列表
