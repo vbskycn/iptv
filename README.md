@@ -31,6 +31,9 @@ hide_edgeone: true
 
 ------
 
+**域名 live.izbds.com 喜提GFW免费套餐,请用新域名或加速域名**
+
+
 
 ### 📡 自动扫描直播源 IPTV4
 
