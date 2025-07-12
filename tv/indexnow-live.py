@@ -19,7 +19,7 @@ logging.basicConfig(
 class IndexNowSubmitter:
     def __init__(self):
         self.api_endpoint = "https://api.indexnow.org/IndexNow"
-        self.host = "zbds.top"
+        self.host = "live.zbds.top"
         self.key = "06389881162040afb24b5c63eeaf7093"
         self.key_location = f"https://{self.host}/{self.key}.txt"
         self.sitemap_url = "https://live.zbds.top/sitemap.xml"
