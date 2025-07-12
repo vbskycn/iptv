@@ -2,7 +2,7 @@
 layout: default
 title: 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
 description: 最新免费开源的IPTV电视直播源,支持IPv4/IPv6双栈访问,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持EPG节目单及台标,可用于电视盒子、手机、电脑等设备。
-keywords: IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top
+keywords: IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
 permalink: /
 hide_edgeone: true
 ---
@@ -52,13 +52,13 @@ hide_edgeone: true
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.txt">https://live.zbds.top/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://live.zbds.org/tv/iptv4.txt">https://live.zbds.org/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv4.m3u">https://live.zbds.top/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://live.zbds.org/tv/iptv4.m3u">https://live.zbds.org/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 *如果你打不开github域名，请使用加速地址访问，加速地址也失效了？那就在找一个*
@@ -95,13 +95,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.txt">https://live.zbds.top/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://live.zbds.org/tv/iptv6.txt">https://live.zbds.org/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.top/tv/iptv6.m3u">https://live.zbds.top/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.top/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://live.zbds.org/tv/iptv6.m3u">https://live.zbds.org/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
