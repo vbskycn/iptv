@@ -175,8 +175,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 - 本项目由社区维护，所有文件均托管在 [GitHub仓库](https://github.com/vbskycn/iptv) 且自动构建，由项目发起人公益维护，欢迎 Star 本项目或点击 [Issues](https://github.com/vbskycn/iptv/issues/new/choose) 反馈您的问题。
 
-- 本项目部分内容基于[fanmingming](https://github.com/fanmingming/live)大佬的项目和网络收集而来。
-
 - 本项目维护者保留随时修改或终止项目的权利，且最终解释权归项目维护者所有。
 
 - 使用本项目即表示您已阅读并同意本免责声明，如不同意本声明，请立即停止使用本项目，本项目保留随时更新免责声明的权利
