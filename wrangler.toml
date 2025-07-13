@@ -1,6 +1,6 @@
 name = "iptv-worker"
-account_id = "ced3739de4cb03e87fb66bfaa1584d43"
-workers_dev = true
+main = "index.js"
+compatibility_date = "2024-01-01"
 
-[site]
-bucket = "./_site"
+[assets]
+directory = "./_site"
