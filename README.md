@@ -7,9 +7,10 @@ permalink: /
 hide_edgeone: true
 ---
 
-<h2 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h2>
 
-### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
+<h1 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h1>
+
+<h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
 <div class="badges-container">
     <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
@@ -35,7 +36,7 @@ hide_edgeone: true
 
 
 
-### 📡 自动扫描直播源 IPTV4
+<h2>📡 自动扫描直播源 IPTV4</h2>
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-07-13 06:35:01<!-- END_UPDATE_TIME_IPTV4 -->
 
@@ -74,7 +75,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 📡 自动扫描直播源 IPTV6
+<h2>📡 自动扫描直播源 IPTV6</h2>
 
 部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-07-13 06:35:01<!-- END_UPDATE_TIME_IPTV6 -->
 
@@ -119,13 +120,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 💽DEMO
+<h2>💽DEMO</h2>
 
-![demo](assets/demo.png)
+![IPTV直播源演示截图 - 展示直播源列表和播放界面](assets/demo.png "IPTV直播源演示")
 
 
 
-### 🛠️ 工具
+<h2>🛠️工具</h2>
 
 纯前端直播源格式转换器（开源在本仓库tools目录）
 
@@ -133,7 +134,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 📱 直播电视APP
+<h2>📱 直播电视APP</h2>
 如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件
 
 最新稳定版
@@ -142,7 +143,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 📅 更新
+<h2>📅 更新</h2>
 
 - 2025.5.20 不提供epg服务
 - 2025.1.11 优化页面
@@ -153,7 +154,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 
 
-### 💬 联系
+<h2>💬 联系</h2>
 
 <div class="contact-info">
     <a href="https://t.me/starkluistn98" target="_blank">
@@ -162,7 +163,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 </div>
 
 
-### 📝 免责声明
+<h2>📝 免责声明</h2>
 
 - 本项目仅作为技术研究用途，用于学习和交流。所有内容均收集自互联网公开链接，严禁用于任何商业用途，包括但不限于商业直播、商业推广等。
 
@@ -182,13 +183,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
   
 
-### 🎁 欢迎请我喝杯饮料
+<h2>🎁 欢迎请我喝杯饮料</h2>
 
-![请我喝杯饮料](assets/wxds.png)
+![微信赞赏码 - 支持项目维护者](assets/wxds.png "微信赞赏码")
 
 
 
-### 📊 Star History
+<h2>📊 Star History</h2>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=vbskycn/iptv&type=Date)](https://star-history.com/#vbskycn/iptv&Date)
 
@@ -198,7 +199,8 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
    target="_blank"
    rel="noopener noreferrer">
   <img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png"
-       alt="腾讯EdgeOne Logo"
+       alt="腾讯EdgeOne CDN加速服务"
+       loading="lazy"
   />
 </a>
 <!-- edgeone_end -->
