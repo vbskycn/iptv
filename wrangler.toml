@@ -1,0 +1,10 @@
+name = "your-worker-name"
+type = "javascript"
+account_id = "<your-account-id>"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./_site"
+entry-point = "workers-site" 
