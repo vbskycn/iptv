@@ -19,13 +19,12 @@ export default {
     // 其他正常请求走静态资源绑定
     if (pathname.endsWith('.txt')) {
       const assetResponse = await env.ASSETS.fetch(request);
-      const txtBody = await assetResponse.body;
-      // 保留原有响应体和状态码，但强制设置 charset=utf-8
+      const txtBody = await assetResponse.arrayBuffer();
+      // 只设置 Content-Type，确保 charset=utf-8 生效
       return new Response(txtBody, {
         status: assetResponse.status,
         statusText: assetResponse.statusText,
         headers: {
-          ...Object.fromEntries(assetResponse.headers),
           'Content-Type': 'text/plain; charset=utf-8',
         },
       });
