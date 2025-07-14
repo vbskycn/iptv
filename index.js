@@ -27,6 +27,9 @@ export default {
       // 克隆原始响应头，防止丢失缓存控制信息
       const newHeaders = new Headers(assetResponse.headers);
       newHeaders.set('Content-Type', 'text/plain; charset=utf-8');
+      // 设置 Content-Disposition 让浏览器直接下载，文件名与请求路径一致
+      const filename = pathname.split('/').pop() || 'file.txt';
+      newHeaders.set('Content-Disposition', `attachment; filename="${filename}"`);
 
       // 构造并返回新的 Response
       return new Response(body, {
