@@ -80,19 +80,19 @@ run_command('git pull', cwd=repo_root)
 print("正在下载文件...")
 files_to_download = [
     {
-        "url": "https://mycode.zbds.top/me/jxdx_hd.txt",
+        "url": "https://mycode.zhoujie218.top/me/jxdx_hd.txt",
         "filename": "jxdx_hd.txt"
     },
     {
-        "url": "https://mycode.zbds.top/me/jxdx_hd.m3u",
+        "url": "https://mycode.zhoujie218.top/me/jxdx_hd.m3u",
         "filename": "jxdx_hd.m3u"
     },
     {
-        "url": "https://mycode.zbds.top/me/jxyd.txt",
+        "url": "https://mycode.zhoujie218.top/me/jxyd.txt",
         "filename": "jxyd.txt"
     },
     {
-        "url": "https://mycode.zbds.top/me/jxyd.m3u",
+        "url": "https://mycode.zhoujie218.top/me/jxyd.m3u",
         "filename": "jxyd.m3u"
     }
 ]
