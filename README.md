@@ -12,7 +12,7 @@ hide_edgeone: true
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
-<p>直播源是IPTV网络电视的核心资源，本站提供最新、最全面的免费直播源，包含国内外数千个高清直播频道。所有IPTV直播源每日更新，支持IPv4/IPv6双栈访问，完全免费无广告。<br /><span style="color: #e03e2d;"><strong>请注意:</strong></span>直播源全部来源于网络公开资源，本站不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性</p>
+<p>本站免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。<br><br /><span style="color: #e03e2d;"><strong>请注意:</strong></span>直播源全部来源于网络公开资源，本站不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性</p>
 
 <div class="badges-container">
     <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
