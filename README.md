@@ -8,7 +8,7 @@ hide_edgeone: true
 ---
 
 
-<h1 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h1>
+<h2 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h2>
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
