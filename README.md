@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
-description: 最新免费开源的IPTV电视直播源,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有运行安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
-keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
+title: 最新IPTV直播源|每日更新直播源|免费电视直播源|Github开源项目
+description: 本站免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
+keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
 permalink: /
 hide_edgeone: true
 ---
@@ -11,6 +11,9 @@ hide_edgeone: true
 <h2 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h2>
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
+
+<p><strong>直播源</strong>是IPTV网络电视的核心资源，本站提供最新、最全面的<strong>免费直播源</strong>，包含国内外数千个高清直播频道。所有<strong>IPTV直播源</strong>每日更新，支持IPv4/IPv6双栈访问，完全免费无广告。
+请注意：直播源全部来源于网络公开资源，本站不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性</p>
 
 <div class="badges-container">
     <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
@@ -26,19 +29,20 @@ hide_edgeone: true
 
 > 如不愿折腾开源项目，推荐直接下载第三方开发的软件 **直播电视**APP 使用，手机电视盒子都兼容，没有广告，完全免费。
 >
-> 直播电视APP 下载地址：[https://izbds.com](https://izbds.com/aztv/)   推荐[野草助手](https://www.yecao.net/download/)安装码：**0024**
+> 直播电视APP 下载地址：[https://izbds.com](https://izbds.com/aztv/)   [野草助手](https://www.yecao.net/download/)安装码：**0024**
 >
 > 软件内包含大量直播源，包含港澳台频道，速度流畅，并且每日多次更新。
 
 ------
 
-**域名 live.izbds.com 喜提GFW免费套餐,请用新域名或加速域名**
 
 
 
 <h2>📡 自动扫描直播源 IPTV4</h2>
 
-部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV4 -->
+<p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描而来，确保<strong>直播源</strong>的时效性和稳定性。</p>
+
+<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table>
   <colgroup>
@@ -77,9 +81,11 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>📡 自动扫描直播源 IPTV6</h2>
 
-部署在服务器上的程序自动扫描而来，<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV6 -->
+<p><strong>IPTV6直播源</strong>专为IPv6网络环境优化，由部署在服务器上的程序自动扫描而来，确保<strong>直播源</strong>的时效性和稳定性。</p>
 
-*有ipv6环境的强烈推荐这个列表，高速稳定*
+<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV6 -->
+
+<p><em>有ipv6环境的强烈推荐这个列表，高速稳定</em></p>
 
 **近期由于不可力抗原因，大部分ipv6源都关门了，大玩家各玩各的。造成网友们不能一网通吃，请大家静待花开吧！！如有开门的大玩家，本仓库第一时间更新上来给大家分享**
 
@@ -128,16 +134,19 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>🛠️工具</h2>
 
-纯前端直播源格式转换器（开源在本仓库tools目录）
+<p>我们提供多种<strong>直播源</strong>相关工具，帮助您更好地使用<strong>IPTV直播源</strong>：</p>
+
+<h3>直播源格式转换器</h3>
+<p>纯前端<strong>直播源</strong>格式转换器（开源在本仓库tools目录）</p>
 
 - [https://izbds.com/tools/index.html](https://izbds.com/tools/index.html)
 
 
 
 <h2>📱 直播电视APP</h2>
-如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件
+<p>如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件</p>
 
-最新稳定版
+<h3>最新稳定版</h3>
 
 - 下载链接： [https://izbds.com](https://izbds.com/aztv/)  （包含港澳台）
 
