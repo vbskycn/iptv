@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 最新IPTV直播源|每日更新直播源|免费电视直播源|Github开源项目
-description: 本站免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
+description: 本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
 keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
 permalink: /
 hide_edgeone: true
@@ -12,7 +12,7 @@ hide_edgeone: true
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
-<p>本站免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。<br><br /><span style="color: #e03e2d;"><strong>请注意:</strong></span>直播源全部来源于网络公开资源，本站不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。为维持网站开销，页面上有些自动广告链接，上面有标注，请自行甄别。</p>
+<p>本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。<br><br /><span style="color: #e03e2d;"><strong>请注意:</strong></span>直播源全部来源于网络公开资源，本项目不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。为维持网站开销，页面上有些自动广告链接，上面有标注，请自行甄别。</p>
 
 <div class="badges-container">
     <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
@@ -111,7 +111,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
 </table>
 
-*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问*
+*有地方的宽带运营商已经污染本项目域名了，如果你打开失败，请使用加速地址访问*
 
 ```
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt
