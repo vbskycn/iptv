@@ -12,7 +12,7 @@ hide_edgeone: true
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
-<p><strong>直播源</strong>是IPTV网络电视的核心资源，本站提供最新、最全面的<strong>免费直播源</strong>，包含国内外数千个高清直播频道。所有<strong>IPTV直播源</strong>每日更新，支持IPv4/IPv6双栈访问，完全免费无广告。
+<p>直播源是IPTV网络电视的核心资源，本站提供最新、最全面的免费直播源，包含国内外数千个高清直播频道。所有IPTV直播源每日更新，支持IPv4/IPv6双栈访问，完全免费无广告。<br>
 请注意：直播源全部来源于网络公开资源，本站不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性</p>
 
 <div class="badges-container">
@@ -40,7 +40,7 @@ hide_edgeone: true
 
 <h2>📡 自动扫描直播源 IPTV4</h2>
 
-<p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描而来，确保<strong>直播源</strong>的时效性和稳定性。</p>
+<p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效性和稳定性。</p>
 
 <!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV4 -->
 
@@ -81,7 +81,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>📡 自动扫描直播源 IPTV6</h2>
 
-<p><strong>IPTV6直播源</strong>专为IPv6网络环境优化，由部署在服务器上的程序自动扫描而来，确保<strong>直播源</strong>的时效性和稳定性。</p>
+<p><strong>IPTV6直播源</strong>专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效和稳定</p>
 
 <!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-08-01 18:37:13<!-- END_UPDATE_TIME_IPTV6 -->
 
