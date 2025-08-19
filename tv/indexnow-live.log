@@ -683,3 +683,5 @@
 2025-08-19 18:49:19,555 - INFO - 状态码: 200
 2025-08-19 18:49:19,555 - INFO - 响应内容: 
 2025-08-19 18:49:19,555 - INFO - 成功提交 URL 到 IndexNow
+2025-08-20 00:44:35,857 - ERROR - 解析 sitemap 时发生错误: HTTPSConnectionPool(host='live.zbds.org', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fbeaa518190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-20 00:44:35,857 - ERROR - 未能获取到有效的 URL 列表

@@ -683,3 +683,5 @@
 2025-08-19 18:49:23,114 - INFO - 状态码: 200
 2025-08-19 18:49:23,114 - INFO - 响应内容: 
 2025-08-19 18:49:23,115 - INFO - 成功提交 34 个 URL 到 IndexNow
+2025-08-20 00:44:36,301 - ERROR - 解析 sitemap 时发生错误: HTTPSConnectionPool(host='izbds.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7e1e77bb90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-20 00:44:36,301 - ERROR - 未能获取到有效的 URL 列表
