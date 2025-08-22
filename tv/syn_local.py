@@ -1,12 +1,7 @@
 import os
 import subprocess
-import requests
 import datetime
 import re
-import time
-import shutil
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 # 获取脚本所在目录
 script_path = os.path.dirname(os.path.abspath(__file__))
@@ -25,37 +20,7 @@ def print_current_time(message):
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"{message} {current_time}")
 
-def download_file_with_retry(url, filename, max_retries=3, backoff_factor=1):
-    """
-    下载文件的函数，包含重试机制
-    
-    Args:
-        url: 下载地址
-        filename: 保存的文件名
-        max_retries: 最大重试次数
-        backoff_factor: 重试延迟因子
-    """
-    session = requests.Session()
-    retry_strategy = Retry(
-        total=max_retries,
-        backoff_factor=backoff_factor,
-        status_forcelist=[500, 502, 503, 504],
-    )
-    adapter = HTTPAdapter(max_retries=retry_strategy)
-    session.mount("http://", adapter)
-    session.mount("https://", adapter)
-    
-    for attempt in range(max_retries + 1):
-        try:
-            response = session.get(url, timeout=30)
-            response.raise_for_status()
-            return response
-        except requests.exceptions.RequestException as e:
-            if attempt == max_retries:
-                raise e
-            print(f"下载 {filename} 失败，正在重试 ({attempt + 1}/{max_retries})...")
-            time.sleep(backoff_factor * (2 ** attempt))  # 指数退避
-    return None
+
 
 # 1. 获取脚本所在路径和系统时间日期
 print(f"脚本所在路径：{script_path}")
@@ -76,123 +41,14 @@ run_command('git reset --hard origin/master', cwd=repo_root)
 run_command('git clean -fd', cwd=repo_root)
 run_command('git pull', cwd=repo_root)
 
-# 5. 下载文件列表
-print("正在下载文件...")
-files_to_download = [
-    {
-        "url": "https://mycode.zhoujie218.top/me/jxdx_hd.txt",
-        "filename": "jxdx_hd.txt"
-    },
-    {
-        "url": "https://mycode.zhoujie218.top/me/jxdx_hd.m3u",
-        "filename": "jxdx_hd.m3u"
-    },
-    {
-        "url": "https://mycode.zhoujie218.top/me/jxyd.txt",
-        "filename": "jxyd.txt"
-    },
-    {
-        "url": "https://mycode.zhoujie218.top/me/jxyd.m3u",
-        "filename": "jxyd.m3u"
-    }
-]
+# 5. 下载文件列表 - 已移至 iptv_download_merge.py
+print("跳过下载文件步骤，请使用 iptv_download_merge.py 进行文件下载")
 
-for file_info in files_to_download:
-    url = file_info["url"]
-    filename = file_info["filename"]
-    file_path = os.path.join(script_path, filename)
-    
-    print(f"正在下载 {filename} 文件...")
-    try:
-        response = download_file_with_retry(url, filename)
-        if response and response.status_code == 200:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(response.text)
-            print(f"成功下载并保存 {filename} 到 {file_path}")
-        else:
-            print(f"下载失败 {filename}, 状态码: {response.status_code if response else 'N/A'}")
-            if os.path.exists(file_path):
-                print(f"使用本地已存在的 {filename} 文件继续执行")
-                continue
-            else:
-                print(f"本地不存在 {filename} 文件，退出执行")
-                exit(1)
-    except Exception as e:
-        print(f"下载 {filename} 时发生错误: {str(e)}")
-        if os.path.exists(file_path):
-            print(f"使用本地已存在的 {filename} 文件继续执行")
-            continue
-        else:
-            print(f"本地不存在 {filename} 文件，退出执行")
-            exit(1)
+# 6. 同步文件 - 已移至 iptv_download_merge.py
+print("跳过文件同步步骤，请使用 iptv_download_merge.py 进行文件同步")
 
-# 6. 同步文件
-print("正在同步文件...")
-files_to_sync = ['iptv4.txt', 'iptv4.m3u', 'iptv6.txt', 'iptv6.m3u']
-
-# 根据操作系统判断源目录路径和命令
-if os.name == 'nt':  # Windows系统
-    docker_iptv_paths = [
-        os.path.join("D:", "docker", "iptv4"),
-        os.path.join("C:", "docker", "iptv4")
-    ]
-else:  # Linux系统
-    docker_iptv_paths = ["/docker/iptv4"]
-
-# 尝试所有可能的路径
-docker_iptv_path = None
-for path in docker_iptv_paths:
-    if os.path.exists(path):
-        docker_iptv_path = path
-        print(f"找到源目录: {docker_iptv_path}")
-        break
-
-if docker_iptv_path is None:
-    print("警告：未找到源目录，跳过文件同步")
-else:
-    for file in files_to_sync:
-        source = os.path.join(docker_iptv_path, file)
-        destination = os.path.join(script_path, file)
-        try:
-            if os.path.exists(source):
-                shutil.copy2(source, destination)
-                print(f"成功复制文件: {file}")
-            else:
-                print(f"源文件不存在: {source}")
-        except Exception as e:
-            print(f"复制文件 {file} 时出错: {str(e)}")
-            if not os.path.exists(destination):
-                print(f"目标文件 {file} 不存在，继续执行")
-                continue
-
-# 7. 合并文件
-print("正在合并文件...")
-output_file = os.path.join(script_path, 'hd.txt')
-
-# 定义文件合并顺序
-merge_order = ['jxyd.txt', 'jxdx_hd.txt', 'iptv6.txt', 'iptv4.txt']
-
-replacements = {
-    'jxdx_hd.txt': 'jdx,#genre#',
-    'jxyd.txt': 'jyd,#genre#',
-    'iptv6.txt': 'ip6,#genre#',
-    'iptv4.txt': 'ip4,#genre#'
-}
-
-with open(output_file, 'w', encoding='utf-8') as outfile:
-    for filename in merge_order:
-        filepath = os.path.join(script_path, filename)
-        if os.path.exists(filepath):
-            with open(filepath, 'r', encoding='utf-8') as infile:
-                content = infile.read()
-                if filename in replacements:
-                    content = content.replace(',#genre#', replacements[filename])
-                outfile.write(content)
-                outfile.write('\n')
-        else:
-            print(f'警告：文件 {filepath} 不存在，已跳过')
-
-print(f'文件已合并到 {output_file}')
+# 7. 合并文件 - 已移至 iptv_download_merge.py
+print("跳过文件合并步骤，请使用 iptv_download_merge.py 进行文件合并")
 
 # 8. 更新 README.md 文件
 print("正在更新 README.md 文件...")
