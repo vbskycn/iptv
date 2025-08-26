@@ -7,19 +7,6 @@
   padding: 0 15px;
 }
 
-/* 大屏显示器宽度优化 */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1400px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    max-width: 1600px;
-  }
-}
-
 /* 表格响应式 */
 table {
   width: 100%;
@@ -163,19 +150,6 @@ pre {
     margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
-  }
-  
-  /* 大屏显示器页脚宽度优化 */
-  @media (min-width: 1200px) {
-    .footer-content {
-      max-width: 1400px;
-    }
-  }
-  
-  @media (min-width: 1600px) {
-    .footer-content {
-      max-width: 1600px;
-    }
   }
   
   .copyright {
