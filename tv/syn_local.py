@@ -3,6 +3,7 @@ import subprocess
 import datetime
 import re
 import shutil
+import filecmp
 
 # 获取脚本所在目录
 script_path = os.path.dirname(os.path.abspath(__file__))
@@ -42,10 +43,7 @@ run_command('git reset --hard origin/master', cwd=repo_root)
 run_command('git clean -fd', cwd=repo_root)
 run_command('git pull', cwd=repo_root)
 
-# 5. 下载文件列表 - 已移至 iptv_download_merge.py
-print("跳过下载文件步骤，请使用 iptv_download_merge.py 进行文件下载")
-
-# 6. 同步文件
+# 5. 同步文件
 print("正在同步IPTV文件...")
 files_to_sync = ['iptv4.txt', 'iptv4.m3u', 'iptv6.txt', 'iptv6.m3u']
 source_dir = '/docker/iptv4/'
@@ -56,12 +54,25 @@ for file_name in files_to_sync:
     
     if os.path.exists(source_path):
         try:
+            # 检查目标文件是否存在且内容是否相同
+            if os.path.exists(target_path):
+                if filecmp.cmp(source_path, target_path, shallow=False):
+                    print(f"文件 {file_name} 内容相同，跳过同步")
+                    continue
+                else:
+                    print(f"文件 {file_name} 内容不同，进行覆盖同步")
+            else:
+                print(f"目标文件 {file_name} 不存在，进行首次同步")
+            
             shutil.copy2(source_path, target_path)
             print(f"成功同步文件: {file_name} 从 {source_dir} 到 {script_path}")
         except Exception as e:
             print(f"同步文件 {file_name} 时出错: {str(e)}")
     else:
         print(f"警告：源文件 {source_path} 不存在，跳过同步")
+
+# 6. 下载文件列表 - 已移至 iptv_download_merge.py
+print("跳过下载文件步骤，请使用 iptv_download_merge.py 进行文件下载")
 
 # 7. 合并文件 - 已移至 iptv_download_merge.py
 print("跳过文件合并步骤，请使用 iptv_download_merge.py 进行文件合并")
