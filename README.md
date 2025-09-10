@@ -56,13 +56,13 @@ hide_edgeone: true
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.org/tv/iptv4.txt">https://live.zbds.org/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://livetv.izbds.com/tv/iptv4.txt">https://livetv.izbds.com/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.org/tv/iptv4.m3u">https://live.zbds.org/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://livetv.izbds.com/tv/iptv4.m3u">https://livetv.izbds.com/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 *如果你打不开github域名，请使用加速地址访问，加速地址也失效了？那就在找一个*
@@ -101,13 +101,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://live.zbds.org/tv/iptv6.txt">https://live.zbds.org/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://livetv.izbds.com/tv/iptv6.txt">https://livetv.izbds.com/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://live.zbds.org/tv/iptv6.m3u">https://live.zbds.org/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://live.zbds.org/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://livetv.izbds.com/tv/iptv6.m3u">https://livetv.izbds.com/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
