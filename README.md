@@ -41,7 +41,7 @@ hide_edgeone: true
 
 <p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效性和稳定性。</p>
 
-<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-09-10 12:35:33<!-- END_UPDATE_TIME_IPTV4 -->
+<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-09-10 18:37:52<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table>
   <colgroup>
@@ -82,7 +82,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <p><strong>IPTV6直播源</strong>专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效和稳定</p>
 
-<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-09-10 12:35:33<!-- END_UPDATE_TIME_IPTV6 -->
+<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-09-10 18:37:52<!-- END_UPDATE_TIME_IPTV6 -->
 
 <p><em>有ipv6环境的强烈推荐这个列表，高速稳定</em></p>
 

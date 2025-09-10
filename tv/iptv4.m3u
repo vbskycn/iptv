@@ -64,7 +64,7 @@ https://cc06.tv12.xyz/23.m3u8
 #EXTINF:-1 tvg-name="CETV2" tvg-id="CETV2" tvg-logo="https://livecdn.zbds.org/logo/CETV2.png" group-title="央视频道", CETV2
 https://cc06.tv12.xyz/24.m3u8
 #EXTINF:-1 tvg-name="CETV4" tvg-id="CETV4" tvg-logo="https://livecdn.zbds.org/logo/CETV4.png" group-title="央视频道", CETV4
-https://mursor.ottiptv.cc/migu/923287339.m3u8?migutoken=165b545b4402eaba61cdc31defb6548a443d9b5eebb1d99392852bd799c553e8817e85eb324c512581ca9a1ed8e56e530144f79606cf44fe5b2d5e97b6da577e0f2adae2a90c2a55089c95880b
+http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/50/20240709/index.m3u8?msisdn=2025090309003329cd481a5313461999ea66e0b5c14a1b&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20250903090033&Channel_ID=0116_2600037000-99000-200300220100002&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=106.13.250.83&SecurityKey=20250903090033&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-8.8.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a0dd23e241f091b5c99903fbe22f27e3&ddCalcu=3ae0v7da2dbf2a232ee2b4f13f0099919bc5&sv=10004&ct=android
 #EXTINF:-1 tvg-name="中国交通" tvg-id="中国交通" tvg-logo="https://livecdn.zbds.org/logo/中国交通.png" group-title="央视频道", 中国交通
 http://drive.mxmy.net:8888/udp/239.3.1.188:8001
 #EXTINF:-1 tvg-name="卫生健康" tvg-id="卫视健康" tvg-logo="https://livecdn.zbds.org/logo/卫生健康.png" group-title="央视频道", 卫生健康
@@ -89,8 +89,8 @@ https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873473.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-id="甘肃卫视" tvg-logo="https://livecdn.zbds.org/logo/甘肃卫视.png" group-title="卫视频道", 甘肃卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887450.m3u8
-#EXTINF:-1 tvg-name="广东卫视" tvg-id="157" tvg-logo="https://livecdn.zbds.org/logo/广东卫视.png" group-title="卫视频道", 广东卫视
-http://58.57.40.22:9901/tsfile/live/1039_1.m3u8
+#EXTINF:-1 tvg-name="广东卫视" tvg-id="广东卫视" tvg-logo="https://livecdn.zbds.org/logo/广东卫视.png" group-title="卫视频道", 广东卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000003873459.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-id="广西卫视" tvg-logo="https://livecdn.zbds.org/logo/广西卫视.png" group-title="卫视频道", 广西卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887394.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-id="贵州卫视" tvg-logo="https://livecdn.zbds.org/logo/贵州卫视.png" group-title="卫视频道", 贵州卫视
@@ -99,16 +99,16 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003873471.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000004796877.m3u8
 #EXTINF:-1 tvg-name="海峡卫视" tvg-id="3" tvg-logo="https://livecdn.zbds.org/logo/海峡卫视.png" group-title="卫视频道", 海峡卫视
 http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
-#EXTINF:-1 tvg-name="河北卫视" tvg-id="122" tvg-logo="https://livecdn.zbds.org/logo/河北卫视.png" group-title="卫视频道", 河北卫视
-http://58.57.40.22:9901/tsfile/live/1044_1.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-id="河南卫视" tvg-logo="https://livecdn.zbds.org/logo/河南卫视.png" group-title="卫视频道", 河南卫视
-http://dsj.motem.top:8880/bptv/10000100000000050000000003887270.m3u8
+#EXTINF:-1 tvg-name="河北卫视" tvg-id="河北卫视" tvg-logo="https://livecdn.zbds.org/logo/河北卫视.png" group-title="卫视频道", 河北卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000003873460.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-id="126" tvg-logo="https://livecdn.zbds.org/logo/河南卫视.png" group-title="卫视频道", 河南卫视
+http://58.57.40.22:9901/tsfile/live/1048_1.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-id="湖北卫视" tvg-logo="https://livecdn.zbds.org/logo/湖北卫视.png" group-title="卫视频道", 湖北卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873465.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-id="湖南卫视" tvg-logo="https://livecdn.zbds.org/logo/湖南卫视.png" group-title="卫视频道", 湖南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873458.m3u8
-#EXTINF:-1 tvg-name="吉林卫视" tvg-id="122" tvg-logo="https://livecdn.zbds.org/logo/吉林卫视.png" group-title="卫视频道", 吉林卫视
-http://58.57.40.22:9901/tsfile/live/1050_1.m3u8
+#EXTINF:-1 tvg-name="吉林卫视" tvg-id="吉林卫视" tvg-logo="https://livecdn.zbds.org/logo/吉林卫视.png" group-title="卫视频道", 吉林卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000004972569.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-id="江苏卫视" tvg-logo="https://livecdn.zbds.org/logo/江苏卫视.png" group-title="卫视频道", 江苏卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873461.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-id="江西卫视" tvg-logo="https://livecdn.zbds.org/logo/江西卫视.png" group-title="卫视频道", 江西卫视
@@ -137,8 +137,8 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887404.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873474.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-id="四川卫视" tvg-logo="https://livecdn.zbds.org/logo/四川卫视.png" group-title="卫视频道", 四川卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887274.m3u8
-#EXTINF:-1 tvg-name="天津卫视" tvg-id="144" tvg-logo="https://livecdn.zbds.org/logo/天津卫视.png" group-title="卫视频道", 天津卫视
-http://58.57.40.22:9901/tsfile/live/1034_1.m3u8
+#EXTINF:-1 tvg-name="天津卫视" tvg-id="天津卫视" tvg-logo="https://livecdn.zbds.org/logo/天津卫视.png" group-title="卫视频道", 天津卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000003873466.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" tvg-id="西藏卫视" tvg-logo="https://livecdn.zbds.org/logo/西藏卫视.png" group-title="卫视频道", 西藏卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887434.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-id="新疆卫视" tvg-logo="https://livecdn.zbds.org/logo/新疆卫视.png" group-title="卫视频道", 新疆卫视
@@ -147,8 +147,8 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887448.m3u8
 http://120.76.248.139/live/bfgd/4200000117.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-id="云南卫视" tvg-logo="https://livecdn.zbds.org/logo/云南卫视.png" group-title="卫视频道", 云南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887453.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-id="290" tvg-logo="https://livecdn.zbds.org/logo/浙江卫视.png" group-title="卫视频道", 浙江卫视
-http://223.105.252.8/PLTV/4/224/3221228147/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-id="158" tvg-logo="https://livecdn.zbds.org/logo/浙江卫视.png" group-title="卫视频道", 浙江卫视
+http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-id="重庆卫视" tvg-logo="https://livecdn.zbds.org/logo/重庆卫视.png" group-title="卫视频道", 重庆卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000004796458.m3u8
 #EXTINF:-1 tvg-name="安多卫视" tvg-id="安多卫视" tvg-logo="https://livecdn.zbds.org/logo/安多卫视.png" group-title="卫视频道", 安多卫视
@@ -187,14 +187,20 @@ http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-name="AMC电影" tvg-id="AMC电影" tvg-logo="https://livecdn.zbds.org/logo/AMC电影.png" group-title="电影频道", AMC电影
 http://61.221.215.25:8800/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="1930年代经典电影" tvg-id="1930年代经典电影" tvg-logo="https://livecdn.zbds.org/logo/1930年代经典电影.png" group-title="电影频道", 1930年代经典电影
+https://mursor.ottiptv.cc/yy/1356363815
 #EXTINF:-1 tvg-name="24h高分电影" tvg-id="24h高分电影" tvg-logo="https://livecdn.zbds.org/logo/24h高分电影.png" group-title="电影频道", 24h高分电影
 https://mursor.ottiptv.cc/yy/1355171357
 #EXTINF:-1 tvg-name="24小时电影" tvg-id="24小时电影" tvg-logo="https://livecdn.zbds.org/logo/24小时电影.png" group-title="电影频道", 24小时电影
 https://mursor.ottiptv.cc/yy/1356051105
+#EXTINF:-1 tvg-name="24小时轮播还珠格格少包" tvg-id="24小时轮播还珠格格少包" tvg-logo="https://livecdn.zbds.org/logo/24小时轮播还珠格格少包.png" group-title="电影频道", 24小时轮播还珠格格少包
+https://mursor.ottiptv.cc/bilibili/6823190
 #EXTINF:-1 tvg-name="28岁电影" tvg-id="28岁电影" tvg-logo="https://livecdn.zbds.org/logo/28岁电影.png" group-title="电影频道", 28岁电影
 https://mursor.ottiptv.cc/douyu/8884164
 #EXTINF:-1 tvg-name="CHC电影" tvg-id="CHC电影" tvg-logo="https://livecdn.zbds.org/logo/CHC电影.png" group-title="电影频道", CHC电影
 http://218.15.183.23:9901/tsfile/live/23044_1.m3u8
+#EXTINF:-1 tvg-name="三七电影V" tvg-id="三七电影V" tvg-logo="https://livecdn.zbds.org/logo/三七电影V.png" group-title="电影频道", 三七电影V
+https://mursor.ottiptv.cc/douyu/9457792
 #EXTINF:-1 tvg-name="东阳影视生活" tvg-id="东阳影视生活" tvg-logo="https://livecdn.zbds.org/logo/东阳影视生活.png" group-title="电影频道", 东阳影视生活
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-name="二胖影视" tvg-id="二胖影视" tvg-logo="https://livecdn.zbds.org/logo/二胖影视.png" group-title="电影频道", 二胖影视
@@ -211,112 +217,106 @@ https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
 https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8
 #EXTINF:-1 tvg-name="人在囧途之港囧" tvg-id="人在囧途之港囧" tvg-logo="https://livecdn.zbds.org/logo/人在囧途之港囧.png" group-title="电影频道", 人在囧途之港囧
 https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8
-#EXTINF:-1 tvg-name="传奇之王影视剧" tvg-id="传奇之王影视剧" tvg-logo="https://livecdn.zbds.org/logo/传奇之王影视剧.png" group-title="电影频道", 传奇之王影视剧
-https://mursor.ottiptv.cc/yy/1354926735
 #EXTINF:-1 tvg-name="佛曰影视" tvg-id="佛曰影视" tvg-logo="https://livecdn.zbds.org/logo/佛曰影视.png" group-title="电影频道", 佛曰影视
 https://mursor.ottiptv.cc/douyu/9671758
 #EXTINF:-1 tvg-name="使徒行者" tvg-id="使徒行者" tvg-logo="https://livecdn.zbds.org/logo/使徒行者.png" group-title="电影频道", 使徒行者
 http://iptv.jxpan.vip:18888/aio/huya/23734256
 #EXTINF:-1 tvg-name="俗哥看电影" tvg-id="俗哥看电影" tvg-logo="https://livecdn.zbds.org/logo/俗哥看电影.png" group-title="电影频道", 俗哥看电影
 https://mursor.ottiptv.cc/douyu/2161818
-#EXTINF:-1 tvg-name="倚天屠龙记" tvg-id="倚天屠龙记" tvg-logo="https://livecdn.zbds.org/logo/倚天屠龙记.png" group-title="电影频道", 倚天屠龙记
-http://iptv.jxpan.vip:18888/aio/huya/23734246
 #EXTINF:-1 tvg-name="倩女幽魂人间道" tvg-id="倩女幽魂人间道" tvg-logo="https://livecdn.zbds.org/logo/倩女幽魂人间道.png" group-title="电影频道", 倩女幽魂人间道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
 #EXTINF:-1 tvg-name="倩女幽魂妖魔道" tvg-id="倩女幽魂妖魔道" tvg-logo="https://livecdn.zbds.org/logo/倩女幽魂妖魔道.png" group-title="电影频道", 倩女幽魂妖魔道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 #EXTINF:-1 tvg-name="倩女幽魂道道道" tvg-id="倩女幽魂道道道" tvg-logo="https://livecdn.zbds.org/logo/倩女幽魂道道道.png" group-title="电影频道", 倩女幽魂道道道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
+#EXTINF:-1 tvg-name="冒险电影放映厅" tvg-id="冒险电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/冒险电影放映厅.png" group-title="电影频道", 冒险电影放映厅
+https://mursor.ottiptv.cc/huya/21059566
 #EXTINF:-1 tvg-name="冰冰影剧" tvg-id="冰冰影剧" tvg-logo="https://livecdn.zbds.org/logo/冰冰影剧.png" group-title="电影频道", 冰冰影剧
 http://iptv.jxpan.vip:18888/aio/douyu/74374
-#EXTINF:-1 tvg-name="刑事侦缉档案" tvg-id="刑事侦缉档案" tvg-logo="https://livecdn.zbds.org/logo/刑事侦缉档案.png" group-title="电影频道", 刑事侦缉档案
-http://iptv.jxpan.vip:18888/aio/huya/29465856
 #EXTINF:-1 tvg-name="刘哔电影" tvg-id="刘哔电影" tvg-logo="https://livecdn.zbds.org/logo/刘哔电影.png" group-title="电影频道", 刘哔电影
 https://mursor.ottiptv.cc/douyu/2632223
 #EXTINF:-1 tvg-name="刘德华电影" tvg-id="刘德华电影" tvg-logo="https://livecdn.zbds.org/logo/刘德华电影.png" group-title="电影频道", 刘德华电影
 http://iptv.jxpan.vip:18888/aio/huya/11342424
 #EXTINF:-1 tvg-name="创世纪" tvg-id="创世纪" tvg-logo="https://livecdn.zbds.org/logo/创世纪.png" group-title="电影频道", 创世纪
 http://iptv.jxpan.vip:18888/aio/huya/29465852
-#EXTINF:-1 tvg-name="前任电影" tvg-id="前任电影" tvg-logo="https://livecdn.zbds.org/logo/前任电影.png" group-title="电影频道", 前任电影
-https://mursor.ottiptv.cc/douyu/9329242
 #EXTINF:-1 tvg-name="功夫电影" tvg-id="功夫电影" tvg-logo="https://livecdn.zbds.org/logo/功夫电影.png" group-title="电影频道", 功夫电影
 http://iptv.jxpan.vip:18888/aio/huya/11352941
-#EXTINF:-1 tvg-name="动画电影放映厅" tvg-id="动画电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/动画电影放映厅.png" group-title="电影频道", 动画电影放映厅
-https://mursor.ottiptv.cc/huya/11352878
 #EXTINF:-1 tvg-name="发条张的电影最TOP" tvg-id="发条张的电影最TOP" tvg-logo="https://livecdn.zbds.org/logo/发条张的电影最TOP.png" group-title="电影频道", 发条张的电影最TOP
 https://mursor.ottiptv.cc/douyu/2164691
-#EXTINF:-1 tvg-name="古天乐电影" tvg-id="古天乐电影" tvg-logo="https://livecdn.zbds.org/logo/古天乐电影.png" group-title="电影频道", 古天乐电影
-http://iptv.jxpan.vip:18888/aio/huya/29982675
 #EXTINF:-1 tvg-name="史诗级科幻电影阿凡达" tvg-id="史诗级科幻电影阿凡达" tvg-logo="https://livecdn.zbds.org/logo/史诗级科幻电影阿凡达.png" group-title="电影频道", 史诗级科幻电影阿凡达
 https://mursor.ottiptv.cc/yy/1382735577
-#EXTINF:-1 tvg-name="周墨看电影" tvg-id="周墨看电影" tvg-logo="https://livecdn.zbds.org/logo/周墨看电影.png" group-title="电影频道", 周墨看电影
-https://mursor.ottiptv.cc/douyu/9505584
+#EXTINF:-1 tvg-name="同同电影" tvg-id="同同电影" tvg-logo="https://livecdn.zbds.org/logo/同同电影.png" group-title="电影频道", 同同电影
+https://mursor.ottiptv.cc/douyu/10155359
 #EXTINF:-1 tvg-name="周星驰搞笑电影" tvg-id="周星驰搞笑电影" tvg-logo="https://livecdn.zbds.org/logo/周星驰搞笑电影.png" group-title="电影频道", 周星驰搞笑电影
 https://mursor.ottiptv.cc/yy/38670875
-#EXTINF:-1 tvg-name="周星驰电影" tvg-id="周星驰电影" tvg-logo="https://livecdn.zbds.org/logo/周星驰电影.png" group-title="电影频道", 周星驰电影
-http://iptv.jxpan.vip:18888/aio/huya/11342412
-#EXTINF:-1 tvg-name="哈利影视" tvg-id="哈利影视" tvg-logo="https://livecdn.zbds.org/logo/哈利影视.png" group-title="电影频道", 哈利影视
-https://mursor.ottiptv.cc/douyu/8475821
 #EXTINF:-1 tvg-name="哈尔滨影视" tvg-id="哈尔滨影视" tvg-logo="https://livecdn.zbds.org/logo/哈尔滨影视.png" group-title="电影频道", 哈尔滨影视
 http://111.43.126.240:9003/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="喜人电影" tvg-id="喜人电影" tvg-logo="https://livecdn.zbds.org/logo/喜人电影.png" group-title="电影频道", 喜人电影
 https://mursor.ottiptv.cc/douyu/10348735
 #EXTINF:-1 tvg-name="喜剧电影冒牌天神12" tvg-id="喜剧电影冒牌天神12" tvg-logo="https://livecdn.zbds.org/logo/喜剧电影冒牌天神12.png" group-title="电影频道", 喜剧电影冒牌天神12
 https://mursor.ottiptv.cc/yy/1354936210
-#EXTINF:-1 tvg-name="喜剧电影笑不停" tvg-id="喜剧电影笑不停" tvg-logo="https://livecdn.zbds.org/logo/喜剧电影笑不停.png" group-title="电影频道", 喜剧电影笑不停
-https://mursor.ottiptv.cc/douyu/10298856
+#EXTINF:-1 tvg-name="喜剧电影放映厅" tvg-id="喜剧电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/喜剧电影放映厅.png" group-title="电影频道", 喜剧电影放映厅
+https://mursor.ottiptv.cc/huya/11602031
 #EXTINF:-1 tvg-name="嘉兴文化影视" tvg-id="嘉兴文化影视" tvg-logo="https://livecdn.zbds.org/logo/嘉兴文化影视.png" group-title="电影频道", 嘉兴文化影视
 http://play-sh13.quklive.com/live/1675149625220101.m3u8?auth_key=2028730374-3a60eb8e324f416aa3b26dda7679d920-0-22dc7efa8452d0b0665c15eeed83609d
-#EXTINF:-1 tvg-name="噬元兽影视" tvg-id="噬元兽影视" tvg-logo="https://livecdn.zbds.org/logo/噬元兽影视.png" group-title="电影频道", 噬元兽影视
-https://mursor.ottiptv.cc/douyu/8896723
+#EXTINF:-1 tvg-name="国产动作电影" tvg-id="国产动作电影" tvg-logo="https://livecdn.zbds.org/logo/国产动作电影.png" group-title="电影频道", 国产动作电影
+https://mursor.ottiptv.cc/yy/1382736858
 #EXTINF:-1 tvg-name="国产大片电影" tvg-id="国产大片电影" tvg-logo="https://livecdn.zbds.org/logo/国产大片电影.png" group-title="电影频道", 国产大片电影
 https://mursor.ottiptv.cc/yy/1354926655
 #EXTINF:-1 tvg-name="国产电影就是闹着玩的" tvg-id="国产电影就是闹着玩的" tvg-logo="https://livecdn.zbds.org/logo/国产电影就是闹着玩的.png" group-title="电影频道", 国产电影就是闹着玩的
 https://mursor.ottiptv.cc/yy/1354931503
-#EXTINF:-1 tvg-name="国内玄幻电影林正英" tvg-id="国内玄幻电影林正英" tvg-logo="https://livecdn.zbds.org/logo/国内玄幻电影林正英.png" group-title="电影频道", 国内玄幻电影林正英
-https://mursor.ottiptv.cc/yy/1354932444
 #EXTINF:-1 tvg-name="国内经典动作电影" tvg-id="国内经典动作电影" tvg-logo="https://livecdn.zbds.org/logo/国内经典动作电影.png" group-title="电影频道", 国内经典动作电影
 https://mursor.ottiptv.cc/yy/1382851522
 #EXTINF:-1 tvg-name="墨逗电影" tvg-id="墨逗电影" tvg-logo="https://livecdn.zbds.org/logo/墨逗电影.png" group-title="电影频道", 墨逗电影
 https://mursor.ottiptv.cc/douyu/9614847
 #EXTINF:-1 tvg-name="夏洛特烦恼国内电影喜剧" tvg-id="夏洛特烦恼国内电影喜剧" tvg-logo="https://livecdn.zbds.org/logo/夏洛特烦恼国内电影喜剧.png" group-title="电影频道", 夏洛特烦恼国内电影喜剧
 https://mursor.ottiptv.cc/yy/1354936201
-#EXTINF:-1 tvg-name="大时代" tvg-id="大时代" tvg-logo="https://livecdn.zbds.org/logo/大时代.png" group-title="电影频道", 大时代
-http://iptv.jxpan.vip:18888/aio/huya/23865161
+#EXTINF:-1 tvg-name="大唐双龙传" tvg-id="大唐双龙传" tvg-logo="https://livecdn.zbds.org/logo/大唐双龙传.png" group-title="电影频道", 大唐双龙传
+http://iptv.jxpan.vip:18888/aio/huya/29465850
+#EXTINF:-1 tvg-name="大壮撞电影" tvg-id="大壮撞电影" tvg-logo="https://livecdn.zbds.org/logo/大壮撞电影.png" group-title="电影频道", 大壮撞电影
+https://mursor.ottiptv.cc/douyu/9437349
 #EXTINF:-1 tvg-name="大江大河2高分影视推荐" tvg-id="大江大河2高分影视推荐" tvg-logo="https://livecdn.zbds.org/logo/大江大河2高分影视推荐.png" group-title="电影频道", 大江大河2高分影视推荐
 https://mursor.ottiptv.cc/yy/1382736797
-#EXTINF:-1 tvg-name="大江大河高分影视推荐" tvg-id="大江大河高分影视推荐" tvg-logo="https://livecdn.zbds.org/logo/大江大河高分影视推荐.png" group-title="电影频道", 大江大河高分影视推荐
-https://mursor.ottiptv.cc/yy/1382736806
-#EXTINF:-1 tvg-name="大米饭影视" tvg-id="大米饭影视" tvg-logo="https://livecdn.zbds.org/logo/大米饭影视.png" group-title="电影频道", 大米饭影视
-https://mursor.ottiptv.cc/douyu/9824094
-#EXTINF:-1 tvg-name="大荒电影" tvg-id="大荒电影" tvg-logo="https://livecdn.zbds.org/logo/大荒电影.png" group-title="电影频道", 大荒电影
-https://mursor.ottiptv.cc/douyu/3508538
-#EXTINF:-1 tvg-name="大趴电影院" tvg-id="大趴电影院" tvg-logo="https://livecdn.zbds.org/logo/大趴电影院.png" group-title="电影频道", 大趴电影院
-https://mursor.ottiptv.cc/douyu/8747638
+#EXTINF:-1 tvg-name="大潘影视" tvg-id="大潘影视" tvg-logo="https://livecdn.zbds.org/logo/大潘影视.png" group-title="电影频道", 大潘影视
+https://mursor.ottiptv.cc/huya/30439834
 #EXTINF:-1 tvg-name="大进军全集红色系列电影" tvg-id="大进军全集红色系列电影" tvg-logo="https://livecdn.zbds.org/logo/大进军全集红色系列电影.png" group-title="电影频道", 大进军全集红色系列电影
 https://mursor.ottiptv.cc/yy/1382745083
 #EXTINF:-1 tvg-name="天堂电影1895" tvg-id="天堂电影1895" tvg-logo="https://livecdn.zbds.org/logo/天堂电影1895.png" group-title="电影频道", 天堂电影1895
 https://mursor.ottiptv.cc/douyu/9573592
 #EXTINF:-1 tvg-name="天映经典" tvg-id="天映经典" tvg-logo="https://livecdn.zbds.org/logo/天映经典.png" group-title="电影频道", 天映经典
-https://epg.pw/stream/cb817875cf26eb683af274dd8cdf7f559a71353d9565c32447c8d98894bc8095.ctv
+https://migu.188766.xyz/?migutoken=3637f4ae3861b554c9b368728cc8b391&id=Celestial2&type=dy
 #EXTINF:-1 tvg-name="太空生命高分科幻电影开播" tvg-id="太空生命高分科幻电影开播" tvg-logo="https://livecdn.zbds.org/logo/太空生命高分科幻电影开播.png" group-title="电影频道", 太空生命高分科幻电影开播
 https://mursor.ottiptv.cc/yy/1382851586
-#EXTINF:-1 tvg-name="奇怪电影" tvg-id="奇怪电影" tvg-logo="https://livecdn.zbds.org/logo/奇怪电影.png" group-title="电影频道", 奇怪电影
-https://mursor.ottiptv.cc/douyu/9440966
+#EXTINF:-1 tvg-name="妙手仁心" tvg-id="妙手仁心" tvg-logo="https://livecdn.zbds.org/logo/妙手仁心.png" group-title="电影频道", 妙手仁心
+http://iptv.jxpan.vip:18888/aio/huya/29465853
 #EXTINF:-1 tvg-name="寒战" tvg-id="寒战" tvg-logo="https://livecdn.zbds.org/logo/寒战.png" group-title="电影频道", 寒战
 https://vip.ffzy-play6.com/20221019/157_bf0740ee/index.m3u8
+#EXTINF:-1 tvg-name="寻秦记" tvg-id="寻秦记" tvg-logo="https://livecdn.zbds.org/logo/寻秦记.png" group-title="电影频道", 寻秦记
+http://iptv.jxpan.vip:18888/aio/huya/29465848
+#EXTINF:-1 tvg-name="射雕英雄传" tvg-id="射雕英雄传" tvg-logo="https://livecdn.zbds.org/logo/射雕英雄传.png" group-title="电影频道", 射雕英雄传
+http://iptv.jxpan.vip:18888/aio/huya/23824164
+#EXTINF:-1 tvg-name="小丑电影" tvg-id="小丑电影" tvg-logo="https://livecdn.zbds.org/logo/小丑电影.png" group-title="电影频道", 小丑电影
+https://mursor.ottiptv.cc/huya/29869799
 #EXTINF:-1 tvg-name="小儛电影嘚啵嘚" tvg-id="小儛电影嘚啵嘚" tvg-logo="https://livecdn.zbds.org/logo/小儛电影嘚啵嘚.png" group-title="电影频道", 小儛电影嘚啵嘚
 https://mursor.ottiptv.cc/douyu/8362978
 #EXTINF:-1 tvg-name="小儿难养影视剧" tvg-id="小儿难养影视剧" tvg-logo="https://livecdn.zbds.org/logo/小儿难养影视剧.png" group-title="电影频道", 小儿难养影视剧
 https://mursor.ottiptv.cc/yy/1382735559
-#EXTINF:-1 tvg-name="少年看电影" tvg-id="少年看电影" tvg-logo="https://livecdn.zbds.org/logo/少年看电影.png" group-title="电影频道", 少年看电影
-https://mursor.ottiptv.cc/douyu/8762120
 #EXTINF:-1 tvg-name="岳云鹏宋小宝也来演电影了" tvg-id="岳云鹏宋小宝也来演电影了" tvg-logo="https://livecdn.zbds.org/logo/岳云鹏宋小宝也来演电影了.png" group-title="电影频道", 岳云鹏宋小宝也来演电影了
 https://mursor.ottiptv.cc/yy/1354926612
 #EXTINF:-1 tvg-name="广州影视" tvg-id="广州影视" tvg-logo="https://livecdn.zbds.org/logo/广州影视.png" group-title="电影频道", 广州影视
 http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4
+#EXTINF:-1 tvg-name="强森电影" tvg-id="强森电影" tvg-logo="https://livecdn.zbds.org/logo/强森电影.png" group-title="电影频道", 强森电影
+http://iptv.jxpan.vip:18888/aio/huya/21059581
+#EXTINF:-1 tvg-name="影视佳片鉴赏" tvg-id="影视佳片鉴赏" tvg-logo="https://livecdn.zbds.org/logo/影视佳片鉴赏.png" group-title="电影频道", 影视佳片鉴赏
+https://mursor.ottiptv.cc/bilibili/22450590
+#EXTINF:-1 tvg-name="影视梗大叔" tvg-id="影视梗大叔" tvg-logo="https://livecdn.zbds.org/logo/影视梗大叔.png" group-title="电影频道", 影视梗大叔
+https://mursor.ottiptv.cc/douyu/9480648
 #EXTINF:-1 tvg-name="影视笑工场" tvg-id="影视笑工场" tvg-logo="https://livecdn.zbds.org/logo/影视笑工场.png" group-title="电影频道", 影视笑工场
 https://mursor.ottiptv.cc/douyu/10298846
+#EXTINF:-1 tvg-name="影视铺FILMSHOP" tvg-id="影视铺FILMSHOP" tvg-logo="https://livecdn.zbds.org/logo/影视铺FILMSHOP.png" group-title="电影频道", 影视铺FILMSHOP
+https://mursor.ottiptv.cc/huya/30297166
+#EXTINF:-1 tvg-name="怪兽电影" tvg-id="怪兽电影" tvg-logo="https://livecdn.zbds.org/logo/怪兽电影.png" group-title="电影频道", 怪兽电影
+http://iptv.jxpan.vip:18888/aio/huya/21059577
 #EXTINF:-1 tvg-name="怪兽马提尼电影" tvg-id="怪兽马提尼电影" tvg-logo="https://livecdn.zbds.org/logo/怪兽马提尼电影.png" group-title="电影频道", 怪兽马提尼电影
 https://mursor.ottiptv.cc/douyu/9075333
 #EXTINF:-1 tvg-name="怪医文三块影视剧" tvg-id="怪医文三块影视剧" tvg-logo="https://livecdn.zbds.org/logo/怪医文三块影视剧.png" group-title="电影频道", 怪医文三块影视剧
@@ -325,14 +325,16 @@ https://mursor.ottiptv.cc/yy/1354936154
 https://mursor.ottiptv.cc/douyu/9422144
 #EXTINF:-1 tvg-name="恐怖电影" tvg-id="恐怖电影" tvg-logo="https://livecdn.zbds.org/logo/恐怖电影.png" group-title="电影频道", 恐怖电影
 https://mursor.ottiptv.cc/yy/24066336
-#EXTINF:-1 tvg-name="悬疑电影放映厅" tvg-id="悬疑电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/悬疑电影放映厅.png" group-title="电影频道", 悬疑电影放映厅
-https://mursor.ottiptv.cc/huya/29982641
-#EXTINF:-1 tvg-name="成龙电影" tvg-id="成龙电影" tvg-logo="https://livecdn.zbds.org/logo/成龙电影.png" group-title="电影频道", 成龙电影
-http://iptv.jxpan.vip:18888/aio/huya/11342386
+#EXTINF:-1 tvg-name="惊悚电影放映厅" tvg-id="惊悚电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/惊悚电影放映厅.png" group-title="电影频道", 惊悚电影放映厅
+https://mursor.ottiptv.cc/huya/26355795
 #EXTINF:-1 tvg-name="我不是药神" tvg-id="我不是药神" tvg-logo="https://livecdn.zbds.org/logo/我不是药神.png" group-title="电影频道", 我不是药神
 https://vip.ffzy-play1.com/20221018/478_c3afed66/index.m3u8
 #EXTINF:-1 tvg-name="我是吃泡面看电影" tvg-id="我是吃泡面看电影" tvg-logo="https://livecdn.zbds.org/logo/我是吃泡面看电影.png" group-title="电影频道", 我是吃泡面看电影
 https://mursor.ottiptv.cc/douyu/8851063
+#EXTINF:-1 tvg-name="扁豆看电影" tvg-id="扁豆看电影" tvg-logo="https://livecdn.zbds.org/logo/扁豆看电影.png" group-title="电影频道", 扁豆看电影
+https://mursor.ottiptv.cc/huya/16028551
+#EXTINF:-1 tvg-name="扁豆看电影2" tvg-id="扁豆看电影2" tvg-logo="https://livecdn.zbds.org/logo/扁豆看电影2.png" group-title="电影频道", 扁豆看电影2
+https://mursor.ottiptv.cc/huya/21059623
 #EXTINF:-1 tvg-name="扫黄先锋" tvg-id="扫黄先锋" tvg-logo="https://livecdn.zbds.org/logo/扫黄先锋.png" group-title="电影频道", 扫黄先锋
 http://iptv.jxpan.vip:18888/aio/huya/29465855
 #EXTINF:-1 tvg-name="拆弹专家1" tvg-id="拆弹专家1" tvg-logo="https://livecdn.zbds.org/logo/拆弹专家1.png" group-title="电影频道", 拆弹专家1
@@ -347,20 +349,18 @@ https://mursor.ottiptv.cc/yy/1351537467
 https://mursor.ottiptv.cc/yy/1353454489
 #EXTINF:-1 tvg-name="斗鱼港剧" tvg-id="斗鱼港剧" tvg-logo="https://livecdn.zbds.org/logo/斗鱼港剧.png" group-title="电影频道", 斗鱼港剧
 http://iptv.jxpan.vip:18888/aio/douyu/5061550
+#EXTINF:-1 tvg-name="新海电影" tvg-id="新海电影" tvg-logo="https://livecdn.zbds.org/logo/新海电影.png" group-title="电影频道", 新海电影
+https://mursor.ottiptv.cc/huya/29396806
 #EXTINF:-1 tvg-name="无心法师" tvg-id="无心法师" tvg-logo="https://livecdn.zbds.org/logo/无心法师.png" group-title="电影频道", 无心法师
 http://iptv.jxpan.vip:18888/aio/huya/30080233
 #EXTINF:-1 tvg-name="无际电影" tvg-id="无际电影" tvg-logo="https://livecdn.zbds.org/logo/无际电影.png" group-title="电影频道", 无际电影
 https://mursor.ottiptv.cc/douyu/9720498
 #EXTINF:-1 tvg-name="无限复活张柏芝主演爱情电影" tvg-id="无限复活张柏芝主演爱情电影" tvg-logo="https://livecdn.zbds.org/logo/无限复活张柏芝主演爱情电影.png" group-title="电影频道", 无限复活张柏芝主演爱情电影
 https://mursor.ottiptv.cc/yy/1382745190
-#EXTINF:-1 tvg-name="有部电影儿" tvg-id="有部电影儿" tvg-logo="https://livecdn.zbds.org/logo/有部电影儿.png" group-title="电影频道", 有部电影儿
-https://mursor.ottiptv.cc/douyu/9736479
-#EXTINF:-1 tvg-name="木子电影V" tvg-id="木子电影V" tvg-logo="https://livecdn.zbds.org/logo/木子电影V.png" group-title="电影频道", 木子电影V
-https://mursor.ottiptv.cc/huya/27314057
-#EXTINF:-1 tvg-name="李连杰电影" tvg-id="李连杰电影" tvg-logo="https://livecdn.zbds.org/logo/李连杰电影.png" group-title="电影频道", 李连杰电影
-http://iptv.jxpan.vip:18888/aio/huya/11342390
-#EXTINF:-1 tvg-name="林九影视" tvg-id="林九影视" tvg-logo="https://livecdn.zbds.org/logo/林九影视.png" group-title="电影频道", 林九影视
-https://mursor.ottiptv.cc/douyu/7212528
+#EXTINF:-1 tvg-name="晨晨的影视小窝" tvg-id="晨晨的影视小窝" tvg-logo="https://livecdn.zbds.org/logo/晨晨的影视小窝.png" group-title="电影频道", 晨晨的影视小窝
+https://mursor.ottiptv.cc/yy/1382851576
+#EXTINF:-1 tvg-name="末日系列外国电影合集" tvg-id="末日系列外国电影合集" tvg-logo="https://livecdn.zbds.org/logo/末日系列外国电影合集.png" group-title="电影频道", 末日系列外国电影合集
+https://mursor.ottiptv.cc/yy/1354889019
 #EXTINF:-1 tvg-name="林正英经典玄幻电影" tvg-id="林正英经典玄幻电影" tvg-logo="https://livecdn.zbds.org/logo/林正英经典玄幻电影.png" group-title="电影频道", 林正英经典玄幻电影
 https://mursor.ottiptv.cc/yy/1462895099
 #EXTINF:-1 tvg-name="林正英经典电影" tvg-id="林正英经典电影" tvg-logo="https://livecdn.zbds.org/logo/林正英经典电影.png" group-title="电影频道", 林正英经典电影
@@ -371,16 +371,32 @@ http://iptv.jxpan.vip:18888/aio/huya/21059579
 http://iptv.jxpan.vip:18888/aio/huya/29465854
 #EXTINF:-1 tvg-name="欧美大片" tvg-id="欧美大片" tvg-logo="https://livecdn.zbds.org/logo/欧美大片.png" group-title="电影频道", 欧美大片
 http://iptv.jxpan.vip:18888/aio/douyu/2793084
+#EXTINF:-1 tvg-name="止戈电影" tvg-id="止戈电影" tvg-logo="https://livecdn.zbds.org/logo/止戈电影.png" group-title="电影频道", 止戈电影
+https://mursor.ottiptv.cc/huya/19863777
+#EXTINF:-1 tvg-name="止戈电影2" tvg-id="止戈电影2" tvg-logo="https://livecdn.zbds.org/logo/止戈电影2.png" group-title="电影频道", 止戈电影2
+https://mursor.ottiptv.cc/huya/29982681
 #EXTINF:-1 tvg-name="武侠电影" tvg-id="武侠电影" tvg-logo="https://livecdn.zbds.org/logo/武侠电影.png" group-title="电影频道", 武侠电影
 http://iptv.jxpan.vip:18888/aio/huya/11342427
+#EXTINF:-1 tvg-name="武侠电影放映厅" tvg-id="武侠电影放映厅" tvg-logo="https://livecdn.zbds.org/logo/武侠电影放映厅.png" group-title="电影频道", 武侠电影放映厅
+https://mursor.ottiptv.cc/huya/29982611
+#EXTINF:-1 tvg-name="每日好电影V" tvg-id="每日好电影V" tvg-logo="https://livecdn.zbds.org/logo/每日好电影V.png" group-title="电影频道", 每日好电影V
+https://mursor.ottiptv.cc/douyu/9533302
 #EXTINF:-1 tvg-name="江苏影视" tvg-id="江苏影视" tvg-logo="https://livecdn.zbds.org/logo/江苏影视.png" group-title="电影频道", 江苏影视
 https://mursor.ottiptv.cc/migu/626064697.m3u8?migutoken=b73f8d78cfb5fb25d1b0e54e8b651db35d48ff071c6fe1f7826fcc4e6212a20ba7c8991185d03743da42bafdff874a4a03b5df60e7c2aa293ad3b34997faa082e300149433e3b1c2694909770b
+#EXTINF:-1 tvg-name="沈腾电影" tvg-id="沈腾电影" tvg-logo="https://livecdn.zbds.org/logo/沈腾电影.png" group-title="电影频道", 沈腾电影
+http://iptv.jxpan.vip:18888/aio/huya/11601968
 #EXTINF:-1 tvg-name="治愈电影阳光小美女一家人的寻梦之旅" tvg-id="治愈电影阳光小美女一家人的寻梦之旅" tvg-logo="https://livecdn.zbds.org/logo/治愈电影阳光小美女一家人的寻梦之旅.png" group-title="电影频道", 治愈电影阳光小美女一家人的寻梦之旅
 https://mursor.ottiptv.cc/yy/1382736920
+#EXTINF:-1 tvg-name="法政先锋" tvg-id="法政先锋" tvg-logo="https://livecdn.zbds.org/logo/法政先锋.png" group-title="电影频道", 法政先锋
+http://iptv.jxpan.vip:18888/aio/huya/23863804
 #EXTINF:-1 tvg-name="泡芙陪你看电影" tvg-id="泡芙陪你看电影" tvg-logo="https://livecdn.zbds.org/logo/泡芙陪你看电影.png" group-title="电影频道", 泡芙陪你看电影
 https://mursor.ottiptv.cc/yy/24407222
 #EXTINF:-1 tvg-name="洗冤录" tvg-id="洗冤录" tvg-logo="https://livecdn.zbds.org/logo/洗冤录.png" group-title="电影频道", 洗冤录
 http://iptv.jxpan.vip:18888/aio/huya/29465851
+#EXTINF:-1 tvg-name="洛克电影" tvg-id="洛克电影" tvg-logo="https://livecdn.zbds.org/logo/洛克电影.png" group-title="电影频道", 洛克电影
+https://mursor.ottiptv.cc/douyu/9414884
+#EXTINF:-1 tvg-name="活佛济公3" tvg-id="活佛济公3" tvg-logo="https://livecdn.zbds.org/logo/活佛济公3.png" group-title="电影频道", 活佛济公3
+http://iptv.jxpan.vip:18888/aio/huya/23903123
 #EXTINF:-1 tvg-name="浙江教科影视" tvg-id="浙江教科影视" tvg-logo="https://livecdn.zbds.org/logo/浙江教科影视.png" group-title="电影频道", 浙江教科影视
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-name="淘剧场" tvg-id="淘剧场" tvg-logo="https://livecdn.zbds.org/logo/淘剧场.png" group-title="电影频道", 淘剧场
@@ -389,18 +405,12 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887497.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887499.m3u8
 #EXTINF:-1 tvg-name="淘电影" tvg-id="淘电影" tvg-logo="https://livecdn.zbds.org/logo/淘电影.png" group-title="电影频道", 淘电影
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887498.m3u8
-#EXTINF:-1 tvg-name="港剧影视汇" tvg-id="港剧影视汇" tvg-logo="https://livecdn.zbds.org/logo/港剧影视汇.png" group-title="电影频道", 港剧影视汇
-https://mursor.ottiptv.cc/huya/23903142
-#EXTINF:-1 tvg-name="热血动作电影" tvg-id="热血动作电影" tvg-logo="https://livecdn.zbds.org/logo/热血动作电影.png" group-title="电影频道", 热血动作电影
-https://mursor.ottiptv.cc/yy/1382736804
 #EXTINF:-1 tvg-name="热血抗日电影" tvg-id="热血抗日电影" tvg-logo="https://livecdn.zbds.org/logo/热血抗日电影.png" group-title="电影频道", 热血抗日电影
 https://mursor.ottiptv.cc/yy/1382749907
-#EXTINF:-1 tvg-name="熊猫电影" tvg-id="熊猫电影" tvg-logo="https://livecdn.zbds.org/logo/熊猫电影.png" group-title="电影频道", 熊猫电影
-https://mursor.ottiptv.cc/douyu/3506483
 #EXTINF:-1 tvg-name="爆笑电影王牌大贱谍23" tvg-id="爆笑电影王牌大贱谍23" tvg-logo="https://livecdn.zbds.org/logo/爆笑电影王牌大贱谍23.png" group-title="电影频道", 爆笑电影王牌大贱谍23
-https://mursor.ottiptv.cc/yy/1354936169
-#EXTINF:-1 tvg-name="特辑电影院" tvg-id="特辑电影院" tvg-logo="https://livecdn.zbds.org/logo/特辑电影院.png" group-title="电影频道", 特辑电影院
-https://mursor.ottiptv.cc/douyu/3637778
+https://mursor.ottiptv.cc/yy/1382735556
+#EXTINF:-1 tvg-name="爱星影视" tvg-id="爱星影视" tvg-logo="https://livecdn.zbds.org/logo/爱星影视.png" group-title="电影频道", 爱星影视
+https://mursor.ottiptv.cc/douyu/9476806
 #EXTINF:-1 tvg-name="狄仁杰电影" tvg-id="狄仁杰电影" tvg-logo="https://livecdn.zbds.org/logo/狄仁杰电影.png" group-title="电影频道", 狄仁杰电影
 http://iptv.jxpan.vip:18888/aio/huya/30080229
 #EXTINF:-1 tvg-name="狗毛电影" tvg-id="狗毛电影" tvg-logo="https://livecdn.zbds.org/logo/狗毛电影.png" group-title="电影频道", 狗毛电影
@@ -409,48 +419,30 @@ https://mursor.ottiptv.cc/douyu/9356637
 https://mursor.ottiptv.cc/douyu/2413555
 #EXTINF:-1 tvg-name="猫丸酱影视" tvg-id="猫丸酱影视" tvg-logo="https://livecdn.zbds.org/logo/猫丸酱影视.png" group-title="电影频道", 猫丸酱影视
 https://mursor.ottiptv.cc/huya/26999674
-#EXTINF:-1 tvg-name="猫眼电影" tvg-id="猫眼电影" tvg-logo="https://livecdn.zbds.org/logo/猫眼电影.png" group-title="电影频道", 猫眼电影
-https://mursor.ottiptv.cc/douyu/8726221
-#EXTINF:-1 tvg-name="王晶电影" tvg-id="王晶电影" tvg-logo="https://livecdn.zbds.org/logo/王晶电影.png" group-title="电影频道", 王晶电影
-http://iptv.jxpan.vip:18888/aio/huya/11602058
-#EXTINF:-1 tvg-name="玖月影视" tvg-id="玖月影视" tvg-logo="https://livecdn.zbds.org/logo/玖月影视.png" group-title="电影频道", 玖月影视
-https://mursor.ottiptv.cc/douyu/9339251
-#EXTINF:-1 tvg-name="珍珠港电影" tvg-id="珍珠港电影" tvg-logo="https://livecdn.zbds.org/logo/珍珠港电影.png" group-title="电影频道", 珍珠港电影
-https://mursor.ottiptv.cc/yy/1354936234
-#EXTINF:-1 tvg-name="甄子丹电影" tvg-id="甄子丹电影" tvg-logo="https://livecdn.zbds.org/logo/甄子丹电影.png" group-title="电影频道", 甄子丹电影
-http://iptv.jxpan.vip:18888/aio/huya/11352935
+#EXTINF:-1 tvg-name="玄幻电影" tvg-id="玄幻电影" tvg-logo="https://livecdn.zbds.org/logo/玄幻电影.png" group-title="电影频道", 玄幻电影
+http://iptv.jxpan.vip:18888/aio/huya/11342414
 #EXTINF:-1 tvg-name="电影" tvg-id="电影" tvg-logo="https://livecdn.zbds.org/logo/电影.png" group-title="电影频道", 电影
 https://mursor.ottiptv.cc/yy/37454459
 #EXTINF:-1 tvg-name="电影七十二变" tvg-id="电影七十二变" tvg-logo="https://livecdn.zbds.org/logo/电影七十二变.png" group-title="电影频道", 电影七十二变
 https://mursor.ottiptv.cc/douyu/9323164
+#EXTINF:-1 tvg-name="电影先锋V" tvg-id="电影先锋V" tvg-logo="https://livecdn.zbds.org/logo/电影先锋V.png" group-title="电影频道", 电影先锋V
+https://mursor.ottiptv.cc/douyu/8711212
 #EXTINF:-1 tvg-name="电影兴风作浪系列播放" tvg-id="电影兴风作浪系列播放" tvg-logo="https://livecdn.zbds.org/logo/电影兴风作浪系列播放.png" group-title="电影频道", 电影兴风作浪系列播放
 https://mursor.ottiptv.cc/yy/1382736857
-#EXTINF:-1 tvg-name="电影动作电影" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/电影动作电影.png" group-title="电影频道", 电影动作电影
-http://live.metshop.top/huya/11602077?cdn=alicdn
 #EXTINF:-1 tvg-name="电影吐槽汇" tvg-id="电影吐槽汇" tvg-logo="https://livecdn.zbds.org/logo/电影吐槽汇.png" group-title="电影频道", 电影吐槽汇
 https://mursor.ottiptv.cc/douyu/9447668
+#EXTINF:-1 tvg-name="电影周星星" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/电影周星星.png" group-title="电影频道", 电影周星星
+http://live.metshop.top/huya/11336587?cdn=alicdn
 #EXTINF:-1 tvg-name="电影小班长" tvg-id="电影小班长" tvg-logo="https://livecdn.zbds.org/logo/电影小班长.png" group-title="电影频道", 电影小班长
 https://mursor.ottiptv.cc/douyu/549693
-#EXTINF:-1 tvg-name="电影幕后喵" tvg-id="电影幕后喵" tvg-logo="https://livecdn.zbds.org/logo/电影幕后喵.png" group-title="电影频道", 电影幕后喵
-https://mursor.ottiptv.cc/douyu/8884074
-#EXTINF:-1 tvg-name="电影战争片" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/电影战争片.png" group-title="电影频道", 电影战争片
-http://live.metshop.top/huya/21059574?cdn=alicdn
-#EXTINF:-1 tvg-name="电影探长官方" tvg-id="电影探长官方" tvg-logo="https://livecdn.zbds.org/logo/电影探长官方.png" group-title="电影频道", 电影探长官方
-https://mursor.ottiptv.cc/huya/30277705
 #EXTINF:-1 tvg-name="电影最TOP" tvg-id="电影最TOP" tvg-logo="https://livecdn.zbds.org/logo/电影最TOP.png" group-title="电影频道", 电影最TOP
 https://mursor.ottiptv.cc/huya/11774959
-#EXTINF:-1 tvg-name="电影最TOP2" tvg-id="电影最TOP2" tvg-logo="https://livecdn.zbds.org/logo/电影最TOP2.png" group-title="电影频道", 电影最TOP2
-https://mursor.ottiptv.cc/huya/29982676
 #EXTINF:-1 tvg-name="电影漩涡" tvg-id="电影漩涡" tvg-logo="https://livecdn.zbds.org/logo/电影漩涡.png" group-title="电影频道", 电影漩涡
 https://mursor.ottiptv.cc/douyu/8706350
-#EXTINF:-1 tvg-name="电影电影电影电影电影电影" tvg-id="电影电影电影电影电影电影" tvg-logo="https://livecdn.zbds.org/logo/电影电影电影电影电影电影.png" group-title="电影频道", 电影电影电影电影电影电影
-https://mursor.ottiptv.cc/yy/1351496216
 #EXTINF:-1 tvg-name="电影百团大战" tvg-id="电影百团大战" tvg-logo="https://livecdn.zbds.org/logo/电影百团大战.png" group-title="电影频道", 电影百团大战
 https://mursor.ottiptv.cc/yy/1382736871
-#EXTINF:-1 tvg-name="电影笔记" tvg-id="电影笔记" tvg-logo="https://livecdn.zbds.org/logo/电影笔记.png" group-title="电影频道", 电影笔记
-https://mursor.ottiptv.cc/douyu/9636034
-#EXTINF:-1 tvg-name="电影蜘蛛侠" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/电影蜘蛛侠.png" group-title="电影频道", 电影蜘蛛侠
-http://live.metshop.top/huya/21059599?cdn=alicdn
+#EXTINF:-1 tvg-name="电影谍战" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/电影谍战.png" group-title="电影频道", 电影谍战
+http://live.metshop.top/huya/21059585?cdn=alicdn
 #EXTINF:-1 tvg-name="电影迷小雅" tvg-id="电影迷小雅" tvg-logo="https://livecdn.zbds.org/logo/电影迷小雅.png" group-title="电影频道", 电影迷小雅
 https://mursor.ottiptv.cc/douyu/9639225
 #EXTINF:-1 tvg-name="电影黑匣子" tvg-id="电影黑匣子" tvg-logo="https://livecdn.zbds.org/logo/电影黑匣子.png" group-title="电影频道", 电影黑匣子
@@ -461,10 +453,10 @@ https://mursor.ottiptv.cc/yy/1382736816
 https://mursor.ottiptv.cc/huya/30399989
 #EXTINF:-1 tvg-name="看电影了没V" tvg-id="看电影了没V" tvg-logo="https://livecdn.zbds.org/logo/看电影了没V.png" group-title="电影频道", 看电影了没V
 https://mursor.ottiptv.cc/douyu/9562616
+#EXTINF:-1 tvg-name="神雕侠侣" tvg-id="神雕侠侣" tvg-logo="https://livecdn.zbds.org/logo/神雕侠侣.png" group-title="电影频道", 神雕侠侣
+http://iptv.jxpan.vip:18888/aio/huya/23865171
 #EXTINF:-1 tvg-name="科幻电影环太平洋" tvg-id="科幻电影环太平洋" tvg-logo="https://livecdn.zbds.org/logo/科幻电影环太平洋.png" group-title="电影频道", 科幻电影环太平洋
 https://mursor.ottiptv.cc/yy/1354936170
-#EXTINF:-1 tvg-name="笑看风云" tvg-id="笑看风云" tvg-logo="https://livecdn.zbds.org/logo/笑看风云.png" group-title="电影频道", 笑看风云
-http://iptv.jxpan.vip:18888/aio/huya/29465858
 #EXTINF:-1 tvg-name="粟裕大将影视" tvg-id="粟裕大将影视" tvg-logo="https://livecdn.zbds.org/logo/粟裕大将影视.png" group-title="电影频道", 粟裕大将影视
 https://mursor.ottiptv.cc/yy/1354926542
 #EXTINF:-1 tvg-name="粤语电影丶" tvg-id="粤语电影丶" tvg-logo="https://livecdn.zbds.org/logo/粤语电影丶.png" group-title="电影频道", 粤语电影丶
@@ -473,32 +465,24 @@ https://mursor.ottiptv.cc/douyu/1226741
 https://mursor.ottiptv.cc/yy/1382736823
 #EXTINF:-1 tvg-name="精彩动作电影享不停" tvg-id="精彩动作电影享不停" tvg-logo="https://livecdn.zbds.org/logo/精彩动作电影享不停.png" group-title="电影频道", 精彩动作电影享不停
 https://mursor.ottiptv.cc/yy/1382736809
-#EXTINF:-1 tvg-name="经典武侠电影如来神掌" tvg-id="经典武侠电影如来神掌" tvg-logo="https://livecdn.zbds.org/logo/经典武侠电影如来神掌.png" group-title="电影频道", 经典武侠电影如来神掌
-https://mursor.ottiptv.cc/yy/1382749944
 #EXTINF:-1 tvg-name="经典港片电影" tvg-id="经典港片电影" tvg-logo="https://livecdn.zbds.org/logo/经典港片电影.png" group-title="电影频道", 经典港片电影
 https://mursor.ottiptv.cc/yy/1461889059
-#EXTINF:-1 tvg-name="经典港片轮播" tvg-id="经典港片轮播" tvg-logo="https://livecdn.zbds.org/logo/经典港片轮播.png" group-title="电影频道", 经典港片轮播
-https://mursor.ottiptv.cc/huya/23865086
 #EXTINF:-1 tvg-name="经典电影" tvg-id="经典电影" tvg-logo="https://livecdn.zbds.org/logo/经典电影.png" group-title="电影频道", 经典电影
 https://mursor.ottiptv.cc/bilibili/1777481601
 #EXTINF:-1 tvg-name="经典电影港片枪战" tvg-id="经典电影港片枪战" tvg-logo="https://livecdn.zbds.org/logo/经典电影港片枪战.png" group-title="电影频道", 经典电影港片枪战
 https://mursor.ottiptv.cc/yy/1355076627
 #EXTINF:-1 tvg-name="经典电影重温" tvg-id="经典电影重温" tvg-logo="https://livecdn.zbds.org/logo/经典电影重温.png" group-title="电影频道", 经典电影重温
 https://mursor.ottiptv.cc/yy/1382793140
-#EXTINF:-1 tvg-name="经典科幻电影2001漫游太空" tvg-id="经典科幻电影2001漫游太空" tvg-logo="https://livecdn.zbds.org/logo/经典科幻电影2001漫游太空.png" group-title="电影频道", 经典科幻电影2001漫游太空
-https://mursor.ottiptv.cc/yy/1354926671
-#EXTINF:-1 tvg-name="维立方电影" tvg-id="维立方电影" tvg-logo="https://livecdn.zbds.org/logo/维立方电影.png" group-title="电影频道", 维立方电影
-https://mursor.ottiptv.cc/douyu/8706393
 #EXTINF:-1 tvg-name="缉魂科幻悬疑电影" tvg-id="缉魂科幻悬疑电影" tvg-logo="https://livecdn.zbds.org/logo/缉魂科幻悬疑电影.png" group-title="电影频道", 缉魂科幻悬疑电影
 https://mursor.ottiptv.cc/yy/1382745090
 #EXTINF:-1 tvg-name="罪犯电影" tvg-id="罪犯电影" tvg-logo="https://livecdn.zbds.org/logo/罪犯电影.png" group-title="电影频道", 罪犯电影
 http://iptv.jxpan.vip:18888/aio/huya/11352962
 #EXTINF:-1 tvg-name="美亚电影" tvg-id="美亚电影" tvg-logo="https://livecdn.zbds.org/logo/美亚电影.png" group-title="电影频道", 美亚电影
 https://live.tvfix.org/live/mydy/index.m3u8
+#EXTINF:-1 tvg-name="老王的夜电影院" tvg-id="老王的夜电影院" tvg-logo="https://livecdn.zbds.org/logo/老王的夜电影院.png" group-title="电影频道", 老王的夜电影院
+https://mursor.ottiptv.cc/douyu/3498219
 #EXTINF:-1 tvg-name="老电影故事" tvg-id="老电影故事" tvg-logo="https://livecdn.zbds.org/logo/老电影故事.png" group-title="电影频道", 老电影故事
 https://mursor.ottiptv.cc/douyu/9167273
-#EXTINF:-1 tvg-name="胶片看电影" tvg-id="胶片看电影" tvg-logo="https://livecdn.zbds.org/logo/胶片看电影.png" group-title="电影频道", 胶片看电影
-https://mursor.ottiptv.cc/douyu/3715426
 #EXTINF:-1 tvg-name="腹黑电影" tvg-id="腹黑电影" tvg-logo="https://livecdn.zbds.org/logo/腹黑电影.png" group-title="电影频道", 腹黑电影
 https://mursor.ottiptv.cc/douyu/8867878
 #EXTINF:-1 tvg-name="舒克影视梗" tvg-id="舒克影视梗" tvg-logo="https://livecdn.zbds.org/logo/舒克影视梗.png" group-title="电影频道", 舒克影视梗
@@ -517,8 +501,6 @@ https://mursor.ottiptv.cc/douyu/9661369
 https://mursor.ottiptv.cc/douyu/9338867
 #EXTINF:-1 tvg-name="贺岁电影" tvg-id="贺岁电影" tvg-logo="https://livecdn.zbds.org/logo/贺岁电影.png" group-title="电影频道", 贺岁电影
 http://iptv.jxpan.vip:18888/aio/huya/11601986
-#EXTINF:-1 tvg-name="超精彩系列动作电影" tvg-id="超精彩系列动作电影" tvg-logo="https://livecdn.zbds.org/logo/超精彩系列动作电影.png" group-title="电影频道", 超精彩系列动作电影
-https://mursor.ottiptv.cc/yy/1382745096
 #EXTINF:-1 tvg-name="越越爱影视" tvg-id="越越爱影视" tvg-logo="https://livecdn.zbds.org/logo/越越爱影视.png" group-title="电影频道", 越越爱影视
 https://mursor.ottiptv.cc/yy/1382736886
 #EXTINF:-1 tvg-name="辽宁影视剧" tvg-id="辽宁影视剧" tvg-logo="https://livecdn.zbds.org/logo/辽宁影视剧.png" group-title="电影频道", 辽宁影视剧
@@ -531,16 +513,14 @@ https://mursor.ottiptv.cc/douyu/4058285
 http://iptv.jxpan.vip:18888/aio/douyu/4246519
 #EXTINF:-1 tvg-name="野山鹰影视剧" tvg-id="野山鹰影视剧" tvg-logo="https://livecdn.zbds.org/logo/野山鹰影视剧.png" group-title="电影频道", 野山鹰影视剧
 https://mursor.ottiptv.cc/yy/1354932395
-#EXTINF:-1 tvg-name="野蛮亲家" tvg-id="野蛮亲家" tvg-logo="https://livecdn.zbds.org/logo/野蛮亲家.png" group-title="电影频道", 野蛮亲家
-http://iptv.jxpan.vip:18888/aio/huya/23863796
-#EXTINF:-1 tvg-name="金庸武侠" tvg-id="金庸武侠" tvg-logo="https://livecdn.zbds.org/logo/金庸武侠.png" group-title="电影频道", 金庸武侠
-http://iptv.jxpan.vip:18888/aio/huya/11342435
 #EXTINF:-1 tvg-name="金枝欲孽" tvg-id="金枝欲孽" tvg-logo="https://livecdn.zbds.org/logo/金枝欲孽.png" group-title="电影频道", 金枝欲孽
 http://iptv.jxpan.vip:18888/aio/huya/29465847
-#EXTINF:-1 tvg-name="鉴证实录" tvg-id="鉴证实录" tvg-logo="https://livecdn.zbds.org/logo/鉴证实录.png" group-title="电影频道", 鉴证实录
-http://iptv.jxpan.vip:18888/aio/huya/23903183
+#EXTINF:-1 tvg-name="铁血影视汇" tvg-id="铁血影视汇" tvg-logo="https://livecdn.zbds.org/logo/铁血影视汇.png" group-title="电影频道", 铁血影视汇
+https://mursor.ottiptv.cc/douyu/9649701
 #EXTINF:-1 tvg-name="阿光影视" tvg-id="阿光影视" tvg-logo="https://livecdn.zbds.org/logo/阿光影视.png" group-title="电影频道", 阿光影视
 https://mursor.ottiptv.cc/huya/30292086
+#EXTINF:-1 tvg-name="阿神电影" tvg-id="阿神电影" tvg-logo="https://livecdn.zbds.org/logo/阿神电影.png" group-title="电影频道", 阿神电影
+https://mursor.ottiptv.cc/huya/29396896
 #EXTINF:-1 tvg-name="阿苏电影" tvg-id="阿苏电影" tvg-logo="https://livecdn.zbds.org/logo/阿苏电影.png" group-title="电影频道", 阿苏电影
 https://mursor.ottiptv.cc/douyu/9037784
 #EXTINF:-1 tvg-name="陀枪师姐" tvg-id="陀枪师姐" tvg-logo="https://livecdn.zbds.org/logo/陀枪师姐.png" group-title="电影频道", 陀枪师姐
@@ -555,6 +535,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 #EXTINF:-1 tvg-name="饿梦影视" tvg-id="饿梦影视" tvg-logo="https://livecdn.zbds.org/logo/饿梦影视.png" group-title="电影频道", 饿梦影视
 https://mursor.ottiptv.cc/huya/24886896
+#EXTINF:-1 tvg-name="香兰爱影视" tvg-id="香兰爱影视" tvg-logo="https://livecdn.zbds.org/logo/香兰爱影视.png" group-title="电影频道", 香兰爱影视
+https://mursor.ottiptv.cc/douyu/9487090
 #EXTINF:-1 tvg-name="香港电影561" tvg-id="香港电影561" tvg-logo="https://livecdn.zbds.org/logo/香港电影561.png" group-title="电影频道", 香港电影561
 https://mursor.ottiptv.cc/douyu/9525468
 #EXTINF:-1 tvg-name="黄渤电影" tvg-id="黄渤电影" tvg-logo="https://livecdn.zbds.org/logo/黄渤电影.png" group-title="电影频道", 黄渤电影
@@ -583,16 +565,16 @@ http://gmxw.7766.org:808/hls/175/index.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-id="8" tvg-logo="https://livecdn.zbds.org/logo/哈哈炫动.png" group-title="儿童频道", 哈哈炫动
 http://58.57.40.22:9901/tsfile/live/1061_1.m3u8
-#EXTINF:-1 tvg-name="靖洋卡通" tvg-id="1" tvg-logo="https://livecdn.zbds.org/logo/靖洋卡通.png" group-title="儿童频道", 靖洋卡通
-http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv057
-#EXTINF:-1 tvg-name="七龙珠" tvg-id="七龙珠" tvg-logo="https://livecdn.zbds.org/logo/七龙珠.png" group-title="儿童频道", 七龙珠
-http://iptv.jxpan.vip:18888/aio/huya/11601966
+#EXTINF:-1 tvg-name="live2D动画接生中" tvg-id="live2D动画接生中" tvg-logo="https://livecdn.zbds.org/logo/live2D动画接生中.png" group-title="儿童频道", live2D动画接生中
+https://mursor.ottiptv.cc/bilibili/10558044
 #EXTINF:-1 tvg-name="中华小当家" tvg-id="中华小当家" tvg-logo="https://livecdn.zbds.org/logo/中华小当家.png" group-title="儿童频道", 中华小当家
-https://live.metshop.top/huya/11342413
+https://live.iill.top/huya/11342413
+#EXTINF:-1 tvg-name="儿童画时间到" tvg-id="儿童画时间到" tvg-logo="https://livecdn.zbds.org/logo/儿童画时间到.png" group-title="儿童频道", 儿童画时间到
+https://mursor.ottiptv.cc/bilibili/22508999
+#EXTINF:-1 tvg-name="儿童画环节" tvg-id="儿童画环节" tvg-logo="https://livecdn.zbds.org/logo/儿童画环节.png" group-title="儿童频道", 儿童画环节
+https://mursor.ottiptv.cc/bilibili/24163375
 #EXTINF:-1 tvg-name="动漫秀场" tvg-id="8" tvg-logo="https://livecdn.zbds.org/logo/动漫秀场.png" group-title="儿童频道", 动漫秀场
 http://nas.hssvm.com:8888/udp/225.1.1.134:5002
-#EXTINF:-1 tvg-name="动画大师姐" tvg-id="动画大师姐" tvg-logo="https://livecdn.zbds.org/logo/动画大师姐.png" group-title="儿童频道", 动画大师姐
-https://mursor.ottiptv.cc/douyu/9742136
 #EXTINF:-1 tvg-name="动画魂" tvg-id="动画魂" tvg-logo="https://livecdn.zbds.org/logo/动画魂.png" group-title="儿童频道", 动画魂
 https://mursor.ottiptv.cc/douyu/9393242
 #EXTINF:-1 tvg-name="名侦探柯南" tvg-id="名侦探柯南" tvg-logo="https://livecdn.zbds.org/logo/名侦探柯南.png" group-title="儿童频道", 名侦探柯南
@@ -607,6 +589,8 @@ https://mursor.ottiptv.cc/bilibili/1746145540
 http://nas.hssvm.com:8888/udp/225.1.1.216:5002
 #EXTINF:-1 tvg-name="林小二动画" tvg-id="林小二动画" tvg-logo="https://livecdn.zbds.org/logo/林小二动画.png" group-title="儿童频道", 林小二动画
 https://mursor.ottiptv.cc/douyu/11184164
+#EXTINF:-1 tvg-name="欢迎参观动画牛马日常day2" tvg-id="欢迎参观动画牛马日常day2" tvg-logo="https://livecdn.zbds.org/logo/欢迎参观动画牛马日常day2.png" group-title="儿童频道", 欢迎参观动画牛马日常day2
+https://mursor.ottiptv.cc/bilibili/1672409
 #EXTINF:-1 tvg-name="海绵宝宝" tvg-id="海绵宝宝" tvg-logo="https://livecdn.zbds.org/logo/海绵宝宝.png" group-title="儿童频道", 海绵宝宝
 https://live.metshop.top/douyu/3949681
 #EXTINF:-1 tvg-name="猫和老鼠" tvg-id="猫和老鼠" tvg-logo="https://livecdn.zbds.org/logo/猫和老鼠.png" group-title="儿童频道", 猫和老鼠
@@ -615,6 +599,8 @@ http://iptv.jxpan.vip:18888/aio/huya/11352879
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-name="立秋动画" tvg-id="立秋动画" tvg-logo="https://livecdn.zbds.org/logo/立秋动画.png" group-title="儿童频道", 立秋动画
 https://mursor.ottiptv.cc/douyu/10351891
+#EXTINF:-1 tvg-name="精灵宝可梦" tvg-id="精灵宝可梦" tvg-logo="https://livecdn.zbds.org/logo/精灵宝可梦.png" group-title="儿童频道", 精灵宝可梦
+http://iptv.jxpan.vip:18888/aio/huya/23749096
 #EXTINF:-1 tvg-name="蜡笔小新" tvg-id="蜡笔小新" tvg-logo="https://livecdn.zbds.org/logo/蜡笔小新.png" group-title="儿童频道", 蜡笔小新
 http://www.douzhicloud.site:35455/bilibili/30837590
 #EXTINF:-1 tvg-name="韩国EBS少儿" tvg-id="韩国EBS少儿" tvg-logo="https://livecdn.zbds.org/logo/韩国EBS少儿.png" group-title="儿童频道", 韩国EBS少儿
@@ -650,7 +636,7 @@ http://60.222.246.220:19433/hls1.m3u8
 #EXTINF:-1 tvg-name="三明新闻综合" tvg-id="三明新闻综合" tvg-logo="https://livecdn.zbds.org/logo/三明新闻综合.png" group-title="地方频道", 三明新闻综合
 http://ls.qingting.fm/live/4885.m3u8
 #EXTINF:-1 tvg-name="上海新闻综合" tvg-id="上海新闻综合" tvg-logo="https://livecdn.zbds.org/logo/上海新闻综合.png" group-title="地方频道", 上海新闻综合
-https://migu.188766.xyz/?migutoken=2db2e2ddce3431f6bb0042dc4d843909&id=xwzh&type=sz
+https://mursor.ottiptv.cc/migu/651632657.m3u8?migutoken=2c1df649aa4a05375c169ba80b0e1237948ea4ca1f76374295c3a13814b384753f3baf0671b15276cc4e08d3b8cc736174d9e248cc91974b4a90971bb67c1980a21d82ed456a9630f45e87f4b0
 #EXTINF:-1 tvg-name="上海第一财经" tvg-id="上海第一财经" tvg-logo="https://livecdn.zbds.org/logo/上海第一财经.png" group-title="地方频道", 上海第一财经
 https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
 #EXTINF:-1 tvg-name="上虞文化影院" tvg-id="上虞文化影院" tvg-logo="https://livecdn.zbds.org/logo/上虞文化影院.png" group-title="地方频道", 上虞文化影院
@@ -849,8 +835,6 @@ http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 http://120.76.248.139/live/bfgd/4200000229.m3u8
 #EXTINF:-1 tvg-name="固始综合" tvg-id="固始综合" tvg-logo="https://livecdn.zbds.org/logo/固始综合.png" group-title="地方频道", 固始综合
 http://live.dxhmt.cn:9081/tv/11525-1.m3u8
-#EXTINF:-1 tvg-name="固镇新闻" tvg-id="固镇新闻" tvg-logo="https://livecdn.zbds.org/logo/固镇新闻.png" group-title="地方频道", 固镇新闻
-http://www.guzhenm.com:7001/hls/hd-live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-name="大宁综合" tvg-id="大宁综合" tvg-logo="https://livecdn.zbds.org/logo/大宁综合.png" group-title="地方频道", 大宁综合
 http://live.daningtv.com/aac_dngb/playlist.m3u8
 #EXTINF:-1 tvg-name="天津文艺" tvg-id="天津文艺" tvg-logo="https://livecdn.zbds.org/logo/天津文艺.png" group-title="地方频道", 天津文艺
@@ -1157,10 +1141,6 @@ https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 http://220.180.124.18:888/live/ch0.m3u8
 #EXTINF:-1 tvg-name="淅川电视" tvg-id="淅川电视" tvg-logo="https://livecdn.zbds.org/logo/淅川电视.png" group-title="地方频道", 淅川电视
 http://live.dxhmt.cn:9081/tv/11326-1.m3u8
-#EXTINF:-1 tvg-name="淮安影院娱乐" tvg-id="淮安影院娱乐" tvg-logo="https://livecdn.zbds.org/logo/淮安影院娱乐.png" group-title="地方频道", 淮安影院娱乐
-http://live1.habctv.com/ysylsl/sd/live.m3u8?zjiangsd
-#EXTINF:-1 tvg-name="淮安新闻综合" tvg-id="淮安新闻综合" tvg-logo="https://livecdn.zbds.org/logo/淮安新闻综合.png" group-title="地方频道", 淮安新闻综合
-https://mursor.ottiptv.cc/migu/639731826.m3u8?migutoken=d72922ed14054c4c03ebda8a2d636518ee54cc6e0dda4714c6fbe68badcf28869a5d5e29c07901926d6a0923a7fab32112868b1e1ce7042073c1715e1e6e0c4af6ae0af39485d249f73b9d8f11
 #EXTINF:-1 tvg-name="淮阴综合" tvg-id="淮阴综合" tvg-logo="https://livecdn.zbds.org/logo/淮阴综合.png" group-title="地方频道", 淮阴综合
 https://huaiyin-tv-replay.cm.jstv.com/huaiyin-tv/huaiyinf.m3u8
 #EXTINF:-1 tvg-name="清河新闻综合" tvg-id="清河新闻综合" tvg-logo="https://livecdn.zbds.org/logo/清河新闻综合.png" group-title="地方频道", 清河新闻综合
@@ -1178,7 +1158,7 @@ http://play.kankanlive.com/live/1720408280309109.m3u8
 #EXTINF:-1 tvg-name="湖州公共民生" tvg-id="湖州公共民生" tvg-logo="https://livecdn.zbds.org/logo/湖州公共民生.png" group-title="地方频道", 湖州公共民生
 http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
 #EXTINF:-1 tvg-name="湖州文化娱乐" tvg-id="湖州文化娱乐" tvg-logo="https://livecdn.zbds.org/logo/湖州文化娱乐.png" group-title="地方频道", 湖州文化娱乐
-https://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
+http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
 #EXTINF:-1 tvg-name="湖州新闻综合" tvg-id="湖州新闻综合" tvg-logo="https://livecdn.zbds.org/logo/湖州新闻综合.png" group-title="地方频道", 湖州新闻综合
 http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
 #EXTINF:-1 tvg-name="溧水新闻综合" tvg-id="溧水新闻综合" tvg-logo="https://livecdn.zbds.org/logo/溧水新闻综合.png" group-title="地方频道", 溧水新闻综合
@@ -1397,6 +1377,8 @@ https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
 http://cnpull.sccnfb.com:80/live/123456.m3u8
 #EXTINF:-1 tvg-name="长影频道" tvg-id="长影频道" tvg-logo="https://livecdn.zbds.org/logo/长影频道.png" group-title="地方频道", 长影频道
 http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
+#EXTINF:-1 tvg-name="长沙新闻综合" tvg-id="长沙新闻综合" tvg-logo="https://livecdn.zbds.org/logo/长沙新闻综合.png" group-title="地方频道", 长沙新闻综合
+http://ls.qingting.fm/live/4877.m3u8
 #EXTINF:-1 tvg-name="长治公共" tvg-id="长治公共" tvg-logo="https://livecdn.zbds.org/logo/长治公共.png" group-title="地方频道", 长治公共
 http://live.njgdmm.com/changzhi/cztv2.m3u8
 #EXTINF:-1 tvg-name="长白山电视台" tvg-id="长白山电视台" tvg-logo="https://livecdn.zbds.org/logo/长白山电视台.png" group-title="地方频道", 长白山电视台
@@ -1421,14 +1403,6 @@ http://112.46.105.20:8009/hls/19/index.m3u8
 http://112.46.105.20:8009/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="雅安新闻综合" tvg-id="雅安新闻综合" tvg-logo="https://livecdn.zbds.org/logo/雅安新闻综合.png" group-title="地方频道", 雅安新闻综合
 https://play.yunxya.com/channellive/xinwen.m3u8
-#EXTINF:-1 tvg-name="青州电视台文化旅游" tvg-id="青州电视台文化旅游" tvg-logo="https://livecdn.zbds.org/logo/青州电视台文化旅游.png" group-title="地方频道", 青州电视台文化旅游
-http://sdqz.chinashadt.com:2036/live/stream:3.stream/playlist.m3u8?shandd
-#EXTINF:-1 tvg-name="青州电视台新闻综合" tvg-id="青州电视台新闻综合" tvg-logo="https://livecdn.zbds.org/logo/青州电视台新闻综合.png" group-title="地方频道", 青州电视台新闻综合
-http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="青州电视台生活" tvg-id="青州电视台生活" tvg-logo="https://livecdn.zbds.org/logo/青州电视台生活.png" group-title="地方频道", 青州电视台生活
-http://sdqz.chinashadt.com:2036/live/stream:2.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="青州综合" tvg-id="青州综合" tvg-logo="https://livecdn.zbds.org/logo/青州综合.png" group-title="地方频道", 青州综合
-http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8?shandd#http://sdqz.chinashadt.com:2036/live/stream:1.stream/playlist.m3u8#rtmp://sdqz.chinashadt.com:2036/live/stream:1.stream
 #EXTINF:-1 tvg-name="青海综合" tvg-id="青海综合" tvg-logo="https://livecdn.zbds.org/logo/青海综合.png" group-title="地方频道", 青海综合
 http://lmt.scqstv.com/live1/live1.m3u8
 #EXTINF:-1 tvg-name="青田电视台" tvg-id="青田电视台" tvg-logo="https://livecdn.zbds.org/logo/青田电视台.png" group-title="地方频道", 青田电视台
@@ -1539,130 +1513,74 @@ https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d3
 https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8
 #EXTINF:-1 tvg-name="龙井" tvg-id="龙井" tvg-logo="https://livecdn.zbds.org/logo/龙井.png" group-title="纪录频道", 龙井
 http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
+#EXTINF:-1 tvg-name="五星体育" tvg-id="五星体育" tvg-logo="https://livecdn.zbds.org/logo/五星体育.png" group-title="体育频道", 五星体育
+https://migu.188766.xyz/?migutoken=71ffa78ec0f711ac9ea667fb3b8b2c9c&id=%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2&pp=1
 #EXTINF:-1 tvg-name="精品体育" tvg-id="精品体育" tvg-logo="https://livecdn.zbds.org/logo/精品体育.png" group-title="体育频道", 精品体育
 https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
-#EXTINF:-1 tvg-name="2025中式八球大师赛芷江站" tvg-id="2025中式八球大师赛芷江站" tvg-logo="https://livecdn.zbds.org/logo/2025中式八球大师赛芷江站.png" group-title="体育频道", 2025中式八球大师赛芷江站
-https://mursor.ottiptv.cc/bilibili/23808691
 #EXTINF:-1 tvg-name="JJ斗地主" tvg-id="JJ斗地主" tvg-logo="https://livecdn.zbds.org/logo/JJ斗地主.png" group-title="体育频道", JJ斗地主
 https://live.iill.top/douyin/685317364746
-#EXTINF:-1 tvg-name="WTT澳门冠军赛王楚钦Vs松岛辉空" tvg-id="WTT澳门冠军赛王楚钦Vs松岛辉空" tvg-logo="https://livecdn.zbds.org/logo/WTT澳门冠军赛王楚钦Vs松岛辉空.png" group-title="体育频道", WTT澳门冠军赛王楚钦Vs松岛辉空
-https://mursor.ottiptv.cc/bilibili/1982181049
-#EXTINF:-1 tvg-name="test" tvg-id="test" tvg-logo="https://livecdn.zbds.org/logo/test.png" group-title="体育频道", test
-https://mursor.ottiptv.cc/bilibili/1511284
-#EXTINF:-1 tvg-name="养生训练日常" tvg-id="养生训练日常" tvg-logo="https://livecdn.zbds.org/logo/养生训练日常.png" group-title="体育频道", 养生训练日常
-https://mursor.ottiptv.cc/bilibili/22116362
-#EXTINF:-1 tvg-name="初学者的健身瑜伽团课" tvg-id="初学者的健身瑜伽团课" tvg-logo="https://livecdn.zbds.org/logo/初学者的健身瑜伽团课.png" group-title="体育频道", 初学者的健身瑜伽团课
-https://mursor.ottiptv.cc/bilibili/31507187
-#EXTINF:-1 tvg-name="初来报道关注一下吧" tvg-id="初来报道关注一下吧" tvg-logo="https://livecdn.zbds.org/logo/初来报道关注一下吧.png" group-title="体育频道", 初来报道关注一下吧
-https://mursor.ottiptv.cc/bilibili/1806665542
 #EXTINF:-1 tvg-name="睛彩广场舞" tvg-id="睛彩广场舞" tvg-logo="https://livecdn.zbds.org/logo/睛彩广场舞.png" group-title="体育频道", 睛彩广场舞
 http://dsj.motem.top:8880/itv/3000000020000011523.m3u8?cdn=FifastbLive
-#EXTINF:-1 tvg-name="第163天时间过得真快又到了练腿日了" tvg-id="第163天时间过得真快又到了练腿日了" tvg-logo="https://livecdn.zbds.org/logo/第163天时间过得真快又到了练腿日了.png" group-title="体育频道", 第163天时间过得真快又到了练腿日了
-https://mursor.ottiptv.cc/bilibili/24050121
-#EXTINF:-1 tvg-name="音乐" tvg-id="音乐" tvg-logo="https://livecdn.zbds.org/logo/音乐.png" group-title="体育频道", 音乐
-https://mursor.ottiptv.cc/bilibili/30822371
-#EXTINF:-1 tvg-name="06幼师粉喷就哭" tvg-id="06幼师粉喷就哭" tvg-logo="https://livecdn.zbds.org/logo/06幼师粉喷就哭.png" group-title="解说频道", 06幼师粉喷就哭
-https://mursor.ottiptv.cc/bilibili/1806667998
+#EXTINF:-1 tvg-name="03素颜" tvg-id="03素颜" tvg-logo="https://livecdn.zbds.org/logo/03素颜.png" group-title="解说频道", 03素颜
+https://mursor.ottiptv.cc/bilibili/1863478563
 #EXTINF:-1 tvg-name="17号说动漫" tvg-id="17号说动漫" tvg-logo="https://livecdn.zbds.org/logo/17号说动漫.png" group-title="解说频道", 17号说动漫
 https://mursor.ottiptv.cc/douyu/9822277
 #EXTINF:-1 tvg-name="3说电影" tvg-id="3说电影" tvg-logo="https://livecdn.zbds.org/logo/3说电影.png" group-title="解说频道", 3说电影
 https://mursor.ottiptv.cc/douyu/9643264
 #EXTINF:-1 tvg-name="77说电影" tvg-id="77说电影" tvg-logo="https://livecdn.zbds.org/logo/77说电影.png" group-title="解说频道", 77说电影
 https://mursor.ottiptv.cc/douyu/9444320
-#EXTINF:-1 tvg-name="Apple2025新品发布会" tvg-id="Apple2025新品发布会" tvg-logo="https://livecdn.zbds.org/logo/Apple2025新品发布会.png" group-title="解说频道", Apple2025新品发布会
-https://mursor.ottiptv.cc/bilibili/25330271
 #EXTINF:-1 tvg-name="Ido漫说" tvg-id="Ido漫说" tvg-logo="https://livecdn.zbds.org/logo/Ido漫说.png" group-title="解说频道", Ido漫说
 https://mursor.ottiptv.cc/douyu/9456379
 #EXTINF:-1 tvg-name="JG影视解说" tvg-id="JG影视解说" tvg-logo="https://livecdn.zbds.org/logo/JG影视解说.png" group-title="解说频道", JG影视解说
 https://mursor.ottiptv.cc/douyu/9391277
-#EXTINF:-1 tvg-name="MCstruct2GLTFv03开发" tvg-id="MCstruct2GLTFv03开发" tvg-logo="https://livecdn.zbds.org/logo/MCstruct2GLTFv03开发.png" group-title="解说频道", MCstruct2GLTFv03开发
-https://mursor.ottiptv.cc/bilibili/1954354032
 #EXTINF:-1 tvg-name="Michael说大片" tvg-id="Michael说大片" tvg-logo="https://livecdn.zbds.org/logo/Michael说大片.png" group-title="解说频道", Michael说大片
 https://mursor.ottiptv.cc/douyu/8841881
 #EXTINF:-1 tvg-name="SAO东西又再说SAO话" tvg-id="SAO东西又再说SAO话" tvg-logo="https://livecdn.zbds.org/logo/SAO东西又再说SAO话.png" group-title="解说频道", SAO东西又再说SAO话
 https://mursor.ottiptv.cc/douyu/8833450
-#EXTINF:-1 tvg-name="bilibili主播的直播间" tvg-id="bilibili主播的直播间" tvg-logo="https://livecdn.zbds.org/logo/bilibili主播的直播间.png" group-title="解说频道", bilibili主播的直播间
-https://mursor.ottiptv.cc/bilibili/31084760
 #EXTINF:-1 tvg-name="yaoyao说" tvg-id="yaoyao说" tvg-logo="https://livecdn.zbds.org/logo/yaoyao说.png" group-title="解说频道", yaoyao说
 https://mursor.ottiptv.cc/douyu/884073
 #EXTINF:-1 tvg-name="一朵老香菇解说" tvg-id="一朵老香菇解说" tvg-logo="https://livecdn.zbds.org/logo/一朵老香菇解说.png" group-title="解说频道", 一朵老香菇解说
 https://mursor.ottiptv.cc/douyu/10050914
-#EXTINF:-1 tvg-name="上麦问仙仙解答" tvg-id="上麦问仙仙解答" tvg-logo="https://livecdn.zbds.org/logo/上麦问仙仙解答.png" group-title="解说频道", 上麦问仙仙解答
-https://mursor.ottiptv.cc/bilibili/1985117934
+#EXTINF:-1 tvg-name="上班偷偷摸鱼" tvg-id="上班偷偷摸鱼" tvg-logo="https://livecdn.zbds.org/logo/上班偷偷摸鱼.png" group-title="解说频道", 上班偷偷摸鱼
+https://mursor.ottiptv.cc/bilibili/24671910
 #EXTINF:-1 tvg-name="为你解惑" tvg-id="为你解惑" tvg-logo="https://livecdn.zbds.org/logo/为你解惑.png" group-title="解说频道", 为你解惑
 https://mursor.ottiptv.cc/bilibili/1845370871
-#EXTINF:-1 tvg-name="主播真没喝" tvg-id="主播真没喝" tvg-logo="https://livecdn.zbds.org/logo/主播真没喝.png" group-title="解说频道", 主播真没喝
-https://mursor.ottiptv.cc/bilibili/1852358017
 #EXTINF:-1 tvg-name="丽姐说电影" tvg-id="丽姐说电影" tvg-logo="https://livecdn.zbds.org/logo/丽姐说电影.png" group-title="解说频道", 丽姐说电影
 https://mursor.ottiptv.cc/douyu/9437283
-#EXTINF:-1 tvg-name="九叔说电影v" tvg-id="九叔说电影v" tvg-logo="https://livecdn.zbds.org/logo/九叔说电影v.png" group-title="解说频道", 九叔说电影v
-https://mursor.ottiptv.cc/douyu/9348282
 #EXTINF:-1 tvg-name="二哈讲电影" tvg-id="二哈讲电影" tvg-logo="https://livecdn.zbds.org/logo/二哈讲电影.png" group-title="解说频道", 二哈讲电影
 https://mursor.ottiptv.cc/douyu/8778280
-#EXTINF:-1 tvg-name="五寨甜糯玉米区域公用品牌发布会" tvg-id="五寨甜糯玉米区域公用品牌发布会" tvg-logo="https://livecdn.zbds.org/logo/五寨甜糯玉米区域公用品牌发布会.png" group-title="解说频道", 五寨甜糯玉米区域公用品牌发布会
-https://mursor.ottiptv.cc/bilibili/23429315
-#EXTINF:-1 tvg-name="京腔进来让朕ruarua" tvg-id="京腔进来让朕ruarua" tvg-logo="https://livecdn.zbds.org/logo/京腔进来让朕ruarua.png" group-title="解说频道", 京腔进来让朕ruarua
-https://mursor.ottiptv.cc/bilibili/1752664701
-#EXTINF:-1 tvg-name="今天是帅哥" tvg-id="今天是帅哥" tvg-logo="https://livecdn.zbds.org/logo/今天是帅哥.png" group-title="解说频道", 今天是帅哥
-https://mursor.ottiptv.cc/bilibili/25510076
-#EXTINF:-1 tvg-name="休息" tvg-id="休息" tvg-logo="https://livecdn.zbds.org/logo/休息.png" group-title="解说频道", 休息
-https://mursor.ottiptv.cc/bilibili/26407123
+#EXTINF:-1 tvg-name="代娱说美剧" tvg-id="代娱说美剧" tvg-logo="https://livecdn.zbds.org/logo/代娱说美剧.png" group-title="解说频道", 代娱说美剧
+https://mursor.ottiptv.cc/douyu/9123570
 #EXTINF:-1 tvg-name="伦帝电影说" tvg-id="伦帝电影说" tvg-logo="https://livecdn.zbds.org/logo/伦帝电影说.png" group-title="解说频道", 伦帝电影说
 https://mursor.ottiptv.cc/douyu/9368091
 #EXTINF:-1 tvg-name="伯乐说电影V" tvg-id="伯乐说电影V" tvg-logo="https://livecdn.zbds.org/logo/伯乐说电影V.png" group-title="解说频道", 伯乐说电影V
 https://mursor.ottiptv.cc/douyu/9386057
-#EXTINF:-1 tvg-name="你的甜妹女友快来领回家" tvg-id="你的甜妹女友快来领回家" tvg-logo="https://livecdn.zbds.org/logo/你的甜妹女友快来领回家.png" group-title="解说频道", 你的甜妹女友快来领回家
-https://mursor.ottiptv.cc/bilibili/1777642910
 #EXTINF:-1 tvg-name="侃片大师兄" tvg-id="侃片大师兄" tvg-logo="https://livecdn.zbds.org/logo/侃片大师兄.png" group-title="解说频道", 侃片大师兄
 https://mursor.ottiptv.cc/douyu/9338839
-#EXTINF:-1 tvg-name="侃片黑菠萝" tvg-id="侃片黑菠萝" tvg-logo="https://livecdn.zbds.org/logo/侃片黑菠萝.png" group-title="解说频道", 侃片黑菠萝
-https://mursor.ottiptv.cc/douyu/5803764
-#EXTINF:-1 tvg-name="全国房价暴涨" tvg-id="全国房价暴涨" tvg-logo="https://livecdn.zbds.org/logo/全国房价暴涨.png" group-title="解说频道", 全国房价暴涨
-https://mursor.ottiptv.cc/bilibili/24940588
-#EXTINF:-1 tvg-name="再不进来找人弄你" tvg-id="再不进来找人弄你" tvg-logo="https://livecdn.zbds.org/logo/再不进来找人弄你.png" group-title="解说频道", 再不进来找人弄你
-https://mursor.ottiptv.cc/bilibili/1823575165
 #EXTINF:-1 tvg-name="冬粮说故事" tvg-id="冬粮说故事" tvg-logo="https://livecdn.zbds.org/logo/冬粮说故事.png" group-title="解说频道", 冬粮说故事
 https://mursor.ottiptv.cc/douyu/5192695
 #EXTINF:-1 tvg-name="冷君聊大片" tvg-id="冷君聊大片" tvg-logo="https://livecdn.zbds.org/logo/冷君聊大片.png" group-title="解说频道", 冷君聊大片
 https://mursor.ottiptv.cc/douyu/9666219
+#EXTINF:-1 tvg-name="凡人说剧" tvg-id="凡人说剧" tvg-logo="https://livecdn.zbds.org/logo/凡人说剧.png" group-title="解说频道", 凡人说剧
+https://mursor.ottiptv.cc/huya/29831090
 #EXTINF:-1 tvg-name="刘老师说电影" tvg-id="刘老师说电影" tvg-logo="https://livecdn.zbds.org/logo/刘老师说电影.png" group-title="解说频道", 刘老师说电影
 https://mursor.ottiptv.cc/douyu/8317926
-#EXTINF:-1 tvg-name="初来报道关注一下吧" tvg-id="初来报道关注一下吧" tvg-logo="https://livecdn.zbds.org/logo/初来报道关注一下吧.png" group-title="解说频道", 初来报道关注一下吧
-https://mursor.ottiptv.cc/bilibili/1791262335
 #EXTINF:-1 tvg-name="北京大妈有话说er" tvg-id="北京大妈有话说er" tvg-logo="https://livecdn.zbds.org/logo/北京大妈有话说er.png" group-title="解说频道", 北京大妈有话说er
 https://mursor.ottiptv.cc/douyu/9440530
-#EXTINF:-1 tvg-name="十里说" tvg-id="十里说" tvg-logo="https://livecdn.zbds.org/logo/十里说.png" group-title="解说频道", 十里说
-https://mursor.ottiptv.cc/douyu/9064711
-#EXTINF:-1 tvg-name="单身男人脱单必修课" tvg-id="单身男人脱单必修课" tvg-logo="https://livecdn.zbds.org/logo/单身男人脱单必修课.png" group-title="解说频道", 单身男人脱单必修课
-https://mursor.ottiptv.cc/bilibili/1784938343
+#EXTINF:-1 tvg-name="北大落说大片" tvg-id="北大落说大片" tvg-logo="https://livecdn.zbds.org/logo/北大落说大片.png" group-title="解说频道", 北大落说大片
+https://mursor.ottiptv.cc/douyu/8828811
 #EXTINF:-1 tvg-name="博然讲电影" tvg-id="博然讲电影" tvg-logo="https://livecdn.zbds.org/logo/博然讲电影.png" group-title="解说频道", 博然讲电影
 https://mursor.ottiptv.cc/douyu/9561992
-#EXTINF:-1 tvg-name="可乐撩电影" tvg-id="可乐撩电影" tvg-logo="https://livecdn.zbds.org/logo/可乐撩电影.png" group-title="解说频道", 可乐撩电影
-https://mursor.ottiptv.cc/douyu/9371552
 #EXTINF:-1 tvg-name="史君说剧" tvg-id="史君说剧" tvg-logo="https://livecdn.zbds.org/logo/史君说剧.png" group-title="解说频道", 史君说剧
 https://mursor.ottiptv.cc/douyu/9419771
 #EXTINF:-1 tvg-name="听wo姐说" tvg-id="听wo姐说" tvg-logo="https://livecdn.zbds.org/logo/听wo姐说.png" group-title="解说频道", 听wo姐说
 https://mursor.ottiptv.cc/douyu/8830082
-#EXTINF:-1 tvg-name="听歌闲聊" tvg-id="听歌闲聊" tvg-logo="https://livecdn.zbds.org/logo/听歌闲聊.png" group-title="解说频道", 听歌闲聊
-https://mursor.ottiptv.cc/bilibili/25425761
 #EXTINF:-1 tvg-name="哏老师撩电影" tvg-id="哏老师撩电影" tvg-logo="https://livecdn.zbds.org/logo/哏老师撩电影.png" group-title="解说频道", 哏老师撩电影
 https://mursor.ottiptv.cc/douyu/9991820
 #EXTINF:-1 tvg-name="哑巴竟然会说话" tvg-id="哑巴竟然会说话" tvg-logo="https://livecdn.zbds.org/logo/哑巴竟然会说话.png" group-title="解说频道", 哑巴竟然会说话
 https://mursor.ottiptv.cc/yy/1354932427
 #EXTINF:-1 tvg-name="唐司令说电影" tvg-id="唐司令说电影" tvg-logo="https://livecdn.zbds.org/logo/唐司令说电影.png" group-title="解说频道", 唐司令说电影
 https://mursor.ottiptv.cc/douyu/8774345
-#EXTINF:-1 tvg-name="喵妹说电影" tvg-id="喵妹说电影" tvg-logo="https://livecdn.zbds.org/logo/喵妹说电影.png" group-title="解说频道", 喵妹说电影
-https://mursor.ottiptv.cc/douyu/9312432
-#EXTINF:-1 tvg-name="嘘" tvg-id="嘘" tvg-logo="https://livecdn.zbds.org/logo/嘘.png" group-title="解说频道", 嘘
-https://mursor.ottiptv.cc/bilibili/24145984
-#EXTINF:-1 tvg-name="在盯盘" tvg-id="在盯盘" tvg-logo="https://livecdn.zbds.org/logo/在盯盘.png" group-title="解说频道", 在盯盘
-https://mursor.ottiptv.cc/bilibili/22964966
-#EXTINF:-1 tvg-name="塔塔直播间" tvg-id="塔塔直播间" tvg-logo="https://livecdn.zbds.org/logo/塔塔直播间.png" group-title="解说频道", 塔塔直播间
-https://mursor.ottiptv.cc/bilibili/25745272
-#EXTINF:-1 tvg-name="塔罗情感首关免一" tvg-id="塔罗情感首关免一" tvg-logo="https://livecdn.zbds.org/logo/塔罗情感首关免一.png" group-title="解说频道", 塔罗情感首关免一
-https://mursor.ottiptv.cc/bilibili/1784930732
-#EXTINF:-1 tvg-name="大魔王动漫解说" tvg-id="大魔王动漫解说" tvg-logo="https://livecdn.zbds.org/logo/大魔王动漫解说.png" group-title="解说频道", 大魔王动漫解说
-https://mursor.ottiptv.cc/douyu/9963128
 #EXTINF:-1 tvg-name="大魔王说游" tvg-id="大魔王说游" tvg-logo="https://livecdn.zbds.org/logo/大魔王说游.png" group-title="解说频道", 大魔王说游
 https://mursor.ottiptv.cc/douyu/10415661
 #EXTINF:-1 tvg-name="夫妻平等不掏彩礼不备嫁妆你能接受吗" tvg-id="夫妻平等不掏彩礼不备嫁妆你能接受吗" tvg-logo="https://livecdn.zbds.org/logo/夫妻平等不掏彩礼不备嫁妆你能接受吗.png" group-title="解说频道", 夫妻平等不掏彩礼不备嫁妆你能接受吗
@@ -1673,18 +1591,14 @@ https://mursor.ottiptv.cc/douyu/9395966
 https://mursor.ottiptv.cc/douyu/9439594
 #EXTINF:-1 tvg-name="好像视说故事" tvg-id="好像视说故事" tvg-logo="https://livecdn.zbds.org/logo/好像视说故事.png" group-title="解说频道", 好像视说故事
 https://mursor.ottiptv.cc/douyu/8891883
-#EXTINF:-1 tvg-name="娄星区政务服务中心在线服务" tvg-id="娄星区政务服务中心在线服务" tvg-logo="https://livecdn.zbds.org/logo/娄星区政务服务中心在线服务.png" group-title="解说频道", 娄星区政务服务中心在线服务
-https://mursor.ottiptv.cc/bilibili/30620547
+#EXTINF:-1 tvg-name="好好学习天天向上" tvg-id="好好学习天天向上" tvg-logo="https://livecdn.zbds.org/logo/好好学习天天向上.png" group-title="解说频道", 好好学习天天向上
+https://mursor.ottiptv.cc/bilibili/4944659
 #EXTINF:-1 tvg-name="宇哥讲电影" tvg-id="宇哥讲电影" tvg-logo="https://livecdn.zbds.org/logo/宇哥讲电影.png" group-title="解说频道", 宇哥讲电影
 https://mursor.ottiptv.cc/douyu/2104744
-#EXTINF:-1 tvg-name="安小闫说电影x" tvg-id="安小闫说电影x" tvg-logo="https://livecdn.zbds.org/logo/安小闫说电影x.png" group-title="解说频道", 安小闫说电影x
-https://mursor.ottiptv.cc/douyu/1842621
-#EXTINF:-1 tvg-name="实时占卜情感杂谈" tvg-id="实时占卜情感杂谈" tvg-logo="https://livecdn.zbds.org/logo/实时占卜情感杂谈.png" group-title="解说频道", 实时占卜情感杂谈
-https://mursor.ottiptv.cc/bilibili/1786564943
-#EXTINF:-1 tvg-name="将军侃片" tvg-id="将军侃片" tvg-logo="https://livecdn.zbds.org/logo/将军侃片.png" group-title="解说频道", 将军侃片
-https://mursor.ottiptv.cc/douyu/8529736
 #EXTINF:-1 tvg-name="小丽说电影" tvg-id="小丽说电影" tvg-logo="https://livecdn.zbds.org/logo/小丽说电影.png" group-title="解说频道", 小丽说电影
 https://mursor.ottiptv.cc/douyu/9368016
+#EXTINF:-1 tvg-name="小乔讲电影" tvg-id="小乔讲电影" tvg-logo="https://livecdn.zbds.org/logo/小乔讲电影.png" group-title="解说频道", 小乔讲电影
+https://mursor.ottiptv.cc/douyu/8413908
 #EXTINF:-1 tvg-name="小司马说剧" tvg-id="小司马说剧" tvg-logo="https://livecdn.zbds.org/logo/小司马说剧.png" group-title="解说频道", 小司马说剧
 https://mursor.ottiptv.cc/douyu/9660127
 #EXTINF:-1 tvg-name="小岛讲电影" tvg-id="小岛讲电影" tvg-logo="https://livecdn.zbds.org/logo/小岛讲电影.png" group-title="解说频道", 小岛讲电影
@@ -1703,66 +1617,36 @@ https://mursor.ottiptv.cc/douyu/3432645
 https://mursor.ottiptv.cc/douyu/9527700
 #EXTINF:-1 tvg-name="小马哥说电影" tvg-id="小马哥说电影" tvg-logo="https://livecdn.zbds.org/logo/小马哥说电影.png" group-title="解说频道", 小马哥说电影
 https://mursor.ottiptv.cc/douyu/9396672
-#EXTINF:-1 tvg-name="尿毒症患者自学舞蹈养娃" tvg-id="尿毒症患者自学舞蹈养娃" tvg-logo="https://livecdn.zbds.org/logo/尿毒症患者自学舞蹈养娃.png" group-title="解说频道", 尿毒症患者自学舞蹈养娃
-https://mursor.ottiptv.cc/bilibili/27730569
-#EXTINF:-1 tvg-name="居家码字" tvg-id="居家码字" tvg-logo="https://livecdn.zbds.org/logo/居家码字.png" group-title="解说频道", 居家码字
-https://mursor.ottiptv.cc/bilibili/1967340744
 #EXTINF:-1 tvg-name="崽崽撩电影" tvg-id="崽崽撩电影" tvg-logo="https://livecdn.zbds.org/logo/崽崽撩电影.png" group-title="解说频道", 崽崽撩电影
 https://mursor.ottiptv.cc/douyu/8325511
-#EXTINF:-1 tvg-name="工作和游戏" tvg-id="工作和游戏" tvg-logo="https://livecdn.zbds.org/logo/工作和游戏.png" group-title="解说频道", 工作和游戏
-https://mursor.ottiptv.cc/bilibili/21551273
 #EXTINF:-1 tvg-name="已知艺术家漫画解说" tvg-id="已知艺术家漫画解说" tvg-logo="https://livecdn.zbds.org/logo/已知艺术家漫画解说.png" group-title="解说频道", 已知艺术家漫画解说
 https://mursor.ottiptv.cc/douyu/5907076
-#EXTINF:-1 tvg-name="幕撩电影" tvg-id="幕撩电影" tvg-logo="https://livecdn.zbds.org/logo/幕撩电影.png" group-title="解说频道", 幕撩电影
-https://mursor.ottiptv.cc/douyu/9486015
-#EXTINF:-1 tvg-name="微笑影视解说" tvg-id="微笑影视解说" tvg-logo="https://livecdn.zbds.org/logo/微笑影视解说.png" group-title="解说频道", 微笑影视解说
-https://mursor.ottiptv.cc/douyu/9476790
+#EXTINF:-1 tvg-name="年少不知姐姐好" tvg-id="年少不知姐姐好" tvg-logo="https://livecdn.zbds.org/logo/年少不知姐姐好.png" group-title="解说频道", 年少不知姐姐好
+https://mursor.ottiptv.cc/bilibili/1799893090
+#EXTINF:-1 tvg-name="强人说笑" tvg-id="强人说笑" tvg-logo="https://livecdn.zbds.org/logo/强人说笑.png" group-title="解说频道", 强人说笑
+https://mursor.ottiptv.cc/douyu/10329713
 #EXTINF:-1 tvg-name="快哥说老片" tvg-id="快哥说老片" tvg-logo="https://livecdn.zbds.org/logo/快哥说老片.png" group-title="解说频道", 快哥说老片
 https://mursor.ottiptv.cc/douyu/10411518
-#EXTINF:-1 tvg-name="我被搬运上短剧了" tvg-id="我被搬运上短剧了" tvg-logo="https://livecdn.zbds.org/logo/我被搬运上短剧了.png" group-title="解说频道", 我被搬运上短剧了
-https://mursor.ottiptv.cc/bilibili/1969770210
-#EXTINF:-1 tvg-name="据说放映室" tvg-id="据说放映室" tvg-logo="https://livecdn.zbds.org/logo/据说放映室.png" group-title="解说频道", 据说放映室
-https://mursor.ottiptv.cc/douyu/8837964
-#EXTINF:-1 tvg-name="摆摊杂谈" tvg-id="摆摊杂谈" tvg-logo="https://livecdn.zbds.org/logo/摆摊杂谈.png" group-title="解说频道", 摆摊杂谈
-https://mursor.ottiptv.cc/bilibili/1722884923
+#EXTINF:-1 tvg-name="抽赏分析师聊动漫抽玩具" tvg-id="抽赏分析师聊动漫抽玩具" tvg-logo="https://livecdn.zbds.org/logo/抽赏分析师聊动漫抽玩具.png" group-title="解说频道", 抽赏分析师聊动漫抽玩具
+https://mursor.ottiptv.cc/bilibili/27322663
 #EXTINF:-1 tvg-name="撩电影8" tvg-id="撩电影8" tvg-logo="https://livecdn.zbds.org/logo/撩电影8.png" group-title="解说频道", 撩电影8
 https://mursor.ottiptv.cc/douyu/9351043
-#EXTINF:-1 tvg-name="新人主播点点关注" tvg-id="新人主播点点关注" tvg-logo="https://livecdn.zbds.org/logo/新人主播点点关注.png" group-title="解说频道", 新人主播点点关注
-https://mursor.ottiptv.cc/bilibili/1749147771
-#EXTINF:-1 tvg-name="新的一天" tvg-id="新的一天" tvg-logo="https://livecdn.zbds.org/logo/新的一天.png" group-title="解说频道", 新的一天
-https://mursor.ottiptv.cc/bilibili/25208970
 #EXTINF:-1 tvg-name="新视角解说" tvg-id="新视角解说" tvg-logo="https://livecdn.zbds.org/logo/新视角解说.png" group-title="解说频道", 新视角解说
 https://mursor.ottiptv.cc/douyu/8813254
-#EXTINF:-1 tvg-name="早安" tvg-id="早安" tvg-logo="https://livecdn.zbds.org/logo/早安.png" group-title="解说频道", 早安
-https://mursor.ottiptv.cc/bilibili/1732025473
 #EXTINF:-1 tvg-name="易说影视" tvg-id="易说影视" tvg-logo="https://livecdn.zbds.org/logo/易说影视.png" group-title="解说频道", 易说影视
 https://mursor.ottiptv.cc/douyu/10859591
 #EXTINF:-1 tvg-name="星君说电影" tvg-id="星君说电影" tvg-logo="https://livecdn.zbds.org/logo/星君说电影.png" group-title="解说频道", 星君说电影
 https://mursor.ottiptv.cc/douyu/8014467
-#EXTINF:-1 tvg-name="晓晓说电影" tvg-id="晓晓说电影" tvg-logo="https://livecdn.zbds.org/logo/晓晓说电影.png" group-title="解说频道", 晓晓说电影
-https://mursor.ottiptv.cc/douyu/9430717
-#EXTINF:-1 tvg-name="晓麦讲电影" tvg-id="晓麦讲电影" tvg-logo="https://livecdn.zbds.org/logo/晓麦讲电影.png" group-title="解说频道", 晓麦讲电影
-https://mursor.ottiptv.cc/douyu/453963
 #EXTINF:-1 tvg-name="末日说电影" tvg-id="末日说电影" tvg-logo="https://livecdn.zbds.org/logo/末日说电影.png" group-title="解说频道", 末日说电影
 https://mursor.ottiptv.cc/douyu/9431125
-#EXTINF:-1 tvg-name="松轩说电影" tvg-id="松轩说电影" tvg-logo="https://livecdn.zbds.org/logo/松轩说电影.png" group-title="解说频道", 松轩说电影
-https://mursor.ottiptv.cc/douyu/1524969
 #EXTINF:-1 tvg-name="梓帆说电影" tvg-id="梓帆说电影" tvg-logo="https://livecdn.zbds.org/logo/梓帆说电影.png" group-title="解说频道", 梓帆说电影
 https://mursor.ottiptv.cc/douyu/9769563
-#EXTINF:-1 tvg-name="模仿东方朔摆摊" tvg-id="模仿东方朔摆摊" tvg-logo="https://livecdn.zbds.org/logo/模仿东方朔摆摊.png" group-title="解说频道", 模仿东方朔摆摊
-https://mursor.ottiptv.cc/bilibili/2278856
+#EXTINF:-1 tvg-name="楚哥说电影" tvg-id="楚哥说电影" tvg-logo="https://livecdn.zbds.org/logo/楚哥说电影.png" group-title="解说频道", 楚哥说电影
+https://mursor.ottiptv.cc/douyu/9375743
 #EXTINF:-1 tvg-name="汪哥说电影" tvg-id="汪哥说电影" tvg-logo="https://livecdn.zbds.org/logo/汪哥说电影.png" group-title="解说频道", 汪哥说电影
 https://mursor.ottiptv.cc/douyu/9312685
-#EXTINF:-1 tvg-name="沉浸式玩弄粉丝" tvg-id="沉浸式玩弄粉丝" tvg-logo="https://livecdn.zbds.org/logo/沉浸式玩弄粉丝.png" group-title="解说频道", 沉浸式玩弄粉丝
-https://mursor.ottiptv.cc/bilibili/1981539092
-#EXTINF:-1 tvg-name="没想到吧我又来啦" tvg-id="没想到吧我又来啦" tvg-logo="https://livecdn.zbds.org/logo/没想到吧我又来啦.png" group-title="解说频道", 没想到吧我又来啦
-https://mursor.ottiptv.cc/bilibili/1992276087
 #EXTINF:-1 tvg-name="浩贤说电影" tvg-id="浩贤说电影" tvg-logo="https://livecdn.zbds.org/logo/浩贤说电影.png" group-title="解说频道", 浩贤说电影
 https://mursor.ottiptv.cc/douyu/10535867
-#EXTINF:-1 tvg-name="海南失宠了版纳不香了中国新三亚出现了" tvg-id="海南失宠了版纳不香了中国新三亚出现了" tvg-logo="https://livecdn.zbds.org/logo/海南失宠了版纳不香了中国新三亚出现了.png" group-title="解说频道", 海南失宠了版纳不香了中国新三亚出现了
-https://mursor.ottiptv.cc/bilibili/1912480194
-#EXTINF:-1 tvg-name="混音" tvg-id="混音" tvg-logo="https://livecdn.zbds.org/logo/混音.png" group-title="解说频道", 混音
-https://mursor.ottiptv.cc/bilibili/31684442
 #EXTINF:-1 tvg-name="漫画解说" tvg-id="漫画解说" tvg-logo="https://livecdn.zbds.org/logo/漫画解说.png" group-title="解说频道", 漫画解说
 https://mursor.ottiptv.cc/yy/1382735568
 #EXTINF:-1 tvg-name="火龙果说电影" tvg-id="火龙果说电影" tvg-logo="https://livecdn.zbds.org/logo/火龙果说电影.png" group-title="解说频道", 火龙果说电影
@@ -1781,14 +1665,14 @@ https://mursor.ottiptv.cc/douyu/10010651
 https://mursor.ottiptv.cc/douyu/8849703
 #EXTINF:-1 tvg-name="猫八解说" tvg-id="猫八解说" tvg-logo="https://livecdn.zbds.org/logo/猫八解说.png" group-title="解说频道", 猫八解说
 https://mursor.ottiptv.cc/douyu/9542831
+#EXTINF:-1 tvg-name="猫叔说电影" tvg-id="猫叔说电影" tvg-logo="https://livecdn.zbds.org/logo/猫叔说电影.png" group-title="解说频道", 猫叔说电影
+https://mursor.ottiptv.cc/douyu/9820039
+#EXTINF:-1 tvg-name="猴博士爱讲课V" tvg-id="猴博士爱讲课V" tvg-logo="https://livecdn.zbds.org/logo/猴博士爱讲课V.png" group-title="解说频道", 猴博士爱讲课V
+https://mursor.ottiptv.cc/douyu/8799739
 #EXTINF:-1 tvg-name="王坑坑聊电影" tvg-id="王坑坑聊电影" tvg-logo="https://livecdn.zbds.org/logo/王坑坑聊电影.png" group-title="解说频道", 王坑坑聊电影
 https://mursor.ottiptv.cc/douyu/9402110
-#EXTINF:-1 tvg-name="王羲之兰亭序精讲" tvg-id="王羲之兰亭序精讲" tvg-logo="https://livecdn.zbds.org/logo/王羲之兰亭序精讲.png" group-title="解说频道", 王羲之兰亭序精讲
-https://mursor.ottiptv.cc/bilibili/21403132
 #EXTINF:-1 tvg-name="珞珞说电影" tvg-id="珞珞说电影" tvg-logo="https://livecdn.zbds.org/logo/珞珞说电影.png" group-title="解说频道", 珞珞说电影
 https://mursor.ottiptv.cc/douyu/3718888
-#EXTINF:-1 tvg-name="画画打游戏" tvg-id="画画打游戏" tvg-logo="https://livecdn.zbds.org/logo/画画打游戏.png" group-title="解说频道", 画画打游戏
-https://mursor.ottiptv.cc/bilibili/23877651
 #EXTINF:-1 tvg-name="百家讲坛之女皇武则天" tvg-id="百家讲坛之女皇武则天" tvg-logo="https://livecdn.zbds.org/logo/百家讲坛之女皇武则天.png" group-title="解说频道", 百家讲坛之女皇武则天
 https://mursor.ottiptv.cc/yy/1354889015
 #EXTINF:-1 tvg-name="百家讲坛之明太祖朱元璋" tvg-id="百家讲坛之明太祖朱元璋" tvg-logo="https://livecdn.zbds.org/logo/百家讲坛之明太祖朱元璋.png" group-title="解说频道", 百家讲坛之明太祖朱元璋
@@ -1797,50 +1681,30 @@ https://mursor.ottiptv.cc/yy/1354936149
 https://mursor.ottiptv.cc/yy/1382741639
 #EXTINF:-1 tvg-name="百晓生说剧" tvg-id="百晓生说剧" tvg-logo="https://livecdn.zbds.org/logo/百晓生说剧.png" group-title="解说频道", 百晓生说剧
 https://mursor.ottiptv.cc/douyu/9649681
-#EXTINF:-1 tvg-name="盛世飞扬" tvg-id="盛世飞扬" tvg-logo="https://livecdn.zbds.org/logo/盛世飞扬.png" group-title="解说频道", 盛世飞扬
-https://mursor.ottiptv.cc/bilibili/22973569
-#EXTINF:-1 tvg-name="直播的放纵喷" tvg-id="直播的放纵喷" tvg-logo="https://livecdn.zbds.org/logo/直播的放纵喷.png" group-title="解说频道", 直播的放纵喷
-https://mursor.ottiptv.cc/bilibili/1809234478
 #EXTINF:-1 tvg-name="真香动漫解说" tvg-id="真香动漫解说" tvg-logo="https://livecdn.zbds.org/logo/真香动漫解说.png" group-title="解说频道", 真香动漫解说
 https://mursor.ottiptv.cc/douyu/9391292
 #EXTINF:-1 tvg-name="神之传说sh" tvg-id="神之传说sh" tvg-logo="https://livecdn.zbds.org/logo/神之传说sh.png" group-title="解说频道", 神之传说sh
 https://mursor.ottiptv.cc/douyu/9370168
 #EXTINF:-1 tvg-name="神羊说电影" tvg-id="神羊说电影" tvg-logo="https://livecdn.zbds.org/logo/神羊说电影.png" group-title="解说频道", 神羊说电影
 https://mursor.ottiptv.cc/douyu/9443552
-#EXTINF:-1 tvg-name="科四备考" tvg-id="科四备考" tvg-logo="https://livecdn.zbds.org/logo/科四备考.png" group-title="解说频道", 科四备考
-https://mursor.ottiptv.cc/bilibili/1880054997
+#EXTINF:-1 tvg-name="秀才侃娱乐" tvg-id="秀才侃娱乐" tvg-logo="https://livecdn.zbds.org/logo/秀才侃娱乐.png" group-title="解说频道", 秀才侃娱乐
+https://mursor.ottiptv.cc/douyu/9382873
 #EXTINF:-1 tvg-name="童乐说电影" tvg-id="童乐说电影" tvg-logo="https://livecdn.zbds.org/logo/童乐说电影.png" group-title="解说频道", 童乐说电影
 https://mursor.ottiptv.cc/douyu/9660704
-#EXTINF:-1 tvg-name="米业红线" tvg-id="米业红线" tvg-logo="https://livecdn.zbds.org/logo/米业红线.png" group-title="解说频道", 米业红线
-https://mursor.ottiptv.cc/bilibili/1883622349
 #EXTINF:-1 tvg-name="绘说篮球C" tvg-id="绘说篮球C" tvg-logo="https://livecdn.zbds.org/logo/绘说篮球C.png" group-title="解说频道", 绘说篮球C
 https://mursor.ottiptv.cc/douyu/9401305
 #EXTINF:-1 tvg-name="罗叔说戏" tvg-id="罗叔说戏" tvg-logo="https://livecdn.zbds.org/logo/罗叔说戏.png" group-title="解说频道", 罗叔说戏
 https://mursor.ottiptv.cc/douyu/9788756
-#EXTINF:-1 tvg-name="美院失业画师集资点拼好饭可点歌有会员聊天" tvg-id="美院失业画师集资点拼好饭可点歌有会员聊天" tvg-logo="https://livecdn.zbds.org/logo/美院失业画师集资点拼好饭可点歌有会员聊天.png" group-title="解说频道", 美院失业画师集资点拼好饭可点歌有会员聊天
-https://mursor.ottiptv.cc/bilibili/3721770
-#EXTINF:-1 tvg-name="老秦说秦" tvg-id="老秦说秦" tvg-logo="https://livecdn.zbds.org/logo/老秦说秦.png" group-title="解说频道", 老秦说秦
-https://mursor.ottiptv.cc/douyu/9650131
 #EXTINF:-1 tvg-name="老邪说电影" tvg-id="老邪说电影" tvg-logo="https://livecdn.zbds.org/logo/老邪说电影.png" group-title="解说频道", 老邪说电影
 https://mursor.ottiptv.cc/douyu/9222870
-#EXTINF:-1 tvg-name="老高异国他乡的日常生活" tvg-id="老高异国他乡的日常生活" tvg-logo="https://livecdn.zbds.org/logo/老高异国他乡的日常生活.png" group-title="解说频道", 老高异国他乡的日常生活
-https://mursor.ottiptv.cc/bilibili/1796107035
 #EXTINF:-1 tvg-name="老鱼说剧" tvg-id="老鱼说剧" tvg-logo="https://livecdn.zbds.org/logo/老鱼说剧.png" group-title="解说频道", 老鱼说剧
 https://mursor.ottiptv.cc/douyu/9994377
-#EXTINF:-1 tvg-name="考研考编考公学习学习" tvg-id="考研考编考公学习学习" tvg-logo="https://livecdn.zbds.org/logo/考研考编考公学习学习.png" group-title="解说频道", 考研考编考公学习学习
-https://mursor.ottiptv.cc/bilibili/1916951151
 #EXTINF:-1 tvg-name="自说自话的总裁" tvg-id="自说自话的总裁" tvg-logo="https://livecdn.zbds.org/logo/自说自话的总裁.png" group-title="解说频道", 自说自话的总裁
 https://mursor.ottiptv.cc/douyu/9317739
 #EXTINF:-1 tvg-name="芳芳说故事" tvg-id="芳芳说故事" tvg-logo="https://livecdn.zbds.org/logo/芳芳说故事.png" group-title="解说频道", 芳芳说故事
 https://mursor.ottiptv.cc/douyu/9401905
 #EXTINF:-1 tvg-name="菇菇说过" tvg-id="菇菇说过" tvg-logo="https://livecdn.zbds.org/logo/菇菇说过.png" group-title="解说频道", 菇菇说过
 https://mursor.ottiptv.cc/douyu/8788687
-#EXTINF:-1 tvg-name="菠萝说电影" tvg-id="菠萝说电影" tvg-logo="https://livecdn.zbds.org/logo/菠萝说电影.png" group-title="解说频道", 菠萝说电影
-https://mursor.ottiptv.cc/douyu/3714736
-#EXTINF:-1 tvg-name="萌新看文新人答疑闲聊" tvg-id="萌新看文新人答疑闲聊" tvg-logo="https://livecdn.zbds.org/logo/萌新看文新人答疑闲聊.png" group-title="解说频道", 萌新看文新人答疑闲聊
-https://mursor.ottiptv.cc/bilibili/1805403608
-#EXTINF:-1 tvg-name="萌新驾到多多指教" tvg-id="萌新驾到多多指教" tvg-logo="https://livecdn.zbds.org/logo/萌新驾到多多指教.png" group-title="解说频道", 萌新驾到多多指教
-https://mursor.ottiptv.cc/bilibili/1862088680
 #EXTINF:-1 tvg-name="虫哥说电影" tvg-id="虫哥说电影" tvg-logo="https://livecdn.zbds.org/logo/虫哥说电影.png" group-title="解说频道", 虫哥说电影
 https://mursor.ottiptv.cc/douyu/8915074
 #EXTINF:-1 tvg-name="蛋黄讲动漫" tvg-id="蛋黄讲动漫" tvg-logo="https://livecdn.zbds.org/logo/蛋黄讲动漫.png" group-title="解说频道", 蛋黄讲动漫
@@ -1853,24 +1717,14 @@ https://mursor.ottiptv.cc/douyu/4400816
 https://mursor.ottiptv.cc/douyu/10329706
 #EXTINF:-1 tvg-name="说说电影故事" tvg-id="说说电影故事" tvg-logo="https://livecdn.zbds.org/logo/说说电影故事.png" group-title="解说频道", 说说电影故事
 https://mursor.ottiptv.cc/douyu/9444627
-#EXTINF:-1 tvg-name="谁语说电影" tvg-id="谁语说电影" tvg-logo="https://livecdn.zbds.org/logo/谁语说电影.png" group-title="解说频道", 谁语说电影
-https://mursor.ottiptv.cc/douyu/8705754
 #EXTINF:-1 tvg-name="调侃贫道XIN版" tvg-id="调侃贫道XIN版" tvg-logo="https://livecdn.zbds.org/logo/调侃贫道XIN版.png" group-title="解说频道", 调侃贫道XIN版
 https://mursor.ottiptv.cc/douyu/9463586
 #EXTINF:-1 tvg-name="谈判专家" tvg-id="谈判专家" tvg-logo="https://livecdn.zbds.org/logo/谈判专家.png" group-title="解说频道", 谈判专家
 https://mursor.ottiptv.cc/yy/1382735560
-#EXTINF:-1 tvg-name="跑测试+装机" tvg-id="跑测试+装机" tvg-logo="https://livecdn.zbds.org/logo/跑测试+装机.png" group-title="解说频道", 跑测试+装机
-https://mursor.ottiptv.cc/bilibili/30677116
+#EXTINF:-1 tvg-name="豆客解说" tvg-id="豆客解说" tvg-logo="https://livecdn.zbds.org/logo/豆客解说.png" group-title="解说频道", 豆客解说
+https://mursor.ottiptv.cc/douyu/8883122
 #EXTINF:-1 tvg-name="辰哥说电影" tvg-id="辰哥说电影" tvg-logo="https://livecdn.zbds.org/logo/辰哥说电影.png" group-title="解说频道", 辰哥说电影
 https://mursor.ottiptv.cc/douyu/9371407
-#EXTINF:-1 tvg-name="这个时间应该想我了吧" tvg-id="这个时间应该想我了吧" tvg-logo="https://livecdn.zbds.org/logo/这个时间应该想我了吧.png" group-title="解说频道", 这个时间应该想我了吧
-https://mursor.ottiptv.cc/bilibili/1984187120
-#EXTINF:-1 tvg-name="逗米说电影" tvg-id="逗米说电影" tvg-logo="https://livecdn.zbds.org/logo/逗米说电影.png" group-title="解说频道", 逗米说电影
-https://mursor.ottiptv.cc/douyu/421222
-#EXTINF:-1 tvg-name="遇事不决可来问策" tvg-id="遇事不决可来问策" tvg-logo="https://livecdn.zbds.org/logo/遇事不决可来问策.png" group-title="解说频道", 遇事不决可来问策
-https://mursor.ottiptv.cc/bilibili/1833441443
-#EXTINF:-1 tvg-name="钟馗传说" tvg-id="钟馗传说" tvg-logo="https://livecdn.zbds.org/logo/钟馗传说.png" group-title="解说频道", 钟馗传说
-https://mursor.ottiptv.cc/yy/1382736839
 #EXTINF:-1 tvg-name="钱小元说电影" tvg-id="钱小元说电影" tvg-logo="https://livecdn.zbds.org/logo/钱小元说电影.png" group-title="解说频道", 钱小元说电影
 https://mursor.ottiptv.cc/douyu/9368265
 #EXTINF:-1 tvg-name="锋哥聊商机" tvg-id="锋哥聊商机" tvg-logo="https://livecdn.zbds.org/logo/锋哥聊商机.png" group-title="解说频道", 锋哥聊商机
@@ -1881,24 +1735,24 @@ https://mursor.ottiptv.cc/douyu/10475459
 https://mursor.ottiptv.cc/douyu/532050
 #EXTINF:-1 tvg-name="阿松撩剧" tvg-id="阿松撩剧" tvg-logo="https://livecdn.zbds.org/logo/阿松撩剧.png" group-title="解说频道", 阿松撩剧
 https://mursor.ottiptv.cc/douyu/8880843
-#EXTINF:-1 tvg-name="陪伴局" tvg-id="陪伴局" tvg-logo="https://livecdn.zbds.org/logo/陪伴局.png" group-title="解说频道", 陪伴局
-https://mursor.ottiptv.cc/bilibili/1809423547
-#EXTINF:-1 tvg-name="随便玩" tvg-id="随便玩" tvg-logo="https://livecdn.zbds.org/logo/随便玩.png" group-title="解说频道", 随便玩
-https://mursor.ottiptv.cc/bilibili/1887788866
+#EXTINF:-1 tvg-name="随意看看" tvg-id="随意看看" tvg-logo="https://livecdn.zbds.org/logo/随意看看.png" group-title="解说频道", 随意看看
+https://mursor.ottiptv.cc/bilibili/31936938
 #EXTINF:-1 tvg-name="露爷说漫" tvg-id="露爷说漫" tvg-logo="https://livecdn.zbds.org/logo/露爷说漫.png" group-title="解说频道", 露爷说漫
 https://mursor.ottiptv.cc/douyu/9542830
 #EXTINF:-1 tvg-name="飞碟说官方" tvg-id="飞碟说官方" tvg-logo="https://livecdn.zbds.org/logo/飞碟说官方.png" group-title="解说频道", 飞碟说官方
 https://mursor.ottiptv.cc/douyu/1449125
 #EXTINF:-1 tvg-name="飞行员欧文讲故事" tvg-id="飞行员欧文讲故事" tvg-logo="https://livecdn.zbds.org/logo/飞行员欧文讲故事.png" group-title="解说频道", 飞行员欧文讲故事
 https://mursor.ottiptv.cc/douyu/9678790
+#EXTINF:-1 tvg-name="驴哥说电影" tvg-id="驴哥说电影" tvg-logo="https://livecdn.zbds.org/logo/驴哥说电影.png" group-title="解说频道", 驴哥说电影
+https://mursor.ottiptv.cc/douyu/5376478
+#EXTINF:-1 tvg-name="鬼兄奇谈" tvg-id="鬼兄奇谈" tvg-logo="https://livecdn.zbds.org/logo/鬼兄奇谈.png" group-title="解说频道", 鬼兄奇谈
+https://mursor.ottiptv.cc/douyu/8722254
 #EXTINF:-1 tvg-name="鲨说电影" tvg-id="鲨说电影" tvg-logo="https://livecdn.zbds.org/logo/鲨说电影.png" group-title="解说频道", 鲨说电影
 https://mursor.ottiptv.cc/douyu/9544628
 #EXTINF:-1 tvg-name="鸡哥聊电影" tvg-id="鸡哥聊电影" tvg-logo="https://livecdn.zbds.org/logo/鸡哥聊电影.png" group-title="解说频道", 鸡哥聊电影
 https://mursor.ottiptv.cc/douyu/5067952
 #EXTINF:-1 tvg-name="鹏友说电影" tvg-id="鹏友说电影" tvg-logo="https://livecdn.zbds.org/logo/鹏友说电影.png" group-title="解说频道", 鹏友说电影
 https://mursor.ottiptv.cc/douyu/9445244
-#EXTINF:-1 tvg-name="黄金矿工老杨的心理咨询室" tvg-id="黄金矿工老杨的心理咨询室" tvg-logo="https://livecdn.zbds.org/logo/黄金矿工老杨的心理咨询室.png" group-title="解说频道", 黄金矿工老杨的心理咨询室
-https://mursor.ottiptv.cc/bilibili/1982331120
 #EXTINF:-1 tvg-name="潮流音乐" tvg-id="潮流音乐" tvg-logo="https://livecdn.zbds.org/logo/潮流音乐.png" group-title="音乐频道", 潮流音乐
 http://play-radio-stream3.hndt.com/now/Or5au0KN/playlist.m3u8
 #EXTINF:-1 tvg-name="音乐之声" tvg-id="音乐之声" tvg-logo="https://livecdn.zbds.org/logo/音乐之声.png" group-title="音乐频道", 音乐之声
@@ -1954,7 +1808,7 @@ https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTl
 #EXTINF:-1 tvg-name="2024年春晚" tvg-id="2024年春晚" tvg-logo="https://livecdn.zbds.org/logo/2024年春晚.png" group-title="春晚频道", 2024年春晚
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 #EXTINF:-1 tvg-name="2025年春晚" tvg-id="2025年春晚" tvg-logo="https://livecdn.zbds.org/logo/2025年春晚.png" group-title="春晚频道", 2025年春晚
-https://svip.high24-playback.com/20250129/17159_7bca93c4/2000k/hls/mixed.m3u8
+https://svipsvip.ffzyread1.com/20250129/35458_c988286f/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔东" tvg-id="中央电视塔东" tvg-logo="https://livecdn.zbds.org/logo/中央电视塔东.png" group-title="直播中国", 中央电视塔东
 https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" tvg-id="中央电视塔南" tvg-logo="https://livecdn.zbds.org/logo/中央电视塔南.png" group-title="直播中国", 中央电视塔南
@@ -2109,5 +1963,5 @@ http://gctxyc.liveplay.myqcloud.com/gc/wgw02_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/wgw03_1/index.m3u8
 #EXTINF:-1 tvg-name="黄龙" tvg-id="黄龙" tvg-logo="https://livecdn.zbds.org/logo/黄龙.png" group-title="直播中国", 黄龙
 https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
-#EXTINF:-1 tvg-name="2025-09-10 12:35:14" tvg-id="更新时间" tvg-logo="" group-title="更新时间", 2025-09-10 12:35:14
+#EXTINF:-1 tvg-name="2025-09-10 18:37:35" tvg-id="更新时间" tvg-logo="" group-title="更新时间", 2025-09-10 18:37:35
 https://vd3.bdstatic.com/mda-ren0u3qx5hknf8wb/1080p/cae_h264/1747960722207612951/mda-ren0u3qx5hknf8wb.mp4
