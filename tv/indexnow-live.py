@@ -20,7 +20,7 @@ class IndexNowSubmitter:
     def __init__(self):
         self.api_endpoint = "https://api.indexnow.org/IndexNow"
         self.host = "livetv.izbds.com"
-        self.key = "59dd59ef507a4957b9c57668e01016ee"
+        self.key = "97231443a24b4c60b24728aa37560ddc"
         self.key_location = f"https://{self.host}/{self.key}.txt"
         self.sitemap_url = "https://livetv.izbds.com/sitemap.xml"
         self.max_retries = 3
