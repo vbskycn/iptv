@@ -140,7 +140,11 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 - [https://izbds.com/tools/index.html](https://izbds.com/tools/index.html)
 
+### 直播源开源站点地址
 
+- https://livetv.izbds.com/index.html
+
+  
 
 <h2>📱 直播电视APP</h2>
 <p>如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件</p>
