@@ -142,7 +142,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 直播源开源站点地址
 
-- https://livetv.izbds.com/index.html
+- [https://livetv.izbds.com/index.html](https://livetv.izbds.com/index.html)
 
   
 
