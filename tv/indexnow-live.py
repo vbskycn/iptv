@@ -13,7 +13,8 @@ import xml.etree.ElementTree as ET
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='indexnow-live.log'
+    filename='indexnow-live.log',
+    encoding='utf-8'
 )
 
 class SitemapIndexNowSubmitter:
