@@ -1,4 +1,3 @@
-import requests
 from datetime import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -34,28 +33,9 @@ def update_sitemap():
         f.write(xmlstr)
     print(f"Sitemap updated with date: {current_date}")
 
-def notify_index_now():
-    urls = [
-        "https://zbds.org/index.html",
-        "https://zbds.org/tv/iptv6.txt",
-        "https://zbds.org/tv/iptv6.m3u",
-        "https://zbds.org/tv/iptv4.txt",
-        "https://zbds.org/tv/iptv4.m3u"
-    ]
-    
-    for site_url in urls:
-        url = "https://www.bing.com/indexnow"
-        params = {
-            "url": site_url,
-            "key": "4c761c7c12a64659b9529b778f6a3b75"
-        }
-        
-        response = requests.get(url, params=params)
-        if response.status_code == 200:
-            print(f"Successfully notified IndexNow for {site_url}")
-        else:
-            print(f"Failed to notify IndexNow for {site_url}: {response.status_code}")
+# IndexNow 提交功能已移至 indexnow-live.py
+# 该程序现在专注于 sitemap.xml 的更新功能
+# 避免与 indexnow-live.py 的重复提交
 
 if __name__ == "__main__":
-    update_sitemap()
-    notify_index_now() 
+    update_sitemap() 
