@@ -20,10 +20,10 @@ logging.basicConfig(
 class SitemapIndexNowSubmitter:
     def __init__(self):
         self.api_endpoint = "https://api.indexnow.org/IndexNow"
-        self.host = "livetv.izbds.com"
-        self.key = "97231443a24b4c60b24728aa37560ddc"
+        self.host = "zbds.org"
+        self.key = "be141f00dd424e93941269a48bba4af7"
         self.key_location = f"https://{self.host}/{self.key}.txt"
-        self.sitemap_url = "https://livetv.izbds.com/sitemap.xml"
+        self.sitemap_url = "https://zbds.org/sitemap.xml"
         self.max_retries = 3
         self.retry_delay = 5
 
