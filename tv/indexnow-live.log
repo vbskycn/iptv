@@ -63,3 +63,16 @@
 2025-09-17 06:27:39,160 - INFO - 状态码: 200
 2025-09-17 06:27:39,160 - INFO - 响应内容: 
 2025-09-17 06:27:39,160 - INFO - 成功提交 6 个 URL 到 IndexNow
+2025-09-17 11:41:37,743 - INFO - 从 sitemap 中获取到 6 个 URL
+2025-09-17 11:41:38,420 - INFO - 提交尝试 1/3
+2025-09-17 11:41:38,421 - INFO - 状态码: 422
+2025-09-17 11:41:38,421 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-09-17 11:41:38,421 - ERROR - 提交失败，状态码: 422
+2025-09-17 11:41:43,985 - INFO - 提交尝试 2/3
+2025-09-17 11:41:43,986 - INFO - 状态码: 422
+2025-09-17 11:41:43,986 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-09-17 11:41:43,986 - ERROR - 提交失败，状态码: 422
+2025-09-17 11:41:50,089 - INFO - 提交尝试 3/3
+2025-09-17 11:41:50,090 - INFO - 状态码: 422
+2025-09-17 11:41:50,091 - INFO - 响应内容: {"code":"InvalidRequestParameters","message":"One or more URLs are not related to your verified domain. Please verify URLs before submitting."}
+2025-09-17 11:41:50,091 - ERROR - 提交失败，状态码: 422
