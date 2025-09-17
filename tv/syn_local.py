@@ -151,7 +151,7 @@ def execute_python_script(script_name):
     return True
 
 # 依次执行三个Python脚本
-scripts_to_execute = ['indexnow-live.py', 'update_index.py', 'indexnow-www.py']
+scripts_to_execute = ['update_index.py', 'indexnow-live.py', 'indexnow-www.py']
 for script in scripts_to_execute:
     success = execute_python_script(script)
     if not success:
