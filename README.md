@@ -2,7 +2,7 @@
 layout: default
 title: 最新IPTV直播源|每日更新直播源|免费电视直播源|Github开源项目
 description: 本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
-keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,livetv.izbds.com,live.izbds.com,live.zbds.top, liev.zbds.org
+keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,livetv.izbds.com,live.izbds.com,live.zbds.top,zbds.org
 permalink: /
 hide_edgeone: true
 ---
@@ -41,7 +41,7 @@ hide_edgeone: true
 
 <p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效性和稳定性。</p>
 
-<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-09-17 06:27:36<!-- END_UPDATE_TIME_IPTV4 -->
+<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2025-09-14 12:33:10<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table>
   <colgroup>
@@ -56,13 +56,13 @@ hide_edgeone: true
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://livetv.izbds.com/tv/iptv4.txt">https://livetv.izbds.com/tv/iptv4.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv4.txt')">快速复制</button></td>
+    <td><a href="https://zbds.org/tv/iptv4.txt">https://zbds.org/tv/iptv4.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://zbds.org/tv/iptv4.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://livetv.izbds.com/tv/iptv4.m3u">https://livetv.izbds.com/tv/iptv4.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv4.m3u')">快速复制</button></td>
+    <td><a href="https://zbds.org/tv/iptv4.m3u">https://zbds.org/tv/iptv4.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://zbds.org/tv/iptv4.m3u')">快速复制</button></td>
   </tr>
 </table>
 *如果你打不开github域名，请使用加速地址访问，加速地址也失效了？那就在找一个*
@@ -82,7 +82,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <p><strong>IPTV6直播源</strong>专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效和稳定</p>
 
-<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-09-17 06:27:36<!-- END_UPDATE_TIME_IPTV6 -->
+<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2025-09-14 12:33:10<!-- END_UPDATE_TIME_IPTV6 -->
 
 <p><em>有ipv6环境的强烈推荐这个列表，高速稳定</em></p>
 
@@ -101,13 +101,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
   </tr>
   <tr>
     <td>TXT 格式直播源</td>
-    <td><a href="https://livetv.izbds.com/tv/iptv6.txt">https://livetv.izbds.com/tv/iptv6.txt</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv6.txt')">快速复制</button></td>
+    <td><a href="https://zbds.org/tv/iptv6.txt">https://zbds.org/tv/iptv6.txt</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://zbds.org/tv/iptv6.txt')">快速复制</button></td>
   </tr>
   <tr>
     <td>M3U 格式直播源（已带台标和EPG）</td>
-    <td><a href="https://livetv.izbds.com/tv/iptv6.m3u">https://livetv.izbds.com/tv/iptv6.m3u</a></td>
-    <td><button class="button" onclick="copyToClipboard('https://livetv.izbds.com/tv/iptv6.m3u')">快速复制</button></td>
+    <td><a href="https://zbds.org/tv/iptv6.m3u">https://zbds.org/tv/iptv6.m3u</a></td>
+    <td><button class="button" onclick="copyToClipboard('https://zbds.org/tv/iptv6.m3u')">快速复制</button></td>
   </tr>
 </table>
 
