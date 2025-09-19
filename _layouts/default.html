@@ -5,112 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- 基础SEO Meta标签 -->
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="robots" content="index, follow">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ site.url }}/feed.xml">
+   
+    {% seo %}
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:title" content="{{ page.title | default: site.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:locale" content="zh_CN">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-    
-    <!-- 移动端优化 -->
+
     <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="/browserconfig.xml">
     
-    <!-- PWA 相关 -->
+
     <meta name="mobile-web-app-capable" content="yes">
     
-    <!-- 性能优化 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 性能优化：仅保留必要资源 -->
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
     <link rel="dns-prefetch" href="//sdk.51.la">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="preload" href="/favicon.ico" as="image">
     
     <!-- 样式和图标 -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="icon" href="{{ "/favicon.png" | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ "/favicon.png" | relative_url }}">
     
-    <!-- 结构化数据 -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "{{ site.title }}",
-      "description": "{{ site.description }}",
-      "url": "{{ site.url }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ site.author }}"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{ site.title }}",
-        "url": "{{ site.url }}",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ site.url }}/favicon.ico"
-        }
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "{{ site.url }}/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      "sameAs": [
-        "https://github.com/vbskycn/iptv"
-      ]
-    }
-    </script>
-    
-    <!-- 页面结构化数据 -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "{{ page.title | default: site.title }}",
-      "description": "{{ page.description | default: site.description }}",
-      "url": "{{ site.url }}{{ page.url }}",
-      "mainEntity": {
-        "@type": "SoftwareApplication",
-        "name": "IPTV直播源",
-        "description": "免费开源的IPTV电视直播源，支持IPv4/IPv6双栈访问",
-        "applicationCategory": "EntertainmentApplication",
-        "operatingSystem": "Android, iOS, Windows, macOS, Linux",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "CNY"
-        }
-      }
-    }
-    </script>
+
 
     <!-- {% include analytics.html %} -->
   </head>

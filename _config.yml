@@ -12,6 +12,17 @@ theme: jekyll-theme-cayman
 #remote_theme: pages-themes/cayman@v0.2.0
 encoding: "utf-8"
 
+# jekyll-seo-tag configuration
+logo: /favicon.png
+image: /assets/demo.png
+lang: zh-CN
+twitter:
+  card: summary_large_image
+social:
+  name: vbskycn
+  links:
+    - https://github.com/vbskycn/iptv
+
 # 添加 Google AdSense 配置
 google_adsense: ca-pub-6941806026814791
 
