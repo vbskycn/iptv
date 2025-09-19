@@ -125,7 +125,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>💽DEMO</h2>
 
-![IPTV直播源演示截图 - 展示直播源列表和播放界面](assets/demo.png "IPTV直播源演示")
+<p><img src="assets/demo.png" alt="IPTV直播源演示截图 - 展示直播源列表和播放界面" title="IPTV直播源演示" loading="lazy" decoding="async" /></p>
 
 
 
@@ -194,7 +194,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>🎁 欢迎请我喝杯饮料</h2>
 
-![微信赞赏码 - 支持项目维护者](assets/wxds.png "微信赞赏码")
+<p><img src="assets/wxds.png" alt="微信赞赏码 - 支持项目维护者" title="微信赞赏码" loading="lazy" decoding="async" /></p>
 
 
 
