@@ -3,9 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-   
-    {% seo %}
+   <title>{{ page.title | default: site.title | default: site.github.repository_name }}</title>
+   <meta name="description" content="{{ page.description | default: site.description }}">
+   <link rel="canonical" href="{{ site.url | append: page.url | default: site.url }}">
+
+   <!-- Open Graph -->
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="{{ page.title | default: site.title }}">
+   <meta property="og:title" content="{{ page.title | default: site.title }}">
+   <meta property="og:description" content="{{ page.description | default: site.description }}">
+   <meta property="og:url" content="{{ site.url | append: page.url | default: site.url }}">
+   <meta property="og:image" content="{{ page.image | default: site.image | default: '/assets/demo.png' | absolute_url }}">
+
+   <!-- Twitter -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+   <meta name="twitter:image" content="{{ page.image | default: site.image | default: '/assets/demo.png' | absolute_url }}">
+
+   <!-- JSON-LD -->
+   <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+     "@type": "WebSite",
+     "name": "{{ page.title | default: site.title }}",
+     "url": "{{ site.url | default: '/' }}",
+     "description": "{{ page.description | default: site.description }}",
+     "publisher": {
+       "@type": "Organization",
+       "name": "{{ site.author | default: 'vbskycn' }}",
+       "logo": {
+         "@type": "ImageObject",
+         "url": "{{ '/favicon.png' | absolute_url }}"
+       }
+     }
+   }
+   </script>
     
 
     <meta name="theme-color" content="#ffffff">
