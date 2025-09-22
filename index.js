@@ -15,63 +15,62 @@ export default {
       });
     }
 
-    // 处理 .txt 文件，直接读取文件内容避免ASSETS编码问题
+    // 处理 .txt 文件，强制以 UTF-8 文本输出，尽量自动纠正源编码
     if (pathname.endsWith('.txt')) {
       try {
         // 构建文件路径，去掉开头的斜杠
         const filePath = pathname.startsWith('/') ? pathname.slice(1) : pathname;
         
-        // 尝试直接读取文件内容
+        // 始终以 ArrayBuffer 读取源字节，再尝试多种编码解码为 UTF-8 文本
         let content;
-        try {
-          // 使用fetch直接获取文件内容，绕过ASSETS处理
-          const directUrl = new URL(request.url);
-          directUrl.hostname = 'raw.githubusercontent.com';
-          directUrl.pathname = `/vbskycn/iptv/master/${filePath}`;
-          
-          const directResponse = await fetch(directUrl.toString());
-          if (directResponse.ok) {
-            content = await directResponse.text();
-          } else {
-            // 如果直接获取失败，回退到ASSETS处理
-            const assetRes = await env.ASSETS.fetch(request);
-            if (!assetRes.ok) {
-              return assetRes;
-            }
-            content = await assetRes.text();
-          }
-        } catch (directError) {
-          // 如果直接获取失败，使用ASSETS处理
+        let sourceBuffer;
+        
+        // 优先从 GitHub Raw 拉取同路径文件（保证最新内容与正确字节流）
+        const directUrl = new URL(request.url);
+        directUrl.hostname = 'raw.githubusercontent.com';
+        directUrl.pathname = `/vbskycn/iptv/master/${filePath}`;
+        
+        const directResponse = await fetch(directUrl.toString());
+        if (directResponse.ok) {
+          sourceBuffer = await directResponse.arrayBuffer();
+        } else {
+          // 回退到静态资源存储
           const assetRes = await env.ASSETS.fetch(request);
           if (!assetRes.ok) {
             return assetRes;
           }
-          
-          // 获取原始内容作为 ArrayBuffer 进行编码处理
-          const arrayBuffer = await assetRes.arrayBuffer();
-          
-          // 尝试多种编码方式
-          let decodedContent;
-          const encodings = ['utf-8', 'gbk', 'gb2312', 'latin1'];
-          
-          for (const encoding of encodings) {
+          sourceBuffer = await assetRes.arrayBuffer();
+        }
+
+        // BOM 检测（UTF-8）
+        const bytes = new Uint8Array(sourceBuffer);
+        const hasUtf8BOM = bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF;
+        if (hasUtf8BOM) {
+          content = new TextDecoder('utf-8', { fatal: false }).decode(bytes.subarray(3));
+        }
+
+        // 多编码尝试：utf-8 -> gb18030 -> gbk -> gb2312 -> latin1
+        if (!content) {
+          const tryEncodings = ['utf-8', 'gb18030', 'gbk', 'gb2312', 'latin1'];
+          for (const enc of tryEncodings) {
             try {
-              const decoder = new TextDecoder(encoding, { fatal: false });
-              decodedContent = decoder.decode(arrayBuffer);
-              
-              // 检查是否包含乱码字符
-              if (!decodedContent.includes('\uFFFD') && decodedContent.length > 0) {
-                content = decodedContent;
+              const decoder = new TextDecoder(enc, { fatal: false });
+              const decoded = decoder.decode(sourceBuffer);
+              // 避免大量替换字符导致的乱码
+              if (!decoded.includes('\uFFFD')) {
+                content = decoded;
                 break;
               }
-            } catch (e) {
+            } catch (_) {
+              // 某些运行时可能不支持特定编码，忽略错误
               continue;
             }
           }
-          
-          if (!content) {
-            content = new TextDecoder('utf-8', { fatal: false }).decode(arrayBuffer);
-          }
+        }
+
+        // 兜底按 UTF-8 解码
+        if (!content) {
+          content = new TextDecoder('utf-8', { fatal: false }).decode(sourceBuffer);
         }
 
         // 创建响应头
@@ -81,6 +80,7 @@ export default {
         headers.set('Access-Control-Allow-Origin', '*');
         headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
+        headers.set('Vary', 'Accept-Encoding');
 
         return new Response(content, {
           status: 200,
