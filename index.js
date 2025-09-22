@@ -15,52 +15,79 @@ export default {
       });
     }
 
-    // 处理 .txt 文件，确保正确的 UTF-8 编码
+    // 处理 .txt 文件，直接读取文件内容避免ASSETS编码问题
     if (pathname.endsWith('.txt')) {
       try {
-        const assetRes = await env.ASSETS.fetch(request);
+        // 构建文件路径，去掉开头的斜杠
+        const filePath = pathname.startsWith('/') ? pathname.slice(1) : pathname;
         
-        // 检查原始响应状态
-        if (!assetRes.ok) {
-          return assetRes;
-        }
-
-        // 获取原始内容作为 ArrayBuffer
-        const arrayBuffer = await assetRes.arrayBuffer();
-        
-        // 尝试检测编码并转换为 UTF-8
+        // 尝试直接读取文件内容
         let content;
         try {
-          // 首先尝试作为 UTF-8 读取
-          const decoder = new TextDecoder('utf-8', { fatal: false });
-          content = decoder.decode(arrayBuffer);
+          // 使用fetch直接获取文件内容，绕过ASSETS处理
+          const directUrl = new URL(request.url);
+          directUrl.hostname = 'raw.githubusercontent.com';
+          directUrl.pathname = `/vbskycn/iptv/master/${filePath}`;
           
-          // 检查是否包含乱码字符（简单的启发式检测）
-          if (content.includes('\uFFFD')) {
-            // 如果包含替换字符，尝试其他编码
-            const gbkDecoder = new TextDecoder('gbk', { fatal: false });
-            const gbkContent = gbkDecoder.decode(arrayBuffer);
-            if (!gbkContent.includes('\uFFFD')) {
-              content = gbkContent;
+          const directResponse = await fetch(directUrl.toString());
+          if (directResponse.ok) {
+            content = await directResponse.text();
+          } else {
+            // 如果直接获取失败，回退到ASSETS处理
+            const assetRes = await env.ASSETS.fetch(request);
+            if (!assetRes.ok) {
+              return assetRes;
+            }
+            content = await assetRes.text();
+          }
+        } catch (directError) {
+          // 如果直接获取失败，使用ASSETS处理
+          const assetRes = await env.ASSETS.fetch(request);
+          if (!assetRes.ok) {
+            return assetRes;
+          }
+          
+          // 获取原始内容作为 ArrayBuffer 进行编码处理
+          const arrayBuffer = await assetRes.arrayBuffer();
+          
+          // 尝试多种编码方式
+          let decodedContent;
+          const encodings = ['utf-8', 'gbk', 'gb2312', 'latin1'];
+          
+          for (const encoding of encodings) {
+            try {
+              const decoder = new TextDecoder(encoding, { fatal: false });
+              decodedContent = decoder.decode(arrayBuffer);
+              
+              // 检查是否包含乱码字符
+              if (!decodedContent.includes('\uFFFD') && decodedContent.length > 0) {
+                content = decodedContent;
+                break;
+              }
+            } catch (e) {
+              continue;
             }
           }
-        } catch (error) {
-          // 如果解码失败，使用原始内容
-          content = new TextDecoder('utf-8', { fatal: false }).decode(arrayBuffer);
+          
+          if (!content) {
+            content = new TextDecoder('utf-8', { fatal: false }).decode(arrayBuffer);
+          }
         }
 
-        // 创建新的响应头
-        const newHeaders = new Headers();
-        newHeaders.set('Content-Type', 'text/plain; charset=utf-8');
-        newHeaders.set('Cache-Control', 'public, max-age=3600');
-        newHeaders.set('Access-Control-Allow-Origin', '*');
+        // 创建响应头
+        const headers = new Headers();
+        headers.set('Content-Type', 'text/plain; charset=utf-8');
+        headers.set('Cache-Control', 'public, max-age=3600');
+        headers.set('Access-Control-Allow-Origin', '*');
+        headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
+        headers.set('Access-Control-Allow-Headers', 'Content-Type');
 
         return new Response(content, {
-          status: assetRes.status,
-          headers: newHeaders
+          status: 200,
+          headers: headers
         });
       } catch (error) {
-        // 如果处理失败，返回错误信息
+        // 如果所有方法都失败，返回错误信息
         return new Response(`Error processing text file: ${error.message}`, {
           status: 500,
           headers: {
