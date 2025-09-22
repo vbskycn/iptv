@@ -82,7 +82,12 @@ export default {
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
         headers.set('Vary', 'Accept-Encoding');
 
-        return new Response(content, {
+        // 为提升在 Windows 记事本等客户端的兼容性，前置 UTF-8 BOM
+        const BOM = '\uFEFF';
+        const hasLeadingBOM = content.startsWith(BOM);
+        const outputContent = hasLeadingBOM ? content : (BOM + content);
+
+        return new Response(outputContent, {
           status: 200,
           headers: headers
         });
