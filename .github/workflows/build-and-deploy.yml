@@ -3,8 +3,6 @@ name: Build and Deploy Jekyll Site
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
@@ -12,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
     
     steps:
     - name: Checkout repository
@@ -28,20 +24,32 @@ jobs:
         bundler-cache: true
 
     - name: Install Jekyll dependencies
-      run: |
-        bundle install
+      run: bundle install
 
     - name: Build Jekyll site
-      run: |
-        bundle exec jekyll build
+      run: bundle exec jekyll build
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy to gh branch
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        publish_branch: gh
         force_orphan: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: 'docs: 自动更新静态文件 [skip ci]' 
+        commit_message: 'docs: 自动更新静态文件 [skip ci]'
+
+    - name: Trigger Cloudflare Pages Deploy
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      run: |
+        echo "通知 Cloudflare Pages 开始部署..."
+        n=0
+        until [ $n -ge 3 ]
+        do
+          curl -s -o /dev/null -w "%{http_code}" -X POST -d "" "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/9373c20a-4cc4-4670-b87c-457a4c81fb44" && break
+          n=$((n+1))
+          echo "触发失败，重试第 $n 次..."
+          sleep 5
+        done
