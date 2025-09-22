@@ -30,7 +30,7 @@ hide_edgeone: true
 >
 > 直播电视APP 下载地址：[https://izbds.com](https://izbds.com/aztv/)   [野草助手](https://www.yecao.net/download/)安装码：**0024**
 >
-> 软件内包含大量直播源，包含港澳台频道，速度流畅，并且每日多次更新。
+> 软件内包含大量直播源，速度流畅，并且每日多次更新。
 
 ------
 
