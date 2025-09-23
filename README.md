@@ -28,7 +28,7 @@ hide_edgeone: true
 
 > 如不愿折腾开源项目，可以下载第三方开发的软件 **直播电视**APP 使用，手机电视盒子都兼容，没有广告，完全免费。
 >
-> 直播电视APP 下载地址：[https://izbds.com](https://izbds.com/aztv/)   [野草助手](https://www.yecao.net/download/)安装码：**0024**
+> 直播电视APP 下载地址：[https://izbds.com/aztv/](https://izbds.com/aztv/)   [野草助手](https://www.yecao.net/download/)安装码：**0024**
 >
 > 软件内包含大量直播源，速度流畅，并且每日多次更新。
 
@@ -136,11 +136,11 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 <h3>直播源格式转换器</h3>
 <p>纯前端<strong>直播源</strong>格式转换器（开源在本仓库tools目录）</p>
 
-- [https://izbds.com/tools/index.html](https://izbds.com/tools/index.html)
+- [https://izbds.com/tools/](https://izbds.com/tools/)
 
 ### 直播源开源站点地址
 
-- [https://livetv.izbds.com/index.html](https://livetv.izbds.com/index.html)
+- [https://zbds.org/](https://zbds.org/)
 
   
 
@@ -149,7 +149,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h3>最新稳定版</h3>
 
-- 下载链接： [https://izbds.com](https://izbds.com/aztv/)  
+- 下载链接： [https://izbds.com/aztv/](https://izbds.com/aztv/)  
 
 
 
