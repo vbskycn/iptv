@@ -76,18 +76,22 @@ export default {
         // 创建响应头
         const headers = new Headers();
         headers.set('Content-Type', 'text/plain; charset=utf-8');
-        headers.set('Cache-Control', 'public, max-age=3600');
+        headers.set('Cache-Control', 'public, max-age=3600, no-transform');
         headers.set('Access-Control-Allow-Origin', '*');
         headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
+        headers.set('X-Content-Type-Options', 'nosniff');
         headers.set('Vary', 'Accept-Encoding');
 
-        // 为提升在 Windows 记事本等客户端的兼容性，前置 UTF-8 BOM
-        const BOM = '\uFEFF';
-        const hasLeadingBOM = content.startsWith(BOM);
-        const outputContent = hasLeadingBOM ? content : (BOM + content);
+        // 将文本转为明确的 UTF-8 字节流，并前置 BOM，避免中途被错误重解码
+        const encoder = new TextEncoder();
+        const utf8Bytes = encoder.encode(content);
+        const bomBytes = new Uint8Array([0xEF, 0xBB, 0xBF]);
+        const outputBytes = new Uint8Array(bomBytes.length + utf8Bytes.length);
+        outputBytes.set(bomBytes, 0);
+        outputBytes.set(utf8Bytes, bomBytes.length);
 
-        return new Response(outputContent, {
+        return new Response(outputBytes, {
           status: 200,
           headers: headers
         });
