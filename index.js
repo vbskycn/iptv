@@ -76,7 +76,9 @@ export default {
         // 创建响应头
         const headers = new Headers();
         headers.set('Content-Type', 'text/plain; charset=utf-8');
-        headers.set('Cache-Control', 'public, max-age=3600, no-transform');
+        headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
+        headers.set('Pragma', 'no-cache');
+        headers.set('Expires', '0');
         headers.set('Access-Control-Allow-Origin', '*');
         headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
