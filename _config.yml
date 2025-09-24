@@ -46,3 +46,12 @@ social:
 sass:
   style: compressed
 
+# 为 .txt 文件添加 UTF-8 BOM 和正确的 Content-Type
+defaults:
+  - scope:
+      path: "tv/*.txt"
+    values:
+      content_type: "text/plain; charset=utf-8"
+      layout: txt
+      permalink: /:path/
+
