@@ -15,27 +15,23 @@ export default {
       });
     }
 
-    // 处理 .txt 文件，直接返回原始内容，让浏览器按原始编码显示
+    // 处理 .txt 文件，返回 UTF-8 编码的内容
     if (pathname.endsWith('.txt')) {
       try {
-        // 直接从 ASSETS 获取原始文件
         const assetRes = await env.ASSETS.fetch(request);
         if (!assetRes.ok) {
           return assetRes;
         }
 
-        // 获取原始字节流
         const originalBytes = await assetRes.arrayBuffer();
 
-        // 创建响应头，不指定 charset，让浏览器自动检测
         const headers = new Headers();
-        headers.set('Content-Type', 'text/plain');
+        headers.set('Content-Type', 'text/plain; charset=utf-8'); // ✅ 加上 UTF-8
         headers.set('Cache-Control', 'public, max-age=3600');
         headers.set('Access-Control-Allow-Origin', '*');
         headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
 
-        // 直接返回原始字节流
         return new Response(originalBytes, {
           status: 200,
           headers: headers
@@ -44,7 +40,7 @@ export default {
         return new Response(`Error: ${error.message}`, {
           status: 500,
           headers: {
-            'Content-Type': 'text/plain'
+            'Content-Type': 'text/plain; charset=utf-8'
           }
         });
       }
