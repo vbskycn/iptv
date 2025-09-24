@@ -15,94 +15,36 @@ export default {
       });
     }
 
-    // 处理 .txt 文件，强制以 UTF-8 文本输出，尽量自动纠正源编码
+    // 处理 .txt 文件，直接返回原始内容，让浏览器按原始编码显示
     if (pathname.endsWith('.txt')) {
       try {
-        // 构建文件路径，去掉开头的斜杠
-        const filePath = pathname.startsWith('/') ? pathname.slice(1) : pathname;
-        
-        // 始终以 ArrayBuffer 读取源字节，再尝试多种编码解码为 UTF-8 文本
-        let content;
-        let sourceBuffer;
-        
-        // 优先从 GitHub Raw 拉取同路径文件（保证最新内容与正确字节流）
-        const directUrl = new URL(request.url);
-        directUrl.hostname = 'raw.githubusercontent.com';
-        directUrl.pathname = `/vbskycn/iptv/master/${filePath}`;
-        
-        const directResponse = await fetch(directUrl.toString());
-        if (directResponse.ok) {
-          sourceBuffer = await directResponse.arrayBuffer();
-        } else {
-          // 回退到静态资源存储
-          const assetRes = await env.ASSETS.fetch(request);
-          if (!assetRes.ok) {
-            return assetRes;
-          }
-          sourceBuffer = await assetRes.arrayBuffer();
+        // 直接从 ASSETS 获取原始文件
+        const assetRes = await env.ASSETS.fetch(request);
+        if (!assetRes.ok) {
+          return assetRes;
         }
 
-        // BOM 检测（UTF-8）
-        const bytes = new Uint8Array(sourceBuffer);
-        const hasUtf8BOM = bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF;
-        if (hasUtf8BOM) {
-          content = new TextDecoder('utf-8', { fatal: false }).decode(bytes.subarray(3));
-        }
+        // 获取原始字节流
+        const originalBytes = await assetRes.arrayBuffer();
 
-        // 多编码尝试：utf-8 -> gb18030 -> gbk -> gb2312 -> latin1
-        if (!content) {
-          const tryEncodings = ['utf-8', 'gb18030', 'gbk', 'gb2312', 'latin1'];
-          for (const enc of tryEncodings) {
-            try {
-              const decoder = new TextDecoder(enc, { fatal: false });
-              const decoded = decoder.decode(sourceBuffer);
-              // 避免大量替换字符导致的乱码
-              if (!decoded.includes('\uFFFD')) {
-                content = decoded;
-                break;
-              }
-            } catch (_) {
-              // 某些运行时可能不支持特定编码，忽略错误
-              continue;
-            }
-          }
-        }
-
-        // 兜底按 UTF-8 解码
-        if (!content) {
-          content = new TextDecoder('utf-8', { fatal: false }).decode(sourceBuffer);
-        }
-
-        // 创建响应头
+        // 创建响应头，不指定 charset，让浏览器自动检测
         const headers = new Headers();
-        headers.set('Content-Type', 'text/plain; charset=utf-8');
-        headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
-        headers.set('Pragma', 'no-cache');
-        headers.set('Expires', '0');
+        headers.set('Content-Type', 'text/plain');
+        headers.set('Cache-Control', 'public, max-age=3600');
         headers.set('Access-Control-Allow-Origin', '*');
         headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
         headers.set('Access-Control-Allow-Headers', 'Content-Type');
-        headers.set('X-Content-Type-Options', 'nosniff');
-        headers.set('Vary', 'Accept-Encoding');
 
-        // 将文本转为明确的 UTF-8 字节流，并前置 BOM，避免中途被错误重解码
-        const encoder = new TextEncoder();
-        const utf8Bytes = encoder.encode(content);
-        const bomBytes = new Uint8Array([0xEF, 0xBB, 0xBF]);
-        const outputBytes = new Uint8Array(bomBytes.length + utf8Bytes.length);
-        outputBytes.set(bomBytes, 0);
-        outputBytes.set(utf8Bytes, bomBytes.length);
-
-        return new Response(outputBytes, {
+        // 直接返回原始字节流
+        return new Response(originalBytes, {
           status: 200,
           headers: headers
         });
       } catch (error) {
-        // 如果所有方法都失败，返回错误信息
-        return new Response(`Error processing text file: ${error.message}`, {
+        return new Response(`Error: ${error.message}`, {
           status: 500,
           headers: {
-            'Content-Type': 'text/plain; charset=utf-8'
+            'Content-Type': 'text/plain'
           }
         });
       }
