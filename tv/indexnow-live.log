@@ -215,3 +215,18 @@
 2025-09-26 18:27:13,750 - INFO - 状态码: 200
 2025-09-26 18:27:13,750 - INFO - 响应内容: 
 2025-09-26 18:27:13,750 - INFO - 成功提交 5 个 URL 到 IndexNow
+2025-09-27 00:24:43,743 - INFO - 从 sitemap 中获取到 5 个 URL
+2025-09-27 00:24:44,664 - INFO - 提交尝试 1/3
+2025-09-27 00:24:44,665 - INFO - 状态码: 503
+2025-09-27 00:24:44,665 - INFO - 响应内容: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+2025-09-27 00:24:44,665 - ERROR - 提交失败，状态码: 503
+2025-09-27 00:24:50,686 - INFO - 提交尝试 2/3
+2025-09-27 00:24:50,687 - INFO - 状态码: 200
+2025-09-27 00:24:50,687 - INFO - 响应内容: 
+2025-09-27 00:24:50,687 - INFO - 成功提交 5 个 URL 到 IndexNow
