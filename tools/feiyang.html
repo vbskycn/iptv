@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>肥羊BPTV生成器</title>
+    <style>
+        .advanced-options { margin-top: 10px; }
+        .advanced-content { display: none; margin-left: 20px; }
+        .button-group { 
+            margin-top: 10px; 
+            display: flex; 
+            gap: 10px;
+        }
+        #fullUrlInput { 
+            width: 250px; 
+        }
+        .protocol-group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>请输入部署设备的 IP 地址，会自动更改 M3U 内容：</p>
+    <input type="text" id="ipInput" placeholder="例如: 192.168.1.2">
+    
+    <div class="advanced-options">
+        <button onclick="toggleAdvanced()">高级选项</button>
+        <div id="advancedContent" class="advanced-content">
+            <p>
+                <label>自定义完整URL（选择协议并输入域名，端口可选）：</label><br>
+                <div class="protocol-group">
+                    <select id="protocolSelect">
+                        <option value="http://">http://</option>
+                        <option value="https://">https://</option>
+                    </select>
+                    <input type="text" id="fullUrlInput" placeholder="例如: example.com:35455">
+                </div>
+            </p>
+            <p>
+                <label><input type="checkbox" id="proxyCheckbox"> 启用反代</label>
+            </p>
+            <p>
+                <label><input type="checkbox" id="mishitongCheckbox" checked> 包含咪视通</label>
+            </p>
+        </div>
+    </div>
+
+    <p>配置ip后，可复制和下载，一般用户直接生成订阅链接即可！</p>
+    <div class="button-group">
+        <button onclick="copyToClipboard()">复制以下内容</button>
+        <a id="downloadLink" style="display: none;" download="playlist.m3u">
+            <button>下载 M3U 文件</button>
+        </a>
+        <button onclick="copyPlayLink()">生成订阅链接</button>
+    </div>
+    <pre id="result">生成中，请稍候...</pre>
+
+    <script>
+        const bptvUrl = 'https://show.iptv1.ggff.net/bptv.m3u';
+        const mishitongUrl = 'https://show.iptv1.ggff.net/mishitong.m3u';
+        let originalM3uData = '';
+
+        async function fetchM3uFiles() {
+            const includeMishitong = document.getElementById('mishitongCheckbox').checked;
+            const urls = [bptvUrl];
+            if (includeMishitong) urls.push(mishitongUrl);
+
+            try {
+                const responses = await Promise.all(
+                    urls.map(url => fetch(url, { cache: 'no-cache' }))
+                );
+                const texts = await Promise.all(responses.map(res => {
+                    if (!res.ok) throw new Error('无法加载M3U 文件');
+                    return res.text();
+                }));
+                originalM3uData = texts.join('\n');
+                updateResultAndDownload();
+            } catch (err) {
+                console.error('加载失败: ', err);
+                document.getElementById('result').textContent = '加载 M3U 文件失败，请检查 URL 或网络连接。';
+            }
+        }
+
+        fetchM3uFiles();
+
+        function needsUrlEncoding(str) {
+            if (/%[0-9A-Fa-f]{2}/.test(str)) return false;
+            const specialChars = /[&=?#\s]|[^\x00-\x7F]/;
+            return specialChars.test(str);
+        }
+
+        function getFullUrl() {
+            const protocol = document.getElementById('protocolSelect').value;
+            const domain = document.getElementById('fullUrlInput').value.trim();
+            return domain ? `${protocol}${domain}` : '';
+        }
+
+        function processM3u(data) {
+            const ip = document.getElementById('ipInput').value.trim() || '192.168.1.2';
+            const fullUrl = getFullUrl();
+            const proxyEnabled = document.getElementById('proxyCheckbox').checked;
+        
+            let result = data;
+            if (fullUrl) {
+                result = result.replace(/http:\/\/192\.168\.1\.2:35455/g, fullUrl);
+            } else {
+                result = result.replace(/192\.168\.1\.2/g, ip);
+            }
+        
+            if (proxyEnabled && fullUrl) {
+                const urlParam = needsUrlEncoding(fullUrl) ? encodeURIComponent(fullUrl) : fullUrl;
+                const lines = result.split('\n');
+                result = lines.map(line => {
+                    if (line.startsWith('http')) {
+                        return `${line}?url=${urlParam}`;
+                    }
+                    return line;
+                }).join('\n');
+            }
+        
+            return result;
+        }
+
+        function updateResultAndDownload() {
+            const result = processM3u(originalM3uData);
+            document.getElementById('result').textContent = result;
+            document.querySelector('pre').setAttribute('style', 'white-space: pre-wrap;');
+
+            const blob = new Blob([result], { type: 'audio/x-mpegurl' });
+            const url = URL.createObjectURL(blob);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = url;
+            downloadLink.style.display = 'inline';
+        }
+
+        function copyToClipboard() {
+            const text = document.getElementById('result').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('已复制到剪贴板！');
+            }).catch(err => {
+                console.error('复制失败: ', err);
+            });
+        }
+
+        function copyPlayLink() {
+            const ipInput = document.getElementById('ipInput').value.trim();
+            const fullUrl = getFullUrl();
+            const proxyEnabled = document.getElementById('proxyCheckbox').checked;
+            const includeMishitong = document.getElementById('mishitongCheckbox').checked;
+        
+            let playLink;
+            if (fullUrl) {
+                const urlParam = needsUrlEncoding(fullUrl) ? encodeURIComponent(fullUrl) : fullUrl;
+                playLink = `https://fy.iptv1.ggff.net/?url=${urlParam}`;
+                if (proxyEnabled) playLink += `&proxy=true`;
+                if (!includeMishitong) playLink += `&mishitong=false`;
+            } else {
+                playLink = `https://fy.iptv1.ggff.net/?ip=${ipInput || '192.168.1.2'}`;
+                if (!includeMishitong) playLink += `&mishitong=false`;
+            }
+        
+            navigator.clipboard.writeText(playLink).then(() => {
+                alert('订阅链接已复制到剪贴板！请粘贴到播放器中使用！');
+            }).catch(err => {
+                console.error('复制失败: ', err);
+            });
+        }
+
+        function toggleAdvanced() {
+            const content = document.getElementById('advancedContent');
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // 处理粘贴的完整 URL
+        document.getElementById('fullUrlInput').addEventListener('paste', function(e) {
+            // 获取粘贴内容
+            const pastedData = (e.clipboardData || window.clipboardData).getData('text').trim();
+            if (pastedData.match(/^https?:\/\//)) {
+                e.preventDefault(); // 阻止默认粘贴行为
+                let cleanedValue = pastedData.replace(/^(https?:\/\/)/, ''); // 去掉协议
+                cleanedValue = cleanedValue.replace(/\/+$/, ''); // 去掉末尾的 /
+                this.value = cleanedValue;
+
+                // 根据协议自动选择下拉框
+                const protocolSelect = document.getElementById('protocolSelect');
+                if (pastedData.startsWith('https://')) {
+                    protocolSelect.value = 'https://';
+                } else if (pastedData.startsWith('http://')) {
+                    protocolSelect.value = 'http://';
+                }
+
+                updateResultAndDownload(); // 更新结果
+            }
+        });
+
+        document.getElementById('ipInput').addEventListener('input', updateResultAndDownload);
+        document.getElementById('fullUrlInput').addEventListener('input', updateResultAndDownload);
+        document.getElementById('proxyCheckbox').addEventListener('change', updateResultAndDownload);
+        document.getElementById('protocolSelect').addEventListener('change', updateResultAndDownload);
+        document.getElementById('mishitongCheckbox').addEventListener('change', fetchM3uFiles);
+    </script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7cbd7c8514f0486b94d71f71ae8ef1ce"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

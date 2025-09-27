@@ -1,0 +1,10 @@
+name = "live-iptv"
+main = "index.js"
+compatibility_date = "2025-09-25"
+
+[assets]
+directory = "."
+exclude = [
+  "wrangler.toml",
+  "index.js",
+]
