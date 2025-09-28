@@ -167,7 +167,7 @@ try:
         output = run_command('git add .', cwd=repo_root)
         print(f"Git add 输出:\n{output}")
 
-        commit_message = f"更新IPTV4/IPV6最新可用直播源和相关文件-by_debian100 {current_time}"
+        commit_message = f"更新IPTV4/IPV6最新可用直播源和相关文件-by_github_iptv {current_time}"
         output = run_command(f'git commit -m "{commit_message}"', cwd=repo_root)
         print(f"Git commit 输出:\n{output}")
 
