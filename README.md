@@ -11,7 +11,7 @@ permalink: /
 
 <h2>🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄</h2>
 
-<span style="color: #e03e2d;"><strong>请注意：</strong></span>直播源全部来源于网络公开资源，本项目不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。为维持网站开销，页面上有些自动广告链接，上面有标注，请自行甄别。
+<span style="color: #e03e2d;"><strong>请注意：</strong></span>直播源全部来源由github工作流自动收集于网络公开资源。本项目不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。为维持网站开销，页面上有些自动广告链接，上面有标注，请自行甄别。
 
 <div class="badges-container">
     <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
@@ -22,15 +22,6 @@ permalink: /
     <img src="https://img.shields.io/github/license/vbskycn/iptv?style=flat-square" alt="GitHub license" />
     <img src="https://views.whatilearened.today/views/github/vbskycn/iptv.svg" alt="访问统计" />
 </div>
-
----
-
-> 如不愿折腾开源项目，可以下载第三方开发的软件 **直播电视**APP 使用，手机电视盒子都兼容，没有广告，完全免费。
->
-> 直播电视APP 下载地址：[https://izbds.com/aztv/](https://izbds.com/aztv/)   [野草助手](https://www.yecao.net/download/)安装码：**0024**
->
-> 软件内包含大量直播源，速度流畅，并且每日多次更新。
-
 ------
 
 
@@ -132,25 +123,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <p>我们提供多种<strong>直播源</strong>相关工具，帮助您更好地使用<strong>IPTV直播源</strong>：</p>
 
-<h3>直播源格式转换器</h3>
-<p>纯前端<strong>直播源</strong>格式转换器（开源在本仓库tools目录）</p>
 
-- [https://izbds.com/tools/](https://izbds.com/tools/)
 
 ### 直播源开源站点地址
 
 - [https://zbds.org/](https://zbds.org/)
 
   
-
-<h2>📱 直播电视APP</h2>
-<p>如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件</p>
-
-<h3>最新稳定版</h3>
-
-- 下载链接： [https://izbds.com/aztv/](https://izbds.com/aztv/)  
-
-
 
 <h2>📅 更新</h2>
 
@@ -190,12 +169,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 - 使用本项目即表示您已阅读并同意本免责声明，如不同意本声明，请立即停止使用本项目，本项目保留随时更新免责声明的权利
 
   
-
-<h2>🎁 欢迎请我喝杯饮料</h2>
-
-<p><img src="assets/wxds.png" alt="微信赞赏码 - 支持项目维护者" title="微信赞赏码" loading="lazy" decoding="async" /></p>
-
-
 
 <h2>📊 Star History</h2>
 
