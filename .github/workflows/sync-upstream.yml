@@ -66,8 +66,21 @@ jobs:
         # 切换到目标分支
         git checkout $CURRENT_BRANCH
         
+        # 备份当前的工作流文件
+        if [ -d ".github/workflows" ]; then
+          cp -r .github/workflows .github/workflows.backup
+        fi
+        
         # 合并上游更改
         git merge upstream/$UPSTREAM_BRANCH --no-edit
+        
+        # 恢复工作流文件，避免权限问题
+        # 这确保fork用户的工作流文件不会被上游覆盖
+        if [ -d ".github/workflows.backup" ]; then
+          rm -rf .github/workflows
+          mv .github/workflows.backup .github/workflows
+          git add .github/workflows/
+        fi
         
         # 推送更改
         git push origin $CURRENT_BRANCH
@@ -78,6 +91,7 @@ jobs:
         echo "## 🔄 同步完成" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "✅ 已成功同步上游仓库的更改" >> $GITHUB_STEP_SUMMARY
+        echo "⚠️ 注意：工作流文件(.github/workflows/)已排除同步，避免权限问题" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**同步时间:** $(date)" >> $GITHUB_STEP_SUMMARY
         echo "**上游仓库:** ${{ github.event.inputs.upstream_repo || 'vbskycn/iptv' }}" >> $GITHUB_STEP_SUMMARY
