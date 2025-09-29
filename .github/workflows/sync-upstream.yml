@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       upstream_repo:
-        description: '上游仓库地址 (例如: vbskycn/iptv)'
+        description: '上游仓库地址'
         required: true
         default: 'vbskycn/iptv'
       upstream_branch:
@@ -13,9 +13,9 @@ on:
         required: true
         default: 'master'
   
-  # 每12小时自动运行一次
+  # 每6小时自动运行一次
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */6 * * *'
 
   # 当仓库有push时也运行
   push:
