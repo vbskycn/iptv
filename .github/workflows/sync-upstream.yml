@@ -1,0 +1,93 @@
+name: Sync with Upstream Repository
+
+on:
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      upstream_repo:
+        description: '上游仓库地址 (例如: vbskycn/iptv)'
+        required: true
+        default: 'vbskycn/iptv'
+      upstream_branch:
+        description: '上游分支名称'
+        required: true
+        default: 'master'
+  
+  # 每12小时自动运行一次
+  schedule:
+    - cron: '0 */12 * * *'
+
+  # 当仓库有push时也运行
+  push:
+    branches: [ master ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout current repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/${{ github.event.inputs.upstream_repo || 'vbskycn/iptv' }}.git
+        git fetch upstream
+
+    - name: Check if there are changes to sync
+      id: check_changes
+      run: |
+        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'master' }}"
+        CURRENT_BRANCH="master"
+        
+        # 检查是否有新的提交
+        if git diff --quiet HEAD upstream/$UPSTREAM_BRANCH; then
+          echo "no_changes=true" >> $GITHUB_OUTPUT
+          echo "No changes to sync"
+        else
+          echo "no_changes=false" >> $GITHUB_OUTPUT
+          echo "Changes detected, will sync"
+        fi
+
+    - name: Sync with upstream
+      if: steps.check_changes.outputs.no_changes == 'false'
+      run: |
+        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'master' }}"
+        CURRENT_BRANCH="master"
+        
+        # 切换到目标分支
+        git checkout $CURRENT_BRANCH
+        
+        # 合并上游更改
+        git merge upstream/$UPSTREAM_BRANCH --no-edit
+        
+        # 推送更改
+        git push origin $CURRENT_BRANCH
+
+    - name: Create sync summary
+      if: steps.check_changes.outputs.no_changes == 'false'
+      run: |
+        echo "## 🔄 同步完成" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ 已成功同步上游仓库的更改" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**同步时间:** $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "**上游仓库:** ${{ github.event.inputs.upstream_repo || 'vbskycn/iptv' }}" >> $GITHUB_STEP_SUMMARY
+        echo "**上游分支:** ${{ github.event.inputs.upstream_branch || 'master' }}" >> $GITHUB_STEP_SUMMARY
+
+    - name: No changes notification
+      if: steps.check_changes.outputs.no_changes == 'true'
+      run: |
+        echo "## ℹ️ 无需同步" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ 当前仓库已是最新状态，无需同步" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**检查时间:** $(date)" >> $GITHUB_STEP_SUMMARY
