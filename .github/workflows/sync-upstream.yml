@@ -57,6 +57,18 @@ jobs:
           echo "Changes detected, will sync"
         fi
 
+    - name: Check for local modifications
+      id: check_local_modifications
+      run: |
+        # 检查是否有本地修改
+        if git diff --quiet HEAD origin/master; then
+          echo "has_local_modifications=false" >> $GITHUB_OUTPUT
+          echo "No local modifications detected"
+        else
+          echo "has_local_modifications=true" >> $GITHUB_OUTPUT
+          echo "Local modifications detected, will force sync with upstream"
+        fi
+
     - name: Sync with upstream
       if: steps.check_changes.outputs.no_changes == 'false'
       run: |
@@ -71,8 +83,18 @@ jobs:
           cp -r .github/workflows .github/workflows.backup
         fi
         
-        # 合并上游更改
-        git merge upstream/$UPSTREAM_BRANCH --no-edit
+        # 强制同步：以远程仓库为准
+        # 如果有本地修改或冲突，将被上游更改覆盖
+        git fetch upstream $UPSTREAM_BRANCH
+        
+        # 尝试合并，如果有冲突则强制使用上游版本
+        if ! git merge upstream/$UPSTREAM_BRANCH --no-edit; then
+          echo "检测到合并冲突，强制使用上游版本"
+          # 如果有冲突，强制使用上游版本
+          git checkout --theirs .
+          git add .
+          git commit -m "强制同步：解决合并冲突，使用上游版本"
+        fi
         
         # 恢复工作流文件，避免权限问题
         # 这确保fork用户的工作流文件不会被上游覆盖
@@ -82,8 +104,8 @@ jobs:
           git add .github/workflows/
         fi
         
-        # 推送更改
-        git push origin $CURRENT_BRANCH
+        # 强制推送更改（覆盖任何本地修改）
+        git push origin $CURRENT_BRANCH --force
 
     - name: Create sync summary
       if: steps.check_changes.outputs.no_changes == 'false'
@@ -92,10 +114,15 @@ jobs:
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "✅ 已成功同步上游仓库的更改" >> $GITHUB_STEP_SUMMARY
         echo "⚠️ 注意：工作流文件(.github/workflows/)已排除同步，避免权限问题" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.check_local_modifications.outputs.has_local_modifications }}" == "true" ]; then
+          echo "🔄 检测到本地修改，已强制以远程仓库为准进行同步" >> $GITHUB_STEP_SUMMARY
+        fi
+        echo "🔧 冲突处理：如有合并冲突，自动使用上游版本覆盖本地修改" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**同步时间:** $(date)" >> $GITHUB_STEP_SUMMARY
         echo "**上游仓库:** ${{ github.event.inputs.upstream_repo || 'vbskycn/iptv' }}" >> $GITHUB_STEP_SUMMARY
         echo "**上游分支:** ${{ github.event.inputs.upstream_branch || 'master' }}" >> $GITHUB_STEP_SUMMARY
+        echo "**同步模式:** 强制同步（以远程仓库为准，自动解决冲突）" >> $GITHUB_STEP_SUMMARY
 
     - name: No changes notification
       if: steps.check_changes.outputs.no_changes == 'true'
