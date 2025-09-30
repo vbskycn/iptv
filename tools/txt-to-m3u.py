@@ -34,7 +34,7 @@ def convert_txt_to_m3u(epg_url):
                             continue
                             
                         channel_name, channel_url = map(str.strip, line.split(',', 1))
-                        tvg_logo = f'https://live.zbds.top/logo/{channel_name}.png'
+                        tvg_logo = f'https://tb.zbds.top/logo/{channel_name}.png'
                         m3u_entry = f'#EXTINF:-1 group-title="{channel_genre}" tvg-name="{channel_name}" tvg-logo="{tvg_logo}",{channel_name}\n{channel_url}'
                         m3u_content.append(m3u_entry)
                     except ValueError as e:
