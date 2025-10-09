@@ -115,7 +115,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>💽DEMO</h2>
 
-<p><img src="assets/demo.png" alt="IPTV直播源演示截图 - 展示直播源列表和播放界面" title="IPTV直播源演示" loading="lazy" decoding="async" /></p>
+<p><img src="assets/demo.webp" alt="IPTV直播源演示截图 - 展示直播源列表和播放界面" title="IPTV直播源演示" loading="lazy" decoding="async" /></p>
 
 
 
