@@ -58,6 +58,12 @@
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
     <link rel="dns-prefetch" href="//sdk.51.la">
     
+    <!-- Google Fonts 优化：预加载和异步加载 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"></noscript>
+    
     <!-- 样式和图标 -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link rel="icon" href="{{ "/favicon.png" | relative_url }}" type="image/png">
