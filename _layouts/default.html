@@ -54,18 +54,47 @@
 
     <meta name="mobile-web-app-capable" content="yes">
     
-    <!-- 性能优化：仅保留必要资源 -->
+    <!-- 性能优化：资源预加载和DNS预解析 -->
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
     <link rel="dns-prefetch" href="//sdk.51.la">
+    <link rel="dns-prefetch" href="//live.icnwe.com">
+    <link rel="preconnect" href="https://live.icnwe.com">
     
-    <!-- Google Fonts 优化：预加载和异步加载 -->
+    <!-- Google Fonts 优化：激进预加载策略 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"></noscript>
     
-    <!-- 样式和图标 -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <!-- 预加载关键字体文件 -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1rGj.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- 关键CSS内联 - 避免渲染阻塞 -->
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; }
+      .page-header { background: #159957; color: white; padding: 2rem 0; text-align: center; }
+      .project-name { font-size: 2.5rem; margin: 0; }
+      .project-tagline { font-size: 1.25rem; margin: 0.5rem 0 0; }
+      .main-content { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+      .site-footer { padding: 2rem 0; margin-top: 2rem; border-top: 1px solid #eff0f1; text-align: center; }
+      .footer-content { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+      .copyright { color: #586069; font-size: 0.9rem; }
+      .copyright a { color: #0366d6; text-decoration: none; }
+      .copyright a:hover { text-decoration: underline; }
+      @media (prefers-color-scheme: dark) {
+        body { background-color: #0d1117; color: #c9d1d9; }
+        .site-footer { border-top-color: #30363d; }
+        .copyright { color: #8b949e; }
+        .copyright a { color: #58a6ff; }
+      }
+    </style>
+    
+    <!-- 非关键CSS异步加载 -->
+    <link rel="preload" href="{{ "/assets/css/style.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}"></noscript>
     <link rel="icon" href="{{ "/favicon.png" | relative_url }}" type="image/png">
     <link rel="apple-touch-icon" href="{{ "/favicon.png" | relative_url }}">
     
@@ -112,7 +141,7 @@
       </footer>
     </div>
 
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
     <!-- 51.la 统计代码 - 异步安装 -->
     <script>
     !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"24HGI6jBpBm7xvgT",ck:"24HGI6jBpBm7xvgT"});
