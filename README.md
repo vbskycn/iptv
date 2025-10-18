@@ -24,6 +24,12 @@ permalink: /
 </div>
 ------
 
+如不愿折腾开源项目，推荐直接下载第三方开发的软件 **直播电视** APP 使用，手机电视盒子都兼容，免费无广告。
+
+直播电视APP 下载地址：[https://izbds.com/aztv/](https://izbds.com/aztv/)    [野草助手](https://www.yecao.net/download/)安装码：**0024**
+
+------
+
 
 
 
