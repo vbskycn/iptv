@@ -16,6 +16,8 @@ export default {
                     waitUntil: ctx.waitUntil.bind(ctx),
                 },
                 {
+                    // 必须传入 KV 命名空间绑定
+                    ASSET_NAMESPACE: env.__STATIC_CONTENT,
                     // 自定义缓存控制
                     cacheControl: {
                         browserTTL: 3600,        // 浏览器缓存 1 小时
