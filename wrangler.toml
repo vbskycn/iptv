@@ -4,11 +4,10 @@ name = "iptv-worker"  # Worker 名称，可以修改
 main = "worker.js"    # Worker 入口文件
 compatibility_date = "2026-01-27"
 
-# Workers Assets 配置
-# 指定静态文件目录（Jekyll 构建输出目录）
-[assets]
-directory = "./_site"  # Jekyll 构建后的静态文件目录
-binding = "ASSETS"     # 绑定名称
+# Workers 静态资源配置
+# 使用 [site] 而不是 [assets]
+[site]
+bucket = "./_site"  # Jekyll 构建后的静态文件目录
 
 # 路由配置（可选）
 # routes = [
