@@ -6,38 +6,6 @@
 
 import { getAssetFromKV } from '@cloudflare/kv-asset-handler';
 
-// MIME 类型映射（确保文本文件使用 UTF-8）
-const MIME_TYPES = {
-    '.html': 'text/html; charset=utf-8',
-    '.htm': 'text/html; charset=utf-8',
-    '.css': 'text/css; charset=utf-8',
-    '.js': 'application/javascript; charset=utf-8',
-    '.mjs': 'application/javascript; charset=utf-8',
-    '.json': 'application/json; charset=utf-8',
-    '.xml': 'application/xml; charset=utf-8',
-    '.txt': 'text/plain; charset=utf-8',
-    '.m3u': 'text/plain; charset=utf-8',  // M3U 播放列表
-    '.m3u8': 'application/vnd.apple.mpegurl; charset=utf-8',
-    '.md': 'text/markdown; charset=utf-8',
-    '.svg': 'image/svg+xml; charset=utf-8',
-    '.png': 'image/png',
-    '.jpg': 'image/jpeg',
-    '.jpeg': 'image/jpeg',
-    '.gif': 'image/gif',
-    '.webp': 'image/webp',
-    '.ico': 'image/x-icon',
-    '.woff': 'font/woff',
-    '.woff2': 'font/woff2',
-    '.ttf': 'font/ttf',
-    '.eot': 'application/vnd.ms-fontobject',
-};
-
-// 获取文件扩展名对应的 MIME 类型
-function getMimeType(pathname) {
-    const ext = pathname.substring(pathname.lastIndexOf('.')).toLowerCase();
-    return MIME_TYPES[ext] || null;
-}
-
 export default {
     async fetch(request, env, ctx) {
         try {
@@ -74,23 +42,43 @@ export default {
                 }
             );
 
-            // 修正 Content-Type，确保文本文件使用 UTF-8
+            // 强制修正 Content-Type，确保所有文本文件使用 UTF-8
             const url = new URL(request.url);
-            const mimeType = getMimeType(url.pathname);
+            const pathname = url.pathname.toLowerCase();
 
-            if (mimeType) {
-                // 创建新的响应，使用正确的 Content-Type
-                const headers = new Headers(response.headers);
-                headers.set('Content-Type', mimeType);
+            // 创建新的响应头
+            const headers = new Headers(response.headers);
 
-                return new Response(response.body, {
-                    status: response.status,
-                    statusText: response.statusText,
-                    headers: headers,
-                });
+            // 根据文件扩展名设置正确的 Content-Type（强制覆盖）
+            if (pathname.endsWith('.txt') || pathname.endsWith('.m3u')) {
+                headers.set('Content-Type', 'text/plain; charset=utf-8');
+            } else if (pathname.endsWith('.m3u8')) {
+                headers.set('Content-Type', 'application/vnd.apple.mpegurl; charset=utf-8');
+            } else if (pathname.endsWith('.html') || pathname.endsWith('.htm')) {
+                headers.set('Content-Type', 'text/html; charset=utf-8');
+            } else if (pathname.endsWith('.css')) {
+                headers.set('Content-Type', 'text/css; charset=utf-8');
+            } else if (pathname.endsWith('.js') || pathname.endsWith('.mjs')) {
+                headers.set('Content-Type', 'application/javascript; charset=utf-8');
+            } else if (pathname.endsWith('.json')) {
+                headers.set('Content-Type', 'application/json; charset=utf-8');
+            } else if (pathname.endsWith('.xml')) {
+                headers.set('Content-Type', 'application/xml; charset=utf-8');
+            } else if (pathname.endsWith('.md')) {
+                headers.set('Content-Type', 'text/markdown; charset=utf-8');
+            } else if (pathname.endsWith('.svg')) {
+                headers.set('Content-Type', 'image/svg+xml; charset=utf-8');
             }
 
-            return response;
+            // 添加 CORS 头（允许跨域访问）
+            headers.set('Access-Control-Allow-Origin', '*');
+
+            // 返回修改后的响应（强制使用新的 headers）
+            return new Response(response.body, {
+                status: response.status,
+                statusText: response.statusText,
+                headers: headers,
+            });
 
         } catch (error) {
             // 如果文件不存在，尝试返回 404 页面
