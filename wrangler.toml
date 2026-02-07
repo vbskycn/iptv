@@ -1,0 +1,15 @@
+# Cloudflare Workers 配置文件
+
+name = "iptv-worker"  # Worker 名称，可以修改
+main = "worker.js"    # Worker 入口文件
+compatibility_date = "2026-01-27"
+
+# Workers Sites 静态资源配置
+# Wrangler 会自动创建和绑定 __STATIC_CONTENT KV 命名空间
+[site]
+bucket = "./_site"  # Jekyll 构建后的静态文件目录
+
+# 路由配置（可选）
+# routes = [
+#   { pattern = "live.zbds.top/*", zone_name = "zbds.top" }
+# ]

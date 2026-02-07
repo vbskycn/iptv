@@ -1,0 +1,16 @@
+{
+  "name": "iptv-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for IPTV static site",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.4"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
