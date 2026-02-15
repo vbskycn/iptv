@@ -37,7 +37,7 @@ permalink: /
 
 <p><strong>IPTV4直播源</strong>由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效性和稳定性。</p>
 
-<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2026-02-15 18:30:23<!-- END_UPDATE_TIME_IPTV4 -->
+<!-- UPDATE_TIME_IPTV4 -->本次更新时间: 2026-02-16 00:27:25<!-- END_UPDATE_TIME_IPTV4 -->
 
 <table>
   <colgroup>
@@ -78,7 +78,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <p><strong>IPTV6直播源</strong>专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保<strong>直播源</strong>的时效和稳定</p>
 
-<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2026-02-15 18:30:23<!-- END_UPDATE_TIME_IPTV6 -->
+<!-- UPDATE_TIME_IPTV6 -->本次更新时间: 2026-02-16 00:27:25<!-- END_UPDATE_TIME_IPTV6 -->
 
 **近期由于不可力抗原因，大部分ipv6源都关门了，大玩家各玩各的。造成网友们不能一网通吃，请大家静待花开吧！！如有开门的大玩家，本仓库第一时间更新上来给大家分享**
 
