@@ -1,0 +1,187 @@
+@import "{{ site.theme }}";
+
+/* 响应式布局样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 表格响应式 */
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  table td, 
+  table th {
+    min-width: 100px;
+    font-size: 14px;
+  }
+  
+  .button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+/* 美化按钮样式 */
+.button {
+  background: #0366d6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+/* 徽章样式优化 */
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.badges-container img {
+  height: 20px;
+}
+
+/* 响应式图片 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 优化标题样式 */
+h1, h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* 所有三级标题默认左对齐 */
+h3 {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+/* 第一个三级标题居中 */
+h3:first-of-type {
+  text-align: center;
+}
+
+/* 优化代码块样式 */
+pre {
+  padding: 16px;
+  overflow-x: auto;
+  background: #f6f8fa;
+  border-radius: 6px;
+}
+
+/* 添加暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  pre {
+    background: #161b22;
+  }
+  
+  a {
+    color: #58a6ff;
+  }
+} 
+
+/* 代码块样式 */
+.language-plaintext.highlighter-rouge {
+  position: relative;
+  margin: 1em 0;
+}
+
+/* 复制按钮样式 */
+.copy-icon {
+  display: inline-block;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23586069' d='M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.copy-icon:hover {
+  opacity: 1;
+}
+
+/* 复制图标容器 */
+.copy-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+/* 确保代码块有足够的右边距 */
+.highlight pre {
+  padding-right: 40px;
+}
+
+/* 页脚样式 */
+.site-footer {
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #eff0f1;
+  text-align: center;
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .copyright {
+    color: #586069;
+    font-size: 0.9rem;
+    
+    a {
+      color: #0366d6;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+  .site-footer {
+    border-top-color: #30363d;
+    
+    .copyright {
+      color: #8b949e;
+      
+      a {
+        color: #58a6ff;
+      }
+    }
+  }
+} 
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+} 
