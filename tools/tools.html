@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>直播源格式转换器</title>
+    <meta name="keywords" content="直播源格式转换, M3U转TXT, TXT转M3U, IPTV工具, 频道列表转换, 保留分组信息, EPG, 频道管理, 在线转换, 免费工具, 直播源工具, IPTV频道">
+    <meta name="description" content="本工具支持M3U与TXT格式的直播源互转，保留分组信息，支持自定义EPG，适合IPTV频道列表管理，操作简单，永久免费。详细请看网站 https://live.zbds.top">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-6 text-center">直播源格式转换器</h1>
+        
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">M3U 转 TXT（保留分组信息）</h2>
+            <form id="m3u-to-txt-form" class="space-y-4">
+                <input type="file" id="m3u-file" accept=".m3u" required class="w-full p-2 border rounded">
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition duration-200">转换</button>
+            </form>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-semibold mb-4">TXT 转 M3U（保留分组信息）</h2>
+            <form id="txt-to-m3u-form" class="space-y-4">
+                <input type="file" id="txt-file" accept=".txt" required class="w-full p-2 border rounded">
+                <input type="text" id="epg-url" placeholder="EPG URL (可选,默认为 http://epg.51zmt.top:8000/e.xml)" class="w-full p-2 border rounded">
+                <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition duration-200">转换</button>
+                <div class="text-xs text-gray-400 text-center mt-2">
+                    <a href="https://live.zbds.top" target="_blank" rel="noopener" class="hover:underline">主页：https://live.zbds.top</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function parseM3UToTXT(m3uContent) {
+            const lines = m3uContent.split('\n');
+            const channels = {};
+            let currentGroup = '未分组';
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (line.startsWith('#EXTINF:-1')) {
+                    const groupMatch = line.match(/group-title="([^"]*)"/);
+                    const nameMatch = line.match(/tvg-name="([^"]*)"/);
+                    const group = groupMatch ? groupMatch[1] : currentGroup;
+                    const name = nameMatch ? nameMatch[1] : line.split(',').pop();
+                    const url = lines[i + 1] ? lines[i + 1].trim() : '';
+
+                    if (!channels[group]) {
+                        channels[group] = [];
+                    }
+                    channels[group].push(`${name},${url}`);
+                    currentGroup = group;
+                }
+            }
+
+            let txtContent = '';
+            for (const [group, channelList] of Object.entries(channels)) {
+                txtContent += `${group},#genre#\n`;
+                txtContent += channelList.join('\n') + '\n\n';
+            }
+
+            return txtContent;
+        }
+
+        function convertTXTToM3U(txtContent, epgUrl) {
+            const defaultEpgUrl = "http://epg.51zmt.top:8000/e.xml";
+            const lines = txtContent.split('\n');
+            let m3uContent = `#EXTM3U x-tvg-url="${epgUrl || defaultEpgUrl}"\n`;
+            let currentGenre = '未分类';
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+                if (trimmedLine.endsWith(',#genre#')) {
+                    currentGenre = trimmedLine.replace(',#genre#', '');
+                } else if (trimmedLine && !trimmedLine.startsWith('#')) {
+                    const [channelName, channelUrl] = trimmedLine.split(',');
+                    const tvgLogo = `https://tb.zbds.top/logo/${channelName}.png`;
+                    m3uContent += `#EXTINF:-1 group-title="${currentGenre}" tvg-name="${channelName}" tvg-logo="${tvgLogo}" epg-url="${epgUrl || defaultEpgUrl}",${channelName}\n`;
+                    m3uContent += `${channelUrl}\n`;
+                }
+            }
+
+            return m3uContent;
+        }
+
+        function downloadFile(content, filename) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function getCurrentDateTime() {
+            const now = new Date();
+            return now.getFullYear() +
+                   ('0' + (now.getMonth() + 1)).slice(-2) +
+                   ('0' + now.getDate()).slice(-2) +
+                   ('0' + now.getHours()).slice(-2) +
+                   ('0' + now.getMinutes()).slice(-2) +
+                   ('0' + now.getSeconds()).slice(-2);
+        }
+
+        function getFileNameWithoutExtension(filename) {
+            return filename.split('.').slice(0, -1).join('.');
+        }
+
+        document.getElementById('m3u-to-txt-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const file = document.getElementById('m3u-file').files[0];
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const m3uContent = e.target.result;
+                const txtContent = parseM3UToTXT(m3uContent);
+                const originalName = getFileNameWithoutExtension(file.name);
+                const newFileName = `${originalName}_${getCurrentDateTime()}.txt`;
+                downloadFile(txtContent, newFileName);
+            };
+            reader.readAsText(file);
+        });
+
+        document.getElementById('txt-to-m3u-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const file = document.getElementById('txt-file').files[0];
+            const epgUrl = document.getElementById('epg-url').value.trim() || "http://epg.51zmt.top:8000/e.xml";
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const txtContent = e.target.result;
+                const m3uContent = convertTXTToM3U(txtContent, epgUrl);
+                const originalName = getFileNameWithoutExtension(file.name);
+                const newFileName = `${originalName}_${getCurrentDateTime()}.m3u`;
+                downloadFile(m3uContent, newFileName);
+            };
+            reader.readAsText(file);
+        });
+    </script>
+</body>
+</html>
