@@ -206,5 +206,5 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>📊 Star History</h2>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vbskycn/iptv&type=Date)](https://star-history.com/#vbskycn/iptv&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=vbskycn/iptv&type=Date)](https://star-history.dera.page/#vbskycn/iptv&Date)
 
