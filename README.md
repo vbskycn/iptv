@@ -206,8 +206,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 <h2>📊 Star History</h2>
 
-## Star History
-
 <a href="https://www.star-history.com/?repos=vbskycn%2Fiptv&type=date&legend=top-left">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vbskycn/iptv&type=date&theme=dark&legend=top-left&sealed_token=-qKM5OCW55_PN75-oQV4xJYmS9TT-5LzMUC9oPQ-S3H2fhVPclRQUB8Qy1Y5cLvFj1Z7dsm-n-F6oAo0K5y201-c3ff2s-taFba2h6ZGsaFa8sF9KXg4HQ" />
